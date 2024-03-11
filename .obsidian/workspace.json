@@ -4,46 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "c4d774a01da4dc85",
+        "id": "ef07b78895b5144e",
         "type": "tabs",
         "children": [
           {
-            "id": "e0d51bfd0a6f84a7",
+            "id": "3ea02be3be4e22ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Git.md",
-                "mode": "preview",
+                "file": "MachineLearning/Machine Learning 机器学习.md",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4aba8666242e5712",
+            "id": "86ef144fb3f25fe0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/GitHub.md",
-                "mode": "preview",
+                "file": "MachineLearning/Loss Function 损失函数.md",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "08ebe0d7a223459f",
+            "id": "b9f553ac9e15e941",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database System Technology/Database System Technology 数据库技术.md",
+                "file": "Tools/Obsidian/LaTeX Suite.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Git.md",
+                "file": "MachineLearning/Loss Function 损失函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Git.md",
+                "file": "MachineLearning/Loss Function 损失函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Git.md"
+                "file": "MachineLearning/Loss Function 损失函数.md"
               }
             }
           }
@@ -171,29 +172,32 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "e0d51bfd0a6f84a7",
+  "active": "86ef144fb3f25fe0",
   "lastOpenFiles": [
+    "Linear Algebra 线性代数.md",
+    "MachineLearning/Loss Function 损失函数.md",
+    "MachineLearning/Machine Learning 机器学习.md",
+    "Tools/Obsidian/LaTeX Suite.md",
+    "assets/Pasted image 20240311210123.png",
+    "Database System Technology/Homework 3.md",
+    "Game Theory 博弈论.md",
     "Database System Technology/Database System Technology 数据库技术.md",
+    "Foundations of Data Science 数据科学基础.md",
     "Tools/Git.md",
     "Tools/GitHub.md",
-    "Game Theory 博弈论.md",
-    "Database System Technology/Homework 3.md",
     "Tools/Hotkeys 快捷键.md",
-    "搜狗五笔输入法.md",
+    "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240310 1.cwb",
     "assets/SogouWubi_20240310.cwb",
     "Tools/Obsidian/Obsidian.md",
     "Hotkeys 快捷键^0jqz8v.md",
     "homework3.md",
-    "Tools/Obsidian/LaTeX Suite.md",
     "assets/Pasted image 20240309220536.png",
     "Tools/LaTeX.md",
     "Tools/Conda.md",
     "Tools/SSH.md",
     "assets/git_structure.jpg",
     "Tools/Obsidian/Obsidian图片居中.md",
-    "Machine Learning 机器学习.md",
-    "Foundations of Data Science 数据科学基础.md",
     "Tools/高级搜索.md",
     "ComputerSkills/此电脑属性.md",
     "Tools/Obsidian",
@@ -204,13 +208,11 @@
     "assets/Pasted image 20240305161123.png",
     "assets/Pasted image 20240305112319.png",
     "assets/Pasted image 20240305110220.png",
-    "assets/Pasted image 20240305010941.png",
     "MachineLearning/Recurrent Neural Network (RNN) 循环神经网络.md",
     "Database System Technology/Homework 2.md",
     "Database System Technology/Homework 1.md",
     "ComputerSkills/硬盘分区.md",
     "MachineLearning/Convolutional Neural Networks (CNN) 卷积神经网络.md",
-    "MachineLearning/DDPM.md",
     "Homework",
     "Database System Technology",
     "ComputerSkills",
