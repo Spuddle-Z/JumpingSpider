@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "a5f387d7aefee0fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4d774a01da4dc85",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0d51bfd0a6f84a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Git.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4aba8666242e5712",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/GitHub.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "08ebe0d7a223459f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Database System Technology/Database System Technology 数据库技术.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "39bab2774f695bc1",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2a6c679d11bb097",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "254168e5c892d9a9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "073378b01389aa74",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Knowledge",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8028be5ec5771a6e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 313.50499725341797
+  },
+  "right": {
+    "id": "1e8f847d27347061",
+    "type": "split",
+    "children": [
+      {
+        "id": "91e97bff987f747c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f49484867123315e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tools/Git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6707ed54a72760f5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Tools/Git.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d7868255516b6b6c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1de5cc4a001ea747",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tools/Git.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 299.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false
+    }
+  },
+  "active": "e0d51bfd0a6f84a7",
+  "lastOpenFiles": [
+    "Database System Technology/Database System Technology 数据库技术.md",
+    "Tools/Git.md",
+    "Tools/GitHub.md",
+    "Game Theory 博弈论.md",
+    "Database System Technology/Homework 3.md",
+    "Tools/Hotkeys 快捷键.md",
+    "搜狗五笔输入法.md",
+    "assets/SogouWubi_20240310 1.cwb",
+    "assets/SogouWubi_20240310.cwb",
+    "Tools/Obsidian/Obsidian.md",
+    "Hotkeys 快捷键^0jqz8v.md",
+    "homework3.md",
+    "Tools/Obsidian/LaTeX Suite.md",
+    "assets/Pasted image 20240309220536.png",
+    "Tools/LaTeX.md",
+    "Tools/Conda.md",
+    "Tools/SSH.md",
+    "assets/git_structure.jpg",
+    "Tools/Obsidian/Obsidian图片居中.md",
+    "Machine Learning 机器学习.md",
+    "Foundations of Data Science 数据科学基础.md",
+    "Tools/高级搜索.md",
+    "ComputerSkills/此电脑属性.md",
+    "Tools/Obsidian",
+    "assets/Pasted image 20240305222626.png",
+    "assets/Pasted image 20240305214214.png",
+    "assets/Pasted image 20240305170543.png",
+    "assets/Pasted image 20240305163846.png",
+    "assets/Pasted image 20240305161123.png",
+    "assets/Pasted image 20240305112319.png",
+    "assets/Pasted image 20240305110220.png",
+    "assets/Pasted image 20240305010941.png",
+    "MachineLearning/Recurrent Neural Network (RNN) 循环神经网络.md",
+    "Database System Technology/Homework 2.md",
+    "Database System Technology/Homework 1.md",
+    "ComputerSkills/硬盘分区.md",
+    "MachineLearning/Convolutional Neural Networks (CNN) 卷积神经网络.md",
+    "MachineLearning/DDPM.md",
+    "Homework",
+    "Database System Technology",
+    "ComputerSkills",
+    "Tools/Obsidian",
+    "assets",
+    "MachineLearning",
+    "Tools"
+  ]
+}

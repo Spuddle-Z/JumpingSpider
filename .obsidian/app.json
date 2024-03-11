@@ -1,0 +1,22 @@
+{
+  "promptDelete": false,
+  "attachmentFolderPath": "assets",
+  "newFileLocation": "root",
+  "trashOption": "local",
+  "strictLineBreaks": true,
+  "livePreview": true,
+  "readableLineLength": true,
+  "foldHeading": true,
+  "showLineNumber": true,
+  "rightToLeft": false,
+  "vimMode": false,
+  "defaultViewMode": "preview",
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}
