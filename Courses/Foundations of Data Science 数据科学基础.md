@@ -80,13 +80,8 @@ $$
 - 例：自然连接两个表格![[Pasted image 20240305170543.png|500]]
 	- Map：将$b$提取为key，将$R$中的每个元组变为$(b,(a,R))$的形式，$S$同理；
 	- Reduce：将$b$相同但来自不同表格的key-value对进行合并，并输出成$(a,c)$的形式。
-## Spark
-### 基本概念
-- **RDD(Resilient distributed dataset)**：是一个最基本的key-value抽象
-	- 特性：只能被转移，无法被修改；
-	- 操作：
-		- **转移(Transformation)**：从其它RDD上建立新的RDD
-# 高维数据
-# 图数据 Graph Data
-# 流数据 Streaming Data
-# 应用
+# 局部敏感哈希
+## 寻找相似文件
+如下图，主要分为三个步骤：
+![[Pasted image 20240312162142.png|600]]
+- **Shingling**：将文件转化成token串的集合，$k$-shingle则为长度为$k$的token串（如令$k=2$，文件$D=abcab$的$2$-shingles为$S(D)=\{ab,bc,ca\}$

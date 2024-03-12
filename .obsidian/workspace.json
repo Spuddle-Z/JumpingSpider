@@ -4,53 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "ef07b78895b5144e",
+        "id": "e1842e3134bf45ff",
         "type": "tabs",
         "children": [
           {
-            "id": "3ea02be3be4e22ad",
+            "id": "906c821a29464cc3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Machine Learning 机器学习.md",
+                "file": "Courses/Foundations of Data Science 数据科学基础.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f5aeadcaecfa94ba",
+            "id": "fc25f6284f02efaa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "信息论.md",
+                "file": "CapsLock+.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "86ef144fb3f25fe0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Loss Function 损失函数.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b9f553ac9e15e941",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/Obsidian/LaTeX Suite.md",
-                "mode": "preview",
                 "source": false
               }
             }
@@ -121,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Machine Learning 机器学习.md",
+                "file": "Courses/Foundations of Data Science 数据科学基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Machine Learning 机器学习.md",
+                "file": "Courses/Foundations of Data Science 数据科学基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Machine Learning 机器学习.md"
+                "file": "Courses/Foundations of Data Science 数据科学基础.md"
               }
             }
           }
@@ -183,19 +159,22 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "3ea02be3be4e22ad",
+  "active": "906c821a29464cc3",
   "lastOpenFiles": [
-    "sync.bat",
-    "信息论.md",
-    "MachineLearning/Loss Function 损失函数.md",
+    "assets/Pasted image 20240312162142.png",
+    "CapsLock+.md",
+    "Courses/Foundations of Data Science 数据科学基础.md",
+    "Courses/Game Theory 博弈论.md",
+    "Courses/Linear Algebra 线性代数.md",
+    "Courses/MachineLearning/Machine Learning 机器学习.md",
+    "Courses/信息论.md",
+    "Courses",
     "Tools/Obsidian/LaTeX Suite.md",
-    "MachineLearning/Machine Learning 机器学习.md",
-    "Linear Algebra 线性代数.md",
+    "Courses/MachineLearning/Loss Function 损失函数.md",
+    "sync.bat",
     "assets/Pasted image 20240311210123.png",
-    "Database System Technology/Homework 3.md",
-    "Game Theory 博弈论.md",
-    "Database System Technology/Database System Technology 数据库技术.md",
-    "Foundations of Data Science 数据科学基础.md",
+    "Courses/Database System Technology/Homework 3.md",
+    "Courses/Database System Technology/Database System Technology 数据库技术.md",
     "Tools/Git.md",
     "Tools/GitHub.md",
     "Tools/Hotkeys 快捷键.md",
@@ -221,15 +200,12 @@
     "assets/Pasted image 20240305161123.png",
     "assets/Pasted image 20240305112319.png",
     "assets/Pasted image 20240305110220.png",
-    "MachineLearning/Recurrent Neural Network (RNN) 循环神经网络.md",
-    "Database System Technology/Homework 2.md",
-    "Database System Technology/Homework 1.md",
+    "Courses/MachineLearning/Recurrent Neural Network (RNN) 循环神经网络.md",
+    "Courses/Database System Technology/Homework 2.md",
     "Homework",
-    "Database System Technology",
+    "Courses/Database System Technology",
     "ComputerSkills",
     "Tools/Obsidian",
-    "assets",
-    "MachineLearning",
-    "Tools"
+    "assets"
   ]
 }
