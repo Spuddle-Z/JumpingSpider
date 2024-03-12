@@ -2,10 +2,10 @@
 setlocal
 
 :: 获取当前日期
-for /f "tokens=2-4 delims=/ " %%a in ('date /t') do (
-    set day=%%b
-    set month=%%a
-    set year=%%d
+for /f "tokens=1-3 delims=/ " %%a in ('date /t') do (
+    set day=%%c
+    set month=%%b
+    set year=%%a
 )
 
 :: 将日期格式化为YYYY-MM-DD
