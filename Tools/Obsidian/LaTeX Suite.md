@@ -89,25 +89,26 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | \\hat    | \\hat{$0}$1       | mA      |
 | \\tilde  | \\tilde{$0}$1     | mA      |
 ### Symbols
-| Trigger | Replacement             | Options |
-| ------- | ----------------------- | ------- |
-| ;inf    | \\infty                 | mA      |
-| ;sum    | \\sum_{$0}^{$1}$2       | mA      |
-| ;prod   | \\prod_{$0}^{$1}$2      | mA      |
-| ;->     | \to                     | mA      |
-| ;n->    | \nrightarrow            | mA      |
-| ;<->    | \\leftrightarrow        | mA      |
-| ;so     | \implies                | mA      |
-| ;>=     | \\geq                   | mA      |
-| ;<=     | \\leq                   | mA      |
-| ;inq    | \subseteq               | mA      |
-| ;innq   | \subsetneqq             | mA      |
-| ;mL     | \\mathcal{L}            | mA      |
-| ;mC     | \\mathbb{C}             | mA      |
-| ;mR     | \\mathbb{R}             | mA      |
-| ;mZ     | \\mathbb{Z}             | mA      |
-| ;mN     | \\mathbb{N}             | mA      |
-| ;int    | \\int_{$0}^{$1}$2\ dx$2 | mA      |
+| Trigger | Replacement                           | Options |
+| ------- | ------------------------------------- | ------- |
+| ;inf    | \\infty                               | mA      |
+| ;sum    | \\sum_{$0}^{$1}$2                     | mA      |
+| ;prod   | \\prod_{$0}^{$1}$2                    | mA      |
+| ;int    | \\int_{$0}^{$1}$2\ d\${2:x}           | mA      |
+| ;pa     | \\frac{\\partial}{\\partial ${0:x}}$1 | mA      |
+| ;->     | \to                                   | mA      |
+| ;n->    | \nrightarrow                          | mA      |
+| ;<->    | \\leftrightarrow                      | mA      |
+| ;so     | \implies                              | mA      |
+| ;>=     | \\geq                                 | mA      |
+| ;<=     | \\leq                                 | mA      |
+| ;inq    | \subseteq                             | mA      |
+| ;innq   | \subsetneqq                           | mA      |
+| ;mL     | \\mathcal{L}                          | mA      |
+| ;mC     | \\mathbb{C}                           | mA      |
+| ;mR     | \\mathbb{R}                           | mA      |
+| ;mZ     | \\mathbb{Z}                           | mA      |
+| ;mN     | \\mathbb{N}                           | mA      |
 ### Brackets
 
 | Trigger | Replacement  | Options |
@@ -187,10 +188,12 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: "\\hat", replacement: "\\hat{$0}$1", options: "mA"},
 	{trigger: "\\tilde", replacement: "\\tilde{$0}$1", options: "mA"},
 	
-	// Symbols
+	// Math symbols
 	{trigger: ";inf", replacement: "\\infty", options: "mA"},
 	{trigger: ";sum", replacement: "\\sum_{$0}^{$1}$2", options: "mA"},
 	{trigger: ";prod", replacement: "\\prod_{$0}^{$1}$2", options: "mA"},
+	{trigger: ";int", replacement: "\\int_{$0}^{$1}$2\ d${2:x}", options: "mA"},
+	{trigger: ";pa", replacement: "\\frac{\\partial}{\\partial ${0:x}}$1", options: "mA"},
 	{trigger: ";->", replacement: "\\to", options: "mA"},
 	{trigger: ";n->", replacement: "\\nrightarrow", options: "mA"},
 	{trigger: ";<->", replacement: "\\leftrightarrow ", options: "mA"},
@@ -204,7 +207,6 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";mR", replacement: "\\mathbb{R}", options: "mA"},
 	{trigger: ";mZ", replacement: "\\mathbb{Z}", options: "mA"},
 	{trigger: ";mN", replacement: "\\mathbb{N}", options: "mA"},
-	{trigger: ";int", replacement: "\\int_{$0}^{$1}$2\ dx$2", options: "mA"},
 
 	// Brackets
 	{trigger: "(", replacement: "($0)$1", options: "mA"},
@@ -215,7 +217,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	// Sequence
     {trigger: ";seq([A-Za-z]+);", replacement: "[[0]]_1,[[0]]_2,\\cdots,[[0]]_{${0:n}} ", options: "rmA"},
 
-    // Blocks
+    // Callout
     {trigger: ">ex", replacement: "> [!example] $0", options: "tA"},
     {trigger: ">wa", replacement: "> [!warning] $0", options: "tA"},
     {trigger: ">qu", replacement: "> [!quote] $0", options: "tA"},
