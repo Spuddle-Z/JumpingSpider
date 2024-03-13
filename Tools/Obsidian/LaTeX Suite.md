@@ -129,7 +129,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | >wa     | > [!warning] $0 | tA      |
 | >qu     | > [!quote] $0   | tA      |
 | >no     | > [!note] $0    | tA      |
-## Code
+## 配置代码 #Code 
 ```javascript
 [
 	// Environments

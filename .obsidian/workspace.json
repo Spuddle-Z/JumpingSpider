@@ -18,18 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "fc25f6284f02efaa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CapsLock+.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Knowledge",
+                "query": "tag:#Code",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -161,15 +149,16 @@
   },
   "active": "906c821a29464cc3",
   "lastOpenFiles": [
-    "assets/Pasted image 20240312162142.png",
-    "CapsLock+.md",
+    "Tools/CapsLock+.md",
     "Courses/Foundations of Data Science 数据科学基础.md",
+    "Tools/Obsidian/LaTeX Suite.md",
+    "assets/Pasted image 20240312170447.png",
+    "assets/Pasted image 20240312162142.png",
     "Courses/Game Theory 博弈论.md",
     "Courses/Linear Algebra 线性代数.md",
     "Courses/MachineLearning/Machine Learning 机器学习.md",
     "Courses/信息论.md",
     "Courses",
-    "Tools/Obsidian/LaTeX Suite.md",
     "Courses/MachineLearning/Loss Function 损失函数.md",
     "sync.bat",
     "assets/Pasted image 20240311210123.png",
@@ -198,8 +187,6 @@
     "assets/Pasted image 20240305170543.png",
     "assets/Pasted image 20240305163846.png",
     "assets/Pasted image 20240305161123.png",
-    "assets/Pasted image 20240305112319.png",
-    "assets/Pasted image 20240305110220.png",
     "Courses/MachineLearning/Recurrent Neural Network (RNN) 循环神经网络.md",
     "Courses/Database System Technology/Homework 2.md",
     "Homework",
