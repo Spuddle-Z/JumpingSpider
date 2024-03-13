@@ -15,3 +15,6 @@ set date=%year%-%month%-%day%
 git add *
 git commit -m "%date%"
 git push
+
+:: 将.obsidian文件夹同步到其它仓库中
+copy D:\Projects\Obsidian\Public\.obsidian D:\Projects\Obsidian\Private

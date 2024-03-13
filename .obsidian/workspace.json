@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Foundations of Data Science 数据科学基础.md",
+                "file": "Tools/搜狗五笔输入法.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Foundations of Data Science 数据科学基础.md",
+                "file": "Tools/搜狗五笔输入法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Foundations of Data Science 数据科学基础.md",
+                "file": "Tools/搜狗五笔输入法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Foundations of Data Science 数据科学基础.md"
+                "file": "Tools/搜狗五笔输入法.md"
               }
             }
           }
@@ -149,8 +149,8 @@
   },
   "active": "906c821a29464cc3",
   "lastOpenFiles": [
-    "Tools/CapsLock+.md",
     "Courses/Foundations of Data Science 数据科学基础.md",
+    "Tools/CapsLock+.md",
     "Tools/Obsidian/LaTeX Suite.md",
     "assets/Pasted image 20240312170447.png",
     "assets/Pasted image 20240312162142.png",
