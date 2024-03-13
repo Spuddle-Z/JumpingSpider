@@ -1,6 +1,8 @@
 @echo off
 setlocal
 
+cd ..
+
 :: 获取当前日期
 for /f "tokens=1-3 delims=/ " %%a in ('date /t') do (
     set day=%%c

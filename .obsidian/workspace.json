@@ -144,11 +144,15 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "workspaces:管理工作区布局": false
+      "workspaces:管理工作区布局": false,
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
   "active": "906c821a29464cc3",
   "lastOpenFiles": [
+    "sync.bat",
+    "新建文件夹",
+    "assets/SogouWubi_20240313.cwb",
     "Courses/Foundations of Data Science 数据科学基础.md",
     "Tools/CapsLock+.md",
     "Tools/Obsidian/LaTeX Suite.md",
@@ -160,7 +164,6 @@
     "Courses/信息论.md",
     "Courses",
     "Courses/MachineLearning/Loss Function 损失函数.md",
-    "sync.bat",
     "assets/Pasted image 20240311210123.png",
     "Courses/Database System Technology/Homework 3.md",
     "Courses/Database System Technology/Database System Technology 数据库技术.md",
@@ -192,7 +195,6 @@
     "Homework",
     "Courses/Database System Technology",
     "ComputerSkills",
-    "Tools/Obsidian",
-    "assets"
+    "Tools/Obsidian"
   ]
 }
