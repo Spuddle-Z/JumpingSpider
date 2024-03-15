@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "514a2480bafd356c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/搜狗五笔输入法.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/搜狗五笔输入法.md",
+                "file": "Courses/Game Theory 博弈论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/搜狗五笔输入法.md",
+                "file": "Courses/Game Theory 博弈论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/搜狗五笔输入法.md"
+                "file": "Courses/Game Theory 博弈论.md"
               }
             }
           }
@@ -160,11 +147,11 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "514a2480bafd356c",
+  "active": "906c821a29464cc3",
   "lastOpenFiles": [
+    "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240315.cwb",
     "Courses/Game Theory 博弈论.md",
-    "Tools/搜狗五笔输入法.md",
     "Courses/Foundations of Data Science 数据科学基础.md",
     "sync.bat",
     "新建文件夹",
@@ -206,7 +193,6 @@
     "Courses/MachineLearning/Recurrent Neural Network (RNN) 循环神经网络.md",
     "Courses/Database System Technology/Homework 2.md",
     "Homework",
-    "Courses/Database System Technology",
-    "ComputerSkills"
+    "Courses/Database System Technology"
   ]
 }
