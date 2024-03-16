@@ -2,7 +2,7 @@
 tags:
   - Knowledge
 ---
-# 三种模型
+# 概论
 - 生成模型(Generative Model)：$P_\theta(X,Y)$，
 - 判定模型(Discriminative Model)：$P_\theta(Y|X)$，
 - 模型(Descriptive Model)：$P_\theta(X)$

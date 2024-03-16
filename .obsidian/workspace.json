@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Game Theory 博弈论.md",
+                "file": "Courses/MachineLearning/Machine Learning 机器学习.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Game Theory 博弈论.md",
+                "file": "Courses/MachineLearning/Machine Learning 机器学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Game Theory 博弈论.md",
+                "file": "Courses/MachineLearning/Machine Learning 机器学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Game Theory 博弈论.md"
+                "file": "Courses/MachineLearning/Machine Learning 机器学习.md"
               }
             }
           }
@@ -149,10 +149,17 @@
   },
   "active": "906c821a29464cc3",
   "lastOpenFiles": [
-    "Tools/搜狗五笔输入法.md",
-    "assets/SogouWubi_20240315.cwb",
+    "Courses/MachineLearning/Loss Function 损失函数.md",
+    "Courses/MachineLearning/Machine Learning 机器学习.md",
+    "Courses/Information Theory 信息论.md",
+    "assets/Pasted image 20240316205049.png",
+    "Courses/MachineLearning/Convolutional Neural Networks (CNN) 卷积神经网络.md",
+    "Courses/Database System Technology/Database System Technology 数据库技术.md",
+    "Courses/Linear Algebra 线性代数.md",
     "Courses/Game Theory 博弈论.md",
     "Courses/Foundations of Data Science 数据科学基础.md",
+    "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240315.cwb",
     "sync.bat",
     "新建文件夹",
     "assets/SogouWubi_20240313.cwb",
@@ -160,14 +167,9 @@
     "Tools/Obsidian/LaTeX Suite.md",
     "assets/Pasted image 20240312170447.png",
     "assets/Pasted image 20240312162142.png",
-    "Courses/Linear Algebra 线性代数.md",
-    "Courses/MachineLearning/Machine Learning 机器学习.md",
-    "Courses/信息论.md",
     "Courses",
-    "Courses/MachineLearning/Loss Function 损失函数.md",
     "assets/Pasted image 20240311210123.png",
     "Courses/Database System Technology/Homework 3.md",
-    "Courses/Database System Technology/Database System Technology 数据库技术.md",
     "Tools/Git.md",
     "Tools/GitHub.md",
     "Tools/Hotkeys 快捷键.md",
@@ -189,9 +191,7 @@
     "assets/Pasted image 20240305214214.png",
     "assets/Pasted image 20240305170543.png",
     "assets/Pasted image 20240305163846.png",
-    "assets/Pasted image 20240305161123.png",
     "Courses/MachineLearning/Recurrent Neural Network (RNN) 循环神经网络.md",
-    "Courses/Database System Technology/Homework 2.md",
     "Homework",
     "Courses/Database System Technology"
   ]
