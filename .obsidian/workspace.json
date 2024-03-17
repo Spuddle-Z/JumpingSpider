@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e1842e3134bf45ff",
+        "id": "a96223dc94c674ec",
         "type": "tabs",
         "children": [
           {
-            "id": "906c821a29464cc3",
+            "id": "5bb393edde2ac6e4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/MachineLearning/Machine Learning 机器学习.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/MachineLearning/Machine Learning 机器学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/MachineLearning/Machine Learning 机器学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Courses/MachineLearning/Machine Learning 机器学习.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -147,24 +139,31 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "906c821a29464cc3",
+  "active": "5bb393edde2ac6e4",
   "lastOpenFiles": [
+    "Courses/Math/Probability Theory 概率论.md",
+    "Tools/Obsidian/LaTeX Suite.md",
     "Courses/MachineLearning/Loss Function 损失函数.md",
+    "Tools/LaTeX.md",
+    "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240317_yw.cwb",
+    "assets/Pasted image 20240317155319.png",
+    "assets/Pasted image 20240317155125.png",
+    "assets/Pasted image 20240317154521.png",
+    "Courses/Math",
     "Courses/MachineLearning/Machine Learning 机器学习.md",
-    "Courses/Information Theory 信息论.md",
+    "Courses/Math/Information Theory 信息论.md",
     "assets/Pasted image 20240316205049.png",
     "Courses/MachineLearning/Convolutional Neural Networks (CNN) 卷积神经网络.md",
     "Courses/Database System Technology/Database System Technology 数据库技术.md",
-    "Courses/Linear Algebra 线性代数.md",
-    "Courses/Game Theory 博弈论.md",
+    "Courses/Math/Linear Algebra 线性代数.md",
+    "Courses/Math/Game Theory 博弈论.md",
     "Courses/Foundations of Data Science 数据科学基础.md",
-    "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240315.cwb",
     "sync.bat",
     "新建文件夹",
     "assets/SogouWubi_20240313.cwb",
     "Tools/CapsLock+.md",
-    "Tools/Obsidian/LaTeX Suite.md",
     "assets/Pasted image 20240312170447.png",
     "assets/Pasted image 20240312162142.png",
     "Courses",
@@ -179,7 +178,6 @@
     "Hotkeys 快捷键^0jqz8v.md",
     "homework3.md",
     "assets/Pasted image 20240309220536.png",
-    "Tools/LaTeX.md",
     "Tools/Conda.md",
     "Tools/SSH.md",
     "assets/git_structure.jpg",
@@ -187,12 +185,6 @@
     "Tools/高级搜索.md",
     "ComputerSkills/此电脑属性.md",
     "Tools/Obsidian",
-    "assets/Pasted image 20240305222626.png",
-    "assets/Pasted image 20240305214214.png",
-    "assets/Pasted image 20240305170543.png",
-    "assets/Pasted image 20240305163846.png",
-    "Courses/MachineLearning/Recurrent Neural Network (RNN) 循环神经网络.md",
-    "Homework",
-    "Courses/Database System Technology"
+    "assets/Pasted image 20240305222626.png"
   ]
 }

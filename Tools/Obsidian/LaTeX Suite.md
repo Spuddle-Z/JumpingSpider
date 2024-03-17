@@ -37,40 +37,42 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;ali    | \\begin{aligned}\n$0\n\\end{aligned}                  | mA      |
 | :ali    | \\left\\{\\begin{aligned}\n$0\n\\end{aligned}\\right. | mA      |
 ### Greek Letters
-| Trigger | Replacement | Options |
-|---------|-------------|---------|
-| ;aa     | \\alpha     | mA      |
-| ;AA     | \\alpha     | mA      |
-| ;bb     | \\beta      | mA      |
-| ;BB     | \\beta      | mA      |
-| ;cc     | \\chi       | mA      |
-| ;CC     | \\chi       | mA      |
-| ;gg     | \\gamma     | mA      |
-| ;GG     | \\Gamma     | mA      |
-| ;dd     | \\delta     | mA      |
-| ;DD     | \\Delta     | mA      |
-| :ee     | \\epsilon   | mA      |
-| :EE     | \\epsilon   | mA      |
-| ;ee     | \\varepsilon| mA      |
-| ;EE     | \\varepsilon| mA      |
-| ;zz     | \\zeta      | mA      |
-| ;ZZ     | \\zeta      | mA      |
-| ;qq     | \\theta     | mA      |
-| ;QQ     | \\Theta     | mA      |
-| ;kk     | \\kappa     | mA      |
-| ;KK     | \\kappa     | mA      |
-| ;ll     | \\lambda    | mA      |
-| ;LL     | \\Lambda    | mA      |
-| ;mm     | \\mu        | mA      |
-| ;MM     | \\mu        | mA      |
-| ;rr     | \\rho       | mA      |
-| ;RR     | \\rho       | mA      |
-| ;ss     | \\sigma     | mA      |
-| ;SS     | \\Sigma     | mA      |
-| ;oo     | \\omega     | mA      |
-| ;OO     | \\Omega     | mA      |
-| ;uu     | \\upsilon   | mA      |
-| ;UU     | \\Upsilon   | mA      |
+| Trigger | Replacement  | Options |
+| ------- | ------------ | ------- |
+| ;aa     | \\alpha      | mA      |
+| ;AA     | \\alpha      | mA      |
+| ;bb     | \\beta       | mA      |
+| ;BB     | \\beta       | mA      |
+| ;cc     | \\chi        | mA      |
+| ;CC     | \\chi        | mA      |
+| ;gg     | \\gamma      | mA      |
+| ;GG     | \\Gamma      | mA      |
+| ;dd     | \\delta      | mA      |
+| ;DD     | \\Delta      | mA      |
+| :ee     | \\epsilon    | mA      |
+| :EE     | \\epsilon    | mA      |
+| ;ee     | \\varepsilon | mA      |
+| ;EE     | \\varepsilon | mA      |
+| ;qq     | \\theta      | mA      |
+| ;QQ     | \\Theta      | mA      |
+| ;kk     | \\kappa      | mA      |
+| ;KK     | \\kappa      | mA      |
+| ;ll     | \\lambda     | mA      |
+| ;LL     | \\Lambda     | mA      |
+| ;mm     | \\mu         | mA      |
+| ;MM     | \\mu         | mA      |
+| ;rr     | \\rho        | mA      |
+| ;RR     | \\rho        | mA      |
+| ;ss     | \\sigma      | mA      |
+| ;SS     | \\Sigma      | mA      |
+| ;tt     | \\tau        | mA      |
+| ;TT     | T            | mA      |
+| ;oo     | \\omega      | mA      |
+| ;OO     | \\Omega      | mA      |
+| ;uu     | \\upsilon    | mA      |
+| ;UU     | \\Upsilon    | mA      |
+| ;zz     | \\zeta       | mA      |
+| ;ZZ     | \\Zeta       | mA      |
 ### Operations
 | Trigger | Replacement      | Options |
 | ------- | ---------------- | ------- |
@@ -89,26 +91,28 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | \\hat   | \\hat{$0}$1      | mA      |
 | \\tilde | \\tilde{$0}$1    | mA      |
 ### Symbols
-| Trigger | Replacement                           | Options | Effect                  |
-| ------- | ------------------------------------- | ------- | ----------------------- |
-| ;inf    | \\infty                               | mA      | $\infty$                |
-| ;sum    | \\sum_{$0}^{$1}$2                     | mA      | $$\sum_{\#0}^{\#1}\#2$$ |
-| ;prod   | \\prod_{$0}^{$1}$2                    | mA      | $$\prod_{\#0}^{\#1}$$   |
-| ;int    | \\int_{$0}^{$1}$2\ d\${2:x}           | mA      | ∫��� ��∫ab​c dx         |
-| ;pa     | \\frac{\\partial}{\\partial ${0:x}}$1 | mA      | ∂∂��∂x∂​y               |
-| ;->     | \to                                   | mA      | →                       |
-| ;n->    | \nrightarrow                          | mA      | $$\nrightarrow$$        |
-| ;<->    | \\leftrightarrow                      | mA      | ↔                       |
-| ;so     | \implies                              | mA      | ⇒                       |
-| ;>=     | \\geq                                 | mA      | ≥                       |
-| ;<=     | \\leq                                 | mA      | ≤                       |
-| ;inq    | \subseteq                             | mA      | ⊆                       |
-| ;innq   | \subsetneqq                           | mA      | ⫋                       |
-| ;mL     | \\mathcal{L}                          | mA      | ℒ                       |
-| ;mC     | \\mathbb{C}                           | mA      | ℂ                       |
-| ;mR     | \\mathbb{R}                           | mA      | ℝ                       |
-| ;mZ     | \\mathbb{Z}                           | mA      | ℤ                       |
-| ;mN     | \\mathbb{N}                           | mA      | ℕ                       |
+| Trigger | Replacement                                   | Options | Effect                  |
+| ------- | --------------------------------------------- | ------- | ----------------------- |
+| ;inf    | \\infty                                       | mA      | $\infty$                |
+| ;sum    | \\sum_{${0:i=1}}^{\${1:n}}$2                  | mA      | $$\sum_{\#0}^{\#1}\#2$$ |
+| ;prod   | \\prod_{${0:i=1}}^{\${1:n}}$2                 | mA      | $$\prod_{\#0}^{\#1}$$   |
+| ;int    | \\int_{$0}^{$1}$2\ d\${2:x}                   | mA      | ∫��� ��∫ab​c dx         |
+| ;pa     | \\frac{\\partial}{\\partial ${0:x}}$1         | mA      | ∂∂��∂x∂​y               |
+| ;->     | \to                                           | mA      | →                       |
+| ;n->    | \nrightarrow                                  | mA      | $$\nrightarrow$$        |
+| ;<->    | \\leftrightarrow                              | mA      | ↔                       |
+| ;so     | \implies                                      | mA      | ⇒                       |
+| ;>=     | \\geq                                         | mA      | ≥                       |
+| ;<=     | \\leq                                         | mA      | ≤                       |
+| ;inq    | \subseteq                                     | mA      | ⊆                       |
+| ;innq   | \subsetneqq                                   | mA      | ⫋                       |
+| ;mL     | \\mathcal{L}                                  | mA      | ℒ                       |
+| ;mC     | \\mathbb{C}                                   | mA      | ℂ                       |
+| ;mR     | \\mathbb{R}                                   | mA      | ℝ                       |
+| ;mZ     | \\mathbb{Z}                                   | mA      | ℤ                       |
+| ;mN     | \\mathbb{N}                                   | mA      | ℕ                       |
+| ;amax   | \\mathop{\\arg\\max}\\limits_{${0:\\theta}}$1 | mA      |                         |
+| ;amin   | \\mathop{\\arg\\min}\\limits_{${0:\\theta}}$1 | mA      |                         |
 ### Brackets
 
 | Trigger | Replacement  | Options |
@@ -171,6 +175,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";OO", replacement: "\\Omega", options: "mA"},
 	{trigger: ";uu", replacement: "\\upsilon", options: "mA"},
 	{trigger: ";UU", replacement: "\\Upsilon", options: "mA"},
+	{trigger: ";tt", replacement: "\\tau", options: "mA"},
+	{trigger: ";TT", replacement: "T", options: "mA"},
 
 	// Operations
 	{trigger: ";tx", replacement: "\\text{$0}", options: "mA"},
@@ -190,8 +196,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	
 	// Math symbols
 	{trigger: ";inf", replacement: "\\infty", options: "mA"},
-	{trigger: ";sum", replacement: "\\sum_{$0}^{$1}$2", options: "mA"},
-	{trigger: ";prod", replacement: "\\prod_{$0}^{$1}$2", options: "mA"},
+	{trigger: ";sum", replacement: "\\sum_{${0:i=1}}^{${1:n}}$2", options: "mA"},
+	{trigger: ";prod", replacement: "\\prod_{${0:i=1}}^{${1:n}}$2", options: "mA"},
 	{trigger: ";int", replacement: "\\int_{$0}^{$1}$2\ d${2:x}", options: "mA"},
 	{trigger: ";pa", replacement: "\\frac{\\partial}{\\partial ${0:x}}$1", options: "mA"},
 	{trigger: ";->", replacement: "\\to", options: "mA"},
@@ -207,6 +213,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";mR", replacement: "\\mathbb{R}", options: "mA"},
 	{trigger: ";mZ", replacement: "\\mathbb{Z}", options: "mA"},
 	{trigger: ";mN", replacement: "\\mathbb{N}", options: "mA"},
+	{trigger: ";amax", replacement: "\\mathop{\\arg\\max}\\limits_{${0:\\theta}}$1", options: "mA"},
+	{trigger: ";amin", replacement: "\\mathop{\\arg\\min}\\limits_{${0:\\theta}}$1", options: "mA"},
 
 	// Brackets
 	{trigger: "(", replacement: "($0)$1", options: "mA"},
