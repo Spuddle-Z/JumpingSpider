@@ -1,3 +1,7 @@
+---
+tags:
+  - Knowledge
+---
 ## 基本概念
 事件的概率越小，不确定性越大，其一旦发生所带来的信息量越大。
 - **自信息(Self-information)**：对于事件$x$，其发生的概率为$P(x)$，则其自信息定义为$$I(x)=-\log p$$，此处底数统一取2。
@@ -7,11 +11,14 @@
 
 由自信息的定义可知，熵还可以表示最优平均编码长度，但由于自信息值可能取不到整数，因此真正编码时，只能用次优编码长度$-\sum_{i=1}^{n}P(x_i)\log(Q(x_i))$，且有$$H(X)=-\sum_{i=1}^{n}P(x_i)\log(P(x_i))\leq-\sum_{i=1}^{n}P(x_i)\log(Q(x_i))$$
 将$P,Q$看作两个分布，即$\int P(x)\ dx=\int Q(x)\ dx=1$，可以引出KL距离。
-- **KL距离**：KL距离表示两个分布的相似度。对于两个分布$P(x),Q(x)$，其KL距离定义为$$KL(P(x)||Q(x))=\sum_{x}P(x)\log\frac{P(x)}{Q(x)}$$KL距离有以下特点：
-	1. $KL(P|Q)\geq0$
-	2. $KL(P|Q)=0$时，$P=Q$
-	3. $KL(P|Q)\neq KL(Q|P)$
-	4. $KL(P(x,y)|Q(x,y))=KL(P(x)|Q(x))+KL(P(y|x)|Q(y|x))$
+- **KL散度(Kullback-Leibler Divergence)**：KL距离表示两个分布的相似度。对于两个分布$P(x),Q(x)$，其KL距离定义为$$KL(P(x)||Q(x))=\sum_{x}P(x)\log\frac{P(x)}{Q(x)}$$^ejkg5c
+
+KL距离有以下特点：
+1. $KL(P|Q)\geq0$
+2. $KL(P|Q)=0$时，$P=Q$
+3. $KL(P|Q)\neq KL(Q|P)$
+4. $KL(P(x,y)|Q(x,y))=KL(P(x)|Q(x))+KL(P(y|x)|Q(y|x))$
+
 对于联合概率分布，则有如下推导：
 $$
 \begin{aligned}

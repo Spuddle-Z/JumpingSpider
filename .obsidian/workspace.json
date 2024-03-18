@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a96223dc94c674ec",
+        "id": "91ba358206c03c91",
         "type": "tabs",
         "children": [
           {
-            "id": "5bb393edde2ac6e4",
+            "id": "ae9989cfcbee83ba",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Courses/MachineLearning/Machine Learning 机器学习.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Courses/MachineLearning/Machine Learning 机器学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Courses/MachineLearning/Machine Learning 机器学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Courses/MachineLearning/Machine Learning 机器学习.md"
+              }
             }
           }
         ],
@@ -139,11 +147,14 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "5bb393edde2ac6e4",
+  "active": "ae9989cfcbee83ba",
   "lastOpenFiles": [
-    "Courses/Math/Probability Theory 概率论.md",
-    "Tools/Obsidian/LaTeX Suite.md",
     "Courses/MachineLearning/Loss Function 损失函数.md",
+    "Courses/Math/Information Theory 信息论.md",
+    "Courses/Math/Probability Theory 概率论.md",
+    "Courses/MachineLearning/Machine Learning 机器学习.md",
+    "Courses/Math/Game Theory 博弈论.md",
+    "Tools/Obsidian/LaTeX Suite.md",
     "Tools/LaTeX.md",
     "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240317_yw.cwb",
@@ -151,13 +162,10 @@
     "assets/Pasted image 20240317155125.png",
     "assets/Pasted image 20240317154521.png",
     "Courses/Math",
-    "Courses/MachineLearning/Machine Learning 机器学习.md",
-    "Courses/Math/Information Theory 信息论.md",
     "assets/Pasted image 20240316205049.png",
     "Courses/MachineLearning/Convolutional Neural Networks (CNN) 卷积神经网络.md",
     "Courses/Database System Technology/Database System Technology 数据库技术.md",
     "Courses/Math/Linear Algebra 线性代数.md",
-    "Courses/Math/Game Theory 博弈论.md",
     "Courses/Foundations of Data Science 数据科学基础.md",
     "assets/SogouWubi_20240315.cwb",
     "sync.bat",
