@@ -326,3 +326,74 @@ FROM <表名或视图名>, <表名或视图名>, ... | (<SELECT语句>) [AS] <�
 ### 聚集函数
 ### 分组查询结果
 ### 连接查询
+### 嵌套查询
+#### 基本概念
+一个SELECT-FROM-WHERE语句称为一个查询块，将一个查询块嵌套在另一个查询块的WHERE子句或HAVING短语的条件中的查询称为**嵌套查询**。
+#### ANY与ALL
+- **ANY**：某个值
+- **ALL**：所有值
+#### EXISTS
+带有EXISTS谓词的子查询不返回任何数据，只返回`true`或`false`。
+1. 一些事EXISTS或NOT EXISTS的子查询不能被其他形式的子查询等价替换，但所有带IN、比较运算符、ANY或ALL的子查询都能用带EXISTS的子查询等价替换。
+2. SQL语言中没有全称量词$\forall$，可以用存在量词替代，$(\forall x)P\equiv\lnot(\exists x(\lnot P))$。
+3. 逻辑蕴含也可以使用存在谓词表达，$p\to q\equiv\lnot p\vee q$。
+### 集合查询
+- **并操作**：`UNION`![[Pasted image 20240318144003.png|500]]
+- **交操作**：`INTERSECT`
+	> [!example] 
+	> 查询同时选修了课程1和课程2的学生
+	> ```sql
+	> SELECT Sno
+	> FROM SC
+	> WHERE Cno='1'
+	> INTERSECT
+	> SELECT Sno
+	> FROM SC
+	> WHERE Cno='2';
+	> ```
+
+- **差操作**：`EXCEPT`
+	> [!example] 
+	> 查询计算机科学系中年龄不大于19岁的学生
+	> ```sql
+	> SELECT *
+	> FROM Student
+	> WHERE Sdept='CS'
+	> EXCEPT
+	> SELECT *
+	> FROM Student
+	> WHERE Sage <=19;
+	> ```
+
+### 派生查询
+除了出现在`WHERE`子句中，子查询还可以出现在`FROM`子句中，此时子查询生成的**临时派生表(Derived Table)**会成为主查询的查询对象。
+## 数据更新
+### 插入数据
+> [!example] 
+> 将一个新学生记录插入到Student表中
+> ```sql
+> INSERT
+> INTO Student (Sno, Sname, Ssex)
+> VALUE ('201215128', '陈冬', '男');
+> ```
+> 也可以将子查询的结果插入指定表里
+
+### 修改数据
+> [!example] 
+> 将计算机科学系学生的成绩置零
+> ```sql
+> UPDATE SC
+> SET Grade=0
+> WHERE Sno IN
+> 	(SELECT Sno
+> 	 FROM Student
+> 	 WHERE Sdept='CS');
+> ```
+
+## 空值
+- 空值的产生：*插入*、*外连接*、*空值的关系运算*都会产生空值。
+- 空值的判断：判断某个值是否为空值要使用`IS NULL`或`IS NOT NULL`，不能使用`=NULL`。
+- 空值的约束条件：
+	- 有`NOT NULL`或`UNIQUE`约束的属性不能取空值
+	- 码属性不能取空值
+- 空值的运算：空值参与的*算术运算*结果为空值，空值参与的*比较运算*结果为`UNKNOWN`

@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "91ba358206c03c91",
+        "id": "560f3b26e0b91d63",
         "type": "tabs",
         "children": [
           {
-            "id": "ae9989cfcbee83ba",
+            "id": "9b601fd24901410e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/MachineLearning/Machine Learning 机器学习.md",
+                "file": "Courses/Math/Game Theory 博弈论.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e86416ed99439b80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Obsidian/LaTeX Suite.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/MachineLearning/Machine Learning 机器学习.md",
+                "file": "Tools/Obsidian/LaTeX Suite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/MachineLearning/Machine Learning 机器学习.md",
+                "file": "Tools/Obsidian/LaTeX Suite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/MachineLearning/Machine Learning 机器学习.md"
+                "file": "Tools/Obsidian/LaTeX Suite.md"
               }
             }
           }
@@ -147,16 +160,24 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "ae9989cfcbee83ba",
+  "active": "e86416ed99439b80",
   "lastOpenFiles": [
-    "Courses/MachineLearning/Loss Function 损失函数.md",
-    "Courses/Math/Information Theory 信息论.md",
-    "Courses/Math/Probability Theory 概率论.md",
-    "Courses/MachineLearning/Machine Learning 机器学习.md",
+    "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240320.cwb",
     "Courses/Math/Game Theory 博弈论.md",
     "Tools/Obsidian/LaTeX Suite.md",
+    "线性优化与凸优化.md",
+    "assets/Pasted image 20240320084030.png",
+    "Courses/Foundations of Data Science 数据科学基础.md",
+    "Courses/Math/Probability Theory 概率论.md",
+    "Courses/MachineLearning/Machine Learning 机器学习.md",
+    "Courses/Database System Technology/Database System Technology 数据库技术.md",
+    "assets/Pasted image 20240319105559.png",
+    "Courses/Math/Information Theory 信息论.md",
+    "Courses/MachineLearning/Loss Function 损失函数.md",
+    "assets/Pasted image 20240318144117.png",
+    "assets/Pasted image 20240318144003.png",
     "Tools/LaTeX.md",
-    "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240317_yw.cwb",
     "assets/Pasted image 20240317155319.png",
     "assets/Pasted image 20240317155125.png",
@@ -164,9 +185,7 @@
     "Courses/Math",
     "assets/Pasted image 20240316205049.png",
     "Courses/MachineLearning/Convolutional Neural Networks (CNN) 卷积神经网络.md",
-    "Courses/Database System Technology/Database System Technology 数据库技术.md",
     "Courses/Math/Linear Algebra 线性代数.md",
-    "Courses/Foundations of Data Science 数据科学基础.md",
     "assets/SogouWubi_20240315.cwb",
     "sync.bat",
     "新建文件夹",
@@ -175,7 +194,6 @@
     "assets/Pasted image 20240312170447.png",
     "assets/Pasted image 20240312162142.png",
     "Courses",
-    "assets/Pasted image 20240311210123.png",
     "Courses/Database System Technology/Homework 3.md",
     "Tools/Git.md",
     "Tools/GitHub.md",
@@ -185,14 +203,9 @@
     "Tools/Obsidian/Obsidian.md",
     "Hotkeys 快捷键^0jqz8v.md",
     "homework3.md",
-    "assets/Pasted image 20240309220536.png",
     "Tools/Conda.md",
     "Tools/SSH.md",
-    "assets/git_structure.jpg",
     "Tools/Obsidian/Obsidian图片居中.md",
-    "Tools/高级搜索.md",
-    "ComputerSkills/此电脑属性.md",
-    "Tools/Obsidian",
-    "assets/Pasted image 20240305222626.png"
+    "Tools/高级搜索.md"
   ]
 }

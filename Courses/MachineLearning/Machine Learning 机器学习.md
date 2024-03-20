@@ -3,12 +3,104 @@ tags:
   - Knowledge
 ---
 # 概论
-- 生成模型(Generative Model)的目标是最大化$P_\theta(X,Y)$。
-- **判定模型(Discriminative Model)**的目标是最大化$P_\theta(y|X)$，也即在输入为$X$的情况下，令参数为$\theta$的模型输出$y$的概率最大。训练判定模型的本质是根据已知的$X,y$，找到$P_{\theta}(y|X)$的[[Probability Theory 概率论#^tyfz0r|最大似然估计]]，也即是一个最小化$P_{\theta}(y|X)$与$P_{Data}(y|X)$之间的[[Information Theory 信息论#^ejkg5c|KL散度]]的过程。
-- 模型(Descriptive Model)：$P_\theta(X)$
-# Linear Model
-- **MLE**(Maximum Likelihood Estimation)：最大似然估计
-## Logistic Regression
-目标是求
-$$\max_\beta P(y_1^*,y_2^*,...,y_n^*|x_1,x_2,...,x_n,\beta)$$
-### CE
+## 损失函数 Loss Function
+### 基本概念
+机器学习需要用给出的数据$\{(X_i,y_i)\}_{i=1,2,...,n}$去训练一个模型的参数$\beta$，使得将$X_i$输入模型后，模型的输出能尽量接近于$y_i$。这个训练的过程一般通过最小化损失函数$$\mathcal{L}(\beta)=\sum_{i=1}^nL(y_i,X_i^T\beta)$$来实现，其中$L(y_i,X_i^T\beta)$是其中第$i$组数据的损失。
+### 常见损失函数
+#### 线性回归的损失函数
+##### Huber Loss
+平方误差对于异常点十分敏感，因此引入Huber loss，即绝对值较低部分使用平方误差，$\delta$之外的部分则变为线性误差，其公式如下：
+$$
+L(y_i,X_i^T\beta)=
+\left\{\begin{aligned}
+&\frac{1}{2}(y_i,X_i^T\beta)^2 &,|y_i,X_i^T\beta|\leq\delta \\
+&\delta|y_i,X_i^T\beta|-\frac{\delta^2}{2} &,\text{otherwise}
+\end{aligned}\right.
+$$
+![[Pasted image 20240305110220.png|400]]
+#### 分类模型的损失函数
+##### 逻辑回归损失函数
+对于逻辑回归，我们需要最大化其似然函数$$\prod_{i=1}^{n}P(y_{i}|X_{i},\beta)$$，此函数代表模型参数为$\beta$，输入为$X$时，输出为$y$的概率。
+1. 若$y_{i}\in\left\{0,1\right\}$，我们称其为0/1响应，此时
+	$$
+	\begin{aligned}
+	P(y_{i}|X_{i},\beta)&=P(y_{i}=1|X_{i},\beta)^{y_{i}}P(y_{i}=0|X_{i},\beta)^{1-y_{i}}\\
+	&=\left[ \frac{\exp(X_{i}^{T}\beta)}{1+\exp(X_{i}^{T}\beta)} \right]^{y_{i}}\left[ \frac{1}{1+\exp(X_{i}^{T}\beta)} \right]^{1-y_{i}}\\
+	&=\frac{\exp(y_{i}X_{i}^{T}\beta)}{1+\exp(X_{i}^{T}\beta)}
+    \end{aligned}
+    $$
+    而为了简便计算，我们将最终的损失函数定为负的对数似然函数$$L(y_i,X_i^T\beta)=-\log P(y_{i}|X_{i},\beta)=-[y_i,X_i^T\beta-\log(1+\exp(X_{i}^{T}\beta))]$$
+1. 若$y_{i}\in\{+1,-1\}$，我们称为$\pm$响应，此时
+	$$
+	\left\{\begin{aligned}
+    P(y_{i}=+1)&=\frac{1}{1+\exp(-X_{i}^{T}\beta)}\\
+    P(y_{i}=-1)&=\frac{1}{1+\exp(X_{i}^{T}\beta)}
+    \end{aligned}\right.
+	$$
+	其损失函数同样取负对数似然函数$$L(y_i,X_i^T\beta)=\log[1+\exp(-y_iX_i^T\beta)]$$
+综上，我们可以得到logistic loss为$$\log(1+\exp(-y_iX_i^{T}\beta))$$
+##### 其它分类模型损失函数
+除了logistic loss，我们还有以下几种损失函数：![[Pasted image 20240311210123.png|450]]
+- Hinge loss：此函数计算较logistic loss更为简便，一般用于支持向量机。$$\max(0,1-y_iX_i^T\beta)$$
+- Exponential loss：此函数一般用于AdaBoost。$$\exp(-y_iX_i^T\beta)$$
+- Zero-one loss：此函数无法求导，一般用于计算被错误分类的样本个数。$$\mathbb{1}(y_iX_i^T\beta<0)$$
+
+由图可以看出，hinge loss与exponential loss其实都是对logistic loss的近似。
+
+图中横轴为$m_{i}=y_{i}X_{i}^{T}\beta$，也即这四种函数均是基于$y_{i}X_{i}^{T}\beta$的，我们将此值$m_{i}$称为样本$(y_{i},X_{i})$的**margin**。Margin为负时，模型将受到惩罚，越负惩罚越大；当margin为比较小的正值时，依然会受到一定的惩罚，因此我们其实是希望margin能够尽可能地大，以此巩固已经正确了的分类结果。
+
+---
+## 三种模型
+**判定模型(Discriminative Model)**的目标是最大化$P_\theta(y|X)$，也即在输入为$X$的情况下，令参数为$\theta$的模型输出$y$的概率最大。训练判定模型的本质是根据已知的$X,y$，找到$P_{\theta}(y|X)$的[[Probability Theory 概率论#^tyfz0r|最大似然估计]]，也即是一个最小化$P_{\theta}(y|X)$与$P_{Data}(y|X)$之间的[[Information Theory 信息论#^ejkg5c|KL散度]]的过程。其推导过程如下：
+$$
+\begin{aligned}
+\max_{\theta}\frac{1}{n}\sum_{i=1}^{n}\log P_{\theta}(y_i|X_i)
+&\equiv\max_{\theta}E_{P_{Data}}(\log P_{\theta}(y|X))\\
+&\equiv\min_{\theta}-E_{P_{Data}}(\log P_{\theta}(y|X))\\
+&\equiv\min_{\theta}E_{P_{Data}}(\log P_{Data}(y|X))-E_{P_{Data}}(\log P_{\theta}(y|X))\\
+\end{aligned}
+$$
+
+**描述性模型(Description Model)**
+
+**生成式模型(Generative Model)**：
+## 布朗运动
+- **布朗运动(Brownian Motion)**可以定义为$$X_{t+\Delta t}=X_{t}+\sigma\varepsilon_{t}\sqrt{\Delta t}$$
+
+寻找损失函数最小值的过程可以看作布朗运动的过程，如下式：$$\theta_{new}=\theta_{old}-\eta\frac{\partial L}{\partial \theta}+\lambda\varepsilon$$
+## LDA
+![[Pasted image 20240319105559.png|400]]离散度可由$S$表示：$$S=\frac{\sigma^2_{between}}{\sigma^2_{within}}$$
+
+- **线性判别算法(Linear Discriminant Analysis, LDA)**：是一种监督学习中的降维技术。LDA通过将高维数据投影到低维空间中，使投影后的类内方差最小，类间方差最大。LDA的目标是找到最符合以上条件的投影平面。
+
+对于一个二分类模型，其推导过程如下：
+
+定义以下符号：$\mu_{+},\mu_{-}$分别为正负样本的均值，$\sigma_{+}^2,\sigma_{-}^2$分别为投影后正负样本的方差，$\Sigma_{+},\Sigma_{-}$分别为正负样本的[[Probability Theory 概率论#^8w027v|协方差矩阵]]，$n_{+},n_{-}$分别为正负样本的个数。
+
+对于投影后的类间方差，我们用投影后的正负样本均值差来表示：$$\begin{aligned}
+\sigma^2_{between}&=(\mu_{+}^T\beta-\mu_{-}^T\beta)^2\\
+&=[(\mu_{+}-\mu_{-})^T\beta]^2
+\end{aligned}$$
+对于投影后的类内方差，我们分别计算$\sigma^2_{+},\sigma^2_{-}$并将其加权求和：
+$$\sigma^2_{within}=n_{+}\sigma^2_{+}+n_{-}\sigma^2_{-}$$
+其中
+$$
+\begin{aligned}
+\sigma_{+}^2&=E[(X_{+}^T\beta-\mu_{+}^T\beta)^2]\\
+&=\beta^TE[(X_{+}-\mu_{+})(X_{+}-\mu_{+})^T]\beta\\
+&=\beta^T\Sigma_{+}\beta
+\end{aligned}
+$$
+同理，$\sigma_{-}^2=\beta^T\Sigma_{-}\beta$。此时我们需要找到一个合适的投影$\beta$，使得$\frac{\sigma^2_{between}}{\sigma^2_{within}}$最大化。易推出$$\frac{\sigma^2_{between}}{\sigma^2_{within}}=\frac{\beta^TS_{B}\beta}{\beta^TS_{W}\beta}$$
+其中$$\left\{\begin{aligned}
+S_{B}&=(\mu_{+}-\mu_{-})(\mu_{+}-\mu_{-})^T\\
+S_{W}&=n_{+}\Sigma_{+}+n_{-}\Sigma_{-}
+\end{aligned}\right.$$
+由于分子分母都有$\beta$，因此$\beta$的模长并不重要，可以随意放缩，我们令$\beta^TS_{W}\beta=1$，即可得到$$\max_{\beta}\beta^TS_{B}\beta,s.t.\beta^TS_{W}\beta=1$$
+此处使用拉格朗日乘子法：
+$$\begin{aligned}
+&L=\beta^TS_{B}\beta-\lambda(\beta^TS_{W}\beta-1)\\
+\implies &\frac{\partial L}{\partial \beta}=2S_{B}\beta-2\lambda S_{W}\beta=0\\
+\implies &S_{W}^{-1}S_{B}\beta=\lambda\beta
+\end{aligned}$$
+由此可知，$\beta$是$S_{W}^{-1}S_{B}$的特征向量。我们只需求出$\beta$的方向，这里将$S_{W}^{-1}S_{B}\beta$展开，可知$\beta$与$S_{W}^{-1}(\mu_{+}-\mu_{-})$同向，因此计算$S_{W}^{-1}(\mu_{+}-\mu_{-})$即可得到$\beta$的方向。

@@ -2,7 +2,21 @@
 tags:
   - Knowledge
 ---
-### 最大似然估计
+## 随机变量
+### 基本概念
+- **方差**：$$D(X)=E[(X-E(X))^2]=E(X^2)-E(X)^2$$
+- **协方差(Covariance)**：用来衡量两个随机变量的变化趋势是否一致。对于两个随机变量$X,Y$，其协方差为$$\sigma(X,Y)=E((X-E(X))\cdot(Y-E(Y)))=E(XY)-E(X)E(Y)$$
+	从数值上来说，协方差越大，说明两个变量的同向趋势越大；协方差越小，说明两个变量的反向趋势越大；协方差越趋近于零，两个变量越不相关。
+- **协方差矩阵**：对于$d$个随机变量，我们可以求出一个协方差矩阵：
+	$$
+	\Sigma=
+	\begin{bmatrix}
+	\sigma(X_1,X_1) & \cdots & \sigma(X_1,X_d) \\
+	\vdots & \ddots & \vdots \\
+	\sigma(X_d,X_1) & \cdots & \sigma(X_d,X_d)
+	\end{bmatrix}
+$$ ^8w027v
+## 参数估计
 - **似然函数(Likelihood Function)**：对于函数$P(x|\theta)$，其中$x$表示实际数据，$\theta$表示模型参数，则若$x$固定，$P(x|\theta)$随$\theta$变化，那么这个函数叫做似然函数。
 	> [!note] 似然函数与概率函数
 	> 若$\theta$固定，$P(x|\theta)$随着$x$变化，则此函数是一个固定模型的概率函数。

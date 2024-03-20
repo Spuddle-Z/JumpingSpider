@@ -87,3 +87,4 @@ $$
 - **Shingling**：将文件转化成token串的集合，$k$-shingle则为长度为$k$的token串（如令$k=2$，文件$D=abcab$的$2$-shingles为$S(D)=\{ab,bc,ca\}$）。
 - 我们在shingles的基础上，使用Jaccard距离来衡量两文件的差异性，并使用如下图的表格表示这些文件：![[Pasted image 20240312170447.png|200]]
 #### MinHashing
+## PageRank
