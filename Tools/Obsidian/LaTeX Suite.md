@@ -53,6 +53,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;FF     | \\Phi        | $\Phi$        | mA      |
 | ;gg     | \\gamma      | $\gamma$      | mA      |
 | ;GG     | \\Gamma      | $\Gamma$      | mA      |
+| ;hh     | \\eta        | $\eta$        | mA      |
+| ;HH     | H            | $H$           | mA      |
 | ;kk     | \\kappa      | $\kappa$      | mA      |
 | ;KK     | K            | $K$           | mA      |
 | ;ll     | \\lambda     | $\lambda$     | mA      |
@@ -169,6 +171,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";FF", replacement: "\\Phi", options: "mA"},
 	{trigger: ";gg", replacement: "\\gamma", options: "mA"},
 	{trigger: ";GG", replacement: "\\Gamma", options: "mA"},
+	{trigger: ";hh", replacement: "\\eta", options: "mA"},
+	{trigger: ";HH", replacement: "H", options: "mA"},
 	{trigger: ";kk", replacement: "\\kappa", options: "mA"},
 	{trigger: ";KK", replacement: "K", options: "mA"},
 	{trigger: ";ll", replacement: "\\lambda", options: "mA"},

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "560f3b26e0b91d63",
+        "id": "5ca8882201da6891",
         "type": "tabs",
         "children": [
           {
-            "id": "9b601fd24901410e",
+            "id": "a282c710dd4f99b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e86416ed99439b80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/Obsidian/LaTeX Suite.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Obsidian/LaTeX Suite.md",
+                "file": "Courses/Math/Game Theory 博弈论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Obsidian/LaTeX Suite.md",
+                "file": "Courses/Math/Game Theory 博弈论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Obsidian/LaTeX Suite.md"
+                "file": "Courses/Math/Game Theory 博弈论.md"
               }
             }
           }
@@ -160,15 +147,15 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "e86416ed99439b80",
+  "active": "a282c710dd4f99b0",
   "lastOpenFiles": [
-    "Tools/搜狗五笔输入法.md",
-    "assets/SogouWubi_20240320.cwb",
-    "Courses/Math/Game Theory 博弈论.md",
     "Tools/Obsidian/LaTeX Suite.md",
-    "线性优化与凸优化.md",
-    "assets/Pasted image 20240320084030.png",
+    "Tools/搜狗五笔输入法.md",
+    "Courses/Math/Game Theory 博弈论.md",
+    "Courses/Math/Convex Optimization 凸优化.md",
     "Courses/Foundations of Data Science 数据科学基础.md",
+    "assets/SogouWubi_20240320.cwb",
+    "assets/Pasted image 20240320084030.png",
     "Courses/Math/Probability Theory 概率论.md",
     "Courses/MachineLearning/Machine Learning 机器学习.md",
     "Courses/Database System Technology/Database System Technology 数据库技术.md",
