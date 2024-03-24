@@ -1,11 +1,11 @@
 1. ```sql
 	SELECT Sno
 	FROM (SELECT Sno, MAX(Arg_grade)
-	     FROM (SELECT Sno, AVG(Grade) Arg_grade
-		      FROM SC
-		      GROUP BY Sno
-		      ) AS t1
-	     ) AS t2;
+	      FROM (SELECT Sno, AVG(Grade) Arg_grade
+		       FROM SC
+		       GROUP BY Sno
+		       ) AS t1
+	      ) AS t2;
 	```
 1. ```sql
 	DELETE
@@ -17,14 +17,13 @@
 	```
 1. ```sql
 	SELECT Sno
-	FROM (SELECT Sno, COUNT(*) cnt
-		 FROM SC
-		 GROUP BY Sno) t
-	WHERE cnt >= 2;
+	FROM SC
+	GROUP BY Sno
+	HAVING COUNT(*) >= 2;
 	```
 1. ```sql
 	SELECT DISTINCT Sno
-	FROM SC x
+	FROM Student x
 	WHERE NOT EXISTS
 		(SELECT *
 		 FROM Course y
