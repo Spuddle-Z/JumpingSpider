@@ -375,7 +375,18 @@ FROM Student;
 2. SQL语言中没有全称量词$\forall$，可以用存在量词替代，$(\forall x)P\equiv\lnot(\exists x(\lnot P))$。
 3. 逻辑蕴含也可以使用存在谓词表达，$p\to q\equiv\lnot p\vee q$。
 ### 集合查询
-- **并操作**：`UNION`![[Pasted image 20240318144003.png|500]]
+- **并操作**：`UNION`
+	> [!example] 
+	> 查询计算机科学系的学生或年龄不大于19岁的学生。
+	> ```sql
+	> SELECT *
+	> FROM Student
+	> WHERE Sdept = 'CS'
+	> UNION
+	> SELECT *
+	> FROM Student
+	> WHERE Sage <= 19;
+	> ```
 - **交操作**：`INTERSECT`
 	> [!example] 
 	> 查询同时选修了课程1和课程2的学生
@@ -405,7 +416,14 @@ FROM Student;
 ### 派生查询
 除了出现在`WHERE`子句中，子查询还可以出现在`FROM`子句中，此时子查询生成的**临时派生表(Derived Table)**会成为主查询的查询对象。
 > [!example] 
-> ![[Pasted image 20240324102824.png]]
+> 查询所有选修了1号课程的学生姓名。
+> ```sql
+> SELECT Sname
+> FROM Student, (SELECT Sno
+> 			   FROM SC
+> 			   WHERE Cno = '1') AS SC1
+> WHERE Student.Sno = SC1.Sno
+> ```
 ## 数据更新
 ### 插入数据
 > [!example] 
@@ -430,7 +448,15 @@ FROM Student;
 ### 删除数据
 使用`DELETE`子句来删除指定的*元组*。
 > [!example] 
-> ![[Pasted image 20240324103802.png]]
+> 删除计算机科学系所有学生的选课记录。
+> ```sql
+> DELETE
+> FROM SC
+> WHERE Sno IN
+> 	(SELECT Sno
+> 	 FROM Student
+> 	 WHERE Sdept = 'CS');
+> ```
 ## 空值
 - 空值的产生：*插入*、*外连接*、*空值的关系运算*都会产生空值。
 - 空值的判断：判断某个值是否为空值要使用`IS NULL`或`IS NOT NULL`，不能使用`=NULL`。
@@ -445,9 +471,47 @@ CREATE VIEW <视图名> [(<列名>, <列名>,...)]
 AS <子查询>
 [WITH CHECK OPTION];
 ```
+
 > [!warning] 
 > 不要丢掉`AS`。
 
 > [!example] 
-> ![[Pasted image 20240324155347.png]]
+> 建立信息系选修了1号课程的学生视图。
+> ```sql
+> CREATE VIEW IS_S1(Sno, Sname, Grade)
+> 	AS
+> 	SELECT Student.Sno, Sname, Grade
+> 	FROM Student, SC
+> 	WHERE Sdept = 'IS' AND
+> 		  Student.Sno = SC.Sno AND
+> 		  SC.Cno = '1';
+> ```
+# 数据库设计
+## 概念结构设计
+- 区分实体与属性：对其它属性无影响的，一般从简归类到属性中；反之，则需要看作一个实体。
+### 视图的集成
+1. **属性冲突**
+	- 属性域冲突：属性值的*类型*、*取值范围*与*取值集合*不同；
+	- 属性取值单位冲突。
+1. **命名冲突**
+	- 同名异义
+	- 异名同义
+1. **结构冲突**
+	- 同一对象在不同应用中具有不同的抽象；
+	- 同一实体在不同分E-R图中所包含的属性个数和属性排列次序不完全相同；
+	- 实体之间的联系在不同局部视图中呈现不同的类型。
+### 修改与重构
+- **冗余**：冗余的数据是指可由基本数据导出的数据，冗余的联系是指可由其他联系导出的联系。
+> [!note] 
+对于一些常用的冗余数据，也是需要保留的，消除后反而会降低效率。
 
+可以通过*规范化理论*来消除冗余：
+1. 确定实体之间的数据依赖$F_{L}$；
+2. 求$F_{L}$的最小覆盖$G_{L}$，再求二者差集$D=F_{L}-G_{L}$；
+3. 逐一考察$D$中的函数依赖，确定是否是冗余的联系。
+> [!note] 
+> 冗余的联系一定在$D$中，而$D$中的联系不一定是冗余的。
+
+## 逻辑结构设计
+### E-R图各关系模型的转换
+每个*实体*和*多对多的联系*都要转换成一个关系模式，一对多的关系则可以选择向多的那一端合并，一对一的关系可向任意一端合并。

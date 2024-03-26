@@ -69,10 +69,11 @@ $$
 
 寻找损失函数最小值的过程可以看作布朗运动的过程，如下式：$$\theta_{new}=\theta_{old}-\eta\frac{\partial L}{\partial \theta}+\lambda\varepsilon$$
 ## LDA
-![[Pasted image 20240319105559.png|400]]离散度可由$S$表示：$$S=\frac{\sigma^2_{between}}{\sigma^2_{within}}$$
 
-- **线性判别算法(Linear Discriminant Analysis, LDA)**：是一种监督学习中的降维技术。LDA通过将高维数据投影到低维空间中，使投影后的类内方差最小，类间方差最大。LDA的目标是找到最符合以上条件的投影平面。
+![[Pasted image 20240319105559.png|400]]
+- **线性判别算法(Linear Discriminant Analysis, LDA)**：是一种监督学习中的降维技术。LDA通过将高维数据投影到低维空间中，*使投影后的类内方差最小，类间方差最大*。LDA的目标是找到最符合以上条件的投影平面。
 
+LDA的目标函数如下，其中$S=\frac{\sigma^2_{between}}{\sigma^2_{within}}$：$$\max_{\beta}S$$
 对于一个二分类模型，其推导过程如下：
 
 定义以下符号：$\mu_{+},\mu_{-}$分别为正负样本的均值，$\sigma_{+}^2,\sigma_{-}^2$分别为投影后正负样本的方差，$\Sigma_{+},\Sigma_{-}$分别为正负样本的[[Probability Theory 概率论#^8w027v|协方差矩阵]]，$n_{+},n_{-}$分别为正负样本的个数。
@@ -91,7 +92,7 @@ $$
 &=\beta^T\Sigma_{+}\beta
 \end{aligned}
 $$
-同理，$\sigma_{-}^2=\beta^T\Sigma_{-}\beta$。此时我们需要找到一个合适的投影$\beta$，使得$\frac{\sigma^2_{between}}{\sigma^2_{within}}$最大化。易推出$$\frac{\sigma^2_{between}}{\sigma^2_{within}}=\frac{\beta^TS_{B}\beta}{\beta^TS_{W}\beta}$$
+同理，$\sigma_{-}^2=\beta^T\Sigma_{-}\beta$。此时我们需要找到一个合适的投影$\beta$，使得$S$最大化。易推出$$S=\frac{\sigma^2_{between}}{\sigma^2_{within}}=\frac{\beta^TS_{B}\beta}{\beta^TS_{W}\beta}$$
 其中$$\left\{\begin{aligned}
 S_{B}&=(\mu_{+}-\mu_{-})(\mu_{+}-\mu_{-})^T\\
 S_{W}&=n_{+}\Sigma_{+}+n_{-}\Sigma_{-}
@@ -104,3 +105,23 @@ $$\begin{aligned}
 \implies &S_{W}^{-1}S_{B}\beta=\lambda\beta
 \end{aligned}$$
 由此可知，$\beta$是$S_{W}^{-1}S_{B}$的特征向量。我们只需求出$\beta$的方向，这里将$S_{W}^{-1}S_{B}\beta$展开，可知$\beta$与$S_{W}^{-1}(\mu_{+}-\mu_{-})$同向，因此计算$S_{W}^{-1}(\mu_{+}-\mu_{-})$即可得到$\beta$的方向。
+## SVM
+为与其它教材统一，我们规定如下符号：
+- $b=\beta_1$
+- $w=[\beta_2,\beta_3,\cdots,\beta_{n}]^T$
+- margin$\gamma_i=y_i(w^Tx_i+b)$
+因此，我们有
+$$
+\hat{y}=sign(w^Tx+b)=
+\left\{\begin{aligned}
++1,&w^Tx+b\geq0\\
+-1,&w^Tx+b<0
+\end{aligned}\right.
+$$
+
+
+
+
+
+
+由于只有支持向量的$\alpha_i>0$，因此$w$的方向只由支持向量决定。

@@ -4,15 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "a275ea5abe9c20b8",
+        "id": "fd07856d38a20bc9",
         "type": "tabs",
         "children": [
           {
-            "id": "a0f2d500384f9bd2",
+            "id": "0ff8b899ec70eda8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Foundations of Data Science 数据科学基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1e5b3f8a123f786",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Database System Technology/Homework 4.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Code",
+                "query": "方差",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Courses/Foundations of Data Science 数据科学基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Courses/Foundations of Data Science 数据科学基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Courses/Foundations of Data Science 数据科学基础.md"
+              }
             }
           }
         ],
@@ -139,11 +159,23 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "a0f2d500384f9bd2",
+  "active": "0ff8b899ec70eda8",
   "lastOpenFiles": [
+    "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240326_ywf.cwb",
+    "Python高级语法.md",
+    "SVM.md",
+    "图数据相关算法.md",
+    "Courses/Foundations of Data Science 数据科学基础.md",
+    "Tools/Spark.md",
     "Courses/Database System Technology/Homework 4.md",
-    "homework4.md",
+    "Courses/MachineLearning/Machine Learning 机器学习.md",
+    "Courses/Math/Convex Optimization 凸优化.md",
+    "Tools/Obsidian/LaTeX Suite.md",
+    "Courses/Math/Probability Theory 概率论.md",
+    "Courses/MachineLearning/DDPM.md",
     "Courses/Database System Technology/Database System Technology 数据库技术.md",
+    "homework4.md",
     "assets/Pasted image 20240324155347.png",
     "assets/Pasted image 20240324104939.png",
     "assets/Pasted image 20240324103802.png",
@@ -154,14 +186,8 @@
     "assets/Pasted image 20240323154511.png",
     "assets/Pasted image 20240323153225.png",
     "assets/Pasted image 20240323143804.png",
-    "Tools/Obsidian/LaTeX Suite.md",
-    "Tools/搜狗五笔输入法.md",
-    "Courses/Math/Convex Optimization 凸优化.md",
-    "Courses/Foundations of Data Science 数据科学基础.md",
     "assets/SogouWubi_20240320.cwb",
     "assets/Pasted image 20240320084030.png",
-    "Courses/Math/Probability Theory 概率论.md",
-    "Courses/MachineLearning/Machine Learning 机器学习.md",
     "Courses/Math/Information Theory 信息论.md",
     "Courses/MachineLearning/Loss Function 损失函数.md",
     "Tools/LaTeX.md",
@@ -179,13 +205,6 @@
     "Tools/Git.md",
     "Tools/GitHub.md",
     "Tools/Hotkeys 快捷键.md",
-    "assets/SogouWubi_20240310 1.cwb",
-    "assets/SogouWubi_20240310.cwb",
-    "Tools/Obsidian/Obsidian.md",
-    "Hotkeys 快捷键^0jqz8v.md",
-    "homework3.md",
-    "Tools/Conda.md",
-    "Tools/SSH.md",
-    "Tools/Obsidian/Obsidian图片居中.md"
+    "assets/SogouWubi_20240310 1.cwb"
   ]
 }

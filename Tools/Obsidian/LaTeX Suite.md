@@ -34,6 +34,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ------- | ----------------------------------------------------- | ------- |
 | ;m      | \$\$0$                                                | tA      |
 | ;M      | \$\$\$0$$                                             | tA      |
+| ;c      | \`\$0\`\$1                                            | tA      |
+| ;C      | \`\`\`\$0\`\`\`\$1                                    | tA      |
 | ;ali    | \\begin{aligned}\n$0\n\\end{aligned}                  | mA      |
 | :ali    | \\left\\{\\begin{aligned}\n$0\n\\end{aligned}\\right. | mA      |
 ### Greek Letters
@@ -153,6 +155,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	// Environments
 	{trigger: ";m", replacement: "$$0$", options: "tA"},
 	{trigger: ";M", replacement: "$$$0$$", options: "tA"},
+	{trigger: ";c", replacement: "`$0`$1", options: "tA"},
+	{trigger: ";C", replacement: "```$0```$1", options: "tA"},
 	{trigger: ";ali", replacement: "\\begin{aligned}\n$0\n\\end{aligned}", options: "mA"},
 	{trigger: ":ali", replacement: "\\left\\{\\begin{aligned}\n$0\n\\end{aligned}\\right.", options: "mA"},
 
