@@ -89,21 +89,26 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;tx     | \\text{$0}       | mA      |
 | ;up     | ^{$0}$1          | mA      |
 | ;do     | _{$0}$1          | mA      |
-| :2      | \^2              | mA      |
-| :3      | \^3              | mA      |
+| ;2      | \^2              | mA      |
+| ;3      | \^3              | mA      |
+| ;un     | \^n              | mA      |
 | ;tr     | \^T              | mA      |
-| ;1      | _1               | mA      |
-| ;2      | _2               | mA      |
-| ;3      | _3               | mA      |
+| ;d1     | _1               | mA      |
+| ;d2     | _2               | mA      |
+| ;d3     | _3               | mA      |
 | ;dn     | _n               | mA      |
 | ;di     | _i               | mA      |
 | ;dj     | _j               | mA      |
+| ;dk     | _k               | mA      |
+| ;dx     | _x               | mA      |
+| ;dy     | _y               | mA      |
+| ;dz     | _z               | mA      |
 | ;sq     | \\sqrt{$0}$1     | mA      |
 | ;/      | \\frac{$0}{$1}$2 | mA      |
 | :/      | \\frac{1}{$0}$1  | mA      |
 | \\bar   | \\bar{$0}$1      | mA      |
 | \\hat   | \\hat{$0}$1      | mA      |
-| \\tilde | \\tilde{$0}$1    | mA      |
+| \\til   | \\tilde{$0}$1    | mA      |
 ### Symbols
 | Trigger | Replacement                                         | Preview                             | Options |
 | ------- | --------------------------------------------------- | ----------------------------------- | ------- |
@@ -208,21 +213,26 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";tx", replacement: "\\text{$0}", options: "mA"},
 	{trigger: ";up", replacement: "^{$0}$1", options: "mA"},
 	{trigger: ";do", replacement: "_{$0}$1", options: "mA"},
-	{trigger: ":2", replacement: "^2", options: "mA"},
-	{trigger: ":3", replacement: "^3", options: "mA"},
+	{trigger: ";2", replacement: "^2", options: "mA"},
+	{trigger: ";3", replacement: "^3", options: "mA"},
+	{trigger: ";un", replacement: "^n", options: "mA"},
 	{trigger: ";tr", replacement: "^T", options: "mA"},
-	{trigger: ";1", replacement: "_1", options: "mA"},
-	{trigger: ";2", replacement: "_2", options: "mA"},
-	{trigger: ";3", replacement: "_3", options: "mA"},
+	{trigger: ";d1", replacement: "_1", options: "mA"},
+	{trigger: ";d2", replacement: "_2", options: "mA"},
+	{trigger: ";d3", replacement: "_3", options: "mA"},
 	{trigger: ";dn", replacement: "_n", options: "mA"},
 	{trigger: ";di", replacement: "_i", options: "mA"},
 	{trigger: ";dj", replacement: "_j", options: "mA"},
+	{trigger: ";dk", replacement: "_k", options: "mA"},
+	{trigger: ";dx", replacement: "_x", options: "mA"},
+	{trigger: ";dy", replacement: "_y", options: "mA"},
+	{trigger: ";dz", replacement: "_z", options: "mA"},
 	{trigger: ";sq", replacement: "\\sqrt{$0}$1", options: "mA"},
 	{trigger: ";/", replacement: "\\frac{$0}{$1}$2", options: "mA"},
 	{trigger: ":/", replacement: "\\frac{1}{$0}$1", options: "mA"},
 	{trigger: "\\bar", replacement: "\\bar{$0}$1", options: "mA"},
 	{trigger: "\\hat", replacement: "\\hat{$0}$1", options: "mA"},
-	{trigger: "\\tilde", replacement: "\\tilde{$0}$1", options: "mA"},
+	{trigger: "\\til", replacement: "\\tilde{$0}$1", options: "mA"},
 	
 	// Math symbols
 	{trigger: ";inf", replacement: "\\infty", options: "mA"},

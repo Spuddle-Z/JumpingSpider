@@ -107,6 +107,7 @@ $$
 ## 零和博弈
 相关均衡可以写作线性规划的形式求出结果，但MNE的求解则更加复杂，此处考虑一个特殊情况，即零和博弈。
 - **零和博弈(Zero-sum Game)**：任意一种策略下，所有玩家的收益和都为0。
+
 因此，设$x,y$分别为玩家A和玩家B策略的概率分布，矩阵$A$则为其收益矩阵，则此博弈中的纳什均衡点$x^*,y^*$满足以下条件：
 $$
 \left\{\begin{aligned}
@@ -115,3 +116,18 @@ x^{*T}Ay^*&\leq x^{*T}Ay&,\forall y
 \end{aligned}\right.
 $$
 此处的$(x^*,y^*)$也称为**鞍点(Saddle Point)**。
+- **MiniMax定理**：$$\min_{y}\max_{x}x^TAy=\max_{x}\min_{y}x^TAy$$
+> [!note] Remark
+> 在零和博弈中，若$(x^*,y^*),(\tilde{x},\tilde{y})$都是NE，则$(x^*,\tilde{y}),(\tilde{x},y^*)$也是NE。
+## 非零和博弈
+- **Brouwer不动点定理(Brouwer's Fixed Point Theorem)**：一个*封闭(Closed)有界(Bounded)凸集*$C\subseteq\mathbb{R}^n$对其自身的映射$f:C\to C$若为一个*连续*函数，则$\exists x\in C,x=f(x)$。
+
+设$a=(a_i,a_{-i})$是原策略，则定义
+$$
+r_i(a_i')=
+\left\{\begin{aligned}
+&u_i(a_i',a_{-i})-u_i(a_i,a_{-i}),&u_i(a_i',a_{-i})>u_i(a_i,a_{-i})\\
+&0,&u_i(a_i',a_{-i})\leq u_i(a_i,a_{-i})
+\end{aligned}\right.
+$$
+即玩家$i$将从原策略$a_i$改为$a_i'$后，玩家$i$比原来多获得的收益，若并没有更多收益，则统一取零。

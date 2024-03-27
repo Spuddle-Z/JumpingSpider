@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0ff8b899ec70eda8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Foundations of Data Science 数据科学基础.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a1e5b3f8a123f786",
             "type": "leaf",
             "state": {
@@ -30,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b6c3b6b5423f0b7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Math/Game Theory 博弈论.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89dd6a3d3e8bbaf6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Obsidian/LaTeX Suite.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Foundations of Data Science 数据科学基础.md",
+                "file": "Courses/Math/Game Theory 博弈论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Foundations of Data Science 数据科学基础.md",
+                "file": "Courses/Math/Game Theory 博弈论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Foundations of Data Science 数据科学基础.md"
+                "file": "Courses/Math/Game Theory 博弈论.md"
               }
             }
           }
@@ -159,19 +172,28 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "0ff8b899ec70eda8",
+  "active": "b6c3b6b5423f0b7f",
   "lastOpenFiles": [
+    "Courses/Database System Technology/Homework 4.md",
+    "Tools/Obsidian/LaTeX Suite.md",
     "Tools/搜狗五笔输入法.md",
-    "assets/SogouWubi_20240326_ywf.cwb",
+    "assets/SogouWubi_20240327_ywh.cwb",
+    "Courses/Math/Game Theory 博弈论.md",
+    "Courses/MachineLearning/Machine Learning 机器学习.md",
     "Python高级语法.md",
+    "Courses/MachineLearning/Transformer.md",
+    "assets/attention.png",
+    "assets/beamSearch.png",
+    "assets/greedy.png",
+    "assets/seq2seqTrain.png",
+    "assets/seq2seq.png",
+    "assets/EncoderDecoder.png",
+    "Courses/Foundations of Data Science 数据科学基础.md",
+    "assets/SogouWubi_20240326_ywf.cwb",
     "SVM.md",
     "图数据相关算法.md",
-    "Courses/Foundations of Data Science 数据科学基础.md",
     "Tools/Spark.md",
-    "Courses/Database System Technology/Homework 4.md",
-    "Courses/MachineLearning/Machine Learning 机器学习.md",
     "Courses/Math/Convex Optimization 凸优化.md",
-    "Tools/Obsidian/LaTeX Suite.md",
     "Courses/Math/Probability Theory 概率论.md",
     "Courses/MachineLearning/DDPM.md",
     "Courses/Database System Technology/Database System Technology 数据库技术.md",
@@ -180,14 +202,7 @@
     "assets/Pasted image 20240324104939.png",
     "assets/Pasted image 20240324103802.png",
     "assets/Pasted image 20240324102824.png",
-    "Courses/Math/Game Theory 博弈论.md",
-    "assets/Pasted image 20240323160007.png",
-    "assets/Pasted image 20240323155446.png",
-    "assets/Pasted image 20240323154511.png",
-    "assets/Pasted image 20240323153225.png",
-    "assets/Pasted image 20240323143804.png",
     "assets/SogouWubi_20240320.cwb",
-    "assets/Pasted image 20240320084030.png",
     "Courses/Math/Information Theory 信息论.md",
     "Courses/MachineLearning/Loss Function 损失函数.md",
     "Tools/LaTeX.md",
@@ -203,8 +218,6 @@
     "Courses",
     "Courses/Database System Technology/Homework 3.md",
     "Tools/Git.md",
-    "Tools/GitHub.md",
-    "Tools/Hotkeys 快捷键.md",
-    "assets/SogouWubi_20240310 1.cwb"
+    "Tools/GitHub.md"
   ]
 }
