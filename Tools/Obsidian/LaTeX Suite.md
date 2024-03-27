@@ -127,6 +127,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;v>=    | \\succeq                                            | $\succeq$                           | mA      |
 | ;inq    | \subseteq                                           | $\subseteq$                         | mA      |
 | ;innq   | \subsetneqq                                         | $\subsetneqq$                       | mA      |
+| ;emp    | \\varnothing                                        | $\varnothing$                       | mA      |
 | ;mL     | \\mathcal{L}                                        | $\mathcal{L}$                       | mA      |
 | ;mP     | \\mathcal{P}                                        | $\mathcal{P}$                       | mA      |
 | ;mC     | \\mathbb{C}                                         | $\mathbb{C}$                        | mA      |
@@ -243,14 +244,15 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";pa", replacement: "\\frac{\\partial}{\\partial ${0:x}}$1", options: "mA"},
 	{trigger: ";->", replacement: "\\to", options: "mA"},
 	{trigger: ";n->", replacement: "\\nrightarrow", options: "mA"},
-	{trigger: ";<->", replacement: "\\leftrightarrow ", options: "mA"},
-	{trigger: ";so", replacement: "\\implies ", options: "mA"},
+	{trigger: ";<->", replacement: "\\leftrightarrow", options: "mA"},
+	{trigger: ";so", replacement: "\\implies", options: "mA"},
 	{trigger: ";<=", replacement: "\\leq", options: "mA"},
 	{trigger: ";>=", replacement: "\\geq", options: "mA"},
 	{trigger: ";v<=", replacement: "\\preceq", options: "mA"},
 	{trigger: ";v>=", replacement: "\\succeq", options: "mA"},
-	{trigger: ";inq", replacement: "\\subseteq ", options: "mA"},
-	{trigger: ";innq", replacement: "\\subsetneqq ", options: "mA"},
+	{trigger: ";inq", replacement: "\\subseteq", options: "mA"},
+	{trigger: ";innq", replacement: "\\subsetneqq", options: "mA"},
+	{trigger: ";emp", replacement: "\\varnothing", options: "mA"},
 	{trigger: ";mL", replacement: "\\mathcal{L}", options: "mA"},
 	{trigger: ";mP", replacement: "\\mathcal{P}", options: "mA"},
 	{trigger: ";mC", replacement: "\\mathbb{C}", options: "mA"},
