@@ -128,6 +128,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;inq    | \subseteq                                           | $\subseteq$                         | mA      |
 | ;innq   | \subsetneqq                                         | $\subsetneqq$                       | mA      |
 | ;mL     | \\mathcal{L}                                        | $\mathcal{L}$                       | mA      |
+| ;mP     | \\mathcal{P}                                        | $\mathcal{P}$                       | mA      |
 | ;mC     | \\mathbb{C}                                         | $\mathbb{C}$                        | mA      |
 | ;mR     | \\mathbb{R}                                         | $\mathbb{R}$                        | mA      |
 | ;mZ     | \\mathbb{Z}                                         | $\mathbb{Z}$                        | mA      |
@@ -251,6 +252,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";inq", replacement: "\\subseteq ", options: "mA"},
 	{trigger: ";innq", replacement: "\\subsetneqq ", options: "mA"},
 	{trigger: ";mL", replacement: "\\mathcal{L}", options: "mA"},
+	{trigger: ";mP", replacement: "\\mathcal{P}", options: "mA"},
 	{trigger: ";mC", replacement: "\\mathbb{C}", options: "mA"},
 	{trigger: ";mR", replacement: "\\mathbb{R}", options: "mA"},
 	{trigger: ";mZ", replacement: "\\mathbb{Z}", options: "mA"},
