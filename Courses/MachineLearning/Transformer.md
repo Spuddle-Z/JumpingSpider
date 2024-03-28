@@ -10,8 +10,8 @@
 
 此结构允许输入输出的序列长度不相等。
 > [!warning] 
-    训练时解码器的输入使用目标序列（即下图红框处），而非其真正生成的结果作为下一个输入，这样可以避免预测长序列时由于时序上深度的增加产生的巨大偏差。
-    ![[seq2seqTrain.png]]
+> 训练时解码器的输入使用目标序列（即下图红框处），而非其真正生成的结果作为下一个输入，这样可以避免预测长序列时由于时序上深度的增加产生的巨大偏差。
+> ![[seq2seqTrain.png]]
 ## 束搜索
 
 贪心搜索用时较少，但其准确度不能保证，可以构造如下例子证明：
@@ -23,11 +23,12 @@
 $$\frac{1}{L^\alpha}\log p(y_1,y_2,...,y_L)$$
 其中$\frac{1}{L^\alpha}$（$\alpha$一般取0.75）是用来平衡序列长度对最后分数的影响的，防止更短的序列得分偏高。
 ## 注意力机制
+### 背景
 从心理学角度来说，人类的注意点是根据**不随意线索(Nonvolitional Cue)**和**随意线索(Volitional Cue)**来选择的（这里“随意”的意思是顺遂自己的意图，而非“随便”）。所谓不随意线索是一个环境中最引人注目，但未必是我想要关注的特征；而随意线索则相反，是我想要去关注的特征，但不一定是最显眼的。
 
 卷积、全连接、池化等都只考虑不随意线索，此时我们引入**注意力机制(Attention)**来考虑随意线索。
+### 注意力机制
 ![[attention.png|500]]
-
 Query是我们想要去注意的随意线索，key是数据中初步提取的不随意线索，value则是key所对应的值。现在我们已知query、key与key所对应的value，想要知道query所对应的value是多少。此时我们可以对各个key施以适当的权重，然后用对应的value加权求和即可，这些权重则通过注意力分数求得。
 
 - **注意力分数(Attention Score)**：代表了key与query的相关度，相关度越高，注意力分数越高；将注意力分数进行softmax归一化后，即得到注意力权重。
@@ -37,64 +38,32 @@ Query是我们想要去注意的随意线索，key是数据中初步提取的不
 - Scaled dot-product attention的注意力分数为$$a(Q,K)=\frac{QK^T}{\sqrt{d}}$$其中$Q\in\mathbb{R}^{n\times d},K\in\mathbb{R}^{m\times d},a(Q,K)\in\mathbb{R}^{n\times m}$，此处$Q,K$宽度必须相等，$\frac{1}{\sqrt{d}}$是为了消除宽度对梯度的影响。
 
 当然，可以在计算注意力分数时引入一些可训练的参数，使计算注意力的层可以学习。
+### 多头自注意力
+当key,value,query均相同时，称为**自注意力(Self-attention)**。将输入的序列分别与三个矩阵做乘法，得到key,value,query，得到的输出序列中的每个元素便都包含了其它元素的信息。
 
-当key,value,query均相同时，称为\textbf{自注意力}（Self-attention）。将输入的序列分别与三个矩阵做乘法，得到key,value,query，得到的输出序列中的每个元素便都包含了其它元素的信息。
+相较于CNN，自注意力可以在一层内整合所有数据的信息，解决了长序列的长期依赖问题；相较于RNN，自注意力则允许更高的并行度。
 
-\end{formal}
+对希望抽取同一组key,value,query中不同的信息，如短距离与长距离关系，此时引入**多头注意力(Multi-head Attention)**。
 
-相较于CNN，自注意力可以在一层内整合所有数据的信息，解决了长序列的长期依赖问题；相较于RNN，自注意力则允许更高的并行度。\par
+多头注意力中的每个**头(Head)**使用独立的注意力池化，允许其抽取相同数据的不同特征，最终拼接各个头得到最终的输出，可以类比于*CNN中的通道*。
+![[multi-head.png|450]]
 
-对希望抽取同一组key,value,query中不同的信息，如短距离与长距离关系，此时引入\textbf{多头注意力}（Multi-head Attention）。
-
-\begin{formal}
-
-    多头注意力中的每个\textbf{头}（Head）使用独立的注意力池化，允许其抽取相同数据的不同特征，最终拼接各个头得到最终的输出，可以类比于CNN中的通道。
-
-    \begin{center}
-
-        \includegraphics[width=0.6\textwidth]{figure/multi-head.png}
-
-    \end{center}
-
-\end{formal}
-
-\begin{formal}
-
-    当解码器对序列中的一个元素输出时，不应该考虑此元素之后的元素。此时可通过掩码来遮盖后方的信息，即当计算输出$x_i$时，假装当前序列长度为$i$。因此在解码器的结构中，有一个\textbf{带掩码的多头注意力}（Masked Multi-head Attention）。
-
-\end{formal}
-
-\subsubsection{层归一化 Layer Normalization}
-
+当解码器对序列中的一个元素输出时，不应该考虑此元素之后的元素。此时可通过掩码来遮盖后方的信息，即当计算输出$x_i$时，假装当前序列长度为$i$。因此在解码器的结构中，有一个**带掩码的多头注意力(Masked Multi-head Attention)**。
+## 层归一化
 批量归一化需要对一个批次内不同样本同一位置的数据进行归一化，因此在处理长度不一致的序列时会出现两个问题。一是长序列靠后位置所对应的短序列中的位置是没有信息的，此时若强行填补空白并进行归一化是没有意义的；二是序列在时序上通常是有关系的，若直接进行样本间的归一化则会抹杀这种关系。
 
-\begin{formal}
+此时引入**层归一化(Layer Normalization)**，将输入的序列归一化，保留序列在时序上的关系，但也忽略了样本间的关系。
+## 位置编码
+与CNN及RNN不同，注意力机制本身的结构中并没有考虑数据的位置信息。此时引入**位置编码(Positional Encoding)**，将位置信息添加到输入里，而非体现在模型的结构中。
 
-    此时引入\textbf{层归一化}，将输入的序列归一化，保留序列在时序上的关系，但也忽略了样本间的关系。
-
-\end{formal}
-
-\subsubsection{位置编码 Positional Encoding}
-
-与CNN及RNN不同，注意力机制本身的结构中并没有考虑数据的位置信息。此时引入\textbf{位置编码}，将位置信息添加到输入里，而非体现在模型的结构中。
-
-\begin{formal}
-
-    设原始输入为$X\in\mathbb{R}^{n\times d}$，则引入位置编码矩阵$P\in\mathbb{R}^{n\times d}$，其中元素
-
-    $$
-
-    \left\{\begin{aligned}
-
-        p_{i,2j}&=\sin\left(\frac{i}{10000^{\frac{2j}{d}}}\right) \\
-
-        p_{i,2j+1}&=\cos\left(\frac{i}{10000^{\frac{2j}{d}}}\right)
-
-    \end{aligned}\right.
-
-    $$
-
-    ，下图为$P$的热力图：
+设原始输入为$X\in\mathbb{R}^{n\times d}$，则引入位置编码矩阵$P\in\mathbb{R}^{n\times d}$，其中元素遵循以下公式：
+$$
+\left\{\begin{aligned}
+p_{i,2j}&=\sin\left(\frac{i}{10000^{\frac{2j}{d}}}\right) \\
+p_{i,2j+1}&=\cos\left(\frac{i}{10000^{\frac{2j}{d}}}\right)
+\end{aligned}\right.
+$$
+下图为$P$的热力图：
 
     \begin{center}
 
