@@ -28,39 +28,17 @@ $$\frac{1}{L^\alpha}\log p(y_1,y_2,...,y_L)$$
 卷积、全连接、池化等都只考虑不随意线索，此时我们引入**注意力机制(Attention)**来考虑随意线索。
 ![[attention.png|500]]
 
-Query是我们想要去注意的随意线索，key是数据中初步提取的不随意线索，value则是key所对应的值。现在我们已知query、key与key所对应的value，想要知道query所对应的value是多少。此时我们可以对各个key施以适当的权重，然后用对应的value加权求和即可，这些权重则通过\textbf{注意力分数}（Attention Score）求得。\\
+Query是我们想要去注意的随意线索，key是数据中初步提取的不随意线索，value则是key所对应的值。现在我们已知query、key与key所对应的value，想要知道query所对应的value是多少。此时我们可以对各个key施以适当的权重，然后用对应的value加权求和即可，这些权重则通过注意力分数求得。
 
-    注意力分数代表了key与query的相关度，相关度越高，注意力分数越高；将注意力分数进行softmax归一化后，即得到注意力权重。
+- **注意力分数(Attention Score)**：代表了key与query的相关度，相关度越高，注意力分数越高；将注意力分数进行softmax归一化后，即得到注意力权重。
 
-    \begin{example}
+常用于计算注意力分数的函数一般有两种：
+- Additive attention的注意力分数为$$a(k,q)=v^T\tanh(W_kk+W_qq)$$其等价于将key与query合并放到输入一个单隐藏层、输出大小为1的MLP中。
+- Scaled dot-product attention的注意力分数为$$a(Q,K)=\frac{QK^T}{\sqrt{d}}$$其中$Q\in\mathbb{R}^{n\times d},K\in\mathbb{R}^{m\times d},a(Q,K)\in\mathbb{R}^{n\times m}$，此处$Q,K$宽度必须相等，$\frac{1}{\sqrt{d}}$是为了消除宽度对梯度的影响。
 
-        常用于计算注意力分数的函数一般有两种：
+当然，可以在计算注意力分数时引入一些可训练的参数，使计算注意力的层可以学习。
 
-        \begin{itemize}
-
-            \item Additive attention的注意力分数为
-
-            $$a(k,q)=v^T\tanh(W_kk+W_qq)$$
-
-            其等价于将key与query合并放到输入一个单隐藏层、输出大小为1的MLP中。
-
-            \item Scaled dot-product attention的注意力分数为
-
-            $$a(Q,K)=\frac{QK^T}{\sqrt{d}}$$
-
-            其中$Q\in\mathbb{R}^{n\times d},K\in\mathbb{R}^{m\times d},a(Q,K)\in\mathbb{R}^{n\times m}$，此处$Q,K$宽度必须相等，$\frac{1}{\sqrt{d}}$是为了消除宽度对梯度的影响。
-
-        \end{itemize}
-
-    \end{example}
-
-    当然，可以在计算注意力分数时引入一些可训练的参数，使计算注意力的层可以学习。
-
-\end{formal}
-
-\begin{formal}
-
-    当key,value,query均相同时，称为\textbf{自注意力}（Self-attention）。将输入的序列分别与三个矩阵做乘法，得到key,value,query，得到的输出序列中的每个元素便都包含了其它元素的信息。
+当key,value,query均相同时，称为\textbf{自注意力}（Self-attention）。将输入的序列分别与三个矩阵做乘法，得到key,value,query，得到的输出序列中的每个元素便都包含了其它元素的信息。
 
 \end{formal}
 

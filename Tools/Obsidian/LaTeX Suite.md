@@ -110,32 +110,34 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | \\hat   | \\hat{$0}$1      | mA      |
 | \\til   | \\tilde{$0}$1    | mA      |
 ### Symbols
-| Trigger | Replacement                                         | Preview                             | Options |
-| ------- | --------------------------------------------------- | ----------------------------------- | ------- |
-| ;sum    | \\sum_{${0:i=1}}^{\${1:n}}$2                        | $$\sum_{i=1}^{n}$$                  | mA      |
-| ;prod   | \\prod_{${0:i=1}}^{\${1:n}}$2                       | $$\prod_{i=1}^{n}$$                 | mA      |
-| ;int    | \\int_{${0:-\\infty}}^{\${1:+\\infty}}$2\\ d\${2:x} | $$\int_{-\infty}^{+\infty}\ dx$$    | mA      |
-| ;pa     | \\frac{\\partial}{\\partial ${0:x}}$1               | $$\frac{\partial}{\partial x}$$     | mA      |
-| ;inf    | \\infty                                             | $\infty$                            | mA      |
-| ;->     | \to                                                 | $\to$                               | mA      |
-| ;n->    | \nrightarrow                                        | $\nrightarrow$                      | mA      |
-| ;<->    | \\leftrightarrow                                    | $\leftrightarrow$                   | mA      |
-| ;so     | \implies                                            | $\implies$                          | mA      |
-| ;<=     | \\leq                                               | $\leq$                              | mA      |
-| ;>=     | \\geq                                               | $\geq$                              | mA      |
-| ;v<=    | \\preceq                                            | $\preceq$                           | mA      |
-| ;v>=    | \\succeq                                            | $\succeq$                           | mA      |
-| ;inq    | \subseteq                                           | $\subseteq$                         | mA      |
-| ;innq   | \subsetneqq                                         | $\subsetneqq$                       | mA      |
-| ;emp    | \\varnothing                                        | $\varnothing$                       | mA      |
-| ;mL     | \\mathcal{L}                                        | $\mathcal{L}$                       | mA      |
-| ;mP     | \\mathcal{P}                                        | $\mathcal{P}$                       | mA      |
-| ;mC     | \\mathbb{C}                                         | $\mathbb{C}$                        | mA      |
-| ;mR     | \\mathbb{R}                                         | $\mathbb{R}$                        | mA      |
-| ;mZ     | \\mathbb{Z}                                         | $\mathbb{Z}$                        | mA      |
-| ;mN     | \\mathbb{N}                                         | $\mathbb{N}$                        | mA      |
-| ;amax   | \\mathop{\\arg\\max}\\limits_{${0:\\theta}}$1       | $\mathop{\arg\max}\limits_{\theta}$ | mA      |
-| ;amin   | \\mathop{\\arg\\min}\\limits_{${0:\\theta}}$1       | $\mathop{\arg\min}\limits_{\theta}$ | mA      |
+| Trigger | Replacement                                         | Preview                               | Options |
+| ------- | --------------------------------------------------- | ------------------------------------- | ------- |
+| ;sum    | \\sum_{${0:i=1}}^{\${1:n}}$2                        | $$\sum_{i=1}^{n}$$                    | mA      |
+| ;prod   | \\prod_{${0:i=1}}^{\${1:n}}$2                       | $$\prod_{i=1}^{n}$$                   | mA      |
+| ;int    | \\int_{${0:-\\infty}}^{\${1:+\\infty}}$2\\ d\${2:x} | $$\int_{-\infty}^{+\infty}\ dx$$      | mA      |
+| ;pa     | \\frac{\\partial}{\\partial ${0:x}}$1               | $$\frac{\partial}{\partial x}$$       | mA      |
+| ;inf    | \\infty                                             | $\infty$                              | mA      |
+| ;any    | \\forall                                            | $\forall$                             | mA      |
+| ;exi    | \\exists                                            | $\exists$                             | mA      |
+| ;->     | \to                                                 | $\to$                                 | mA      |
+| ;n->    | \nrightarrow                                        | $\nrightarrow$                        | mA      |
+| ;<->    | \\leftrightarrow                                    | $\leftrightarrow$                     | mA      |
+| ;so     | \implies                                            | $\implies$                            | mA      |
+| ;<=     | \\leq                                               | $\leq$                                | mA      |
+| ;>=     | \\geq                                               | $\geq$                                | mA      |
+| ;v<=    | \\preceq                                            | $\preceq$                             | mA      |
+| ;v>=    | \\succeq                                            | $\succeq$                             | mA      |
+| ;inq    | \subseteq                                           | $\subseteq$                           | mA      |
+| ;innq   | \subsetneqq                                         | $\subsetneqq$                         | mA      |
+| ;emp    | \\varnothing                                        | $\varnothing$                         | mA      |
+| ;mL     | \\mathcal{L}                                        | $\mathcal{L}$                         | mA      |
+| ;mP     | \\mathcal{P}                                        | $\mathcal{P}$                         | mA      |
+| ;mC     | \\mathbb{C}                                         | $\mathbb{C}$                          | mA      |
+| ;mR     | \\mathbb{R}                                         | $\mathbb{R}$                          | mA      |
+| ;mZ     | \\mathbb{Z}                                         | $\mathbb{Z}$                          | mA      |
+| ;mN     | \\mathbb{N}                                         | $\mathbb{N}$                          | mA      |
+| ;amax   | \\mathop{\\arg\\!\\max}\\limits_{${0:\\theta}}\\ $1 | $\mathop{\arg\!\max}\limits_{\theta}$ | mA      |
+| ;amin   | \\mathop{\\arg\\!\\min}\\limits_{${0:\\theta}}\\ $1 | $\mathop{\arg\!\min}\limits_{\theta}$ | mA      |
 ### Brackets
 
 | Trigger | Replacement  | Options |
@@ -237,11 +239,13 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: "\\til", replacement: "\\tilde{$0}$1", options: "mA"},
 	
 	// Math symbols
-	{trigger: ";inf", replacement: "\\infty", options: "mA"},
 	{trigger: ";sum", replacement: "\\sum_{${0:i=1}}^{${1:n}}$2", options: "mA"},
 	{trigger: ";prod", replacement: "\\prod_{${0:i=1}}^{${1:n}}$2", options: "mA"},
 	{trigger: ";int", replacement: "\\int_{${0:-\\infty}}^{\${1:+\\infty}}$2\\ d\${2:x}", options: "mA"},
 	{trigger: ";pa", replacement: "\\frac{\\partial}{\\partial ${0:x}}$1", options: "mA"},
+	{trigger: ";inf", replacement: "\\infty", options: "mA"},
+	{trigger: ";any", replacement: "\\forall", options: "mA"},
+	{trigger: ";exi", replacement: "\\exists", options: "mA"},
 	{trigger: ";->", replacement: "\\to", options: "mA"},
 	{trigger: ";n->", replacement: "\\nrightarrow", options: "mA"},
 	{trigger: ";<->", replacement: "\\leftrightarrow", options: "mA"},
@@ -259,8 +263,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";mR", replacement: "\\mathbb{R}", options: "mA"},
 	{trigger: ";mZ", replacement: "\\mathbb{Z}", options: "mA"},
 	{trigger: ";mN", replacement: "\\mathbb{N}", options: "mA"},
-	{trigger: ";amax", replacement: "\\mathop{\\arg\\max}\\limits_{${0:\\theta}}$1", options: "mA"},
-	{trigger: ";amin", replacement: "\\mathop{\\arg\\min}\\limits_{${0:\\theta}}$1", options: "mA"},
+	{trigger: ";amax", replacement: "\\mathop{\\arg\\!\\max}\\limits_{${0:\\theta}}\\ $1", options: "mA"},
+	{trigger: ";amin", replacement: "\\mathop{\\arg\\!\\min}\\limits_{${0:\\theta}}\\ $1", options: "mA"},
 
 	// Brackets
 	{trigger: "(", replacement: "($0)$1", options: "mA"},

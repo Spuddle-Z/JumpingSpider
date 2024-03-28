@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "fd07856d38a20bc9",
+        "id": "ea4ab57790a5f03a",
         "type": "tabs",
         "children": [
           {
-            "id": "a1e5b3f8a123f786",
+            "id": "daa201124a698d5c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Database System Technology/Homework 4.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b6c3b6b5423f0b7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Math/Game Theory 博弈论.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Math/Game Theory 博弈论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Math/Game Theory 博弈论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Courses/Math/Game Theory 博弈论.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -160,18 +139,18 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "b6c3b6b5423f0b7f",
+  "active": "daa201124a698d5c",
   "lastOpenFiles": [
-    "Courses/Math/Discrete Mathematics 离散数学.md",
+    "Courses/MachineLearning/Transformer.md",
     "Tools/Obsidian/LaTeX Suite.md",
+    "Courses/Database System Technology/Homework 4.md",
+    "Courses/Math/Discrete Mathematics 离散数学.md",
     "Courses/Math/Game Theory 博弈论.md",
     "Courses/Math/Linear Algebra 线性代数.md",
-    "Courses/Database System Technology/Homework 4.md",
     "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240327_ywh.cwb",
     "Courses/MachineLearning/Machine Learning 机器学习.md",
     "Python高级语法.md",
-    "Courses/MachineLearning/Transformer.md",
     "assets/attention.png",
     "assets/beamSearch.png",
     "assets/greedy.png",
