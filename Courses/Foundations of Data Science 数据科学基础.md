@@ -79,12 +79,4 @@ $$
 - 例：自然连接两个表格![[Pasted image 20240305170543.png|500]]
 	- Map：将$b$提取为key，将$R$中的每个元组变为$(b,(a,R))$的形式，$S$同理；
 	- Reduce：将$b$相同但来自不同表格的key-value对进行合并，并输出成$(a,c)$的形式。
-## 局部敏感哈希
-### 寻找相似文件
-如下图，主要分为三个步骤：
-![[Pasted image 20240312162142.png|600]]
-#### Shingling
-- **Shingling**：将文件转化成token串的集合，$k$-shingle则为长度为$k$的token串（如令$k=2$，文件$D=abcab$的$2$-shingles为$S(D)=\{ab,bc,ca\}$）。
-- 我们在shingles的基础上，使用Jaccard距离来衡量两文件的差异性，并使用如下图的表格表示这些文件：![[Pasted image 20240312170447.png|200]]
-#### MinHashing
 ## PageRank

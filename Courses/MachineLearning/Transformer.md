@@ -1,3 +1,7 @@
+---
+tags:
+  - Knowledge
+---
 ## 编码器-解码器架构
 一个机器学习模型可以被抽象成一个**编码器-解码器(Encoder-Decoder)**架构，如下图所示：![[EncoderDecoder.png|450]]
 **编码器(Encoder)**的作用是将输入编程为一个机器比较好学习的**中间状态(State)**，而**解码器(Decoder)**的作用则是将这个中间状态总结成输出。值得注意的是，解码器也可以接受输入。
@@ -64,49 +68,19 @@ p_{i,2j+1}&=\cos\left(\frac{i}{10000^{\frac{2j}{d}}}\right)
 \end{aligned}\right.
 $$
 下图为$P$的热力图：
+![[positionalEncoding.png|250]]
 
-    \begin{center}
-
-        \includegraphics[width=0.3\textwidth]{figure/positionalEncoding.png}
-
-    \end{center}
-
-    $X+P$即为加入位置编码后的输入。
-
-\end{formal}
+$X+P$即为加入位置编码后的输入。
 
 由于$i+\delta$处的位置编码可以由$i$处的位置编码线性变换而来，令$\omega_j=\frac{1}{10000^{\frac{2j}{d}}}$，那么
-
-\begin{center}
-
-    \includegraphics[width=0.4\textwidth]{figure/positionTransform.png}
-
-\end{center}
-
+![[positionTransform.png|400]]
 此处的变换矩阵与$i$无关，也即其可以记录原数据的相对位置。
-
-\subsubsection{Transformer}
-
-\begin{formal}
-
-    Transformer同样使用Encoder-Decoder架构。与seq2seq不同，transformer以含有注意力机制的模块替代了RNN。Transformer的具体结构如下图所示：
-
-    \begin{center}
-
-        \includegraphics[width=0.45\textwidth]{figure/transformer.png}
-
-    \end{center}
-
-\end{formal}
-
+## Transformer
+Transformer同样使用Encoder-Decoder架构。与seq2seq不同，transformer以含有注意力机制的模块替代了RNN。Transformer的具体结构如下图所示：
+![[transformer.png|425]]
 其中embedding块用来将输入的数据转化为可以被输入网络中的向量形式；
 
-add \& norm块展开图如下，此处add代表加入了一个残差网络，norm则代表层归一化；\textbf{基于位置的前馈神经网络}（Positional Feed Forward Network）相当于两层核大小为1的一维卷积层，进行进一步的处理。
-
-\begin{center}
-
-    \includegraphics[width=0.2\textwidth]{figure/add&norm.png}
-
-\end{center}
+add \& norm块展开图如下，此处add代表加入了一个残差网络，norm则代表层归一化；**基于位置的前馈神经网络(Positional Feed Forward Network)**相当于两层核大小为1的一维卷积层，进行进一步的处理。
+![[add&norm.png|150]]
 
 编码器与解码器之间的信息传递并没有其它的层，编码器的输出将作为解码器中每一个transformer块中多头注意力的key和value，其query则来自于目标序列，这就意味着编码器与解码器的输出维度是一样的。

@@ -36,3 +36,5 @@ tags:
 | `Ctrl + Shift + Q` | 字根表  |
 | `Ctrl + Shift + S` | 系统设置 |
 | `Ctrl + Shift + Z` | 快速造词 |
+|                    |      |
+^e5y2ue
