@@ -1,3 +1,10 @@
+---
+tags:
+  - Knowledge
+aliases:
+  - 局部敏感哈希
+  - Locality Sensitive Hashing
+---
 ## 概述
 **局部敏感哈希(Locality Sensitive Hashing, LSH)**：是一种近似搜索算法。对于一个拥有海量数据的数据集，通过一一比对来进行搜索是不现实的。近似搜索即只搜索与目标比较接近的一部分数据，大大降低了搜索量。
 ## 具体过程

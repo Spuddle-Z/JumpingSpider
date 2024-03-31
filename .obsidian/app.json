@@ -2,7 +2,7 @@
   "promptDelete": false,
   "attachmentFolderPath": "assets",
   "newFileLocation": "root",
-  "trashOption": "local",
+  "trashOption": "system",
   "strictLineBreaks": true,
   "livePreview": true,
   "readableLineLength": true,

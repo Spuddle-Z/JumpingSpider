@@ -1,6 +1,8 @@
 ---
 tags:
   - Knowledge
+aliases:
+  - Denoising Diffusion Probabilistic Model
 ---
 # 基本概念
 **DDPM (Denoising Diffusion Probabilistic Model)**是一种扩散模型。对于一个有噪声的图像，DDPM的任务是通过多次迭代，如下图所示，还原出原始图像，此过程称为**逆向扩散**。

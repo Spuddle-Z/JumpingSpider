@@ -37,7 +37,7 @@ tags:
 
 > [!quote] quote, cite
 ## 快捷键
-![[Hotkeys 快捷键#^dyo1vs]]
+![[快捷键#^dyo1vs]]
 ## 插件
 - [[LaTeX Suite]]
 ## CSS片段
