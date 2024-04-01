@@ -16,8 +16,6 @@ $$
 $$Pr(|J-\hat{J}|\geq\epsilon)\leq\frac{J(1-J)}{k\epsilon^2}\implies Pr(|J-\hat{J}|\leq\epsilon)\geq1-\frac{J(1-J)}{k\epsilon^2}$$
 因此只需证明
 $$\frac{J(1-J)}{k\epsilon^2}<\delta$$
-由于
-$$k=O\left( \frac{1}{\epsilon^2\delta} \right)\iff k=\frac{c}{\epsilon^2\delta}$$
-其中$c$为一常数，代入后得
-$$J(1-J)<c$$
-由于$J\in[0,1]$，所以$J(1-J)\in\left[ 0,\frac{1}{4} \right]$，$c$取大于$\frac{1}{4}$的常数即可。
+将$k=O\left( \frac{1}{\epsilon^2\delta} \right)$代入，则有
+$$\frac{J(1-J)}{\delta\epsilon^2}<O\left( \frac{1}{\delta\epsilon^2} \right)$$
+由于$J$为一常数，易证上式成立。
