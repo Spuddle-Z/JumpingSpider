@@ -136,6 +136,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;mR     | \\mathbb{R}                                         | $\mathbb{R}$                          | mA      |
 | ;mZ     | \\mathbb{Z}                                         | $\mathbb{Z}$                          | mA      |
 | ;mN     | \\mathbb{N}                                         | $\mathbb{N}$                          | mA      |
+| ;m1     | \\mathbb{1}                                         | $\mathbb{1}$                          | mA      |
 | ;amax   | \\mathop{\\arg\\!\\max}\\limits_{${0:\\theta}}\\ $1 | $\mathop{\arg\!\max}\limits_{\theta}$ | mA      |
 | ;amin   | \\mathop{\\arg\\!\\min}\\limits_{${0:\\theta}}\\ $1 | $\mathop{\arg\!\min}\limits_{\theta}$ | mA      |
 ### Brackets
@@ -263,6 +264,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";mR", replacement: "\\mathbb{R}", options: "mA"},
 	{trigger: ";mZ", replacement: "\\mathbb{Z}", options: "mA"},
 	{trigger: ";mN", replacement: "\\mathbb{N}", options: "mA"},
+	{trigger: ";m1", replacement: "\\mathbb{1}", options: "mA"},
 	{trigger: ";amax", replacement: "\\mathop{\\arg\\!\\max}\\limits_{${0:\\theta}}\\ $1", options: "mA"},
 	{trigger: ";amin", replacement: "\\mathop{\\arg\\!\\min}\\limits_{${0:\\theta}}\\ $1", options: "mA"},
 

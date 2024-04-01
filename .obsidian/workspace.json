@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "66ef07b5658e190e",
+        "id": "c35d2a7563c26e20",
         "type": "tabs",
         "children": [
           {
-            "id": "fc72090e97301176",
+            "id": "2e7e9e5c0e627c60",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Courses/数据科学基础/Homework 1.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#LaTeX",
+                "query": "cheb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Courses/数据科学基础/Homework 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Courses/数据科学基础/Homework 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Courses/数据科学基础/Homework 1.md"
+              }
             }
           }
         ],
@@ -139,9 +147,21 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "fc72090e97301176",
+  "active": "2e7e9e5c0e627c60",
   "lastOpenFiles": [
-    "Courses/数据科学基础.md",
+    "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240401_yu.cwb",
+    "Courses/数据科学基础/数据科学基础.md",
+    "Courses/数据科学基础/Homework 1.md",
+    "Courses/Database System Technology/数据库技术.md",
+    "Courses/Math/概率论.md",
+    "assets/Pasted image 20240401144921.png",
+    "Courses/Database System Technology/Homework 5.md",
+    "Tools/Obsidian/LaTeX Suite.md",
+    "Courses/数据科学基础",
+    "assets/Pasted image 20240401001519.png",
+    "assets/Pasted image 20240401001309.png",
+    "Courses/Database System Technology/Homework 1.md",
     "Tools/Clash.md",
     "Courses/MachineLearning/BERT.md",
     "assets/BERT_input.png",
@@ -149,11 +169,8 @@
     "ComputerSkills/硬盘分区.md",
     "Uncategorized/此电脑属性.md",
     "Courses/MachineLearning/卷积神经网络.md",
-    "Courses/Database System Technology/数据库技术.md",
     "Tools/快捷键.md",
-    "Tools/搜狗五笔输入法.md",
     "Uncategorized/LSH.md",
-    "Courses/Math/概率论.md",
     "Courses/Math/线性代数.md",
     "Courses/Math/信息论.md",
     "Courses/Math/博弈论.md",
@@ -164,28 +181,18 @@
     "Courses/MachineLearning/机器学习.md",
     "Courses/MachineLearning/Transformer.md",
     "Tools/Obsidian/Obsidian图片居中.md",
-    "Tools/GitHub.md",
     "assets/add&norm.png",
     "assets/transformer.png",
     "assets/positionTransform.png",
     "assets/positionalEncoding.png",
     "assets/Pasted image 20240329160309.png",
-    "assets/minHash 1.gif",
-    "assets/Pasted image 20240329153939.png",
-    "assets/minHash.gif",
     "Uncategorized",
-    "Courses/Database System Technology/Homework 5.md",
-    "Tools/Obsidian/LaTeX Suite.md",
-    "Courses/Database System Technology/Homework 4.md",
     "assets/SogouWubi_20240327_ywh.cwb",
-    "Uncategorized/Python高级语法.md",
     "assets/SogouWubi_20240326_ywf.cwb",
     "assets/SogouWubi_20240320.cwb",
     "assets/SogouWubi_20240317_yw.cwb",
     "Courses/Math",
     "assets/SogouWubi_20240315.cwb",
-    "sync.bat",
-    "新建文件夹",
-    "assets/SogouWubi_20240313.cwb"
+    "sync.bat"
   ]
 }
