@@ -45,6 +45,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;AA     | A            | $A$           | mA      |
 | ;bb     | \\beta       | $\beta$       | mA      |
 | ;BB     | B            | $B$           | mA      |
+| ;cc     | \\chi        | $\chi$        | mA      |
+| ;CC     | X            | $X$           | mA      |
 | ;dd     | \\delta      | $\delta$      | mA      |
 | ;DD     | \\Delta      | $\Delta$      | mA      |
 | ;ee     | \\varepsilon | $\varepsilon$ | mA      |
@@ -79,8 +81,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;TT     | T            | $T$           | mA      |
 | ;uu     | \\upsilon    | $\upsilon$    | mA      |
 | ;UU     | \\Upsilon    | $\Upsilon$    | mA      |
-| ;xx     | \\chi        | $\chi$        | mA      |
-| ;XX     | X            | $X$           | mA      |
+| ;xx     | \\xi         | $\xi$         | mA      |
+| ;XX     | \\Xi         | $\Xi$         | mA      |
 | ;zz     | \\zeta       | $\zeta$       | mA      |
 | ;ZZ     | \\Zeta       | $Z$           | mA      |
 ### Operations
@@ -117,7 +119,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;int    | \\int_{${0:-\\infty}}^{\${1:+\\infty}}$2\\ d\${2:x} | $$\int_{-\infty}^{+\infty}\ dx$$      | mA      |
 | ;pa     | \\frac{\\partial}{\\partial ${0:x}}$1               | $$\frac{\partial}{\partial x}$$       | mA      |
 | ;inf    | \\infty                                             | $\infty$                              | mA      |
-| ;any    | \\forall                                            | $\forall$                             | mA      |
+| ;all    | \\forall                                            | $\forall$                             | mA      |
 | ;exi    | \\exists                                            | $\exists$                             | mA      |
 | ;->     | \to                                                 | $\to$                                 | mA      |
 | ;n->    | \nrightarrow                                        | $\nrightarrow$                        | mA      |
@@ -175,6 +177,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";AA", replacement: "A", options: "mA"},
 	{trigger: ";bb", replacement: "\\beta", options: "mA"},
 	{trigger: ";BB", replacement: "B", options: "mA"},
+	{trigger: ";cc", replacement: "\\chi", options: "mA"},
+	{trigger: ";CC", replacement: "X", options: "mA"},
 	{trigger: ";dd", replacement: "\\delta", options: "mA"},
 	{trigger: ";DD", replacement: "\\Delta", options: "mA"},
 	{trigger: ";ee", replacement: "\\varepsilon", options: "mA"},
@@ -209,8 +213,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";TT", replacement: "T", options: "mA"},
 	{trigger: ";uu", replacement: "\\upsilon", options: "mA"},
 	{trigger: ";UU", replacement: "\\Upsilon", options: "mA"},
-	{trigger: ";xx", replacement: "\\chi", options: "mA"},
-	{trigger: ";XX", replacement: "X", options: "mA"},
+	{trigger: ";xx", replacement: "\\xi", options: "mA"},
+	{trigger: ";XX", replacement: "\\Xi", options: "mA"},
 	{trigger: ";zz", replacement: "\\zeta", options: "mA"},
 	{trigger: ";ZZ", replacement: "Z", options: "mA"},
 
@@ -245,7 +249,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";int", replacement: "\\int_{${0:-\\infty}}^{\${1:+\\infty}}$2\\ d\${2:x}", options: "mA"},
 	{trigger: ";pa", replacement: "\\frac{\\partial}{\\partial ${0:x}}$1", options: "mA"},
 	{trigger: ";inf", replacement: "\\infty", options: "mA"},
-	{trigger: ";any", replacement: "\\forall", options: "mA"},
+	{trigger: ";all", replacement: "\\forall", options: "mA"},
 	{trigger: ";exi", replacement: "\\exists", options: "mA"},
 	{trigger: ";->", replacement: "\\to", options: "mA"},
 	{trigger: ";n->", replacement: "\\nrightarrow", options: "mA"},
