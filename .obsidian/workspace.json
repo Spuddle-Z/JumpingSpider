@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cac8ca90a6f35169",
+        "id": "3b68a1895d2fb64c",
         "type": "tabs",
         "children": [
           {
-            "id": "f151b67080a72227",
+            "id": "36229b932ec4e5cf",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -139,8 +139,14 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "f151b67080a72227",
+  "active": "36229b932ec4e5cf",
   "lastOpenFiles": [
+    "Tools/搜狗五笔输入法.md",
+    "Courses/MachineLearning/神经网络.md",
+    "assets/neural_network.png",
+    "_Drafts/提高机器学习性能.md",
+    "Courses/MachineLearning/GPT.md",
+    "assets/GPT.png",
     "Courses/Math/博弈论.md",
     "Temp/博弈论作业/Homework 1.md",
     "Tools/Obsidian/LaTeX Suite.md",
@@ -151,8 +157,6 @@
     "Temp",
     "_Drafts/SVM.md",
     "_Drafts/扩散模型.md",
-    "_Drafts/提高机器学习性能.md",
-    "_Drafts/神经网络算法 Neural Network.md",
     "Temp/博弈论作业",
     "Courses/MachineLearning/机器学习.md",
     "_Drafts/机器学习原理.md",
@@ -165,15 +169,12 @@
     "assets/Pasted image 20240401204920.png",
     "assets/Pasted image 20240401204238.png",
     "Courses/数据科学基础.md",
-    "_Drafts/GPT.md",
     "Tools/Clash.md",
     "assets/seq2seqTrain.png",
     "assets/transformer.png",
     "assets/SogouWubi_20240401_yu.cwb",
     "assets/seq2seq.png",
     "assets/segNet_unpool.png",
-    "assets/segNet_train.png",
-    "assets/segNet.jpg",
     "assets",
     "Uncategorized/Python高级语法.md",
     "_Drafts",
@@ -182,8 +183,6 @@
     "Courses/MachineLearning/循环神经网络.md",
     "Courses/MachineLearning/BERT.md",
     "Temp/数据科学基础作业/Homework 1.md",
-    "Tools/搜狗五笔输入法.md",
-    "Courses/数据库技术.md",
     "Courses/数据科学基础",
     "Uncategorized",
     "assets/SogouWubi_20240327_ywh.cwb"
