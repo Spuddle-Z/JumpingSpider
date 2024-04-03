@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "053dcaad5c988490",
+        "id": "cac8ca90a6f35169",
         "type": "tabs",
         "children": [
           {
-            "id": "541b34201be9811b",
+            "id": "f151b67080a72227",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Temp/博弈论作业/Homework 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7a46d1cc40523000",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Math/博弈论.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Math/博弈论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Math/博弈论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Courses/Math/博弈论.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -151,17 +130,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
+      "switcher:打开快速切换": true,
+      "graph:查看关系图谱": true,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "daily-notes:打开/创建今天的日记": true,
+      "templates:插入模板": true,
+      "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "7a46d1cc40523000",
+  "active": "f151b67080a72227",
   "lastOpenFiles": [
+    "Courses/Math/博弈论.md",
     "Temp/博弈论作业/Homework 1.md",
     "Tools/Obsidian/LaTeX Suite.md",
     "Temp/数据库技术作业/Homework 1.md",
@@ -173,7 +153,6 @@
     "_Drafts/扩散模型.md",
     "_Drafts/提高机器学习性能.md",
     "_Drafts/神经网络算法 Neural Network.md",
-    "Courses/Math/博弈论.md",
     "Temp/博弈论作业",
     "Courses/MachineLearning/机器学习.md",
     "_Drafts/机器学习原理.md",
