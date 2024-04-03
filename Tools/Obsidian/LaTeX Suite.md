@@ -95,6 +95,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;3      | \^3              | mA      |
 | ;un     | \^n              | mA      |
 | ;tr     | \^T              | mA      |
+| ;d0     | _0               | mA      |
 | ;d1     | _1               | mA      |
 | ;d2     | _2               | mA      |
 | ;d3     | _3               | mA      |
@@ -226,6 +227,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";3", replacement: "^3", options: "mA"},
 	{trigger: ";un", replacement: "^n", options: "mA"},
 	{trigger: ";tr", replacement: "^T", options: "mA"},
+	{trigger: ";d0", replacement: "_0", options: "mA"},
 	{trigger: ";d1", replacement: "_1", options: "mA"},
 	{trigger: ";d2", replacement: "_2", options: "mA"},
 	{trigger: ";d3", replacement: "_3", options: "mA"},
