@@ -1,8 +1,6 @@
 ---
 tags:
   - Tutorial
-  - Obsidian
-  - LaTeX
 ---
 ## 简介
 虽然看似与LaTeX有关，但完全可以当作一个text snippet插件来使用。
@@ -154,14 +152,14 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | Trigger          | Replacement                                     | Options |
 | ---------------- | ----------------------------------------------- | ------- |
 | ;seq([A-Za-z]+); | \[\[0]]\_1,\[\[0]]\_2,\\cdots,\[\[0]]\_{${0:n}} | rmA     |
-### Blocks
+### Callout
 
 | Trigger | Replacement     | Options |
 | ------- | --------------- | ------- |
-| >ex     | > [!example] $0 | tA      |
-| >wa     | > [!warning] $0 | tA      |
-| >qu     | > [!quote] $0   | tA      |
-| >no     | > [!note] $0    | tA      |
+| ;ex     | > [!example] $0 | tA      |
+| ;wa     | > [!warning] $0 | tA      |
+| ;qu     | > [!quote] $0   | tA      |
+| ;no     | > [!note] $0    | tA      |
 ## 配置代码 #Code 
 ```javascript
 [
@@ -284,9 +282,9 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
     {trigger: ";seq([A-Za-z]+);", replacement: "[[0]]_1,[[0]]_2,\\cdots,[[0]]_{${0:n}} ", options: "rmA"},
 
     // Callout
-    {trigger: ">ex", replacement: "> [!example] $0", options: "tA"},
-    {trigger: ">wa", replacement: "> [!warning] $0", options: "tA"},
-    {trigger: ">qu", replacement: "> [!quote] $0", options: "tA"},
-    {trigger: ">no", replacement: "> [!note] $0", options: "tA"},
+    {trigger: ";ex", replacement: "> [!example] $0", options: "tA"},
+    {trigger: ";wa", replacement: "> [!warning] $0", options: "tA"},
+    {trigger: ";qu", replacement: "> [!quote] $0", options: "tA"},
+    {trigger: ";no", replacement: "> [!note] $0", options: "tA"},
 ]
 ```

@@ -1,7 +1,6 @@
 ---
 tags:
   - Tutorial
-  - Python
 ---
 ## 常用指令
 - `conda create -n <env> python=3.x`：创建名为`<env>`的环境，指定python版本为3.x；

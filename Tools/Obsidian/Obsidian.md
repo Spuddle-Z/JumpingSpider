@@ -1,6 +1,5 @@
 ---
 tags:
-  - Obsidian
   - Tutorial
 ---
 ## 语法
