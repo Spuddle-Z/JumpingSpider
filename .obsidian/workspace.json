@@ -11,8 +11,12 @@
             "id": "d86b545f21330bb4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Tools/搜狗五笔输入法.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Tools/搜狗五笔输入法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Tools/搜狗五笔输入法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Tools/搜狗五笔输入法.md"
+              }
             }
           }
         ],
@@ -141,6 +149,7 @@
   },
   "active": "d86b545f21330bb4",
   "lastOpenFiles": [
+    "assets/SogouWubi_20240408_yga.cwb",
     "Courses/Math/博弈论.md",
     "Temp/博弈论作业/Homework 1.md",
     "Courses/Math/凸优化.md",
