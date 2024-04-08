@@ -27,3 +27,26 @@ tags:
 	df = rdd.toDF()
 	```
 - 描述：将一个RDD对象`rdd`转化成DataFrame对象`df`。
+## Scipy
+### `linprog()`函数
+- 使用：对于一个标准的线性规划
+	$$
+	\begin{aligned}
+	\min_{x}&\ c^Tx\\
+	s.t.\quad A_1x&\leq b_1\\
+	A_2x&=b_2\\
+	x&\geq0
+	\end{aligned}
+	$$
+	可以用如下函数来求解
+	```python
+	from scipy.optimize import linprog
+	bounds = np.array([[0,None] for _ in range(len(c))]))
+	x = linprog(c      = c,
+				A_ub   = A_1,
+				b_ub   = b_1,
+				A_eq   = A_2,
+				b_eq   = b_2,
+				bounds = bounds,
+				method = 'highs')
+	```

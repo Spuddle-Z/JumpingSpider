@@ -28,14 +28,15 @@ tags:
 Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the `replacement`.
 ### Environments
 
-| Trigger | Replacement                                           | Options |
-| ------- | ----------------------------------------------------- | ------- |
-| ;m      | \$\$0$                                                | tA      |
-| ;M      | \$\$\$0$$                                             | tA      |
-| ;c      | \`\$0\`\$1                                            | tA      |
-| ;C      | \`\`\`\$0\`\`\`\$1                                    | tA      |
-| ;ali    | \\begin{aligned}\n$0\n\\end{aligned}                  | mA      |
-| :ali    | \\left\\{\\begin{aligned}\n$0\n\\end{aligned}\\right. | mA      |
+| Trigger | Replacement                                             | Options |
+| ------- | ------------------------------------------------------- | ------- |
+| ;m      | \$\$0$                                                  | tA      |
+| ;M      | \$\$\$0$$                                               | tA      |
+| ;c      | \`\$0\`\$1                                              | tA      |
+| ;C      | \`\`\`\$0\`\`\`\$1                                      | tA      |
+| ;ali    | \\begin{aligned}\n$0\n\\end{aligned}                    | mA      |
+| :ali    | \\left\\{\\begin{aligned}\n$0\n\\end{aligned}\\right.$1 | mA      |
+| ;mat    | \\left\\{\\begin{bmatrix}\n$0\n\\end{bmatrix}\\right.$1 | mA      |
 ### Greek Letters
 | Trigger | Replacement  | Preview       | Options |
 | ------- | ------------ | ------------- | ------- |
@@ -168,8 +169,9 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";M", replacement: "$$$0$$", options: "tA"},
 	{trigger: ";c", replacement: "`$0`$1", options: "tA"},
 	{trigger: ";C", replacement: "```$0```$1", options: "tA"},
-	{trigger: ";ali", replacement: "\\begin{aligned}\n$0\n\\end{aligned}", options: "mA"},
-	{trigger: ":ali", replacement: "\\left\\{\\begin{aligned}\n$0\n\\end{aligned}\\right.", options: "mA"},
+	{trigger: ";ali", replacement: "\\begin{aligned}\n$0\n\\end{aligned}$1", options: "mA"},
+	{trigger: ":ali", replacement: "\\left\\{\\begin{aligned}\n$0\n\\end{aligned}\\right.$1", options: "mA"},
+	{trigger: ";mat", replacement: "\\begin{bmatrix}\n$0\n\\end{bmatrix}$1", options: "mA"},
 
 	// Greek letters
 	{trigger: ";aa", replacement: "\\alpha", options: "mA"},
