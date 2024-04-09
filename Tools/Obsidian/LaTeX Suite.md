@@ -31,11 +31,11 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | Trigger | Replacement                                             | Options |
 | ------- | ------------------------------------------------------- | ------- |
 | ;m      | \$\$0$                                                  | tA      |
-| ;M      | \$\$\$0$$                                               | tA      |
+| ;;m     | \$\$\$0$$                                               | tA      |
 | ;c      | \`\$0\`\$1                                              | tA      |
-| ;C      | \`\`\`\$0\`\`\`\$1                                      | tA      |
+| ;;c     | \`\`\`\$0\`\`\`\$1                                      | tA      |
 | ;ali    | \\begin{aligned}\n$0\n\\end{aligned}                    | mA      |
-| :ali    | \\left\\{\\begin{aligned}\n$0\n\\end{aligned}\\right.$1 | mA      |
+| ;;ali   | \\left\\{\\begin{aligned}\n$0\n\\end{aligned}\\right.$1 | mA      |
 | ;mat    | \\left\\{\\begin{bmatrix}\n$0\n\\end{bmatrix}\\right.$1 | mA      |
 ### Greek Letters
 | Trigger | Replacement  | Preview       | Options |
@@ -49,10 +49,10 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;dd     | \\delta      | $\delta$      | mA      |
 | ;DD     | \\Delta      | $\Delta$      | mA      |
 | ;ee     | \\varepsilon | $\varepsilon$ | mA      |
-| :ee     | \\epsilon    | $\epsilon$    | mA      |
-| :EE     | E            | $E$           | mA      |
+| ;;ee    | \\epsilon    | $\epsilon$    | mA      |
+| ;EE     | E            | $E$           | mA      |
 | ;ff     | \\varphi     | $\varphi$     | mA      |
-| :ff     | \\phi        | $\phi$        | mA      |
+| ;;ff    | \\phi        | $\phi$        | mA      |
 | ;FF     | \\Phi        | $\Phi$        | mA      |
 | ;gg     | \\gamma      | $\gamma$      | mA      |
 | ;GG     | \\Gamma      | $\Gamma$      | mA      |
@@ -107,17 +107,18 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;dz     | _z               | mA      |
 | ;sq     | \\sqrt{$0}$1     | mA      |
 | ;/      | \\frac{$0}{$1}$2 | mA      |
-| :/      | \\frac{1}{$0}$1  | mA      |
-| \\bar   | \\bar{$0}$1      | mA      |
-| \\hat   | \\hat{$0}$1      | mA      |
-| \\til   | \\tilde{$0}$1    | mA      |
+| ;;/     | \\frac{1}{$0}$1  | mA      |
+| ;ba     | \\bar{$0}$1      | mA      |
+| ;ha     | \\hat{$0}$1      | mA      |
+| ;tl     | \\tilde{$0}$1    | mA      |
 ### Symbols
 | Trigger | Replacement                                         | Preview                               | Options |
 | ------- | --------------------------------------------------- | ------------------------------------- | ------- |
 | ;sum    | \\sum_{${0:i=1}}^{\${1:n}}$2                        | $$\sum_{i=1}^{n}$$                    | mA      |
 | ;prod   | \\prod_{${0:i=1}}^{\${1:n}}$2                       | $$\prod_{i=1}^{n}$$                   | mA      |
 | ;int    | \\int_{${0:-\\infty}}^{\${1:+\\infty}}$2\\ d\${2:x} | $$\int_{-\infty}^{+\infty}\ dx$$      | mA      |
-| ;pa     | \\frac{\\partial}{\\partial ${0:x}}$1               | $$\frac{\partial}{\partial x}$$       | mA      |
+| ;pd     | \\frac{\\partial}{\\partial ${0:x}}$1               | $$\frac{\partial}{\partial x}$$       | mA      |
+| ;pa     | \\partial                                           | $\partial$                            | mA      |
 | ;inf    | \\infty                                             | $\infty$                              | mA      |
 | ;all    | \\forall                                            | $\forall$                             | mA      |
 | ;exi    | \\exists                                            | $\exists$                             | mA      |
@@ -143,12 +144,15 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;amin   | \\mathop{\\arg\\!\\min}\\limits_{${0:\\theta}}\\ $1 | $\mathop{\arg\!\min}\limits_{\theta}$ | mA      |
 ### Brackets
 
-| Trigger | Replacement  | Options |
-| ------- | ------------ | ------- |
-| (       | ($0)$1       | mA      |
-| {       | {$0}$1       | mA      |
-| [       | [$0]$1       | mA      |
-| ;{      | \\{$0\\}$1   | mA      |
+| Trigger | Replacement         | Options |
+| ------- | ------------------- | ------- |
+| (       | ($0)$1              | mA      |
+| ;;(     | \\left($0\\right)$1 | mA      |
+| [       | [$0]$1              | mA      |
+| ;;[     | \\left[$0\\right]$1 | mA      |
+| {       | {$0}$1              | mA      |
+| ;{      | \\{$0\\}$1          | mA      |
+| ;;{     | \\left{$0\\right}$1 | mA      |
 ### Sequence
 | Trigger          | Replacement                                     | Options |
 | ---------------- | ----------------------------------------------- | ------- |
@@ -166,11 +170,11 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 [
 	// Environments
 	{trigger: ";m", replacement: "$$0$", options: "tA"},
-	{trigger: ";M", replacement: "$$$0$$", options: "tA"},
+	{trigger: ";;m", replacement: "$$$0$$", options: "tA"},
 	{trigger: ";c", replacement: "`$0`$1", options: "tA"},
-	{trigger: ";C", replacement: "```$0```$1", options: "tA"},
+	{trigger: ";;c", replacement: "```$0```$1", options: "tA"},
 	{trigger: ";ali", replacement: "\\begin{aligned}\n$0\n\\end{aligned}$1", options: "mA"},
-	{trigger: ":ali", replacement: "\\left\\{\\begin{aligned}\n$0\n\\end{aligned}\\right.$1", options: "mA"},
+	{trigger: ";;ali", replacement: "\\left\\{\\begin{aligned}\n$0\n\\end{aligned}\\right.$1", options: "mA"},
 	{trigger: ";mat", replacement: "\\begin{bmatrix}\n$0\n\\end{bmatrix}$1", options: "mA"},
 
 	// Greek letters
@@ -183,10 +187,10 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";dd", replacement: "\\delta", options: "mA"},
 	{trigger: ";DD", replacement: "\\Delta", options: "mA"},
 	{trigger: ";ee", replacement: "\\varepsilon", options: "mA"},
-	{trigger: ":ee", replacement: "\\epsilon", options: "mA"},
+	{trigger: ";;ee", replacement: "\\epsilon", options: "mA"},
 	{trigger: ";EE", replacement: "E", options: "mA"},
 	{trigger: ";ff", replacement: "\\varphi", options: "mA"},
-	{trigger: ":ff", replacement: "\\phi", options: "mA"},
+	{trigger: ";;ff", replacement: "\\phi", options: "mA"},
 	{trigger: ";FF", replacement: "\\Phi", options: "mA"},
 	{trigger: ";gg", replacement: "\\gamma", options: "mA"},
 	{trigger: ";GG", replacement: "\\Gamma", options: "mA"},
@@ -240,16 +244,17 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";dz", replacement: "_z", options: "mA"},
 	{trigger: ";sq", replacement: "\\sqrt{$0}$1", options: "mA"},
 	{trigger: ";/", replacement: "\\frac{$0}{$1}$2", options: "mA"},
-	{trigger: ":/", replacement: "\\frac{1}{$0}$1", options: "mA"},
-	{trigger: "\\bar", replacement: "\\bar{$0}$1", options: "mA"},
-	{trigger: "\\hat", replacement: "\\hat{$0}$1", options: "mA"},
-	{trigger: "\\til", replacement: "\\tilde{$0}$1", options: "mA"},
+	{trigger: ";;/", replacement: "\\frac{1}{$0}$1", options: "mA"},
+	{trigger: ";ba", replacement: "\\bar{$0}$1", options: "mA"},
+	{trigger: ";ha", replacement: "\\hat{$0}$1", options: "mA"},
+	{trigger: ";tl", replacement: "\\tilde{$0}$1", options: "mA"},
 	
 	// Math symbols
 	{trigger: ";sum", replacement: "\\sum_{${0:i=1}}^{${1:n}}$2", options: "mA"},
 	{trigger: ";prod", replacement: "\\prod_{${0:i=1}}^{${1:n}}$2", options: "mA"},
 	{trigger: ";int", replacement: "\\int_{${0:-\\infty}}^{\${1:+\\infty}}$2\\ d\${2:x}", options: "mA"},
-	{trigger: ";pa", replacement: "\\frac{\\partial}{\\partial ${0:x}}$1", options: "mA"},
+	{trigger: ";pd", replacement: "\\frac{\\partial}{\\partial ${0:x}}$1", options: "mA"},
+	{trigger: ";pa", replacement: "\\partial", options: "mA"},
 	{trigger: ";inf", replacement: "\\infty", options: "mA"},
 	{trigger: ";all", replacement: "\\forall", options: "mA"},
 	{trigger: ";exi", replacement: "\\exists", options: "mA"},
@@ -276,9 +281,12 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 
 	// Brackets
 	{trigger: "(", replacement: "($0)$1", options: "mA"},
-	{trigger: "{", replacement: "{$0}$1", options: "mA"},
+	{trigger: ";;(", replacement: "\\left($0\\right)$1", options: "mA"},
 	{trigger: "[", replacement: "[$0]$1", options: "mA"},
+	{trigger: ";;[", replacement: "\\left[$0\\right]$1", options: "mA"},
+	{trigger: "{", replacement: "{$0}$1", options: "mA"},
 	{trigger: ";{", replacement: "\\{$0\\}$1", options: "mA"},
+	{trigger: ";;{", replacement: "\\left{$0\\right}$1", options: "mA"},
 
 	// Sequence
     {trigger: ";seq([A-Za-z]+);", replacement: "[[0]]_1,[[0]]_2,\\cdots,[[0]]_{${0:n}} ", options: "rmA"},
