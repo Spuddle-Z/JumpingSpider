@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7ee4598e879a21c6",
+        "id": "7eb77493a0c2a334",
         "type": "tabs",
         "children": [
           {
-            "id": "b2c9032e39e1fbac",
+            "id": "05540318bfb168b9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -139,9 +139,10 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "b2c9032e39e1fbac",
+  "active": "05540318bfb168b9",
   "lastOpenFiles": [
     "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240412_uyq.cwb",
     "assets/SogouWubi_20240412_uw.cwb",
     "_Drafts/算法.md",
     "Temp/博弈论作业/Homework 1.md",
@@ -184,7 +185,6 @@
     "assets/Pasted image 20240402112219.png",
     "assets/Pasted image 20240401204920.png",
     "assets/Pasted image 20240401204238.png",
-    "assets/SogouWubi_20240401_yu.cwb",
-    "assets"
+    "assets/SogouWubi_20240401_yu.cwb"
   ]
 }
