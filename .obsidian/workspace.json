@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7eb77493a0c2a334",
+        "id": "786f9a9c924a36e4",
         "type": "tabs",
         "children": [
           {
-            "id": "05540318bfb168b9",
+            "id": "f6377a32f6aad5a5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -139,18 +139,18 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "05540318bfb168b9",
+  "active": "f6377a32f6aad5a5",
   "lastOpenFiles": [
+    "_Drafts/扩散模型.md",
+    "Tools/Obsidian/LaTeX Suite.md",
     "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240412_uyq.cwb",
     "assets/SogouWubi_20240412_uw.cwb",
     "_Drafts/算法.md",
     "Temp/博弈论作业/Homework 1.md",
     "assets/SogouWubi_20240409_uqw.cwb",
-    "Tools/Obsidian/LaTeX Suite.md",
     "_Drafts/提高机器学习性能.md",
     "_Drafts/核函数与正则学习.md",
-    "_Drafts/扩散模型.md",
     "_Drafts/机器学习原理.md",
     "assets/SogouWubi_20240408_yga.cwb",
     "Courses/Math/博弈论.md",

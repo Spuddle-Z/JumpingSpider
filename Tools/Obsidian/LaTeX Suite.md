@@ -28,15 +28,16 @@ tags:
 Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the `replacement`.
 ### Environments
 
-| Trigger | Replacement                                             | Options |
-| ------- | ------------------------------------------------------- | ------- |
-| ;m      | \$\$0$                                                  | tA      |
-| ;;m     | \$\$\$0$$                                               | tA      |
-| ;c      | \`\$0\`\$1                                              | tA      |
-| ;;c     | \`\`\`\$0\`\`\`\$1                                      | tA      |
-| ;ali    | \\begin{aligned}\n$0\n\\end{aligned}                    | mA      |
-| ;;ali   | \\left\\{\\begin{aligned}\n$0\n\\end{aligned}\\right.$1 | mA      |
-| ;mat    | \\left\\{\\begin{bmatrix}\n$0\n\\end{bmatrix}\\right.$1 | mA      |
+| Trigger | Replacement                                                                               | Options |
+| ------- | ----------------------------------------------------------------------------------------- | ------- |
+| ;wv     | \<span style="text-decoration-line: underline; text-decoration-style: wavy;">$0\</span>$1 | tA      |
+| ;m      | \$\$0$                                                                                    | tA      |
+| ;;m     | \$\$\$0$$                                                                                 | tA      |
+| ;c      | \`\$0\`\$1                                                                                | tA      |
+| ;;c     | \`\`\`\$0\`\`\`\$1                                                                        | tA      |
+| ;ali    | \\begin{aligned}\n$0\n\\end{aligned}                                                      | mA      |
+| ;;ali   | \\left\\{\\begin{aligned}\n$0\n\\end{aligned}\\right.$1                                   | mA      |
+| ;mat    | \\left\\{\\begin{bmatrix}\n$0\n\\end{bmatrix}\\right.$1                                   | mA      |
 ### Greek Letters
 | Trigger | Replacement  | Preview       | Options |
 | ------- | ------------ | ------------- | ------- |
@@ -169,6 +170,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 ```javascript
 [
 	// Environments
+	{trigger: ";wv", replacement: "<span style=\"text-decoration-line: underline; text-decoration-style: wavy;\">$0</span>$1", options: "tA"},
 	{trigger: ";m", replacement: "$$0$", options: "tA"},
 	{trigger: ";;m", replacement: "$$$0$$", options: "tA"},
 	{trigger: ";c", replacement: "`$0`$1", options: "tA"},
