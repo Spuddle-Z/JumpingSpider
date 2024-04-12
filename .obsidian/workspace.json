@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "529a09f40e6c8910",
+        "id": "7ee4598e879a21c6",
         "type": "tabs",
         "children": [
           {
-            "id": "cd0424af5f940b83",
+            "id": "b2c9032e39e1fbac",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -139,11 +139,12 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "cd0424af5f940b83",
+  "active": "b2c9032e39e1fbac",
   "lastOpenFiles": [
+    "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240412_uw.cwb",
     "_Drafts/算法.md",
     "Temp/博弈论作业/Homework 1.md",
-    "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240409_uqw.cwb",
     "Tools/Obsidian/LaTeX Suite.md",
     "_Drafts/提高机器学习性能.md",
@@ -173,7 +174,6 @@
     "ComputerSkills/硬盘分区.md",
     "Tools/Conda.md",
     "Tools/Git.md",
-    "Tools/GitHub.md",
     "assets/neural_network.png",
     "assets/GPT.png",
     "Temp/数据库技术作业",
@@ -185,7 +185,6 @@
     "assets/Pasted image 20240401204920.png",
     "assets/Pasted image 20240401204238.png",
     "assets/SogouWubi_20240401_yu.cwb",
-    "assets",
-    "_Drafts"
+    "assets"
   ]
 }
