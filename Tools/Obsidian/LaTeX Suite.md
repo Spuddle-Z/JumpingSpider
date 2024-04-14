@@ -1,6 +1,7 @@
 ---
 tags:
   - Tutorial
+  - Code
 ---
 ## 简介
 虽然看似与LaTeX有关，但完全可以当作一个text snippet插件来使用。
@@ -166,7 +167,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;wa     | > [!warning] $0 | tA      |
 | ;qu     | > [!quote] $0   | tA      |
 | ;no     | > [!note] $0    | tA      |
-## 配置代码 #Code 
+## Code
 ```javascript
 [
 	// Environments
