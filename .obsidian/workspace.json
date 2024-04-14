@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ba9e26cc1a0f4df3",
+        "id": "3601d6eb3ee7caff",
         "type": "tabs",
         "children": [
           {
-            "id": "bb1f512b777b234c",
+            "id": "06a3ec1ad5d870bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/CapsLock+.md",
+                "file": "_Drafts/Vimium C.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/CapsLock+.md",
+                "file": "_Drafts/Vimium C.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/CapsLock+.md",
+                "file": "_Drafts/Vimium C.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/CapsLock+.md"
+                "file": "_Drafts/Vimium C.md"
               }
             }
           }
@@ -147,12 +147,14 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "bb1f512b777b234c",
+  "active": "06a3ec1ad5d870bf",
   "lastOpenFiles": [
-    "Tools/Obsidian/LaTeX Suite.md",
-    "Tools/CapsLock+.md",
-    "Tools/快捷键.md",
+    "_Drafts/Vimium C.md",
     "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240414_udp.cwb",
+    "Tools/快捷键.md",
+    "Tools/CapsLock+.md",
+    "Tools/Obsidian/LaTeX Suite.md",
     "Tools/GitHub.md",
     "Tools/Obsidian/Obsidian.md",
     "_Drafts/扩散模型.md",
@@ -183,7 +185,6 @@
     "Uncategorized/此电脑属性.md",
     "Tools/LaTeX.md",
     "ComputerSkills/硬盘分区.md",
-    "Tools/Conda.md",
     "assets/neural_network.png",
     "assets/GPT.png",
     "Temp/数据库技术作业",
@@ -193,7 +194,6 @@
     "assets/kernal.png",
     "assets/Pasted image 20240402112219.png",
     "assets/Pasted image 20240401204920.png",
-    "assets/Pasted image 20240401204238.png",
-    "assets/SogouWubi_20240401_yu.cwb"
+    "assets/Pasted image 20240401204238.png"
   ]
 }
