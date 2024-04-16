@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "5581f25580a0de68",
+        "id": "e98c1c59c288d050",
         "type": "tabs",
         "children": [
           {
-            "id": "414138612e0d3aa8",
+            "id": "76e772fd922f3bb8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/数据库技术.md",
+                "file": "Courses/MachineLearning/机器学习.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "ef539b686efaa620",
+            "id": "3d61d65ccc7d5cce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/搜狗五笔输入法.md",
+                "file": "Courses/Math/博弈论.md",
                 "mode": "preview",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Far",
+                "query": "minim",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/搜狗五笔输入法.md",
+                "file": "Courses/Math/博弈论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/搜狗五笔输入法.md",
+                "file": "Courses/Math/博弈论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/搜狗五笔输入法.md"
+                "file": "Courses/Math/博弈论.md"
               }
             }
           }
@@ -160,53 +160,52 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "ef539b686efaa620",
+  "active": "3d61d65ccc7d5cce",
   "lastOpenFiles": [
+    "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240416_iqa.cwb",
+    "Courses/Math/博弈论.md",
+    "Courses/Math/凸优化.md",
+    "Courses/MachineLearning/机器学习.md",
+    "_Drafts/SVM.md",
+    "_Drafts/图数据相关算法.md",
+    "Uncategorized/PageRank.md",
+    "_Drafts/提高深度学习系统性能.md",
+    "_Drafts/提高机器学习性能.md",
+    "Uncategorized/LSH.md",
+    "_Drafts/算法.md",
+    "_Drafts/扩散模型.md",
+    "_Drafts/核函数与正则学习.md",
+    "Courses/Math/图论.md",
+    "assets/Pasted image 20240415204139.png",
+    "assets/Pasted image 20240415201656.png",
+    "Courses/数据库技术.md",
+    "Courses/Math/离散数学.md",
+    "Tools/CapsLock+.md",
+    "assets/DQ.png",
     "assets/SogouWubi_20240415_uxq.cwb",
     "Tools/快捷键.md",
     "Tools/Vimium C.md",
-    "Tools/搜狗五笔输入法.md",
-    "Courses/数据库技术.md",
-    "Tools/CapsLock+.md",
-    "_Drafts/未命名.md",
     "assets/SogouWubi_20240414_udp.cwb",
     "Tools/Obsidian/LaTeX Suite.md",
     "Tools/GitHub.md",
     "Tools/Obsidian/Obsidian.md",
-    "_Drafts/扩散模型.md",
     "assets/SogouWubi_20240412_uyq.cwb",
     "assets/SogouWubi_20240412_uw.cwb",
-    "_Drafts/算法.md",
     "Temp/博弈论作业/Homework 1.md",
     "assets/SogouWubi_20240409_uqw.cwb",
-    "_Drafts/提高机器学习性能.md",
-    "_Drafts/核函数与正则学习.md",
     "_Drafts/机器学习原理.md",
     "assets/SogouWubi_20240408_yga.cwb",
-    "Courses/Math/博弈论.md",
-    "Courses/Math/凸优化.md",
     "assets/Pasted image 20240407213009.png",
     "Tools/SQL Server.md",
     "assets/Pasted image 20240407154751.png",
     "assets/Pasted image 20240407154700.png",
     "assets/Pasted image 20240407154518.png",
-    "Uncategorized/Python高级语法.md",
     "assets/SogouWubi_20240405_yo.cwb",
-    "Courses/MachineLearning/机器学习.md",
-    "Courses/MachineLearning/LDA.md",
-    "Courses/Math/概率论.md",
-    "_Drafts/SVM.md",
-    "Tools/Obsidian/Obsidian图片居中.md",
-    "Uncategorized/此电脑属性.md",
     "assets/neural_network.png",
     "assets/GPT.png",
     "Temp/数据库技术作业",
     "Temp/数据科学基础作业",
-    "Temp",
-    "Temp/博弈论作业",
-    "assets/kernal.png",
-    "assets/Pasted image 20240402112219.png",
-    "assets/Pasted image 20240401204920.png",
-    "assets/Pasted image 20240401204238.png"
+    "assets/kernal.png"
   ]
 }

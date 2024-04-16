@@ -1,6 +1,7 @@
 ---
 tags:
   - Knowledge
+  - Code
 aliases:
   - 局部敏感哈希
   - Locality Sensitive Hashing
@@ -37,3 +38,72 @@ aliases:
 但我们希望的是如图中*红线*一样，在相似到某个程度之后，才被分到一个**哈希桶(Hash Bucket)**中，此时便需要结合两种思路的特点。
 
 - **Banding**：将整个的签名拆分成子向量，在子向量中使用AND思路，在子向量间使用OR思路，即两个签名中只要有一个子向量相等，便将这两个签名记为一个候选对。![[Pasted image 20240329160309.png|600]]
+## 代码示例
+```python
+import pandas as pd
+import numpy as np
+from tqdm import tqdm
+
+# Load data
+'''
+此处的数据是200个文件，每个文件都已经被转化成了一个长度为1e6的one-hot向量
+'''
+df = pd.read_csv("/kaggle/input/docs-for-lsh/docs_for_lsh.csv")
+data = df.iloc[:, 1:].to_numpy()
+
+# Set parameters
+v = 1000000    # Length of one-hot
+f = 200        # Numbers of file
+n = 100        # Length of signature
+b = 20         # Numbers of bands
+r = n // b     # Rows per band
+
+# 创建n个哈希函数，n为签名的长度
+np.random.seed(n)
+hashes = np.array([np.random.permutation(v) for _ in tqdm(range(n))])
+print("Hashes:", hashes.shape)
+
+# 根据创建出的哈希函数与one-hot向量算出签名
+def minHash(hashes, one_hot):
+    signature = np.full(hashes.shape[0], np.inf)
+    for i, flag in enumerate(one_hot):
+        if flag:
+            signature = np.minimum(signature, hashes[:, i])
+    return signature.tolist()
+
+signs = np.array([minHash(hashes, data[:,col]) for col in tqdm(range(200))])
+print("Signs:", signs.shape)
+
+import hashlib
+
+# 创建哈希桶
+buckets = {}
+for file in tqdm(range(n)):
+    for band in range(b):
+        hashObj = hashlib.md5()
+        begin = file * r
+        tmp = str(signs[file][begin:begin+r])
+        hashObj.update(tmp.encode())
+        tag = hashObj.hexdigest()
+        if tag not in buckets:
+            buckets[tag] = [file]
+        elif file not in buckets[tag]:
+            buckets[tag].append(file)
+
+# 找到与0号文件在同一个桶中的文件，只计算这些文件与0号文件的相似性
+similar_docs = {}
+for bucket in buckets.values():
+    if 0 in bucket:
+        for doc_id in bucket:
+            if doc_id != 0 and doc_id not in similar_docs:
+                similarity = jaccard_score(data[0], data[doc_id])
+                similar_docs[doc_id] = similarity
+
+# 按照相似度排序，并输出前30位
+sorted_similar_docs = sorted(similar_docs.items(), key=lambda x: x[1], reverse=True)
+
+top_30 = sorted_similar_docs[:30]
+
+for doc_id, similarity in top_30:
+    print(f"Document ID: {doc_id}  \tSimilarity: {similarity}")
+```

@@ -50,8 +50,8 @@ tags:
 | `Caps + S`     | 鼠标下移      |
 | `Caps + A`     | 鼠标左移      |
 | `Caps + D`     | 鼠标右移      |
-| `Caps + M`     | 鼠标滚轮向下    |
-| `Caps + ,`     | 鼠标滚轮向上    |
+| `Caps + ,`     | 鼠标滚轮向下    |
+| `Caps + M`     | 鼠标滚轮向上    |
 
 ^yip6rv
 
@@ -124,7 +124,7 @@ listColor=0xc0c0c0
 	```ini
 	[Keys]
 	press_caps = keyFunc_esc
-	  
+	
 	caps_a = keyfunc_mouse_left
 	caps_b = keyFunc_doNothing
 	caps_c = keyFunc_doNothing
@@ -137,7 +137,7 @@ listColor=0xc0c0c0
 	caps_j = keyFunc_moveLeft
 	caps_k = keyFunc_moveDown
 	caps_l = keyFunc_moveRight
-	caps_m = keyfunc_wheel_down
+	caps_m = keyfunc_wheel_up
 	caps_n = keyFunc_doNothing
 	caps_o = keyFunc_moveWordRight
 	caps_p = keyFunc_winPin
@@ -151,7 +151,7 @@ listColor=0xc0c0c0
 	caps_x = keyFunc_doNothing
 	caps_y = keyFunc_doNothing
 	caps_z = keyFunc_doNothing
-	  
+	
 	caps_1 = keyFunc_doNothing
 	caps_2 = keyFunc_doNothing
 	caps_3 = keyFunc_doNothing
@@ -162,42 +162,41 @@ listColor=0xc0c0c0
 	caps_8 = keyFunc_doNothing
 	caps_9 = keyFunc_doNothing
 	caps_0 = keyFunc_doNothing
-	  
-	caps_minus     = keyFunc_doNothing
-	caps_equal     = keyFunc_doNothing
+	
+	caps_minus     = keyFunc_doNothing
+	caps_equal     = keyFunc_doNothing
 	caps_backspace = keyFunc_doNothing
-	  
+	
 	caps_tab = keyFunc_tabScript
-	  
-	caps_leftSquareBracket  = keyFunc_doNothing
+	
+	caps_leftSquareBracket  = keyFunc_doNothing
 	caps_rightSquareBracket = keyFunc_doNothing
-	caps_backslash          = keyFunc_doNothing
-	  
+	caps_backslash          = keyFunc_doNothing
+	
 	caps_semicolon = keyFunc_end
-	caps_quote     = keyFunc_doNothing
-	caps_enter     = keyFunc_doNothing
-	  
-	caps_comma = keyfunc_wheel_up
-	caps_dot   = keyfunc_click_right
+	caps_quote     = keyFunc_doNothing
+	caps_enter     = keyFunc_doNothing
+	
+	caps_comma = keyfunc_wheel_down
+	caps_dot   = keyfunc_click_right
 	caps_slash = keyFunc_doNothing
-	  
-	caps_space     = keyfunc_click_left
+	
+	caps_space     = keyfunc_click_left
 	caps_right_alt = keyFunc_doNothing
-	  
-	caps_f1  = keyFunc_doNothing
-	caps_f2  = keyFunc_doNothing
-	caps_f3  = keyFunc_doNothing
-	caps_f4  = keyFunc_doNothing
-	caps_f5  = keyFunc_doNothing
-	caps_f6  = keyFunc_doNothing
-	caps_f7  = keyFunc_doNothing
-	caps_f8  = keyFunc_doNothing
-	caps_f9  = keyFunc_doNothing
+	
+	caps_f1  = keyFunc_doNothing
+	caps_f2  = keyFunc_doNothing
+	caps_f3  = keyFunc_doNothing
+	caps_f4  = keyFunc_doNothing
+	caps_f5  = keyFunc_doNothing
+	caps_f6  = keyFunc_doNothing
+	caps_f7  = keyFunc_doNothing
+	caps_f8  = keyFunc_doNothing
+	caps_f9  = keyFunc_doNothing
 	caps_f10 = keyFunc_doNothing
 	caps_f11 = keyFunc_doNothing
 	caps_f12 = keyFunc_doNothing
-	  
-	 
+	
 	caps_lalt_a = keyFunc_doNothing
 	caps_lalt_b = keyFunc_doNothing
 	caps_lalt_c = keyFunc_doNothing
@@ -224,7 +223,7 @@ listColor=0xc0c0c0
 	caps_lalt_x = keyFunc_doNothing
 	caps_lalt_y = keyFunc_doNothing
 	caps_lalt_z = keyFunc_doNothing
-	  
+	
 	caps_lalt_1 = keyFunc_doNothing
 	caps_lalt_2 = keyFunc_doNothing
 	caps_lalt_3 = keyFunc_doNothing
@@ -235,25 +234,25 @@ listColor=0xc0c0c0
 	caps_lalt_8 = keyFunc_doNothing
 	caps_lalt_9 = keyFunc_doNothing
 	caps_lalt_0 = keyFunc_doNothing
-	  
-	caps_lalt_minus     = keyFunc_doNothing
-	caps_lalt_equal     = keyFunc_doNothing
+	
+	caps_lalt_minus     = keyFunc_doNothing
+	caps_lalt_equal     = keyFunc_doNothing
 	caps_lalt_backspace = keyFunc_doNothing
-	  
+	
 	caps_lalt_tab = keyFunc_doNothing
-	  
-	caps_lalt_leftSquareBracket  = keyFunc_doNothing
+	
+	caps_lalt_leftSquareBracket  = keyFunc_doNothing
 	caps_lalt_rightSquareBracket = keyFunc_doNothing
-	caps_lalt_backslash          = keyFunc_doNothing
-	  
+	caps_lalt_backslash          = keyFunc_doNothing
+	
 	caps_lalt_semicolon = keyFunc_selectEnd
-	caps_lalt_quote     = keyFunc_doNothing
-	caps_lalt_enter     = keyFunc_doNothing
-	  
+	caps_lalt_quote     = keyFunc_doNothing
+	caps_lalt_enter     = keyFunc_doNothing
+	
 	caps_lalt_comma = keyFunc_doNothing
-	caps_lalt_dot   = keyFunc_doNothing
+	caps_lalt_dot   = keyFunc_doNothing
 	caps_lalt_slash = keyFunc_doNothing
-	  
+	
 	caps_lalt_space = keyFunc_doNothing
 	```
 - 第二个则去掉了除特殊操作外的全部键位映射，此版本用于习惯正常电脑上编辑文档的操作。
