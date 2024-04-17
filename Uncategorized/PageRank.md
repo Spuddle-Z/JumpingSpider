@@ -1,6 +1,7 @@
 ---
 tags:
   - Knowledge
+  - Code
 ---
 ## 基本概念
 **PageRank**是Google的看家算法，其可以对海量的网页进行重要性分析，并按照其重要性排序。
@@ -24,3 +25,16 @@ $$PR_{t}=M\cdot PR_{t-1}$$
 
 因此，谷歌使用的矩阵为
 $$A=\beta M+(1-\beta)\left[ \frac{1}{N} \right]_{N\times N}$$
+## Code
+```python
+import networkx as nx
+
+# 加载数据
+G_tmp = nx.read_edgelist('../input/google-web-graph/web-Google.txt', create_using = nx.DiGraph)
+# 留下最大的弱连通分量
+G = max(nx.weakly_connected_components(G_tmp), key=len)
+# 打印图的一些信息
+print(nx.info(G))
+# 直接调用PageRank算法
+pagerank_nx = nx.pagerank(G, alpha=0.85, tol=1e-10)
+```

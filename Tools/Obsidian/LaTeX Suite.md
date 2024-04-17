@@ -113,6 +113,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;ba     | \\bar{$0}$1      | mA      |
 | ;ha     | \\hat{$0}$1      | mA      |
 | ;tl     | \\tilde{$0}$1    | mA      |
+| ;       | \\quad           | mA      |
+| ;;      | \\qquad          | mA      |
 ### Symbols
 | Trigger | Replacement                                         | Preview                               | Options |
 | ------- | --------------------------------------------------- | ------------------------------------- | ------- |
@@ -146,15 +148,16 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;amin   | \\mathop{\\arg\\!\\min}\\limits_{${0:\\theta}}\\ $1 | $\mathop{\arg\!\min}\limits_{\theta}$ | mA      |
 ### Brackets
 
-| Trigger | Replacement         | Options |
-| ------- | ------------------- | ------- |
-| (       | ($0)$1              | mA      |
-| ;;(     | \\left($0\\right)$1 | mA      |
-| [       | [$0]$1              | mA      |
-| ;;[     | \\left[$0\\right]$1 | mA      |
-| {       | {$0}$1              | mA      |
-| ;{      | \\{$0\\}$1          | mA      |
-| ;;{     | \\left{$0\\right}$1 | mA      |
+| Trigger | Replacement                       | Options |
+| ------- | --------------------------------- | ------- |
+| (       | ($0)$1                            | mA      |
+| ;;(     | \\left($0\\right)$1               | mA      |
+| [       | [$0]$1                            | mA      |
+| ;;[     | \\left[$0\\right]$1               | mA      |
+| {       | {$0}$1                            | mA      |
+| ;{      | \\{$0\\}$1                        | mA      |
+| ;;{     | \\left{$0\\right}$1               | mA      |
+| ;;<     | \\left\\langle$0\\right\\rangle$1 | mA      |
 ### Sequence
 | Trigger          | Replacement                                     | Options |
 | ---------------- | ----------------------------------------------- | ------- |
@@ -251,6 +254,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";ba", replacement: "\\bar{$0}$1", options: "mA"},
 	{trigger: ";ha", replacement: "\\hat{$0}$1", options: "mA"},
 	{trigger: ";tl", replacement: "\\tilde{$0}$1", options: "mA"},
+	{trigger: "; ", replacement: "\\quad", options: "mA"},
+	{trigger: ";; ", replacement: "\\qquad", options: "mA"},
 	
 	// Math symbols
 	{trigger: ";sum", replacement: "\\sum_{${0:i=1}}^{${1:n}}$2", options: "mA"},
@@ -290,6 +295,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: "{", replacement: "{$0}$1", options: "mA"},
 	{trigger: ";{", replacement: "\\{$0\\}$1", options: "mA"},
 	{trigger: ";;{", replacement: "\\left{$0\\right}$1", options: "mA"},
+	{trigger: ";;<", replacement: "\\left\\langle$0\\right\\rangle$1", options: "mA"},
 
 	// Sequence
     {trigger: ";seq([A-Za-z]+);", replacement: "[[0]]_1,[[0]]_2,\\cdots,[[0]]_{${0:n}} ", options: "rmA"},
