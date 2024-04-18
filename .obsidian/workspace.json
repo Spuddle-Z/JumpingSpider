@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "45fc2c3ce65c3677",
+        "id": "68df89fb877f7833",
         "type": "tabs",
         "children": [
           {
-            "id": "caca33ec7fd16262",
+            "id": "d5e9c798b2aa20cf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Math/博弈论.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b96b77539b7d06b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Obsidian/LaTeX Suite.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Tools/Obsidian/LaTeX Suite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Tools/Obsidian/LaTeX Suite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Tools/Obsidian/LaTeX Suite.md"
+              }
             }
           }
         ],
@@ -139,21 +160,22 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "caca33ec7fd16262",
+  "active": "4b96b77539b7d06b",
   "lastOpenFiles": [
-    "Tools/搜狗五笔输入法.md",
-    "assets/SogouWubi_20240418_iiq.cwb",
+    "Courses/Math/博弈论.md",
+    "Courses/Math/离散数学.md",
+    "Tools/Obsidian/LaTeX Suite.md",
     "Courses/MachineLearning/机器学习.md",
     "Courses/MachineLearning/SVM.md",
+    "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240418_iiq.cwb",
     "_Drafts/岭回归.md",
-    "Tools/Obsidian/LaTeX Suite.md",
     "assets/Pasted image 20240417211538.png",
     "assets/Pasted image 20240417211328.png",
     "Tools/Vimium C.md",
     "assets/SogouWubi_20240417_ir.cwb",
     "Tools/Obsidian/Obsidian.md",
     "Courses/Math/凸优化.md",
-    "Courses/Math/博弈论.md",
     "Uncategorized/PageRank.md",
     "assets/SogouWubi_20240416_iqa.cwb",
     "_Drafts/图数据相关算法.md",
@@ -167,7 +189,6 @@
     "assets/Pasted image 20240415204139.png",
     "assets/Pasted image 20240415201656.png",
     "Courses/数据库技术.md",
-    "Courses/Math/离散数学.md",
     "Tools/CapsLock+.md",
     "assets/DQ.png",
     "assets/SogouWubi_20240415_uxq.cwb",
