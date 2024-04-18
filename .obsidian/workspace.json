@@ -4,43 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e98c1c59c288d050",
+        "id": "45fc2c3ce65c3677",
         "type": "tabs",
         "children": [
           {
-            "id": "76e772fd922f3bb8",
+            "id": "caca33ec7fd16262",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Drafts/SVM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d61d65ccc7d5cce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/MachineLearning/机器学习.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d1b3e924926d1d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/Obsidian/LaTeX Suite.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -109,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Drafts/SVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Drafts/SVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_Drafts/SVM.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -171,16 +139,22 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "76e772fd922f3bb8",
+  "active": "caca33ec7fd16262",
   "lastOpenFiles": [
-    "Tools/Obsidian/LaTeX Suite.md",
-    "_Drafts/SVM.md",
+    "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240418_iiq.cwb",
     "Courses/MachineLearning/机器学习.md",
+    "Courses/MachineLearning/SVM.md",
+    "_Drafts/岭回归.md",
+    "Tools/Obsidian/LaTeX Suite.md",
+    "assets/Pasted image 20240417211538.png",
+    "assets/Pasted image 20240417211328.png",
+    "Tools/Vimium C.md",
+    "assets/SogouWubi_20240417_ir.cwb",
     "Tools/Obsidian/Obsidian.md",
     "Courses/Math/凸优化.md",
     "Courses/Math/博弈论.md",
     "Uncategorized/PageRank.md",
-    "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240416_iqa.cwb",
     "_Drafts/图数据相关算法.md",
     "_Drafts/提高深度学习系统性能.md",
@@ -198,7 +172,6 @@
     "assets/DQ.png",
     "assets/SogouWubi_20240415_uxq.cwb",
     "Tools/快捷键.md",
-    "Tools/Vimium C.md",
     "assets/SogouWubi_20240414_udp.cwb",
     "Tools/GitHub.md",
     "assets/SogouWubi_20240412_uyq.cwb",
@@ -208,15 +181,10 @@
     "_Drafts/机器学习原理.md",
     "assets/SogouWubi_20240408_yga.cwb",
     "assets/Pasted image 20240407213009.png",
-    "Tools/SQL Server.md",
     "assets/Pasted image 20240407154751.png",
     "assets/Pasted image 20240407154700.png",
     "assets/Pasted image 20240407154518.png",
     "assets/SogouWubi_20240405_yo.cwb",
-    "assets/neural_network.png",
-    "assets/GPT.png",
-    "Temp/数据库技术作业",
-    "Temp/数据科学基础作业",
-    "assets/kernal.png"
+    "assets/neural_network.png"
   ]
 }

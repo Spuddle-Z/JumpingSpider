@@ -87,34 +87,34 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;zz     | \\zeta       | $\zeta$       | mA      |
 | ;ZZ     | \\Zeta       | $Z$           | mA      |
 ### Operations
-| Trigger | Replacement      | Options |
-| ------- | ---------------- | ------- |
-| ;tx     | \\text{$0}       | mA      |
-| ;up     | ^{$0}$1          | mA      |
-| ;do     | _{$0}$1          | mA      |
-| ;2      | \^2              | mA      |
-| ;3      | \^3              | mA      |
-| ;un     | \^n              | mA      |
-| ;tr     | \^T              | mA      |
-| ;d0     | _0               | mA      |
-| ;d1     | _1               | mA      |
-| ;d2     | _2               | mA      |
-| ;d3     | _3               | mA      |
-| ;dn     | _n               | mA      |
-| ;di     | _i               | mA      |
-| ;dj     | _j               | mA      |
-| ;dk     | _k               | mA      |
-| ;dx     | _x               | mA      |
-| ;dy     | _y               | mA      |
-| ;dz     | _z               | mA      |
-| ;sq     | \\sqrt{$0}$1     | mA      |
-| ;/      | \\frac{$0}{$1}$2 | mA      |
-| ;;/     | \\frac{1}{$0}$1  | mA      |
-| ;ba     | \\bar{$0}$1      | mA      |
-| ;ha     | \\hat{$0}$1      | mA      |
-| ;tl     | \\tilde{$0}$1    | mA      |
-| ;       | \\quad           | mA      |
-| ;;      | \\qquad          | mA      |
+| Trigger    | Replacement      | Options |
+| ---------- | ---------------- | ------- |
+| ;tx        | \\text{$0}       | mA      |
+| ;up        | ^{$0}$1          | mA      |
+| ;do        | _{$0}$1          | mA      |
+| ;2         | \^2              | mA      |
+| ;3         | \^3              | mA      |
+| ;un        | \^n              | mA      |
+| ;tr        | \^T              | mA      |
+| ;d0        | _0               | mA      |
+| ;d1        | _1               | mA      |
+| ;d2        | _2               | mA      |
+| ;d3        | _3               | mA      |
+| ;dn        | _n               | mA      |
+| ;di        | _i               | mA      |
+| ;dj        | _j               | mA      |
+| ;dk        | _k               | mA      |
+| ;dx        | _x               | mA      |
+| ;dy        | _y               | mA      |
+| ;dz        | _z               | mA      |
+| ;sq        | \\sqrt{$0}$1     | mA      |
+| ;/         | \\frac{$0}{$1}$2 | mA      |
+| ;;/        | \\frac{1}{$0}$1  | mA      |
+| ;ba        | \\bar{$0}$1      | mA      |
+| ;ha        | \\hat{$0}$1      | mA      |
+| ;tl        | \\tilde{$0}$1    | mA      |
+| ;\<space>  | \\quad           | mA      |
+| ;;\<space> | \\qquad          | mA      |
 ### Symbols
 | Trigger | Replacement                                         | Preview                               | Options |
 | ------- | --------------------------------------------------- | ------------------------------------- | ------- |
@@ -158,6 +158,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;{      | \\{$0\\}$1                        | mA      |
 | ;;{     | \\left{$0\\right}$1               | mA      |
 | ;;<     | \\left\\langle$0\\right\\rangle$1 | mA      |
+| ;u{     | \\underbrace{$0}\_{$1}$2          | mA      |
 ### Sequence
 | Trigger          | Replacement                                     | Options |
 | ---------------- | ----------------------------------------------- | ------- |
@@ -295,6 +296,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: "{", replacement: "{$0}$1", options: "mA"},
 	{trigger: ";{", replacement: "\\{$0\\}$1", options: "mA"},
 	{trigger: ";;{", replacement: "\\left{$0\\right}$1", options: "mA"},
+	{trigger: ";u{", replacement: "\\underbrace{$0}_{$1}$2", options: "mA"},
 	{trigger: ";;<", replacement: "\\left\\langle$0\\right\\rangle$1", options: "mA"},
 
 	// Sequence
