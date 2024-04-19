@@ -115,6 +115,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;tl        | \\tilde{$0}$1    | mA      |
 | ;\<space>  | \\quad           | mA      |
 | ;;\<space> | \\qquad          | mA      |
+| ;and       | &                | mA      |
 ### Symbols
 | Trigger | Replacement                                         | Preview                               | Options |
 | ------- | --------------------------------------------------- | ------------------------------------- | ------- |
@@ -158,6 +159,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;{      | \\{$0\\}$1                        | mA      |
 | ;;{     | \\left{$0\\right}$1               | mA      |
 | ;;<     | \\left\\langle$0\\right\\rangle$1 | mA      |
+| ;\|     | \\left\\lvert$0\\right\\rvert$1   | mA      |
+| ;;\|    | \\left\\lVert$0\\right\\rVert$1   | mA      |
 | ;u{     | \\underbrace{$0}\_{$1}$2          | mA      |
 ### Sequence
 | Trigger          | Replacement                                     | Options |
@@ -257,6 +260,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";tl", replacement: "\\tilde{$0}$1", options: "mA"},
 	{trigger: "; ", replacement: "\\quad", options: "mA"},
 	{trigger: ";; ", replacement: "\\qquad", options: "mA"},
+	{trigger: ";and", replacement: "&", options: "mA"},
 	
 	// Math symbols
 	{trigger: ";sum", replacement: "\\sum_{${0:i=1}}^{${1:n}}$2", options: "mA"},
@@ -296,8 +300,10 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: "{", replacement: "{$0}$1", options: "mA"},
 	{trigger: ";{", replacement: "\\{$0\\}$1", options: "mA"},
 	{trigger: ";;{", replacement: "\\left{$0\\right}$1", options: "mA"},
-	{trigger: ";u{", replacement: "\\underbrace{$0}_{$1}$2", options: "mA"},
 	{trigger: ";;<", replacement: "\\left\\langle$0\\right\\rangle$1", options: "mA"},
+	{trigger: ";|", replacement: "\\left\\lvert$0\\right\\rvert$1", options: "mA"},
+	{trigger: ";;|", replacement: "\\left\\lVert$0\\right\\rVert$1", options: "mA"},
+	{trigger: ";u{", replacement: "\\underbrace{$0}_{$1}$2", options: "mA"},
 
 	// Sequence
     {trigger: ";seq([A-Za-z]+);", replacement: "[[0]]_1,[[0]]_2,\\cdots,[[0]]_{${0:n}} ", options: "rmA"},

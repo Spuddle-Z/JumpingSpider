@@ -8,31 +8,42 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d5e9c798b2aa20cf",
+            "id": "9685376a55a0228b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Math/博弈论.md",
+                "file": "_Drafts/岭回归.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4b96b77539b7d06b",
+            "id": "39453d703043a9ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Obsidian/LaTeX Suite.md",
+                "file": "Courses/MachineLearning/机器学习.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "96eb0604fa9fad13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Math/概率论.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Obsidian/LaTeX Suite.md",
+                "file": "_Drafts/岭回归.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Obsidian/LaTeX Suite.md",
+                "file": "_Drafts/岭回归.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Obsidian/LaTeX Suite.md"
+                "file": "_Drafts/岭回归.md"
               }
             }
           }
@@ -160,22 +171,26 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "4b96b77539b7d06b",
+  "active": "9685376a55a0228b",
   "lastOpenFiles": [
-    "Courses/Math/博弈论.md",
-    "Courses/Math/离散数学.md",
-    "Tools/Obsidian/LaTeX Suite.md",
+    "Courses/Math/概率论.md",
+    "_Drafts/岭回归.md",
     "Courses/MachineLearning/机器学习.md",
     "Courses/MachineLearning/SVM.md",
+    "Tools/Obsidian/LaTeX Suite.md",
+    "assets/Pasted image 20240419113527.png",
+    "Courses/Math/博弈论.md",
+    "assets/Pasted image 20240419101910.png",
+    "Courses/Math/凸优化.md",
+    "_Drafts/未命名.md",
     "Tools/搜狗五笔输入法.md",
+    "Courses/Math/离散数学.md",
     "assets/SogouWubi_20240418_iiq.cwb",
-    "_Drafts/岭回归.md",
     "assets/Pasted image 20240417211538.png",
     "assets/Pasted image 20240417211328.png",
     "Tools/Vimium C.md",
     "assets/SogouWubi_20240417_ir.cwb",
     "Tools/Obsidian/Obsidian.md",
-    "Courses/Math/凸优化.md",
     "Uncategorized/PageRank.md",
     "assets/SogouWubi_20240416_iqa.cwb",
     "_Drafts/图数据相关算法.md",
@@ -199,13 +214,10 @@
     "assets/SogouWubi_20240412_uw.cwb",
     "Temp/博弈论作业/Homework 1.md",
     "assets/SogouWubi_20240409_uqw.cwb",
-    "_Drafts/机器学习原理.md",
     "assets/SogouWubi_20240408_yga.cwb",
     "assets/Pasted image 20240407213009.png",
     "assets/Pasted image 20240407154751.png",
     "assets/Pasted image 20240407154700.png",
-    "assets/Pasted image 20240407154518.png",
-    "assets/SogouWubi_20240405_yo.cwb",
-    "assets/neural_network.png"
+    "assets/SogouWubi_20240405_yo.cwb"
   ]
 }
