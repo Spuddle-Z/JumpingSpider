@@ -1,6 +1,7 @@
 ---
 tags:
   - Tutorial
+  - Code
 ---
 1. 新建一个css文件
 2. 将如下的代码放到css文件中：

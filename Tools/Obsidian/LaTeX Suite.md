@@ -135,6 +135,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;>=     | \\geq                                               | $\geq$                                | mA      |
 | ;v<=    | \\preceq                                            | $\preceq$                             | mA      |
 | ;v>=    | \\succeq                                            | $\succeq$                             | mA      |
+| ;nin    | \\notin                                             | $\notin$                              | mA      |
 | ;inq    | \subseteq                                           | $\subseteq$                           | mA      |
 | ;innq   | \subsetneqq                                         | $\subsetneqq$                         | mA      |
 | ;emp    | \\varnothing                                        | $\varnothing$                         | mA      |
@@ -168,12 +169,13 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;seq([A-Za-z]+); | \[\[0]]\_1,\[\[0]]\_2,\\cdots,\[\[0]]\_{${0:n}} | rmA     |
 ### Callout
 
-| Trigger | Replacement     | Options |
-| ------- | --------------- | ------- |
-| ;ex     | > [!example] $0 | tA      |
-| ;wa     | > [!warning] $0 | tA      |
-| ;qu     | > [!quote] $0   | tA      |
-| ;no     | > [!note] $0    | tA      |
+| Trigger | Replacement        | Options |
+| ------- | ------------------ | ------- |
+| ;de     | > [!definition] $0 | tA      |
+| ;ex     | > [!example] $0    | tA      |
+| ;no     | > [!note] $0       | tA      |
+| ;pr     | > [!proof] $0      | tA      |
+| ;wa     | > [!caution] $0    | tA      |
 ## Code
 ```javascript
 [
@@ -279,6 +281,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";>=", replacement: "\\geq", options: "mA"},
 	{trigger: ";v<=", replacement: "\\preceq", options: "mA"},
 	{trigger: ";v>=", replacement: "\\succeq", options: "mA"},
+	{trigger: ";nin", replacement: "\\notin", options: "mA"},
 	{trigger: ";inq", replacement: "\\subseteq", options: "mA"},
 	{trigger: ";innq", replacement: "\\subsetneqq", options: "mA"},
 	{trigger: ";emp", replacement: "\\varnothing", options: "mA"},
@@ -309,9 +312,10 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
     {trigger: ";seq([A-Za-z]+);", replacement: "[[0]]_1,[[0]]_2,\\cdots,[[0]]_{${0:n}} ", options: "rmA"},
 
     // Callout
+    {trigger: ";de", replacement: "> [!definition] $0", options: "tA"},
     {trigger: ";ex", replacement: "> [!example] $0", options: "tA"},
-    {trigger: ";wa", replacement: "> [!warning] $0", options: "tA"},
-    {trigger: ";qu", replacement: "> [!quote] $0", options: "tA"},
     {trigger: ";no", replacement: "> [!note] $0", options: "tA"},
+    {trigger: ";pr", replacement: "> [!proof] $0", options: "tA"},
+    {trigger: ";wa", replacement: "> [!caution] $0", options: "tA"},
 ]
 ```

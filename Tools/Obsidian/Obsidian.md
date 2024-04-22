@@ -12,34 +12,20 @@ tags:
 > text
 > text
 ```
-> [!note] note
- 
-> [!abstract] abstract, summary, tldr
+常用callout：
+> [!note] Note
 
-> [!todo] info, todo
+> [!caution] 
 
-> [!tip] tip, hint, important
+> [!example] 
 
-> [!done] success, check, done
-
-> [!help] question, help, faq
-
-> [!warning] warning, caution, attention
-
-> [!fail] failure, fail, missing
-
-> [!error] danger, error
-
-> [!bug] bug
-
-> [!example] example
-
-> [!quote] quote, cite
+> [!proof] 
 ## 快捷键
 
 | 快捷键 ^dyo1vs        | 功能           | 所属插件                      |
 | ------------------ | ------------ | ------------------------- |
 | `Ctrl + J`         | 切换编辑与预览模式    |                           |
+| `Ctrl + L`         | 插入内部链接       |                           |
 | `Ctrl + U`         | 选中文本添加/去掉删除线 |                           |
 | `Ctrl + ;`         | 增加文档属性       |                           |
 | `Alt + 1-6`        | 设此行为1-6级标题   |                           |

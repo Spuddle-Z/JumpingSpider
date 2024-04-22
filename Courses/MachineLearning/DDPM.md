@@ -38,7 +38,7 @@ $$
 则$x_t$可以表示为
 $$x_t = \bar\alpha_tx_0 + \bar\beta_t\bar\varepsilon_t \tag{2}$$
 当经过$T$步拆楼之后，有$\alpha_T\rightarrow0$，这意味着所剩的楼体几乎可以忽略了，大厦已经被拆成了砖瓦。
-> [!warning] 注*：
+> [!caution] 注*：
 > 上面过程中的$\alpha,\beta$与DDPM原论文中的定义并不相同。
 ## 重建图像
 拆楼是一个$x_{t-1}\rightarrow x_t$的过程，盖楼自然就是拿这些数据学习一个$x_t\rightarrow x_{t-1}$的模型了。设该模型为$\mu(x_t)$，则模型的训练目标为最小化下式：
@@ -66,5 +66,5 @@ $$
 $$
 且易证$\varepsilon$与$\omega$为两个相互独立的正态随机变量。此时用$\varepsilon$与$\omega$表示$\bar\varepsilon_{t-1}$与$\varepsilon_t$，并代入式(5)中，省略去损失函数的权重，得到DDPM的最终损失函数：
 $$\left\lVert\varepsilon - \frac{\bar\beta_t}{\beta_t}\epsilon_\theta(\bar\alpha_tx_0 + \bar\beta_t\varepsilon, t)\right\rVert^2$$
-> [!warning] 注*：
+> [!caution] 注*：
 > 此处的$\frac{\bar\beta_t}{\beta_t}\epsilon_\theta$即为原论文中的$\epsilon_\theta$。

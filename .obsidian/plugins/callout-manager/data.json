@@ -1,0 +1,91 @@
+{
+  "callouts": {
+    "custom": [
+      "proof",
+      "definition"
+    ],
+    "settings": {
+      "proof": [
+        {
+          "changes": {
+            "icon": "math-integral-x"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "158, 134, 200"
+          }
+        }
+      ],
+      "caution": [
+        {
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "245, 112, 115"
+          }
+        }
+      ],
+      "important": [
+        {
+          "changes": {
+            "icon": "lucide-list"
+          }
+        }
+      ],
+      "tldr": [
+        {
+          "changes": {}
+        }
+      ],
+      "Definition": [
+        {
+          "changes": {
+            "icon": "lucide-book-marked",
+            "color": "151, 216, 248"
+          }
+        }
+      ],
+      "example": [
+        {
+          "changes": {
+            "color": "255, 203, 107"
+          }
+        }
+      ],
+      "definition": [
+        {
+          "changes": {
+            "icon": "lucide-book-marked",
+            "color": "151, 216, 248"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidianFallbackForced": false,
+    "obsidian": true,
+    "theme": false,
+    "snippet": false
+  }
+}
