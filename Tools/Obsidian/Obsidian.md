@@ -13,13 +13,17 @@ tags:
 > text
 ```
 常用callout：
-> [!note] Note
-
-> [!caution] 
-
 > [!example] 
 
+> [!note] Note
+
+> [!theorem] 
+
+> [!definition] 
+
 > [!proof] 
+
+> [!caution] 
 ## 快捷键
 
 | 快捷键 ^dyo1vs        | 功能           | 所属插件                      |

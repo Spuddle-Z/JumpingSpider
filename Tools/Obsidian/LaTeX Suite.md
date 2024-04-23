@@ -104,6 +104,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;di        | _i               | mA      |
 | ;dj        | _j               | mA      |
 | ;dk        | _k               | mA      |
+| ;dt        | _t               | mA      |
 | ;dx        | _x               | mA      |
 | ;dy        | _y               | mA      |
 | ;dz        | _z               | mA      |
@@ -122,7 +123,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;sum    | \\sum_{${0:i=1}}^{\${1:n}}$2                        | $$\sum_{i=1}^{n}$$                    | mA      |
 | ;prod   | \\prod_{${0:i=1}}^{\${1:n}}$2                       | $$\prod_{i=1}^{n}$$                   | mA      |
 | ;int    | \\int_{${0:-\\infty}}^{\${1:+\\infty}}$2\\ d\${2:x} | $$\int_{-\infty}^{+\infty}\ dx$$      | mA      |
-| ;pd     | \\frac{\\partial}{\\partial ${0:x}}$1               | $$\frac{\partial}{\partial x}$$       | mA      |
+| ;pd     | \\frac{\\partial $0}{\\partial ${1:x}}$2            | $$\frac{\partial}{\partial x}$$       | mA      |
 | ;pa     | \\partial                                           | $\partial$                            | mA      |
 | ;inf    | \\infty                                             | $\infty$                              | mA      |
 | ;all    | \\forall                                            | $\forall$                             | mA      |
@@ -131,6 +132,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;n->    | \nrightarrow                                        | $\nrightarrow$                        | mA      |
 | ;<->    | \\leftrightarrow                                    | $\leftrightarrow$                     | mA      |
 | ;so     | \implies                                            | $\implies$                            | mA      |
+| ;eq     | \\Longleftrightarrow                                | $\Longleftrightarrow$                 | mA      |
 | ;<=     | \\leq                                               | $\leq$                                | mA      |
 | ;>=     | \\geq                                               | $\geq$                                | mA      |
 | ;v<=    | \\preceq                                            | $\preceq$                             | mA      |
@@ -145,6 +147,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;mR     | \\mathbb{R}                                         | $\mathbb{R}$                          | mA      |
 | ;mZ     | \\mathbb{Z}                                         | $\mathbb{Z}$                          | mA      |
 | ;mN     | \\mathbb{N}                                         | $\mathbb{N}$                          | mA      |
+| ;;mN    | \\mathbb{N}_+                                       | $\mathbb{N}_+$                        | mA      |
 | ;m1     | \\mathbb{1}                                         | $\mathbb{1}$                          | mA      |
 | ;amx    | \\mathop{\\arg\\!\\max}\\limits_{${0:\\theta}}\\ $1 | $\mathop{\arg\!\max}\limits_{\theta}$ | mA      |
 | ;amn    | \\mathop{\\arg\\!\\min}\\limits_{${0:\\theta}}\\ $1 | $\mathop{\arg\!\min}\limits_{\theta}$ | mA      |
@@ -171,11 +174,12 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 
 | Trigger | Replacement        | Options |
 | ------- | ------------------ | ------- |
-| ;de     | > [!definition] $0 | tA      |
+| ;df     | > [!definition] $0 | tA      |
 | ;ex     | > [!example] $0    | tA      |
-| ;no     | > [!note] $0       | tA      |
-| ;pr     | > [!proof] $0      | tA      |
-| ;wa     | > [!caution] $0    | tA      |
+| ;nt     | > [!note] $0       | tA      |
+| ;pf     | > [!proof] $0      | tA      |
+| ;th     | > [!theorem] $0    | tA      |
+| ;wn     | > [!caution] $0    | tA      |
 ## Code
 ```javascript
 [
@@ -251,6 +255,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";di", replacement: "_i", options: "mA"},
 	{trigger: ";dj", replacement: "_j", options: "mA"},
 	{trigger: ";dk", replacement: "_k", options: "mA"},
+	{trigger: ";dt", replacement: "_t", options: "mA"},
 	{trigger: ";dx", replacement: "_x", options: "mA"},
 	{trigger: ";dy", replacement: "_y", options: "mA"},
 	{trigger: ";dz", replacement: "_z", options: "mA"},
@@ -268,7 +273,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";sum", replacement: "\\sum_{${0:i=1}}^{${1:n}}$2", options: "mA"},
 	{trigger: ";prod", replacement: "\\prod_{${0:i=1}}^{${1:n}}$2", options: "mA"},
 	{trigger: ";int", replacement: "\\int_{${0:-\\infty}}^{\${1:+\\infty}}$2\\ d\${2:x}", options: "mA"},
-	{trigger: ";pd", replacement: "\\frac{\\partial}{\\partial ${0:x}}$1", options: "mA"},
+	{trigger: ";pd", replacement: "\\frac{\\partial $0}{\\partial ${1:x}}$2", options: "mA"},
 	{trigger: ";pa", replacement: "\\partial", options: "mA"},
 	{trigger: ";inf", replacement: "\\infty", options: "mA"},
 	{trigger: ";all", replacement: "\\forall", options: "mA"},
@@ -277,6 +282,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";n->", replacement: "\\nrightarrow", options: "mA"},
 	{trigger: ";<->", replacement: "\\leftrightarrow", options: "mA"},
 	{trigger: ";so", replacement: "\\implies", options: "mA"},
+	{trigger: ";eq", replacement: "\\Longleftrightarrow", options: "mA"},
 	{trigger: ";<=", replacement: "\\leq", options: "mA"},
 	{trigger: ";>=", replacement: "\\geq", options: "mA"},
 	{trigger: ";v<=", replacement: "\\preceq", options: "mA"},
@@ -291,6 +297,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";mR", replacement: "\\mathbb{R}", options: "mA"},
 	{trigger: ";mZ", replacement: "\\mathbb{Z}", options: "mA"},
 	{trigger: ";mN", replacement: "\\mathbb{N}", options: "mA"},
+	{trigger: ";;mN", replacement: "\\mathbb{N}_+", options: "mA"},
 	{trigger: ";m1", replacement: "\\mathbb{1}", options: "mA"},
 	{trigger: ";amx", replacement: "\\mathop{\\arg\\!\\max}\\limits_{${0:\\theta}}\\ $1", options: "mA"},
 	{trigger: ";amn", replacement: "\\mathop{\\arg\\!\\min}\\limits_{${0:\\theta}}\\ $1", options: "mA"},
@@ -312,10 +319,11 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
     {trigger: ";seq([A-Za-z]+);", replacement: "[[0]]_1,[[0]]_2,\\cdots,[[0]]_{${0:n}} ", options: "rmA"},
 
     // Callout
-    {trigger: ";de", replacement: "> [!definition] $0", options: "tA"},
+    {trigger: ";df", replacement: "> [!definition] $0", options: "tA"},
     {trigger: ";ex", replacement: "> [!example] $0", options: "tA"},
-    {trigger: ";no", replacement: "> [!note] $0", options: "tA"},
-    {trigger: ";pr", replacement: "> [!proof] $0", options: "tA"},
-    {trigger: ";wa", replacement: "> [!caution] $0", options: "tA"},
+    {trigger: ";nt", replacement: "> [!note] $0", options: "tA"},
+    {trigger: ";pf", replacement: "> [!proof] $0", options: "tA"},
+    {trigger: ";th", replacement: "> [!theorem] $0", options: "tA"},
+    {trigger: ";wn", replacement: "> [!caution] $0", options: "tA"},
 ]
 ```

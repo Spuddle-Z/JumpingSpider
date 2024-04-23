@@ -2,7 +2,9 @@
   "callouts": {
     "custom": [
       "proof",
-      "definition"
+      "definition",
+      "theorem",
+      "note"
     ],
     "settings": {
       "proof": [
@@ -77,6 +79,21 @@
           "changes": {
             "icon": "lucide-book-marked",
             "color": "151, 216, 248"
+          }
+        }
+      ],
+      "theorem": [
+        {
+          "changes": {
+            "icon": "lucide-pi-square",
+            "color": "115, 187, 178"
+          }
+        }
+      ],
+      "note": [
+        {
+          "changes": {
+            "color": "195, 232, 141"
           }
         }
       ]

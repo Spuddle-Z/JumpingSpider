@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bd18203d8aefdc98",
+            "id": "1a3358b170a47ee6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,15 +18,21 @@
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "aaa7449aa1a1e11b",
+        "type": "tabs",
+        "children": [
           {
-            "id": "f4dc3a7935bf56af",
+            "id": "3ac2dcbc04c07f24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Obsidian/LaTeX Suite.md",
-                "mode": "preview",
+                "file": "Temp/博弈论作业/Homework 2.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -60,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "warning",
+                "query": "势函数",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.50499725341797
+    "width": 313.50499725341797,
+    "collapsed": true
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -89,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Math/博弈论.md",
+                "file": "Temp/博弈论作业/Homework 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Math/博弈论.md",
+                "file": "Temp/博弈论作业/Homework 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Math/博弈论.md"
+                "file": "Temp/博弈论作业/Homework 2.md"
               }
             }
           },
@@ -161,14 +168,18 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "bd18203d8aefdc98",
+  "active": "3ac2dcbc04c07f24",
   "lastOpenFiles": [
-    "Tools/Obsidian/LaTeX Suite.md",
     "Courses/Math/博弈论.md",
+    "Temp/博弈论作业/Homework 2.md",
+    "Courses/MachineLearning/神经网络.md",
+    "Courses/MachineLearning/机器学习.md",
+    "Tools/Obsidian/LaTeX Suite.md",
     "Tools/Obsidian/Obsidian.md",
+    "Tools/搜狗五笔输入法.md",
+    "Temp/博弈论作业/Homework 1.md",
     "_Drafts/未命名.md",
     "Tools/Obsidian/Obsidian图片居中.md",
-    "Courses/MachineLearning/神经网络.md",
     "Courses/数据库技术.md",
     "_Drafts/提高深度学习系统性能.md",
     "Tools/Clash.md",
@@ -183,18 +194,14 @@
     "_Drafts/算法.md",
     "_Drafts/核函数与正则学习.md",
     "Courses/Math/概率论.md",
-    "Courses/MachineLearning/机器学习.md",
     "Courses/MachineLearning/SVM.md",
     "assets/Pasted image 20240419113527.png",
     "assets/Pasted image 20240419101910.png",
-    "Tools/搜狗五笔输入法.md",
     "Courses/Math/离散数学.md",
     "assets/SogouWubi_20240418_iiq.cwb",
     "assets/Pasted image 20240417211538.png",
     "assets/Pasted image 20240417211328.png",
-    "Tools/Vimium C.md",
     "assets/SogouWubi_20240417_ir.cwb",
-    "Uncategorized/PageRank.md",
     "assets/SogouWubi_20240416_iqa.cwb",
     "assets/Pasted image 20240415204139.png",
     "assets/Pasted image 20240415201656.png",
