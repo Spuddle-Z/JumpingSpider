@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "aaa7449aa1a1e11b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3ac2dcbc04c07f24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Temp/博弈论作业/Homework 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -79,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.50499725341797,
-    "collapsed": true
+    "width": 313.50499725341797
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -96,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temp/博弈论作业/Homework 2.md",
+                "file": "Courses/Math/博弈论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temp/博弈论作业/Homework 2.md",
+                "file": "Courses/Math/博弈论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Temp/博弈论作业/Homework 2.md"
+                "file": "Courses/Math/博弈论.md"
               }
             }
           },
@@ -168,15 +149,16 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "3ac2dcbc04c07f24",
+  "active": "1a3358b170a47ee6",
   "lastOpenFiles": [
+    "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240424_is.cwb",
     "Courses/Math/博弈论.md",
     "Temp/博弈论作业/Homework 2.md",
     "Courses/MachineLearning/神经网络.md",
     "Courses/MachineLearning/机器学习.md",
     "Tools/Obsidian/LaTeX Suite.md",
     "Tools/Obsidian/Obsidian.md",
-    "Tools/搜狗五笔输入法.md",
     "Temp/博弈论作业/Homework 1.md",
     "_Drafts/未命名.md",
     "Tools/Obsidian/Obsidian图片居中.md",
@@ -197,7 +179,6 @@
     "Courses/MachineLearning/SVM.md",
     "assets/Pasted image 20240419113527.png",
     "assets/Pasted image 20240419101910.png",
-    "Courses/Math/离散数学.md",
     "assets/SogouWubi_20240418_iiq.cwb",
     "assets/Pasted image 20240417211538.png",
     "assets/Pasted image 20240417211328.png",
@@ -214,7 +195,6 @@
     "assets/SogouWubi_20240408_yga.cwb",
     "assets/Pasted image 20240407213009.png",
     "assets/Pasted image 20240407154751.png",
-    "assets/Pasted image 20240407154700.png",
-    "assets/SogouWubi_20240405_yo.cwb"
+    "assets/Pasted image 20240407154700.png"
   ]
 }
