@@ -1,9 +1,18 @@
 img {
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+	display: block !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+ .markdown-source-view.mod-cm6 .cm-content > * {
+	margin: auto auto !important;
 }
 
- .markdown-source-view.mod-cm6 .cm-content > * {
-    margin: auto auto !important;
+table { 
+	line-height: 120%;
+	margin-left: auto!important;
+	margin-right: auto!important;
+} 
+.markdown-preview-view table { 
+	margin-left: auto; 
+	margin-right: auto; 
 }

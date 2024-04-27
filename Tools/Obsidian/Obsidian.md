@@ -48,4 +48,4 @@ tags:
 ## 插件
 - [[LaTeX Suite]]
 ## CSS片段
-- [[Obsidian图片居中|使图片居中显示]]
+- [[Obsidian添加CSS片段|使图片居中显示]]

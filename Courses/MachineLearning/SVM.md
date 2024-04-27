@@ -86,5 +86,5 @@ $$
 此时其约束条件可以总结为
 $$s.t.\quad \xi_i\geq\max(0,1-y_i(w^Tx_i+b))$$
 由于原问题是求最小值，$\xi_i$肯定是要尽量小的，因此可以直接将其代入目标函数得到
-$$\min_{\xi,w,b}\quad\frac{1}{2}||w||^2+C\sum_{i=1}^{n}\underbrace{\max(0,1-y_i(w^Tx_i+b))}_{\text{Hinge Loss}}$$
+$$\min_{w,b}\quad\frac{1}{2}||w||^2+C\sum_{i=1}^{n}\underbrace{\max(0,1-y_i(w^Tx_i+b))}_{\text{Hinge Loss}}$$
 上式中被括起来的部分就是[[机器学习#^5tx2cc|Hinge loss]]，即对于越过margin的样本点会有一个线性增长的惩罚。$C$为一可调参数，$C$越大，越界的惩罚越大，边界越硬，容易过拟合。

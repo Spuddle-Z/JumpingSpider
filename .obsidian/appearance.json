@@ -5,7 +5,7 @@
   "cssTheme": "Minimal",
   "theme": "obsidian",
   "enabledCssSnippets": [
-    "imgCenter",
-    "moreCallouts"
+    "moreCallouts",
+    "imgCenter"
   ]
 }

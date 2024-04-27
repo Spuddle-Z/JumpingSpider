@@ -95,6 +95,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;2         | \^2              | mA      |
 | ;3         | \^3              | mA      |
 | ;un        | \^n              | mA      |
+| ;;ui       | ^{(i)}           | mA      |
+| ;;uj       | ^{(j)}           | mA      |
 | ;tr        | \^T              | mA      |
 | ;d0        | _0               | mA      |
 | ;d1        | _1               | mA      |
@@ -124,6 +126,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;prod   | \\prod_{${0:i=1}}^{\${1:n}}$2                       | $$\prod_{i=1}^{n}$$                   | mA      |
 | ;int    | \\int_{${0:-\\infty}}^{\${1:+\\infty}}$2\\ d\${2:x} | $$\int_{-\infty}^{+\infty}\ dx$$      | mA      |
 | ;pd     | \\frac{\\partial $0}{\\partial ${1:x}}$2            | $$\frac{\partial}{\partial x}$$       | mA      |
+| ;lim    | \\lim_{\${0:x}\to${1:\\infty}}$2                    | $$\lim_{x\to\infty}$$                 | mA      |
 | ;pa     | \\partial                                           | $\partial$                            | mA      |
 | ;inf    | \\infty                                             | $\infty$                              | mA      |
 | ;all    | \\forall                                            | $\forall$                             | mA      |
@@ -151,6 +154,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;m1     | \\mathbb{1}                                         | $\mathbb{1}$                          | mA      |
 | ;amx    | \\mathop{\\arg\\!\\max}\\limits_{${0:\\theta}}\\ $1 | $\mathop{\arg\!\max}\limits_{\theta}$ | mA      |
 | ;amn    | \\mathop{\\arg\\!\\min}\\limits_{${0:\\theta}}\\ $1 | $\mathop{\arg\!\min}\limits_{\theta}$ | mA      |
+| ;st     | \\text{s.t.}\\quad                                  | $\text{s.t.}\quad$                    | mA      |
 ### Brackets
 
 | Trigger | Replacement                       | Options |
@@ -246,6 +250,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";2", replacement: "^2", options: "mA"},
 	{trigger: ";3", replacement: "^3", options: "mA"},
 	{trigger: ";un", replacement: "^n", options: "mA"},
+	{trigger: ";;ui", replacement: "^{(i)}", options: "mA"},
+	{trigger: ";;uj", replacement: "^{(j)}", options: "mA"},
 	{trigger: ";tr", replacement: "^T", options: "mA"},
 	{trigger: ";d0", replacement: "_0", options: "mA"},
 	{trigger: ";d1", replacement: "_1", options: "mA"},
@@ -274,6 +280,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";prod", replacement: "\\prod_{${0:i=1}}^{${1:n}}$2", options: "mA"},
 	{trigger: ";int", replacement: "\\int_{${0:-\\infty}}^{\${1:+\\infty}}$2\\ d\${2:x}", options: "mA"},
 	{trigger: ";pd", replacement: "\\frac{\\partial $0}{\\partial ${1:x}}$2", options: "mA"},
+	{trigger: ";lim", replacement: "\\lim_{${0:x}\\to${1:\\infty}}$2", options: "mA"},
 	{trigger: ";pa", replacement: "\\partial", options: "mA"},
 	{trigger: ";inf", replacement: "\\infty", options: "mA"},
 	{trigger: ";all", replacement: "\\forall", options: "mA"},
@@ -301,6 +308,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";m1", replacement: "\\mathbb{1}", options: "mA"},
 	{trigger: ";amx", replacement: "\\mathop{\\arg\\!\\max}\\limits_{${0:\\theta}}\\ $1", options: "mA"},
 	{trigger: ";amn", replacement: "\\mathop{\\arg\\!\\min}\\limits_{${0:\\theta}}\\ $1", options: "mA"},
+	{trigger: ";st", replacement: "\\text{s.t.}\\quad", options: "mA"},
 
 	// Brackets
 	{trigger: "(", replacement: "($0)$1", options: "mA"},
