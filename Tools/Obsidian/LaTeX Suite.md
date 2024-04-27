@@ -122,12 +122,13 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 ### Symbols
 | Trigger | Replacement                                         | Preview                               | Options |
 | ------- | --------------------------------------------------- | ------------------------------------- | ------- |
-| ;sum    | \\sum_{${0:i=1}}^{\${1:n}}$2                        | $$\sum_{i=1}^{n}$$                    | mA      |
+| ;sm     | \\sum                                               | $\sum$                                | mA      |
+| ;;sm    | \\sum_{${0:i=1}}^{\${1:n}}$2                        | $$\sum_{i=1}^{n}$$                    | mA      |
 | ;prod   | \\prod_{${0:i=1}}^{\${1:n}}$2                       | $$\prod_{i=1}^{n}$$                   | mA      |
 | ;int    | \\int_{${0:-\\infty}}^{\${1:+\\infty}}$2\\ d\${2:x} | $$\int_{-\infty}^{+\infty}\ dx$$      | mA      |
+| ;pa     | \\partial                                           | $\partial$                            | mA      |
 | ;pd     | \\frac{\\partial $0}{\\partial ${1:x}}$2            | $$\frac{\partial}{\partial x}$$       | mA      |
 | ;lim    | \\lim_{\${0:x}\to${1:\\infty}}$2                    | $$\lim_{x\to\infty}$$                 | mA      |
-| ;pa     | \\partial                                           | $\partial$                            | mA      |
 | ;inf    | \\infty                                             | $\infty$                              | mA      |
 | ;all    | \\forall                                            | $\forall$                             | mA      |
 | ;exi    | \\exists                                            | $\exists$                             | mA      |
@@ -276,12 +277,13 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";and", replacement: "&", options: "mA"},
 	
 	// Math symbols
-	{trigger: ";sum", replacement: "\\sum_{${0:i=1}}^{${1:n}}$2", options: "mA"},
+	{trigger: ";sm", replacement: "\\sum", options: "mA"},
+	{trigger: ";;sm", replacement: "\\sum_{${0:i=1}}^{${1:n}}$2", options: "mA"},
 	{trigger: ";prod", replacement: "\\prod_{${0:i=1}}^{${1:n}}$2", options: "mA"},
 	{trigger: ";int", replacement: "\\int_{${0:-\\infty}}^{\${1:+\\infty}}$2\\ d\${2:x}", options: "mA"},
+	{trigger: ";pa", replacement: "\\partial", options: "mA"},
 	{trigger: ";pd", replacement: "\\frac{\\partial $0}{\\partial ${1:x}}$2", options: "mA"},
 	{trigger: ";lim", replacement: "\\lim_{${0:x}\\to${1:\\infty}}$2", options: "mA"},
-	{trigger: ";pa", replacement: "\\partial", options: "mA"},
 	{trigger: ";inf", replacement: "\\infty", options: "mA"},
 	{trigger: ";all", replacement: "\\forall", options: "mA"},
 	{trigger: ";exi", replacement: "\\exists", options: "mA"},
