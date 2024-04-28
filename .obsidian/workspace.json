@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e91064eb284368d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Math/博弈论.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "60c8e39bdd39c993",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Obsidian/LaTeX Suite.md",
+                "file": "Courses/Math/博弈论.md",
                 "mode": "preview",
                 "source": false
               }
@@ -149,12 +137,12 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "e91064eb284368d2",
+  "active": "60c8e39bdd39c993",
   "lastOpenFiles": [
+    "Courses/Math/博弈论.md",
     "Tools/Obsidian/LaTeX Suite.md",
     "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240427_iga.cwb",
-    "Courses/Math/博弈论.md",
     "Temp/博弈论作业/Homework 2.md",
     "Courses/MachineLearning/岭回归.md",
     "Courses/MachineLearning/机器学习.md",
