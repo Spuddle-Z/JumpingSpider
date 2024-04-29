@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4806d330eb6e8f2b",
+        "id": "d6e90b6ac2d5c5a6",
         "type": "tabs",
         "children": [
           {
-            "id": "60c8e39bdd39c993",
+            "id": "ee50cf2838855621",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -137,11 +137,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "60c8e39bdd39c993",
+  "active": "ee50cf2838855621",
   "lastOpenFiles": [
-    "Courses/Math/博弈论.md",
-    "Tools/Obsidian/LaTeX Suite.md",
     "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240429_op.cwb",
+    "Courses/Math/博弈论.md",
+    "_Drafts/键值数据库.md",
+    "Tools/Obsidian/Obsidian.md",
+    "Tools/快捷键.md",
+    "Courses/数据库技术.md",
+    "assets/SogouWubi_20240428_iht.cwb",
+    "Tools/Obsidian/LaTeX Suite.md",
     "assets/SogouWubi_20240427_iga.cwb",
     "Temp/博弈论作业/Homework 2.md",
     "Courses/MachineLearning/岭回归.md",
@@ -165,24 +171,18 @@
     "Temp/机器学习作业",
     "assets/SogouWubi_20240424_is.cwb",
     "Courses/MachineLearning/神经网络.md",
-    "Tools/Obsidian/Obsidian.md",
     "Temp/博弈论作业/Homework 1.md",
-    "Courses/数据库技术.md",
     "_Drafts/提高深度学习系统性能.md",
     "Tools/Clash.md",
     "Courses/MachineLearning/DDPM.md",
     "Tools/Git.md",
     "Courses/Math/凸优化.md",
     "Courses/MachineLearning/Transformer.md",
-    "Tools/快捷键.md",
     "_Drafts/八股文.md",
-    "Uncategorized/此电脑属性.md",
     "assets/Pasted image 20240419113527.png",
     "assets/SogouWubi_20240418_iiq.cwb",
     "assets/SogouWubi_20240417_ir.cwb",
     "assets/SogouWubi_20240416_iqa.cwb",
-    "assets/SogouWubi_20240415_uxq.cwb",
-    "assets/SogouWubi_20240414_udp.cwb",
-    "assets/SogouWubi_20240412_uyq.cwb"
+    "assets/SogouWubi_20240415_uxq.cwb"
   ]
 }
