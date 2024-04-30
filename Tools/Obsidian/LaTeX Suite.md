@@ -3,7 +3,7 @@ tags:
   - Tutorial
   - Code
 ---
-## 简介
+q## 简介
 虽然看似与LaTeX有关，但完全可以当作一个text snippet插件来使用。
 ## 用得到的设置
 ### Conceal
@@ -36,9 +36,10 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;;m     | \$\$\$0$$                                                                                 | tA      |
 | ;c      | \`\$0\`\$1                                                                                | tA      |
 | ;;c     | \`\`\`\$0\`\`\`\$1                                                                        | tA      |
-| ;ali    | \\begin{aligned}\n$0\n\\end{aligned}                                                      | mA      |
-| ;;ali   | \\left\\{\\begin{aligned}\n$0\n\\end{aligned}\\right.$1                                   | mA      |
-| ;mat    | \\left\\{\\begin{bmatrix}\n$0\n\\end{bmatrix}\\right.$1                                   | mA      |
+| ;ali    | \\begin{aligned}$0\\end{aligned}                                                          | mA      |
+| ;;ali   | \\left\\{\\begin{aligned}$0\\end{aligned}\\right.$1                                       | mA      |
+| ;mat    | \\left\\{\\begin{bmatrix}$0\\end{bmatrix}\\right.$1                                       | mA      |
+
 ### Greek Letters
 | Trigger | Replacement  | Preview       | Options |
 | ------- | ------------ | ------------- | ------- |
@@ -94,10 +95,12 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;do        | _{$0}$1          | mA      |
 | ;2         | \^2              | mA      |
 | ;3         | \^3              | mA      |
+| ;4         | \^4              | mA      |
 | ;un        | \^n              | mA      |
 | ;;ui       | ^{(i)}           | mA      |
 | ;;uj       | ^{(j)}           | mA      |
 | ;tr        | \^T              | mA      |
+| ;iv        | ^{-1}            | mA      |
 | ;d0        | _0               | mA      |
 | ;d1        | _1               | mA      |
 | ;d2        | _2               | mA      |
@@ -194,9 +197,9 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";;m", replacement: "$$$0$$", options: "tA"},
 	{trigger: ";c", replacement: "`$0`$1", options: "tA"},
 	{trigger: ";;c", replacement: "```$0```$1", options: "tA"},
-	{trigger: ";ali", replacement: "\\begin{aligned}\n$0\n\\end{aligned}$1", options: "mA"},
-	{trigger: ";;ali", replacement: "\\left\\{\\begin{aligned}\n$0\n\\end{aligned}\\right.$1", options: "mA"},
-	{trigger: ";mat", replacement: "\\begin{bmatrix}\n$0\n\\end{bmatrix}$1", options: "mA"},
+	{trigger: ";ali", replacement: "\\begin{aligned}$0\\end{aligned}$1", options: "mA"},
+	{trigger: ";;ali", replacement: "\\left\\{\\begin{aligned}$0\\end{aligned}\\right.$1", options: "mA"},
+	{trigger: ";mat", replacement: "\\begin{bmatrix}$0\\end{bmatrix}$1", options: "mA"},
 
 	// Greek letters
 	{trigger: ";aa", replacement: "\\alpha", options: "mA"},
@@ -250,10 +253,12 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";do", replacement: "_{$0}$1", options: "mA"},
 	{trigger: ";2", replacement: "^2", options: "mA"},
 	{trigger: ";3", replacement: "^3", options: "mA"},
+	{trigger: ";4", replacement: "^4", options: "mA"},
 	{trigger: ";un", replacement: "^n", options: "mA"},
 	{trigger: ";;ui", replacement: "^{(i)}", options: "mA"},
 	{trigger: ";;uj", replacement: "^{(j)}", options: "mA"},
 	{trigger: ";tr", replacement: "^T", options: "mA"},
+	{trigger: ";iv", replacement: "^{-1}", options: "mA"},
 	{trigger: ";d0", replacement: "_0", options: "mA"},
 	{trigger: ";d1", replacement: "_1", options: "mA"},
 	{trigger: ";d2", replacement: "_2", options: "mA"},
