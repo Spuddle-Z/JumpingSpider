@@ -114,6 +114,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;dy        | _y               | mA      |
 | ;dz        | _z               | mA      |
 | ;sq        | \\sqrt{$0}$1     | mA      |
+| ;ad        | +                | mA      |
+| ;;ad       | +1               | mA      |
 | ;/         | \\frac{$0}{$1}$2 | mA      |
 | ;;/        | \\frac{1}{$0}$1  | mA      |
 | ;ba        | \\bar{$0}$1      | mA      |
@@ -122,6 +124,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;\<space>  | \\quad           | mA      |
 | ;;\<space> | \\qquad          | mA      |
 | ;and       | &                | mA      |
+| ;;and      | &=               | mA      |
 ### Symbols
 | Trigger | Replacement                                         | Preview                               | Options |
 | ------- | --------------------------------------------------- | ------------------------------------- | ------- |
@@ -274,12 +277,15 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";sq", replacement: "\\sqrt{$0}$1", options: "mA"},
 	{trigger: ";/", replacement: "\\frac{$0}{$1}$2", options: "mA"},
 	{trigger: ";;/", replacement: "\\frac{1}{$0}$1", options: "mA"},
+	{trigger: ";ad", replacement: "+", options: "mA"},
+	{trigger: ";;ad", replacement: "+1", options: "mA"},
 	{trigger: ";ba", replacement: "\\bar{$0}$1", options: "mA"},
 	{trigger: ";ha", replacement: "\\hat{$0}$1", options: "mA"},
 	{trigger: ";tl", replacement: "\\tilde{$0}$1", options: "mA"},
 	{trigger: "; ", replacement: "\\quad", options: "mA"},
 	{trigger: ";; ", replacement: "\\qquad", options: "mA"},
 	{trigger: ";and", replacement: "&", options: "mA"},
+	{trigger: ";;and", replacement: "&=", options: "mA"},
 	
 	// Math symbols
 	{trigger: ";sm", replacement: "\\sum", options: "mA"},

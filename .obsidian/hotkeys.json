@@ -202,14 +202,6 @@
     }
   ],
   "editor:toggle-checklist-status": [],
-  "editor:open-search-replace": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "F"
-    }
-  ],
   "file-explorer:new-file-in-new-pane": [],
   "file-explorer:open": [
     {
@@ -263,5 +255,13 @@
       "key": "Q"
     }
   ],
-  "editor:open-search": []
+  "editor:open-search": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "editor:open-search-replace": []
 }
