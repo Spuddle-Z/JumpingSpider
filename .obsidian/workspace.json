@@ -25,18 +25,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/MachineLearning/SVM.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a44ca38a85d97a32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Courses/MachineLearning/岭回归.md",
                 "mode": "source",
                 "source": false
@@ -44,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,11 +162,15 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "a44ca38a85d97a32",
+  "active": "a8f81dcb1791d23f",
   "lastOpenFiles": [
-    "Courses/MachineLearning/SVM.md",
+    "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240501_pwi.cwb",
     "Courses/MachineLearning/岭回归.md",
+    "Tools/CapsLock+.md",
     "Courses/MachineLearning/机器学习.md",
+    "Courses/MachineLearning/SVM.md",
+    "Courses/MachineLearning/LDA.md",
     "_Drafts/提高深度学习系统性能.md",
     "_Drafts/提高机器学习性能.md",
     "_Drafts/算法.md",
@@ -188,16 +180,13 @@
     "Temp/机器学习作业/Homework 1.md",
     "Courses/Math/概率论.md",
     "Tools/Obsidian/LaTeX Suite.md",
-    "Courses/MachineLearning/LDA.md",
     "assets/Pasted image 20240430111527.png",
     "assets/Pasted image 20240429222738.png",
     "assets/Pasted image 20240429222628.png",
     "assets/Pasted image 20240429222130.png",
     "Courses/Math/信息论.md",
-    "Tools/CapsLock+.md",
     "Tools/Vimium C.md",
     "Courses/Math/博弈论.md",
-    "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240429_op.cwb",
     "_Drafts/键值数据库.md",
     "Tools/Obsidian/Obsidian.md",
@@ -208,7 +197,6 @@
     "Temp/博弈论作业/Homework 2.md",
     "_Drafts/机器学习原理.md",
     "Courses/数据科学基础.md",
-    "Temp/机器学习作业/SVM Report.md",
     "assets/Pasted image 20240426104718.png",
     "assets/Pasted image 20240426104701.png",
     "assets/Pasted image 20240426104639.png",
@@ -220,7 +208,6 @@
     "assets/SogouWubi_20240424_is.cwb",
     "assets/SogouWubi_20240418_iiq.cwb",
     "assets/SogouWubi_20240417_ir.cwb",
-    "assets/SogouWubi_20240416_iqa.cwb",
-    "assets/SogouWubi_20240415_uxq.cwb"
+    "assets/SogouWubi_20240416_iqa.cwb"
   ]
 }

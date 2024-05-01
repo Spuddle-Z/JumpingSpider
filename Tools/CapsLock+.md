@@ -101,11 +101,7 @@ M = D:/Life/Music/Peace.mp3
 G   = http://www.google.com
 GH  = http://www.github.com
 GLM = https://chatglm.cn/main/detail
-
-[TabHotString]
-tel = **此处省略电话号码**
-eml = **此处省略常用邮箱**
-id  = **此处省略身份证号**
+SY  = https://shuiyuan.sjtu.edu.cn/
 
 [QStyle]
 borderBackgroundColor=0x404040
@@ -118,6 +114,13 @@ listBackgroundColor=0x202020
 listColor=0xc0c0c0
 
 [TTranslate]
+```
+此处隐藏个人信息
+```ini
+[TabHotString]
+tel = **此处省略电话号码**
+eml = **此处省略常用邮箱**
+id  = **此处省略身份证号**
 ```
 此处的键位映射保留两个版本：
 - 此为全功能版本，该有的键位映射全部启用；
