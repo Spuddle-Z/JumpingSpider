@@ -132,6 +132,18 @@
                 "file": "Courses/MachineLearning/机器学习.md"
               }
             }
+          },
+          {
+            "id": "9bac1a54a7e344b3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
           }
         ],
         "currentTab": 3
