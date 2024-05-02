@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/MachineLearning/机器学习.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/MachineLearning/神经网络.md",
+                "file": "Courses/MachineLearning/机器学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/MachineLearning/神经网络.md",
+                "file": "Courses/MachineLearning/机器学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,19 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/MachineLearning/神经网络.md"
-              }
-            }
-          },
-          {
-            "id": "3f6388b1c44b53cc",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
+                "file": "Courses/MachineLearning/机器学习.md"
               }
             }
           }
@@ -162,11 +149,15 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "dca818c8288b7129",
+  "active": "875e225eae425070",
   "lastOpenFiles": [
-    "Courses/MachineLearning/机器学习.md",
     "Courses/MachineLearning/神经网络.md",
+    "Courses/MachineLearning/机器学习.md",
     "Tools/Obsidian/LaTeX Suite.md",
+    "Courses/Math/线性代数.md",
+    "assets/Pasted image 20240502212048.png",
+    "Tools/搜狗五笔输入法.md",
+    "Tools/Clash.md",
     "Courses/MachineLearning/卷积神经网络.md",
     "Courses/Math/信息论.md",
     "_Drafts/机器学习原理.md",
@@ -174,7 +165,6 @@
     "Courses/MachineLearning/SVM.md",
     "Courses/MachineLearning/岭回归.md",
     "Temp/机器学习作业/Homework 1.md",
-    "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240501_pwi.cwb",
     "Tools/CapsLock+.md",
     "Courses/MachineLearning/LDA.md",
@@ -182,7 +172,6 @@
     "_Drafts/提高机器学习性能.md",
     "_Drafts/算法.md",
     "Courses/MachineLearning/循环神经网络.md",
-    "Tools/Clash.md",
     "Courses/Math/概率论.md",
     "assets/Pasted image 20240430111527.png",
     "assets/Pasted image 20240429222738.png",
@@ -203,7 +192,6 @@
     "assets/Pasted image 20240426104639.png",
     "Report1.pdf",
     "assets/Pasted image 20240425222215.png",
-    "assets/Pasted image 20240425221829.png",
     "Temp/机器学习作业",
     "assets/SogouWubi_20240424_is.cwb",
     "assets/SogouWubi_20240418_iiq.cwb",

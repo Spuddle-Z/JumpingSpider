@@ -29,16 +29,19 @@ q## 简介
 Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the `replacement`.
 ### Environments
 
-| Trigger | Replacement                                                                               | Options |
-| ------- | ----------------------------------------------------------------------------------------- | ------- |
-| ;wv     | \<span style="text-decoration-line: underline; text-decoration-style: wavy;">$0\</span>$1 | tA      |
-| ;m      | \$\$0$                                                                                    | tA      |
-| ;;m     | \$\$\$0$$                                                                                 | tA      |
-| ;c      | \`\$0\`\$1                                                                                | tA      |
-| ;;c     | \`\`\`\$0\`\`\`\$1                                                                        | tA      |
-| ;ali    | \\begin{aligned}$0\\end{aligned}                                                          | mA      |
-| ;;ali   | \\left\\{\\begin{aligned}$0\\end{aligned}\\right.$1                                       | mA      |
-| ;mat    | \\left\\{\\begin{bmatrix}$0\\end{bmatrix}\\right.$1                                       | mA      |
+| Trigger | Replacement                                                                                                                                     | Options |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| ;wv     | \<span style="text-decoration-line: underline; text-decoration-style: wavy;">$0\</span>$1                                                       | tA      |
+| ;m      | \$\$0$                                                                                                                                          | tA      |
+| ;;m     | \$\$\$0$$                                                                                                                                       | tA      |
+| ;c      | \`\$0\`\$1                                                                                                                                      | tA      |
+| ;;c     | \`\`\`\$0\`\`\`\$1                                                                                                                              | tA      |
+| ;ali    | \\begin{aligned}$0\\end{aligned}                                                                                                                | mA      |
+| ;;ali   | \\left\\{\\begin{aligned}$0\\end{aligned}\\right.$1                                                                                             | mA      |
+| ;mat    | \\left\\{\\begin{bmatrix}$0\\end{bmatrix}\\right.$1                                                                                             | mA      |
+| ;;mat   | \\begin{bmatrix}<br>$0&$1&\\cdots&$2\\\\<br>$3&$4&\\cdots&$5\\\\<br>\\vdots&\\vdots&\\ddots&\\vdots\\<br>\\$6&$7&\\cdots&$8<br>\\end{bmatrix}$9 | mA      |
+
+
 
 ### Greek Letters
 | Trigger | Replacement  | Preview       | Options |
@@ -109,6 +112,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;di        | _i               | mA      |
 | ;dj        | _j               | mA      |
 | ;dk        | _k               | mA      |
+| ;dl        | _l               | mA      |
 | ;dt        | _t               | mA      |
 | ;dx        | _x               | mA      |
 | ;dy        | _y               | mA      |
@@ -203,6 +207,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";ali", replacement: "\\begin{aligned}$0\\end{aligned}$1", options: "mA"},
 	{trigger: ";;ali", replacement: "\\left\\{\\begin{aligned}$0\\end{aligned}\\right.$1", options: "mA"},
 	{trigger: ";mat", replacement: "\\begin{bmatrix}$0\\end{bmatrix}$1", options: "mA"},
+	{trigger: ";;mat", replacement: "\\begin{bmatrix}$0&$1&\\cdots&$2\\\\$3&$4&\\cdots&$5\\\\\\vdots&\\vdots&\\ddots&\\vdots\\\\$6&$7&\\cdots&$8\\end{bmatrix}$9", options: "mA"},
 
 	// Greek letters
 	{trigger: ";aa", replacement: "\\alpha", options: "mA"},
@@ -270,6 +275,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";di", replacement: "_i", options: "mA"},
 	{trigger: ";dj", replacement: "_j", options: "mA"},
 	{trigger: ";dk", replacement: "_k", options: "mA"},
+	{trigger: ";dl", replacement: "_l", options: "mA"},
 	{trigger: ";dt", replacement: "_t", options: "mA"},
 	{trigger: ";dx", replacement: "_x", options: "mA"},
 	{trigger: ";dy", replacement: "_y", options: "mA"},
