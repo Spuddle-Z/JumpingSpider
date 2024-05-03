@@ -78,7 +78,7 @@
         {
           "changes": {
             "icon": "lucide-book-marked",
-            "color": "151, 216, 248"
+            "color": "195, 232, 141"
           }
         }
       ],
@@ -93,7 +93,7 @@
       "note": [
         {
           "changes": {
-            "color": "195, 232, 141"
+            "color": "151, 216, 248"
           }
         }
       ],
