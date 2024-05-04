@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/MachineLearning/神经网络.md",
-                "mode": "preview",
+                "file": "_Drafts/提高深度学习系统性能.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -39,7 +39,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -68,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "爆炸",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/MachineLearning/卷积神经网络.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/MachineLearning/卷积神经网络.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Courses/MachineLearning/卷积神经网络.md"
-              }
+              "state": {}
             }
           },
           {
@@ -169,24 +166,30 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "875e225eae425070",
+  "active": "ccc9b8c2f0b053e9",
   "lastOpenFiles": [
-    "assets/Pasted image 20240503223729.png",
+    "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240504_ppu.cwb",
+    "Courses/MachineLearning/卷积神经网络.md",
+    "assets/sigma.png",
+    "_Drafts/提高深度学习系统性能.md",
+    "_Drafts/提高机器学习性能.md",
     "Courses/MachineLearning/机器学习.md",
+    "assets/Pasted image 20240504154440.png",
+    "assets/Pasted image 20240504154320.png",
+    "Temp/机器学习作业/Homework 2.md",
+    "Courses/Math/线性代数.md",
+    "Courses/Math/概率论.md",
     "Courses/MachineLearning/神经网络.md",
+    "Tools/Obsidian/LaTeX Suite.md",
+    "assets/Pasted image 20240503223729.png",
     "Courses/MachineLearning/岭回归.md",
     "_Drafts/机器学习原理.md",
     "_Drafts/神经网络.md",
     "assets/Pasted image 20240503192629.png",
-    "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240503_pyf.cwb",
-    "_Drafts/提高机器学习性能.md",
-    "_Drafts/提高深度学习系统性能.md",
-    "Tools/Obsidian/LaTeX Suite.md",
-    "Courses/Math/线性代数.md",
     "assets/Pasted image 20240502212048.png",
     "Tools/Clash.md",
-    "Courses/MachineLearning/卷积神经网络.md",
     "Courses/Math/信息论.md",
     "assets/Pasted image 20240501223355.png",
     "Courses/MachineLearning/SVM.md",
@@ -196,26 +199,19 @@
     "Courses/MachineLearning/LDA.md",
     "_Drafts/算法.md",
     "Courses/MachineLearning/循环神经网络.md",
-    "Courses/Math/概率论.md",
     "assets/Pasted image 20240430111527.png",
     "assets/Pasted image 20240429222738.png",
     "assets/Pasted image 20240429222628.png",
-    "assets/Pasted image 20240429222130.png",
     "Tools/Vimium C.md",
     "Courses/Math/博弈论.md",
     "assets/SogouWubi_20240429_op.cwb",
     "_Drafts/键值数据库.md",
     "Tools/Obsidian/Obsidian.md",
-    "Tools/快捷键.md",
     "assets/SogouWubi_20240428_iht.cwb",
     "assets/SogouWubi_20240427_iga.cwb",
-    "assets/Pasted image 20240426104718.png",
-    "assets/Pasted image 20240426104701.png",
-    "assets/Pasted image 20240426104639.png",
     "Report1.pdf",
     "Temp/机器学习作业",
     "assets/SogouWubi_20240424_is.cwb",
-    "assets/SogouWubi_20240418_iiq.cwb",
-    "assets/SogouWubi_20240417_ir.cwb"
+    "assets/SogouWubi_20240418_iiq.cwb"
   ]
 }

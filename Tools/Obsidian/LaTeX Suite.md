@@ -176,7 +176,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;;[     | \\left[$0\\right]$1               | mA      |
 | {       | {$0}$1                            | mA      |
 | ;{      | \\{$0\\}$1                        | mA      |
-| ;;{     | \\left{$0\\right}$1               | mA      |
+| ;;{     | \\left\\{$0\\right\\}$1           | mA      |
 | ;;<     | \\left\\langle$0\\right\\rangle$1 | mA      |
 | ;\|     | \\left\\lvert$0\\right\\rvert$1   | mA      |
 | ;;\|    | \\left\\lVert$0\\right\\rVert$1   | mA      |
@@ -336,7 +336,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";;[", replacement: "\\left[$0\\right]$1", options: "mA"},
 	{trigger: "{", replacement: "{$0}$1", options: "mA"},
 	{trigger: ";{", replacement: "\\{$0\\}$1", options: "mA"},
-	{trigger: ";;{", replacement: "\\left{$0\\right}$1", options: "mA"},
+	{trigger: ";;{", replacement: "\\left\\{$0\\right\\}$1", options: "mA"},
 	{trigger: ";;<", replacement: "\\left\\langle$0\\right\\rangle$1", options: "mA"},
 	{trigger: ";|", replacement: "\\left\\lvert$0\\right\\rvert$1", options: "mA"},
 	{trigger: ";;|", replacement: "\\left\\lVert$0\\right\\rVert$1", options: "mA"},
