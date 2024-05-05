@@ -127,8 +127,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;tl        | \\tilde{$0}$1    | mA      |
 | ;\<space>  | \\quad           | mA      |
 | ;;\<space> | \\qquad          | mA      |
-| ;and       | &                | mA      |
-| ;;and      | &=               | mA      |
+| ;an        | &                | mA      |
+| ;;an       | &=               | mA      |
 ### Symbols
 | Trigger | Replacement                                         | Preview                               | Options |
 | ------- | --------------------------------------------------- | ------------------------------------- | ------- |
@@ -290,8 +290,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";tl", replacement: "\\tilde{$0}$1", options: "mA"},
 	{trigger: "; ", replacement: "\\quad", options: "mA"},
 	{trigger: ";; ", replacement: "\\qquad", options: "mA"},
-	{trigger: ";and", replacement: "&", options: "mA"},
-	{trigger: ";;and", replacement: "&=", options: "mA"},
+	{trigger: ";an", replacement: "&", options: "mA"},
+	{trigger: ";;an", replacement: "&=", options: "mA"},
 	
 	// Math symbols
 	{trigger: ";sm", replacement: "\\sum", options: "mA"},

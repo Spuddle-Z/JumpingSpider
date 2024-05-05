@@ -8,39 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "875e225eae425070",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/MachineLearning/卷积神经网络.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "47872d29238f704a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Drafts/提高深度学习系统性能.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ccc9b8c2f0b053e9",
+            "id": "ab01b81b9760a114",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,47 +141,48 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "ccc9b8c2f0b053e9",
+  "active": "ab01b81b9760a114",
   "lastOpenFiles": [
     "Tools/搜狗五笔输入法.md",
-    "assets/SogouWubi_20240504_ppu.cwb",
-    "Courses/MachineLearning/卷积神经网络.md",
-    "assets/sigma.png",
-    "_Drafts/提高深度学习系统性能.md",
-    "_Drafts/提高机器学习性能.md",
+    "Tools/Obsidian/LaTeX Suite.md",
     "Courses/MachineLearning/机器学习.md",
-    "assets/Pasted image 20240504154440.png",
-    "assets/Pasted image 20240504154320.png",
+    "Courses/MachineLearning/GAN.md",
+    "Courses/Math/信息论.md",
+    "Courses/MachineLearning/SVM.md",
+    "Courses/MachineLearning/CNN.md",
+    "Courses/MachineLearning/岭回归.md",
+    "Courses/Math/凸优化.md",
+    "assets/Pasted image 20240504222610.png",
+    "assets/Pasted image 20240504221810.png",
+    "assets/Pasted image 20240504221611.png",
+    "assets/Pasted image 20240504215933.png",
+    "_Drafts/未命名.md",
+    "assets/Pasted image 20240504215550.png",
+    "assets/48954dc5bef142379bbb85b7807e4861.gif",
+    "assets/649f03a2004648fea724aca6cd2ee3e5.gif",
+    "assets/Pasted image 20240504214614.png",
+    "Courses/MachineLearning/BERT.md",
+    "Courses/MachineLearning/RNN.md",
+    "_Drafts/扩散模型.md",
+    "Courses/MachineLearning/LDA.md",
+    "Courses/MachineLearning/Transformer.md",
+    "Courses/MachineLearning/神经网络.md",
+    "assets/Pasted image 20240504200135.png",
+    "_Drafts/提高深度学习系统性能.md",
+    "assets/SogouWubi_20240504_ppu.cwb",
+    "assets/sigma.png",
+    "_Drafts/提高机器学习性能.md",
     "Temp/机器学习作业/Homework 2.md",
     "Courses/Math/线性代数.md",
     "Courses/Math/概率论.md",
-    "Courses/MachineLearning/神经网络.md",
-    "Tools/Obsidian/LaTeX Suite.md",
-    "assets/Pasted image 20240503223729.png",
-    "Courses/MachineLearning/岭回归.md",
     "_Drafts/机器学习原理.md",
     "_Drafts/神经网络.md",
-    "assets/Pasted image 20240503192629.png",
     "assets/SogouWubi_20240503_pyf.cwb",
-    "assets/Pasted image 20240502212048.png",
     "Tools/Clash.md",
-    "Courses/Math/信息论.md",
-    "assets/Pasted image 20240501223355.png",
-    "Courses/MachineLearning/SVM.md",
     "Temp/机器学习作业/Homework 1.md",
     "assets/SogouWubi_20240501_pwi.cwb",
     "Tools/CapsLock+.md",
-    "Courses/MachineLearning/LDA.md",
-    "_Drafts/算法.md",
-    "Courses/MachineLearning/循环神经网络.md",
-    "assets/Pasted image 20240430111527.png",
-    "assets/Pasted image 20240429222738.png",
-    "assets/Pasted image 20240429222628.png",
-    "Tools/Vimium C.md",
-    "Courses/Math/博弈论.md",
     "assets/SogouWubi_20240429_op.cwb",
-    "_Drafts/键值数据库.md",
-    "Tools/Obsidian/Obsidian.md",
     "assets/SogouWubi_20240428_iht.cwb",
     "assets/SogouWubi_20240427_iga.cwb",
     "Report1.pdf",
