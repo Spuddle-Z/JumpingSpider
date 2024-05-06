@@ -34,8 +34,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;wv     | \<span style="text-decoration-line: underline; text-decoration-style: wavy;">$0\</span>$1                                                       | tA      |
 | ;m      | \$\$0$                                                                                                                                          | tA      |
 | ;;m     | \$\$\$0$$                                                                                                                                       | tA      |
-| ;c      | \`\$0\`\$1                                                                                                                                      | tA      |
-| ;;c     | \`\`\`\$0\`\`\`\$1                                                                                                                              | tA      |
+| ;c      | \`\$0\`\                                                                                                                                        | tA      |
+| ;;c     | \`\`\`\$0\`\`\`\                                                                                                                                | tA      |
 | ;ali    | \\begin{aligned}$0\\end{aligned}                                                                                                                | mA      |
 | ;;ali   | \\left\\{\\begin{aligned}$0\\end{aligned}\\right.$1                                                                                             | mA      |
 | ;mat    | \\left\\{\\begin{bmatrix}$0\\end{bmatrix}\\right.$1                                                                                             | mA      |
@@ -202,8 +202,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";wv", replacement: "<span style=\"text-decoration-line: underline; text-decoration-style: wavy;\">$0</span>$1", options: "tA"},
 	{trigger: ";m", replacement: "$$0$", options: "tA"},
 	{trigger: ";;m", replacement: "$$$0$$", options: "tA"},
-	{trigger: ";c", replacement: "`$0`$1", options: "tA"},
-	{trigger: ";;c", replacement: "```$0```$1", options: "tA"},
+	{trigger: ";c", replacement: "`$0`", options: "tA"},
+	{trigger: ";;c", replacement: "```$0```", options: "tA"},
 	{trigger: ";ali", replacement: "\\begin{aligned}$0\\end{aligned}$1", options: "mA"},
 	{trigger: ";;ali", replacement: "\\left\\{\\begin{aligned}$0\\end{aligned}\\right.$1", options: "mA"},
 	{trigger: ";mat", replacement: "\\begin{bmatrix}$0\\end{bmatrix}$1", options: "mA"},

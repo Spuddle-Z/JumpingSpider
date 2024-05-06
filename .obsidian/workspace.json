@@ -14,8 +14,21 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "346fca275e7998d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/数据库技术.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Courses/数据库技术.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Courses/数据库技术.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Courses/数据库技术.md"
+              }
             }
           },
           {
@@ -141,10 +158,13 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "ab01b81b9760a114",
+  "active": "346fca275e7998d6",
   "lastOpenFiles": [
     "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240506_aqq.cwb",
+    "Courses/数据库技术.md",
     "Tools/Obsidian/LaTeX Suite.md",
+    "_Drafts/C++.md",
     "Courses/MachineLearning/机器学习.md",
     "Courses/MachineLearning/GAN.md",
     "Courses/Math/信息论.md",
@@ -156,7 +176,6 @@
     "assets/Pasted image 20240504221810.png",
     "assets/Pasted image 20240504221611.png",
     "assets/Pasted image 20240504215933.png",
-    "_Drafts/未命名.md",
     "assets/Pasted image 20240504215550.png",
     "assets/48954dc5bef142379bbb85b7807e4861.gif",
     "assets/649f03a2004648fea724aca6cd2ee3e5.gif",
@@ -179,15 +198,12 @@
     "_Drafts/神经网络.md",
     "assets/SogouWubi_20240503_pyf.cwb",
     "Tools/Clash.md",
-    "Temp/机器学习作业/Homework 1.md",
     "assets/SogouWubi_20240501_pwi.cwb",
-    "Tools/CapsLock+.md",
     "assets/SogouWubi_20240429_op.cwb",
     "assets/SogouWubi_20240428_iht.cwb",
     "assets/SogouWubi_20240427_iga.cwb",
     "Report1.pdf",
     "Temp/机器学习作业",
-    "assets/SogouWubi_20240424_is.cwb",
-    "assets/SogouWubi_20240418_iiq.cwb"
+    "assets/SogouWubi_20240424_is.cwb"
   ]
 }
