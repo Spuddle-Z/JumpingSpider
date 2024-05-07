@@ -1,0 +1,13 @@
+/* 针对C++代码块中的类（class）关键字的颜色定制 */
+.cm-s-obsidian pre .cm-m-cpp.cm-type {
+    color: #569CD6; /* 设置为深蓝色 */
+}
+
+/* 可以选择为不同的元素设置不同的颜色 */
+.cm-s-obsidian pre .cm-m-cpp.cm-variable-2 {
+    color: #4EC9B0; /* 某种变量类型设置为青色 */
+}
+
+.cm-s-obsidian pre .cm-m-cpp.cm-keyword {
+    color: #C586C0; /* 关键字设置为粉红色 */
+}

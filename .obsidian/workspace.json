@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "f2a684b94713778d",
+        "id": "250bd11122cdad8a",
         "type": "tabs",
         "children": [
           {
-            "id": "ab01b81b9760a114",
+            "id": "889a117586dfbc3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LeetCode/C++.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "738d9c94d67387e2",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -16,19 +28,18 @@
             }
           },
           {
-            "id": "346fca275e7998d6",
+            "id": "428f0cce9bb9ad9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/数据库技术.md",
+                "file": "LeetCode/LeetCode 150.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "爆炸",
+                "query": "tag:#Note",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +77,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/数据库技术.md",
+                "file": "LeetCode/C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/数据库技术.md",
+                "file": "LeetCode/C++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/数据库技术.md"
+                "file": "LeetCode/C++.md"
               }
             }
           },
@@ -143,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -158,15 +170,31 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "346fca275e7998d6",
+  "active": "889a117586dfbc3b",
   "lastOpenFiles": [
-    "Tools/搜狗五笔输入法.md",
-    "assets/SogouWubi_20240506_aqq.cwb",
+    "LeetCode/LeetCode 150.md",
+    "LeetCode/C++.md",
+    "Courses/MachineLearning/GNN.md",
+    "Memos/PageRank.md",
+    "assets/Pasted image 20240507173730.png",
+    "Courses/数据科学基础.md",
+    "Courses/Math/概率论.md",
+    "_Drafts/八股文.md",
+    "Courses/MachineLearning/机器学习.md",
+    "LeetCode/80 删除有序数组中的重复项II.md",
+    "LeetCode/55 跳跃游戏.md",
+    "LeetCode/45 跳跃游戏II.md",
+    "LeetCode",
+    "新建文件夹",
+    "Memos/Colour Style.md",
+    "_Drafts/VAE.md",
+    "assets/Pasted image 20240507101356.png",
+    "Courses/MachineLearning/GAN.md",
+    "Courses/MachineLearning/神经网络.md",
     "Courses/数据库技术.md",
     "Tools/Obsidian/LaTeX Suite.md",
-    "_Drafts/C++.md",
-    "Courses/MachineLearning/机器学习.md",
-    "Courses/MachineLearning/GAN.md",
+    "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240506_aqq.cwb",
     "Courses/Math/信息论.md",
     "Courses/MachineLearning/SVM.md",
     "Courses/MachineLearning/CNN.md",
@@ -182,28 +210,12 @@
     "assets/Pasted image 20240504214614.png",
     "Courses/MachineLearning/BERT.md",
     "Courses/MachineLearning/RNN.md",
-    "_Drafts/扩散模型.md",
-    "Courses/MachineLearning/LDA.md",
-    "Courses/MachineLearning/Transformer.md",
-    "Courses/MachineLearning/神经网络.md",
-    "assets/Pasted image 20240504200135.png",
-    "_Drafts/提高深度学习系统性能.md",
     "assets/SogouWubi_20240504_ppu.cwb",
-    "assets/sigma.png",
-    "_Drafts/提高机器学习性能.md",
-    "Temp/机器学习作业/Homework 2.md",
-    "Courses/Math/线性代数.md",
-    "Courses/Math/概率论.md",
-    "_Drafts/机器学习原理.md",
-    "_Drafts/神经网络.md",
     "assets/SogouWubi_20240503_pyf.cwb",
-    "Tools/Clash.md",
     "assets/SogouWubi_20240501_pwi.cwb",
     "assets/SogouWubi_20240429_op.cwb",
     "assets/SogouWubi_20240428_iht.cwb",
     "assets/SogouWubi_20240427_iga.cwb",
-    "Report1.pdf",
-    "Temp/机器学习作业",
-    "assets/SogouWubi_20240424_is.cwb"
+    "Report1.pdf"
   ]
 }

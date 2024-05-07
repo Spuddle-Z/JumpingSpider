@@ -6,7 +6,22 @@
   "hideUnresolved": false,
   "showOrphans": false,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:_Drafts  ",
+      "color": {
+        "a": 1,
+        "rgb": 10309382
+      }
+    },
+    {
+      "query": "path:Temp  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": 0,
@@ -17,6 +32,6 @@
   "repelStrength": 9.04623287671233,
   "linkStrength": 1,
   "linkDistance": 144,
-  "scale": 0.8206745044629378,
+  "scale": 0.8206745044629384,
   "close": true
 }
