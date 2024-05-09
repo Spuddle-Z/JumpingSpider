@@ -4,36 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "250bd11122cdad8a",
+        "id": "05c41e896a2da300",
         "type": "tabs",
         "children": [
           {
-            "id": "889a117586dfbc3b",
+            "id": "dd37f7b136df4831",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LeetCode/C++.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "738d9c94d67387e2",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "428f0cce9bb9ad9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LeetCode/LeetCode 150.md",
+                "file": "Courses/MachineLearning/GNN.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LeetCode/C++.md",
+                "file": "Courses/MachineLearning/GNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LeetCode/C++.md",
+                "file": "Courses/MachineLearning/GNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LeetCode/C++.md"
+                "file": "Courses/MachineLearning/GNN.md"
               }
             }
           },
@@ -170,12 +149,15 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "889a117586dfbc3b",
+  "active": "dd37f7b136df4831",
   "lastOpenFiles": [
+    "Memos/PageRank.md",
+    "Courses/MachineLearning/GNN.md",
+    "LeetCode/Python.md",
     "LeetCode/LeetCode 150.md",
     "LeetCode/C++.md",
-    "Courses/MachineLearning/GNN.md",
-    "Memos/PageRank.md",
+    "LeetCode/274 H指数.md",
+    "LeetCode/380 O(1)时间插入、删除和获取随机元素.md",
     "assets/Pasted image 20240507173730.png",
     "Courses/数据科学基础.md",
     "Courses/Math/概率论.md",
@@ -208,8 +190,6 @@
     "assets/48954dc5bef142379bbb85b7807e4861.gif",
     "assets/649f03a2004648fea724aca6cd2ee3e5.gif",
     "assets/Pasted image 20240504214614.png",
-    "Courses/MachineLearning/BERT.md",
-    "Courses/MachineLearning/RNN.md",
     "assets/SogouWubi_20240504_ppu.cwb",
     "assets/SogouWubi_20240503_pyf.cwb",
     "assets/SogouWubi_20240501_pwi.cwb",
