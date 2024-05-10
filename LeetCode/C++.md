@@ -19,6 +19,11 @@ tags:
 ```
 - `rand()`：返回一个随机整数，使用`rand() % n`生成0到n-1之间的随机整数。
 ### 容器
+#### String
+```cpp
+#include <string>
+```
+- `s.size()`：返回字符串长度。
 #### Vector
 ```cpp
 #include <vector>

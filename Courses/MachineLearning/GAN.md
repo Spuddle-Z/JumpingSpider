@@ -30,10 +30,11 @@ aliases:
 其实不一定要压缩成一个向量，用编码器某一层的特征图也可以训练解码器。下图即为使用不同层的输出训练解码器的效果：
 ![[Pasted image 20240504221611.png|600]]
 ## GAN
+![[Pasted image 20240504222610.png|450]]
+如图，我们希望建立一个向量$h\in\mathbb{R}^n$到图像$X$的一个双射，其中$h\sim N(0,\sigma^2I_n)$，$X$是真实图像而非噪音。
+
 > [!definition] 对抗生成网络 (Generative Adversarial Network, GAN)
-> ![[Pasted image 20240504222610.png|450]]
-> 如图，我们希望建立一个向量$h\in\mathbb{R}^n$到图像$X$的一个双射，其中$h\sim N(0,\sigma^2I_n)$，$X$是真实图像而非噪音。
-> 
+> ![[Pasted image 20240510145245.png|500]]
 > 我们将训练一个生成器$G$，尽量使得$G(h)=X$；同时训练一个判别器$D$，能够将真实的图像$X\in P_{data}(X)$判别为正样本，将生成的图像$X'\in P_{\theta}(X)$判别为负样本。
 > 
 > 令

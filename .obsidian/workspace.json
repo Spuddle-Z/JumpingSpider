@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "05c41e896a2da300",
+        "id": "7cfa8b7fec761662",
         "type": "tabs",
         "children": [
           {
-            "id": "dd37f7b136df4831",
+            "id": "82aee8b92427077d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/MachineLearning/GNN.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Note",
+                "query": "交叉熵",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/MachineLearning/GNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/MachineLearning/GNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,25 +110,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Courses/MachineLearning/GNN.md"
-              }
-            }
-          },
-          {
-            "id": "9bac1a54a7e344b3",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -149,47 +129,46 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "dd37f7b136df4831",
+  "active": "82aee8b92427077d",
   "lastOpenFiles": [
-    "Memos/PageRank.md",
-    "Courses/MachineLearning/GNN.md",
-    "LeetCode/Python.md",
-    "LeetCode/LeetCode 150.md",
     "LeetCode/C++.md",
-    "LeetCode/274 H指数.md",
+    "LeetCode/LeetCode 150.md",
+    "Courses/MachineLearning/机器学习.md",
+    "Courses/MachineLearning/VAE.md",
+    "Courses/MachineLearning/GAN.md",
+    "assets/Pasted image 20240510145245.png",
+    "assets/Pasted image 20240510112843.png",
+    "Courses/Math/信息论.md",
+    "_Drafts/信息论^ejkg5c.md",
+    "Courses/Math/图论.md",
+    "Courses/MachineLearning/GNN.md",
+    "Courses/Math/概率论.md",
+    "_Drafts/机器学习原理.md",
+    "assets/Pasted image 20240509214440.png",
+    "Memos/PageRank.md",
+    "LeetCode/13 罗马数字转整数.md",
+    "LeetCode/134 加油站.md",
+    "LeetCode/238 除自身以外数组的乘积.md",
     "LeetCode/380 O(1)时间插入、删除和获取随机元素.md",
+    "LeetCode/80 删除有序数组中的重复项II.md",
+    "LeetCode/274 H指数.md",
+    "LeetCode/45 跳跃游戏II.md",
+    "LeetCode/55 跳跃游戏.md",
+    "LeetCode/Python.md",
     "assets/Pasted image 20240507173730.png",
     "Courses/数据科学基础.md",
-    "Courses/Math/概率论.md",
     "_Drafts/八股文.md",
-    "Courses/MachineLearning/机器学习.md",
-    "LeetCode/80 删除有序数组中的重复项II.md",
-    "LeetCode/55 跳跃游戏.md",
-    "LeetCode/45 跳跃游戏II.md",
     "LeetCode",
     "新建文件夹",
     "Memos/Colour Style.md",
-    "_Drafts/VAE.md",
     "assets/Pasted image 20240507101356.png",
-    "Courses/MachineLearning/GAN.md",
     "Courses/MachineLearning/神经网络.md",
-    "Courses/数据库技术.md",
-    "Tools/Obsidian/LaTeX Suite.md",
-    "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240506_aqq.cwb",
-    "Courses/Math/信息论.md",
-    "Courses/MachineLearning/SVM.md",
-    "Courses/MachineLearning/CNN.md",
-    "Courses/MachineLearning/岭回归.md",
-    "Courses/Math/凸优化.md",
     "assets/Pasted image 20240504222610.png",
     "assets/Pasted image 20240504221810.png",
     "assets/Pasted image 20240504221611.png",
     "assets/Pasted image 20240504215933.png",
     "assets/Pasted image 20240504215550.png",
-    "assets/48954dc5bef142379bbb85b7807e4861.gif",
-    "assets/649f03a2004648fea724aca6cd2ee3e5.gif",
-    "assets/Pasted image 20240504214614.png",
     "assets/SogouWubi_20240504_ppu.cwb",
     "assets/SogouWubi_20240503_pyf.cwb",
     "assets/SogouWubi_20240501_pwi.cwb",

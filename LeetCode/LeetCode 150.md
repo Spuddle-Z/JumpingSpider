@@ -18,6 +18,9 @@ tags:
 | [[45 跳跃游戏II]]              | Medium |
 | [[274 H指数]]                | Medium |
 | [[380 O(1)时间插入、删除和获取随机元素]] | Medium |
-|                            |        |
+| [[238 除自身以外数组的乘积]]         | Medium |
+| [[134 加油站]]                | Medium |
+| [[13 罗马数字转整数]]             | Easy   |
+| 12 整数转罗马数字                 | Medium |
 
 [面试经典 150 题 - 学习计划 - 力扣（LeetCode）全球极客挚爱的技术成长平台](https://leetcode.cn/studyplan/top-interview-150/)
