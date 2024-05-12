@@ -14,33 +14,8 @@
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "5b5f76ecb77986ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Drafts/使用HAN模型进行学术论文推荐系统的研究的项目提案.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fb2f139b64ce5e0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/MachineLearning/GNN.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Drafts/使用HAN模型进行学术论文推荐系统的研究的项目提案.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Drafts/使用HAN模型进行学术论文推荐系统的研究的项目提案.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_Drafts/使用HAN模型进行学术论文推荐系统的研究的项目提案.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -158,11 +129,19 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "5b5f76ecb77986ac",
+  "active": "827962c8be1e3248",
   "lastOpenFiles": [
+    "LeetCode/C++.md",
+    "LeetCode/LeetCode 150.md",
+    "Tools/Obsidian/Obsidian.md",
+    "Tools/快捷键.md",
+    "LeetCode/6 Z字形变换.md",
+    "LeetCode/151 反转字符串中的单词.md",
+    "LeetCode/134 加油站.md",
     "Courses/MachineLearning/GNN.md",
-    "Courses/数据科学基础.md",
+    "Temp/数据科学基础作业/使用HAN模型进行学术论文推荐系统的研究的项目提案.md",
     "_Drafts/使用HAN模型进行学术论文推荐系统的研究的项目提案.md",
+    "Courses/数据科学基础.md",
     "Courses/离散数学.md",
     "Courses/博弈论.md",
     "_Drafts/算法.md",
@@ -171,8 +150,6 @@
     "Courses/MachineLearning/岭回归.md",
     "Courses/MachineLearning/CNN.md",
     "Courses/MachineLearning/机器学习.md",
-    "LeetCode/C++.md",
-    "LeetCode/LeetCode 150.md",
     "Courses/MachineLearning/VAE.md",
     "assets/Pasted image 20240510145245.png",
     "assets/Pasted image 20240510112843.png",
@@ -183,12 +160,6 @@
     "_Drafts/机器学习原理.md",
     "assets/Pasted image 20240509214440.png",
     "Memos/PageRank.md",
-    "LeetCode/13 罗马数字转整数.md",
-    "LeetCode/134 加油站.md",
-    "LeetCode/238 除自身以外数组的乘积.md",
-    "LeetCode/380 O(1)时间插入、删除和获取随机元素.md",
-    "LeetCode/80 删除有序数组中的重复项II.md",
-    "LeetCode/274 H指数.md",
     "assets/Pasted image 20240507173730.png",
     "LeetCode",
     "新建文件夹",

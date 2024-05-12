@@ -23,18 +23,24 @@ tags:
 ```cpp
 #include <string>
 ```
+- `s.begin()` `s.end()`：返回指向字符串开头/末尾的两个迭代器。
+	> [!note] 迭代器与指针的区别
+	> 一般情况下，可以将迭代器理解成指针，都可以使用解引用操作。
+- `s.back()`：返回字符串最后一个字符。
 - `s.size()`：返回字符串长度。
+- `s.push_back(c)`：在末尾加入字符`a`。
+- `s.pop_back()`：敲掉末尾的字符。
+- `reverse(p, q)`：反转`p`到`q`字符串（`p` `q`都是迭代器）。
 #### Vector
 ```cpp
 #include <vector>
 ```
+- `v.begin()` `v.end()`：返回指向向量开头/末尾的两个迭代器。
 - `v.size()`：返回向量长度。
 - `v.push_back(a)`：在末尾加入`a`。
 - `v.pop_back()`：敲掉末尾的元素。
-- `v.erase(p)`：删除迭代器`p`所指向的元素。
-	> [!caution] 
-	> `p`是迭代器类型，可以用`v.begin()`得到。
-- `sort(v.begin(), v.end())` ：将向量[`v.begin()`, `v.end()`)范围内的元素由小到大排序；如果想由大到小排序，需要使用`v.rbegin()`与`v.rend()`。
+- `v.erase(p)`：删除迭代器`p`所指向的元素（`p`是迭代器）。
+- `sort(p, q)` ：将向量[`p`, `q`)范围内的元素由小到大排序（`p` `q`为迭代器）；如果想由大到小排序，需要使用`v.rbegin()`与`v.rend()`。
 #### 哈希表
 ```cpp
 #include <unordered_map>

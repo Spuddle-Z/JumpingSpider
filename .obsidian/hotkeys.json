@@ -263,5 +263,14 @@
       "key": "F"
     }
   ],
-  "editor:open-search-replace": []
+  "editor:open-search-replace": [],
+  "editor:insert-table": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ]
 }

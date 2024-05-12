@@ -22,5 +22,15 @@ tags:
 | [[134 加油站]]                | Medium |
 | [[13 罗马数字转整数]]             | Easy   |
 | 12 整数转罗马数字                 | Medium |
+| 58 最后一个单词的长度               | Easy   |
+| 14 最长公共前缀                  | Easy   |
+| [[151 反转字符串中的单词]]          | Medium |
+| [[6 Z字形变换]]                | Medium |
+| 28 找出字符串第一个匹配项的下标          | Easy   |
+### 双指针
+
+| 题目  | 难度   |
+| --- | ---- |
+|     | Easy |
 
 [面试经典 150 题 - 学习计划 - 力扣（LeetCode）全球极客挚爱的技术成长平台](https://leetcode.cn/studyplan/top-interview-150/)

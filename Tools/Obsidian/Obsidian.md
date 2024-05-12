@@ -40,6 +40,7 @@ tags:
 | `Ctrl + Shift + F` | 在所有文件中搜索     |                           |
 | `Ctrl + Shift + J` | 导出为PDF       |                           |
 | `Ctrl + Shift + O` | 打开其它仓库       |                           |
+| `Ctrl + Shift + T` | 插入表格         |                           |
 | `Shift + Alt + S`  | 打开设置         |                           |
 | `Ctrl + Shift + C` | 复制光标所在块的链接   | Copy Block Link           |
 | `Ctrl + M`         | 打开思维导图       | Mind Map                  |
