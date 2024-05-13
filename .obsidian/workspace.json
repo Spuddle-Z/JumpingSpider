@@ -14,8 +14,21 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "3ca01fcc77c08bd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/数据库技术.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Courses/数据库技术.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Courses/数据库技术.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Courses/数据库技术.md"
+              }
             }
           }
         ],
@@ -129,10 +146,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "827962c8be1e3248",
+  "active": "3ca01fcc77c08bd6",
   "lastOpenFiles": [
+    "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240513_at.cwb",
+    "Courses/数据库技术.md",
+    "assets/Pasted image 20240513143442.png",
+    "assets/Pasted image 20240513143107.png",
+    "assets/Pasted image 20240513143047.png",
     "LeetCode/C++.md",
     "LeetCode/LeetCode 150.md",
+    "LeetCode/392 判断子序列.md",
     "Tools/Obsidian/Obsidian.md",
     "Tools/快捷键.md",
     "LeetCode/6 Z字形变换.md",
@@ -155,11 +179,7 @@
     "assets/Pasted image 20240510112843.png",
     "Courses/信息论.md",
     "_Drafts/信息论^ejkg5c.md",
-    "Courses/图论.md",
-    "Courses/概率论.md",
-    "_Drafts/机器学习原理.md",
     "assets/Pasted image 20240509214440.png",
-    "Memos/PageRank.md",
     "assets/Pasted image 20240507173730.png",
     "LeetCode",
     "新建文件夹",
@@ -167,15 +187,11 @@
     "assets/SogouWubi_20240506_aqq.cwb",
     "assets/Pasted image 20240504222610.png",
     "assets/Pasted image 20240504221810.png",
-    "assets/Pasted image 20240504221611.png",
-    "assets/Pasted image 20240504215933.png",
-    "assets/Pasted image 20240504215550.png",
     "assets/SogouWubi_20240504_ppu.cwb",
     "assets/SogouWubi_20240503_pyf.cwb",
     "assets/SogouWubi_20240501_pwi.cwb",
     "assets/SogouWubi_20240429_op.cwb",
     "assets/SogouWubi_20240428_iht.cwb",
-    "assets/SogouWubi_20240427_iga.cwb",
-    "Report1.pdf"
+    "assets/SogouWubi_20240427_iga.cwb"
   ]
 }
