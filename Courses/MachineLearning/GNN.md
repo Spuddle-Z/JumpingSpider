@@ -1,11 +1,13 @@
 ---
 tags:
   - Knowledge
+  - Code
 aliases:
   - 图神经网络
   - Graph Neural Network
 ---
 ## Node2vec
+### 基本概念
 **符号表示**：
 - $N(u)$表示节点$u$的邻居节点；
 - $z_{u}$表示节点$u$嵌入后得到的向量；
@@ -40,6 +42,66 @@ $$
 > 使用两个超参数$p,q$来调节这两种策略的比重。
 
 令节点$u$作为根节点，执行$r$次步数为$l$的带偏随机游走，能够得到$r$个长度为$l$且以$u$为起点的节点序列，将这些序列看作$r$个词数为$l$的句子，使用word2vec算法，像求词向量一样求得每个节点的嵌入。
+### 示例代码
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import sklearn
+%matplotlib inline
+
+# 处理图的库
+import nodevectors
+import networkx as nx
+
+class Node2Vec(nodevectors.Node2Vec):
+    """
+    Parameters
+    ----------
+    p : float
+        p parameter of node2vec
+    q : float
+        q parameter of node2vec
+    d : int
+        dimensionality of the embedding vectors
+    w : int
+        length of each truncated random walk
+    """
+    def __init__(self, p = 1, q = 1,d = 32, w = 10):
+        super().__init__(
+                    n_components = d,
+                    walklen = w,
+                    epochs = 50,
+                    return_weight = 1.0 / p,
+                    neighbor_weight = 1.0 / q,
+                    threads = 0,
+                    w2vparams = {'window': 4,
+                                'negative': 5, 
+                                'iter': 10,
+                                'ns_exponent': 0.5,
+                                'batch_words': 128})
+```
+
+```python
+# 使用NetworkX生成一个哑铃图
+toy_barbell = nx.barbell_graph(7, 2)
+nx.draw_kamada_kawai(toy_barbell)
+```
+![[Pasted image 20240513220353.png|259]]
+```python
+# 使用Node2Vec类嵌入节点
+n2v = Node2Vec(p = 1, q = 1, d = 2)
+n2v.fit(toy_barbell)
+embeddings = []
+for node in toy_barbell.nodes:
+    embeddings.append(list(n2v.predict(node)))
+
+# 展示嵌入后的向量
+toy_colors = ['red'] * 8 + ['blue'] * 8
+df = pd.DataFrame(embeddings, columns = ['x', 'y'])
+df.plot.scatter(x = 'x', y = 'y', c = toy_colors)
+```
+![[Pasted image 20240513220428.png|363]]
 ## GNN
 基于[[图论#^gk7iej|同配性]]，GNN的核心思想就是归拢其邻居的信息。
 ![[Pasted image 20240509214440.png|575]]

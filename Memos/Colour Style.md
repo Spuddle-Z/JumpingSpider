@@ -1,8 +1,9 @@
-
-| HEX       | Preview                             |
-| --------- | ----------------------------------- |
-| `#73BBB2` | <font size=5 color=#73bbb2>■</font> |
-|           |                                     |
-
-
-
+---
+tags:
+  - Record
+---
+## Obsidian
+### 基础配色
+![[Obsidian#^i97pkp]]
+### Callout配色
+![[Obsidian#^e666xv]]

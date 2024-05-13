@@ -1,6 +1,7 @@
 ---
 tags:
   - Tutorial
+  - Code
 ---
 ## 基础Python
 ### 字符串

@@ -51,3 +51,22 @@ tags:
 - [[LaTeX Suite]]
 ## CSS片段
 - [[Obsidian添加CSS片段|使图片居中显示]]
+## 配色
+### 基础配色
+
+| HEX       | Preview                             | Application      |
+| --------- | ----------------------------------- | ---------------- |
+| `#404D6F` | <font size=5 color=#404D6F>■</font> | 基础色<br>高亮的边界色    |
+| `#2A2D3E` | <font size=5 color=#2A2D3E>■</font> | 初级背景色            |
+| `#1B1F2B` | <font size=5 color=#1B1F2B>■</font> | 二级背景色            |
+| `#393F57` | <font size=5 color=#393F57>■</font> | 激活的背景色<br>滚动条与边界 |
+| `#BABED9` | <font size=5 color=#BABED9>■</font> | 激活的边界            |
+^i97pkp
+
+### Callout配色
+
+| HEX       | Preview                             |
+| --------- | ----------------------------------- |
+| `#73BBB2` | <font size=5 color=#73bbb2>■</font> |
+|           |                                     |
+^e666xv
