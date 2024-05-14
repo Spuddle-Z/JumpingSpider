@@ -33,14 +33,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Drafts/PCA.md",
+                "file": "Courses/MachineLearning/PCA.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Drafts/PCA.md",
+                "file": "Tools/Obsidian/Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Drafts/PCA.md",
+                "file": "Tools/Obsidian/Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Drafts/PCA.md"
+                "file": "Tools/Obsidian/Obsidian.md"
               }
             }
           }
@@ -158,11 +158,15 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "3c41f14ca8124d7c",
+  "active": "164d1408afd6556b",
   "lastOpenFiles": [
-    "Tools/Obsidian/Obsidian.md",
-    "_Drafts/PCA.md",
     "Memos/Colour Style.md",
+    "Tools/Obsidian/Obsidian.md",
+    "Courses/MachineLearning/PCA.md",
+    "Courses/MachineLearning/SVM.md",
+    "Courses/凸优化.md",
+    "Courses/博弈论.md",
+    "assets/Pasted image 20240514104405.png",
     "Tools/Conda.md",
     "Courses/MachineLearning/GNN.md",
     "assets/Pasted image 20240513220428.png",
@@ -185,20 +189,16 @@
     "LeetCode/6 Z字形变换.md",
     "Courses/数据库技术.md",
     "Tools/快捷键.md",
-    "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240513_at.cwb",
     "assets/Pasted image 20240513143442.png",
     "assets/Pasted image 20240513143107.png",
     "assets/Pasted image 20240513143047.png",
-    "Temp/数据科学基础作业/使用HAN模型进行学术论文推荐系统的研究的项目提案.md",
-    "_Drafts/使用HAN模型进行学术论文推荐系统的研究的项目提案.md",
     "assets/Pasted image 20240510145245.png",
     "assets/Pasted image 20240510112843.png",
     "assets/Pasted image 20240509214440.png",
     "assets/Pasted image 20240507173730.png",
     "LeetCode",
     "新建文件夹",
-    "assets/Pasted image 20240507101356.png",
     "assets/SogouWubi_20240506_aqq.cwb",
     "assets/SogouWubi_20240504_ppu.cwb",
     "assets/SogouWubi_20240503_pyf.cwb",

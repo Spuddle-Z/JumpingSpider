@@ -23,7 +23,7 @@ $$\min_{w,b}\frac{1}{2}||w||^2\quad s.t.\forall i,y_i(w^Tx_i+b)\geq1$$
 ### 求解方法
 上面得到的目标优化问题的[[凸优化#拉格朗日乘子法|拉格朗日函数]]为
 $$L(w,b,\lambda)=\frac{1}{2}||w||^2-\sum_{i=1}^{n}\lambda_i\left[y_i(w^TX_i+b)-1\right]$$
-根据[[凸优化#KKT条件|KKT条件]]，使
+根据[[凸优化#^6lss7g|KKT条件]]，使
 $$\frac{\partial L}{\partial w}=\frac{\partial L}{\partial b}=0$$
 推得
 $$
