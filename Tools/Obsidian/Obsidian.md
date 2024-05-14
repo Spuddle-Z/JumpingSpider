@@ -65,8 +65,8 @@ tags:
 
 ### Callout配色
 
-| HEX       | Preview                             |
-| --------- | ----------------------------------- |
-| `#73BBB2` | <font size=5 color=#73bbb2>■</font> |
-|           |                                     |
+| Callout | HEX       | Preview                             |
+| ------- | --------- | ----------------------------------- |
+| Example | `#FFCB6B` | <font size=5 color=#FFCB6B>■</font> |
+| Theorem | `#73BBB2` | <font size=5 color=#73bbb2>■</font> |
 ^e666xv
