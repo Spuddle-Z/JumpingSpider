@@ -11,12 +11,8 @@
             "id": "1e1eda6ea21ba5b8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/数据库技术.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/数据库技术.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/数据库技术.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Courses/数据库技术.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -139,8 +131,8 @@
   },
   "active": "1e1eda6ea21ba5b8",
   "lastOpenFiles": [
-    "Tools/Obsidian/Obsidian.md",
     "Courses/数据库技术.md",
+    "Tools/Obsidian/Obsidian.md",
     "Tools/Colour Style.md",
     "第11章_数据库恢复技术.pdf",
     "_Drafts/SQL.md",
