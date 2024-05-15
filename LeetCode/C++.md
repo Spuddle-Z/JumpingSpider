@@ -1,7 +1,7 @@
 ---
 tags:
-  - Knowledge
   - Code
+  - Tutorial
 ---
 ## 基础语法
 ### Lambda
