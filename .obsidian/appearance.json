@@ -1,11 +1,12 @@
 {
-  "accentColor": "",
+  "accentColor": "#82aaff",
   "baseFontSize": 18,
   "translucency": false,
   "cssTheme": "Minimal",
   "theme": "obsidian",
   "enabledCssSnippets": [
     "moreCallouts",
-    "imgCenter"
+    "imgCenter",
+    "cancelUnderline"
   ]
 }

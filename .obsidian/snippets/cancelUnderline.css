@@ -1,0 +1,4 @@
+.markdown-preview-view a,
+.markdown-source-view a {
+    text-decoration: none !important;
+}
