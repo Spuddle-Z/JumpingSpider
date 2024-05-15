@@ -142,11 +142,13 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;inf    | \\infty                                             | $\infty$                              | mA      |
 | ;all    | \\forall                                            | $\forall$                             | mA      |
 | ;exi    | \\exists                                            | $\exists$                             | mA      |
-| ;->     | \to                                                 | $\to$                                 | mA      |
-| ;n->    | \nrightarrow                                        | $\nrightarrow$                        | mA      |
+| ;to     | \to                                                 | $\to$                                 | mA      |
+| ;nto    | \nrightarrow                                        | $\nrightarrow$                        | mA      |
 | ;<->    | \\leftrightarrow                                    | $\leftrightarrow$                     | mA      |
 | ;so     | \implies                                            | $\implies$                            | mA      |
 | ;eq     | \\Longleftrightarrow                                | $\Longleftrightarrow$                 | mA      |
+| ;sim    | \sim                                                | $\sim$                                | mA      |
+| ;peq    | \approx                                             | $\approx$                             | mA      |
 | ;<=     | \\leq                                               | $\leq$                                | mA      |
 | ;>=     | \\geq                                               | $\geq$                                | mA      |
 | ;v<=    | \\preceq                                            | $\preceq$                             | mA      |
@@ -304,11 +306,13 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";inf", replacement: "\\infty", options: "mA"},
 	{trigger: ";all", replacement: "\\forall", options: "mA"},
 	{trigger: ";exi", replacement: "\\exists", options: "mA"},
-	{trigger: ";->", replacement: "\\to", options: "mA"},
-	{trigger: ";n->", replacement: "\\nrightarrow", options: "mA"},
+	{trigger: ";to", replacement: "\\to", options: "mA"},
+	{trigger: ";nto", replacement: "\\nrightarrow", options: "mA"},
 	{trigger: ";<->", replacement: "\\leftrightarrow", options: "mA"},
 	{trigger: ";so", replacement: "\\implies", options: "mA"},
 	{trigger: ";eq", replacement: "\\Longleftrightarrow", options: "mA"},
+	{trigger: ";sim", replacement: "\\sim", options: "mA"},
+	{trigger: ";peq", replacement: "\\approx", options: "mA"},
 	{trigger: ";<=", replacement: "\\leq", options: "mA"},
 	{trigger: ";>=", replacement: "\\geq", options: "mA"},
 	{trigger: ";v<=", replacement: "\\preceq", options: "mA"},

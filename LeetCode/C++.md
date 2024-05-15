@@ -14,10 +14,16 @@ tags:
 > [!definition] 标准模板库 (Standard Template Library, STL)
 > 是一套功能强大的 C++ 模板类和函数的集合，包括容器(Containers)、迭代器(Iterators)、算法(Algorithms)、函数对象(Function Objects)和适配器(Adapters)等。
 ### 常用
+#### 常用函数库
 ```cpp
 #include <stdlib.h>
 ```
 - `rand()`：返回一个随机整数，使用`rand() % n`生成0到n-1之间的随机整数。
+#### Algorithm
+```cpp
+#include <algorithm>
+```
+- `min(a,b)` `max(a,b)`：求`a` `b`中的较小/较大值。
 ### 容器
 #### String
 ```cpp

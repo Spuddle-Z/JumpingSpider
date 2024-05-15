@@ -16,31 +16,30 @@
             }
           },
           {
-            "id": "164d1408afd6556b",
+            "id": "f89dc8bc783e5a84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Obsidian/Obsidian.md",
+                "file": "Courses/MachineLearning/机器学习.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3c41f14ca8124d7c",
+            "id": "924405818eaaf3ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/MachineLearning/PCA.md",
+                "file": "_Drafts/EM算法.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "交叉熵",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Obsidian/Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Obsidian/Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Tools/Obsidian/Obsidian.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -158,12 +153,23 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "164d1408afd6556b",
+  "active": "827962c8be1e3248",
   "lastOpenFiles": [
-    "Memos/Colour Style.md",
+    "_Drafts/EM算法.md",
+    "Courses/MachineLearning/机器学习.md",
+    "Tools/VSCode.md",
+    "_Drafts/高维数据可视化方法.md",
+    "_Drafts/LLE.md",
+    "Tools/Obsidian/LaTeX Suite.md",
     "Tools/Obsidian/Obsidian.md",
-    "Courses/MachineLearning/PCA.md",
+    "Tools/快捷键.md",
+    "LeetCode/C++.md",
+    "_Drafts/209 长度最小的子数组.md",
+    "LeetCode/LeetCode 150.md",
     "Courses/MachineLearning/SVM.md",
+    "Memos/Colour Style.md",
+    "assets/Pasted image 20240514170408.png",
+    "Courses/MachineLearning/PCA.md",
     "Courses/凸优化.md",
     "Courses/博弈论.md",
     "assets/Pasted image 20240514104405.png",
@@ -172,8 +178,6 @@
     "assets/Pasted image 20240513220428.png",
     "assets/Pasted image 20240513220353.png",
     "Courses/数据科学基础.md",
-    "LeetCode/C++.md",
-    "LeetCode/LeetCode 150.md",
     "LeetCode/Python.md",
     "LeetCode/392 判断子序列.md",
     "LeetCode/380 O(1)时间插入、删除和获取随机元素.md",
@@ -181,14 +185,6 @@
     "LeetCode/238 除自身以外数组的乘积.md",
     "LeetCode/151 反转字符串中的单词.md",
     "LeetCode/134 加油站.md",
-    "LeetCode/80 删除有序数组中的重复项II.md",
-    "LeetCode/55 跳跃游戏.md",
-    "LeetCode/45 跳跃游戏II.md",
-    "LeetCode/15 三数之和.md",
-    "LeetCode/13 罗马数字转整数.md",
-    "LeetCode/6 Z字形变换.md",
-    "Courses/数据库技术.md",
-    "Tools/快捷键.md",
     "assets/SogouWubi_20240513_at.cwb",
     "assets/Pasted image 20240513143442.png",
     "assets/Pasted image 20240513143107.png",
@@ -196,7 +192,6 @@
     "assets/Pasted image 20240510145245.png",
     "assets/Pasted image 20240510112843.png",
     "assets/Pasted image 20240509214440.png",
-    "assets/Pasted image 20240507173730.png",
     "LeetCode",
     "新建文件夹",
     "assets/SogouWubi_20240506_aqq.cwb",

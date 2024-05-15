@@ -54,13 +54,25 @@ tags:
 ## 配色
 ### 基础配色
 
-| HEX       | Preview                             | Application      |
-| --------- | ----------------------------------- | ---------------- |
-| `#404D6F` | <font size=5 color=#404D6F>■</font> | 基础色<br>高亮的边界色    |
-| `#2A2D3E` | <font size=5 color=#2A2D3E>■</font> | 初级背景色            |
-| `#1B1F2B` | <font size=5 color=#1B1F2B>■</font> | 二级背景色            |
-| `#393F57` | <font size=5 color=#393F57>■</font> | 激活的背景色<br>滚动条与边界 |
-| `#BABED9` | <font size=5 color=#BABED9>■</font> | 激活的边界            |
+| HEX       | Preview                             | Application      | 所属部分 |
+| --------- | ----------------------------------- | ---------------- | ---- |
+| `#404D6F` | <font size=5 color=#404D6F>■</font> | 基础色<br>高亮的边界     | 窗口   |
+| `#2A2D3E` | <font size=5 color=#2A2D3E>■</font> | 初级背景             | 窗口   |
+| `#1B1F2B` | <font size=5 color=#1B1F2B>■</font> | 二级背景             | 窗口   |
+| `#393F57` | <font size=5 color=#393F57>■</font> | 激活的背景<br>滚动条与边界  | 窗口   |
+| `#BABED9` | <font size=5 color=#BABED9>■</font> | 激活的边界            | 窗口   |
+| `#73B4D4` | <font size=5 color=#73B4D4>■</font> | 激活的边与节点<br>打开的开关 | 关系图谱 |
+| `#393F57` | <font size=5 color=#393F57>■</font> | 边                | 关系图谱 |
+| `#97D8F8` | <font size=5 color=#97D8F8>■</font> | 节点               | 关系图谱 |
+| `#404D6F` | <font size=5 color=#404D6F>■</font> | 附件节点             | 关系图谱 |
+| `#97D8F8` | <font size=5 color=#97D8F8>■</font> | 一级标题             | 文本   |
+| `#85C6E6` | <font size=5 color=#85C6E6>■</font> | 二级标题             | 文本   |
+| `#73B4D4` | <font size=5 color=#73B4D4>■</font> | 三级标题             | 文本   |
+| `#61A2C2` | <font size=5 color=#61A2C2>■</font> | 四级标题             | 文本   |
+| `#4F90B0` | <font size=5 color=#4F90B0>■</font> | 五级标题             | 文本   |
+| `#3D7E9E` | <font size=5 color=#3D7E9E>■</font> | 六级标题             | 文本   |
+| `#88A9F6` | <font size=5 color=#88A9F6>■</font> | 未激活的链接           | 文本   |
+| `#FFCB6B` | <font size=5 color=#FFCB6B>■</font> | 激活的链接            | 文本   |
 ^i97pkp
 
 ### Callout配色
