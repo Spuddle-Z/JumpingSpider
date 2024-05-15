@@ -20,7 +20,7 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "ArrowUp"
+      "key": "I"
     }
   ],
   "editor:swap-line-down": [
@@ -28,7 +28,7 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "ArrowDown"
+      "key": "K"
     }
   ],
   "workspace:goto-tab-1": [],
@@ -164,7 +164,7 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "ArrowLeft"
+      "key": "U"
     }
   ],
   "app:go-forward": [
@@ -172,7 +172,7 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "ArrowRight"
+      "key": "O"
     }
   ],
   "obsidian-mind-map:app:markmap-preview": [
