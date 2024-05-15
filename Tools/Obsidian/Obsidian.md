@@ -52,37 +52,40 @@ tags:
 ## CSS片段
 - [[Obsidian添加CSS片段|使图片居中显示]]
 ## 配色
-### 基础配色
 
-| HEX       | Preview                             | Application      | 所属部分 |
-| --------- | ----------------------------------- | ---------------- | ---- |
-| `#404D6F` | <font size=5 color=#404D6F>■</font> | 基础色<br>高亮的边界     | 窗口   |
-| `#2A2D3E` | <font size=5 color=#2A2D3E>■</font> | 初级背景             | 窗口   |
-| `#1B1F2B` | <font size=5 color=#1B1F2B>■</font> | 二级背景             | 窗口   |
-| `#393F57` | <font size=5 color=#393F57>■</font> | 激活的背景<br>滚动条与边界  | 窗口   |
-| `#BABED9` | <font size=5 color=#BABED9>■</font> | 激活的边界            | 窗口   |
-| `#73B4D4` | <font size=5 color=#73B4D4>■</font> | 激活的边与节点<br>打开的开关 | 关系图谱 |
-| `#393F57` | <font size=5 color=#393F57>■</font> | 边                | 关系图谱 |
-| `#97D8F8` | <font size=5 color=#97D8F8>■</font> | 节点               | 关系图谱 |
-| `#404D6F` | <font size=5 color=#404D6F>■</font> | 附件节点             | 关系图谱 |
-| `#97D8F8` | <font size=5 color=#97D8F8>■</font> | 一级标题             | 文本   |
-| `#85C6E6` | <font size=5 color=#85C6E6>■</font> | 二级标题             | 文本   |
-| `#73B4D4` | <font size=5 color=#73B4D4>■</font> | 三级标题             | 文本   |
-| `#61A2C2` | <font size=5 color=#61A2C2>■</font> | 四级标题             | 文本   |
-| `#4F90B0` | <font size=5 color=#4F90B0>■</font> | 五级标题             | 文本   |
-| `#3D7E9E` | <font size=5 color=#3D7E9E>■</font> | 六级标题             | 文本   |
-| `#88A9F6` | <font size=5 color=#88A9F6>■</font> | 未激活的链接           | 文本   |
-| `#FFCB6B` | <font size=5 color=#FFCB6B>■</font> | 激活的链接            | 文本   |
+| HEX       | Preview                             | Application      | 所属部分    |
+| --------- | ----------------------------------- | ---------------- | ------- |
+| `#404D6F` | <font size=5 color=#404D6F>■</font> | 基础色<br>高亮的边界     | 窗口      |
+| `#2A2D3E` | <font size=5 color=#2A2D3E>■</font> | 初级背景             | 窗口      |
+| `#1B1F2B` | <font size=5 color=#1B1F2B>■</font> | 二级背景             | 窗口      |
+| `#393F57` | <font size=5 color=#393F57>■</font> | 激活的背景<br>滚动条与边界  | 窗口      |
+| `#B6B8CF` | <font size=5 color=#B6B8CF>■</font> | 激活的边界            | 窗口      |
+| `#73B4D4` | <font size=5 color=#73B4D4>■</font> | 激活的边与节点<br>打开的开关 | 关系图谱    |
+| `#393F57` | <font size=5 color=#393F57>■</font> | 边                | 关系图谱    |
+| `#97D8F8` | <font size=5 color=#97D8F8>■</font> | 节点               | 关系图谱    |
+| `#DCDCAA` | <font size=5 color=#DCDCAA>■</font> | 标签节点             | 关系图谱    |
+| `#404D6F` | <font size=5 color=#404D6F>■</font> | 附件节点             | 关系图谱    |
+| `#97D8F8` | <font size=5 color=#97D8F8>■</font> | Knowledge节点      | 关系图谱    |
+| `#9E86C8` | <font size=5 color=#9e86c8>■</font> | Tutorial节点       | 关系图谱    |
+| `#73BBB2` | <font size=5 color=#73bbb2>■</font> | Code节点           | 关系图谱    |
+| `#97D8F8` | <font size=5 color=#97D8F8>■</font> | 一级标题             | 文本      |
+| `#85C6E6` | <font size=5 color=#85C6E6>■</font> | 二级标题             | 文本      |
+| `#73B4D4` | <font size=5 color=#73B4D4>■</font> | 三级标题             | 文本      |
+| `#61A2C2` | <font size=5 color=#61A2C2>■</font> | 四级标题             | 文本      |
+| `#4F90B0` | <font size=5 color=#4F90B0>■</font> | 五级标题             | 文本      |
+| `#3D7E9E` | <font size=5 color=#3D7E9E>■</font> | 六级标题             | 文本      |
+| `#B6B8CF` | <font size=5 color=#B6B8CF>■</font> | 普通文本             | 文本      |
+| `#3A3F55` | <font size=5 color=#3A3F55>■</font> | 被选中文本的底色         | 文本      |
+| `#88A9F6` | <font size=5 color=#88A9F6>■</font> | 未激活的链接           | 文本      |
+| `#FFCB6B` | <font size=5 color=#FFCB6B>■</font> | 激活的链接            | 文本      |
+| `#1B1F2B` | <font size=5 color=#1B1F2B>■</font> | 高亮文本的底色          | 文本      |
+| `#666E95` | <font size=5 color=#666E95>■</font> | 菜单等部分的文本         | 文本      |
+| `#D0DFB8` | <font size=5 color=#D0DFB8>■</font> | 斜体文本             | 文本      |
+| `#FFCB6B` | <font size=5 color=#FFCB6B>■</font> | 粗体文本             | 文本      |
+| `#FFCB6B` | <font size=5 color=#FFCB6B>■</font> | Example          | Callout |
+| `#C3E88D` | <font size=5 color=#c3e88d>■</font> | Definition       | Callout |
+| `#73BBB2` | <font size=5 color=#73bbb2>■</font> | Theorem          | Callout |
+| `#97D8F8` | <font size=5 color=#97d8f8>■</font> | Note             | Callout |
+| `#9E86C8` | <font size=5 color=#9e86c8>■</font> | Proof            | Callout |
+| `#D04255` | <font size=5 color=#D04255>■</font> | Caution          | Callout |
 ^i97pkp
-
-### Callout配色
-
-| HEX       | Preview                             | Callout    |
-| --------- | ----------------------------------- | ---------- |
-| `#FFCB6B` | <font size=5 color=#FFCB6B>■</font> | Example    |
-| `#C3E88D` | <font size=5 color=#c3e88d>■</font> | Definition |
-| `#73BBB2` | <font size=5 color=#73bbb2>■</font> | Theorem    |
-| `#97D8F8` | <font size=5 color=#97d8f8>■</font> | Note       |
-| `#9E86C8` | <font size=5 color=#9e86c8>■</font> | Proof      |
-| `#F57073` | <font size=5 color=#F57073>■</font> | Caution    |
-^e666xv

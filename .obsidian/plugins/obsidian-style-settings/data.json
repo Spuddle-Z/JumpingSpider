@@ -4,7 +4,7 @@
   "minimal-style@@bg3@@dark": "#393F57",
   "minimal-style@@ui1@@dark": "#393F57",
   "minimal-style@@ui2@@dark": "#404D6F",
-  "minimal-style@@ui3@@dark": "#BABED9",
+  "minimal-style@@ui3@@dark": "#B6B8CF",
   "minimal-style@@ax2@@dark": "#FFCB6B",
   "minimal-style@@ax3@@dark": "#73B4D4",
   "minimal-style@@tx1@@dark": "#B6B8CF",
@@ -14,7 +14,7 @@
   "minimal-style@@tx3@@dark": "#666E95",
   "minimal-style@@text-formatting@@dark": "#666E95",
   "minimal-style@@italic-color@@dark": "#D0DFB8",
-  "minimal-style@@bold-color@@dark": "#FECA74",
+  "minimal-style@@bold-color@@dark": "#FFCB6B",
   "minimal-style@@bold-weight": 600,
   "minimal-style@@h1-color@@dark": "#97D8F8",
   "minimal-style@@h6-color@@dark": "#3D7E9E",
@@ -35,7 +35,7 @@
   "minimal-style@@h5-weight": 600,
   "minimal-style@@h1-l": true,
   "minimal-style@@h3-weight": 600,
-  "minimal-style@@graph-node@@dark": "#97D8F8",
+  "minimal-style@@graph-node@@dark": "#B6B8CF",
   "minimal-style@@graph-node-attachment@@dark": "#404D6F",
   "minimal-style@@graph-line@@dark": "#393F57",
   "minimal-style@@ax1@@dark": "#88A9F6",
@@ -43,5 +43,10 @@
   "minimal-style@@h6-l": false,
   "minimal-style@@h3-l": false,
   "minimal-advanced@@cursor": "default",
-  "minimal-style@@base@@dark": "#404D6F"
+  "minimal-style@@base@@dark": "#404D6F",
+  "minimal-style@@code-operator@@dark": "#DCDCAA",
+  "minimal-style@@code-keyword@@dark": "#C792EA",
+  "minimal-style@@code-function@@dark": "#82AAFF",
+  "minimal-style@@code-comment@@dark": "#3F80A1",
+  "minimal-style@@graph-node-tag@@dark": "#DCDCAA"
 }

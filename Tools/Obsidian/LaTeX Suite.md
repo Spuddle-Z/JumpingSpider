@@ -3,7 +3,7 @@ tags:
   - Tutorial
   - Code
 ---
-q## 简介
+## 简介
 虽然看似与LaTeX有关，但完全可以当作一个text snippet插件来使用。
 ## 用得到的设置
 ### Conceal
