@@ -3,6 +3,8 @@ tags:
   - Code
   - Tutorial
 ---
+## 安装
+- **安装文件**：![[clashcn.com_Clash.for.Windows.Setup.0.20.39.exe]]
 ## 配置
 - **配置地址**：是一个存放`.yaml`文件的网址，`.yaml`文件中记录了节点信息。
 ## 配置文件
