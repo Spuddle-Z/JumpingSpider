@@ -165,6 +165,9 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;mN     | \\mathbb{N}                                         | $\mathbb{N}$                          | mA      |
 | ;;mN    | \\mathbb{N}_+                                       | $\mathbb{N}_+$                        | mA      |
 | ;m1     | \\mathbb{1}                                         | $\mathbb{1}$                          | mA      |
+| ;lg     | \\log                                               | $\log$                                | mA      |
+| ;mx     | \\max                                               | $\max$                                | mA      |
+| ;mn     | \\min                                               | $\min$                                | mA      |
 | ;amx    | \\mathop{\\arg\\!\\max}\\limits_{${0:\\theta}}\\ $1 | $\mathop{\arg\!\max}\limits_{\theta}$ | mA      |
 | ;amn    | \\mathop{\\arg\\!\\min}\\limits_{${0:\\theta}}\\ $1 | $\mathop{\arg\!\min}\limits_{\theta}$ | mA      |
 | ;st     | \\text{s.t.}\\quad                                  | $\text{s.t.}\quad$                    | mA      |
@@ -329,6 +332,9 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";mN", replacement: "\\mathbb{N}", options: "mA"},
 	{trigger: ";;mN", replacement: "\\mathbb{N}_+", options: "mA"},
 	{trigger: ";m1", replacement: "\\mathbb{1}", options: "mA"},
+	{trigger: ";lg", replacement: "\\log", options: "mA"},
+	{trigger: ";mx", replacement: "\\max", options: "mA"},
+	{trigger: ";mn", replacement: "\\min", options: "mA"},
 	{trigger: ";amx", replacement: "\\mathop{\\arg\\!\\max}\\limits_{${0:\\theta}}\\ $1", options: "mA"},
 	{trigger: ";amn", replacement: "\\mathop{\\arg\\!\\min}\\limits_{${0:\\theta}}\\ $1", options: "mA"},
 	{trigger: ";st", replacement: "\\text{s.t.}\\quad", options: "mA"},

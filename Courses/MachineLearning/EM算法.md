@@ -1,0 +1,94 @@
+---
+tags:
+  - Knowledge
+aliases:
+  - Expectation-Maximization
+  - 期望最大化
+---
+## 背景
+我们希望训练训练一个描述性模型，使其能够学习到已知数据$X$的分布。此模型的目标函数为
+$$\max_{\theta}P(X|\theta)\qquad\text{s.t.}\quad\int_{X}P(X|\theta)\ dX=1$$
+即训练一组描述数据分布的参数，使得样本点尽量贴合这种分布。
+
+但实际情况下的模型分布往往不是标准的正态分布，而是一个高斯混合模型。
+> [!definition] 高斯混合模型 (Gaussian Mixture Model, GMM)
+> 高斯混合模型是由$K$个高斯模型组合而成的模型，这$K$个子模型称为混合模型的**隐变量(Hidden Variable)**。
+> ![[Pasted image 20240517141629.png|225]]
+> 如图是一个典型的一维高斯混合模型，图中红线为其实际分布，其是由三个单独的高斯分布（即图中蓝线）合并而来的。
+
+假设需要描述的样本分布是$K$个高斯子模型组成的，我们令$Z=(z_1,z_2,\cdots,z_{n})$，其中$z_i=k$代表第$i$个数据属于第$k$个高斯子模型，则目标函数变为
+$$P(X|\theta)=\int_{Z}P(X,Z|\theta)\ dZ=\int_{Z}P(Z)P(X|Z,\theta)\ dZ$$
+## EM算法
+> [!definition] 期望最大化 (Expectation-Maximization, EM)
+> 其分为Expectation步与Maxmization步：
+> 1. **E步(Expectation Step)**：先随机初始化一个参数矩阵$\theta^{(0)}$，然后按照
+> 	$$
+> 	\begin{aligned}
+> 	Q(\theta|\theta^{(t)})&=\sum_{z_1=1}^{K}\sum_{z_2=1}^{K}\cdots\sum_{z_n=1}^{K}P(Z|X,\theta^{(t)})\log P(X,Z|\theta)\\
+> 	&=E_{Z\sim P(Z|X,\theta^{(t)})}[\log P(X,Z|\theta)]
+> 	\end{aligned}
+> 	$$
+> 	其中$\theta^{(t)}$表示上一步的参数状态，是一个常量。$Q$函数表示了在当前$\theta^{(t)}$与由$\theta^{(t)}$估计出的$Z$的分布下，$X$符合这个分布的概率。
+> 1. **M步(Maxmization Step)**：就是一个梯度上升法
+> 	$$\theta^{(t+1)}=\theta^{(t)}+\eta\frac{\partial Q(\theta|\theta^{(t)})}{\partial \theta}$$
+
+我们可以不太严谨地证明
+$$\frac{\partial Q(\theta|\theta^{(t)})}{\partial \theta}=\frac{\partial \log P(X|\theta)}{\partial \theta}$$
+> [!proof] 
+> $$
+> \begin{aligned}
+> &\max_{\theta}\log P(X|\theta)\\
+> \implies\Delta\theta&=\eta\frac{\partial }{\partial \theta}\log P(X|\theta)\\
+> &=\eta\frac{1}{P(X|\theta)}\frac{\partial }{\partial \theta}P(X|\theta)\\
+> \end{aligned}
+> $$
+> ![[Pasted image 20240517105157.png|357]] #Missing 
+> 因此优化$Q(\theta|\theta^{(t)})$即是优化$\log P(X|\theta)$。
+
+但其实真正严谨的证明是要去证明
+$$\Delta Q(\theta|\theta^{(t)})>0\implies\Delta\log P(X|\theta)>0$$
+> [!proof] 
+> $$
+> \begin{aligned}
+> \log P(X|\theta)&=\underbrace{\left[ \sum_{Z'}P(Z'|X,\theta^{(t)}) \right]}_{=1}\log P(X|\theta)\\
+> &=\sum_{Z'}P(Z'|X,\theta^{(t)})\log P(X|\theta)
+> \end{aligned}
+> $$
+> 由于
+> $$
+> \begin{aligned}
+> &P(X|\theta)P(Z|Z,\theta)=P(X,Z|\theta)\\
+> \Longleftrightarrow&\log P(X|\theta)=\log P(X,Z|\theta)-\log P(Z|X,\theta)
+> \end{aligned}
+> $$
+> 因此
+> $$
+> \begin{aligned}
+> &\sum_{Z'}P(Z'|X,\theta^{(t)})\log P(X|\theta)\\
+> =&\sum_{Z'}P(Z'|X,\theta^{(t)})\log P(X,Z|\theta)-\sum_{Z'}P(Z'|X,\theta^{(t)})\log P(Z|X,\theta)
+> \end{aligned}
+> $$
+> 此处的前一项就是$Q(\theta|\theta^{(t)})$，而后一项则是$P(Z'|X,\theta^{(t)})$和$P(Z'|X,\theta)$的负的交叉熵$H(\theta|\theta^{(t)})$，即
+> $$\log P(X|\theta)=Q(\theta|\theta^{(t)})+H(\theta|\theta^{(t)})$$
+> 同理
+> $$\log P(X|\theta^{(t)})=Q(\theta^{(t)}|\theta^{(t)})+H(\theta^{(t)}|\theta^{(t)})$$
+> 那么$\log P(X|\theta)$的每一次优化
+> $$
+> \begin{aligned}
+> &\log P(X|\theta^{(t+1)})-\log P(X|\theta^{(t)})\\
+> =&[Q(\theta^{(t+1)}|\theta^{(t)})-Q(\theta^{(t)}|\theta^{(t)})]+[H(\theta^{(t+1)}|\theta^{(t)})-H(\theta^{(t)}|\theta^{(t)})]
+> \end{aligned}
+> $$
+> 根据[[信息论#^6us1wf|熵的定义]]，有$H(\theta^{(t+1)}|\theta^{(t)})>H(\theta^{(t)}|\theta^{(t)})$，因此有
+> $$Q(\theta^{(t+1)}|\theta^{(t)})>Q(\theta^{(t)}|\theta^{(t)})\implies\log P(X|\theta^{(t+1)})>\log P(X|\theta^{(t)})$$
+> QED.
+## 计算
+由于$Q$函数展开后，有一系列的求和符号，随着样本数$n$的增大，$Q$函数的计算量将指数级增长。因此，我们选择将$\log P(X,Z|\theta)$展开
+$$
+\begin{aligned}
+\log P(X,Z|\theta)&=\log\prod_{i=1}^{n}P(X_i,z_i|\theta)\\
+&=\sum_{i=1}^{n}\log P(X_i,z_i|\theta)
+\end{aligned}
+$$
+对于$\log P(X_i,Z_i|\theta)$来说，前面$K^n$项求和中，真正与其有关的只有$\sum_{z_i=1}^{K}P(z_i|X,\theta^{(t)})$，所以$Q$就被简化为如下的$nK$项求和
+$$Q(\theta|\theta^{(t)})=\sum_{i=1}^{n}\sum_{z_i=1}^{K}P(z_i|X,\theta^{(t)})\log P(X_i,z_i|\theta)$$
