@@ -48,6 +48,7 @@ $$L(\phi,\theta,X)=KL(P_{data}(X)q_{\phi}(h|X)|p_{\theta}(h,X))$$
 > \frac{\partial }{\partial \theta}KL(P_{data}(X)|P_{\theta}(X))&=
 > \end{aligned}
 > $$
+>  ^a7rnh4
 
 则原损失函数可以表示为
 $$

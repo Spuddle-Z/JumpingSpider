@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "036cf524e8992e18",
+        "id": "09a0ba351f2827c1",
         "type": "tabs",
         "children": [
           {
-            "id": "1e1eda6ea21ba5b8",
+            "id": "08b60d72d331e88c",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -68,6 +68,14 @@
         "type": "tabs",
         "children": [
           {
+            "id": "1de5cc4a001ea747",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
             "id": "f49484867123315e",
             "type": "leaf",
             "state": {
@@ -104,17 +112,8 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "1de5cc4a001ea747",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -129,9 +128,16 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "1e1eda6ea21ba5b8",
+  "active": "08b60d72d331e88c",
   "lastOpenFiles": [
+    "Courses/MachineLearning/描述性模型.md",
+    "Courses/MachineLearning/VAE.md",
+    "Courses/MachineLearning/机器学习.md",
+    "Courses/MachineLearning/GAN.md",
+    "assets/Pasted image 20240518221244.png",
+    "_Drafts/K-Means.md",
     "Tools/搜狗五笔输入法.md",
+    "Tools/Obsidian/LaTeX Suite.md",
     "assets/SogouWubi_20240517_ap.cwb",
     "Courses/数据库技术.md",
     "Temp/数据库技术作业/Homework 6.md",
@@ -143,13 +149,8 @@
     "Temp/数据库技术作业/Homework 2.md",
     "Temp/数据库技术作业/Homework 1.md",
     "assets/Pasted image 20240517154504.png",
-    "Courses/MachineLearning/机器学习.md",
-    "_Drafts/K-Means.md",
-    "Courses/MachineLearning/EM算法.md",
-    "Courses/MachineLearning/VAE.md",
     "assets/Pasted image 20240517141629.png",
     "Courses/信息论.md",
-    "Tools/Obsidian/LaTeX Suite.md",
     "assets/Pasted image 20240517105157.png",
     "assets/Pasted image 20240516232959.png",
     "assets/Pasted image 20240516231836.png",
@@ -157,7 +158,6 @@
     "assets/Pasted image 20240516231228.png",
     "Tools/Clash.md",
     "assets/clashcn.com_Clash.for.Windows.Setup.0.20.39.exe",
-    "assets/Pasted image 20240516161113.png",
     "LeetCode/LeetCode 150.md",
     "Tools/Obsidian/Obsidian.md",
     "Tools/Colour Style.md",
@@ -169,7 +169,6 @@
     "LeetCode/3 无重复字符的最长子串.md",
     "_Drafts/提高深度学习系统性能.md",
     "_Drafts/神经网络.md",
-    "_Drafts/算法.md",
     "Template",
     "assets/SogouWubi_20240513_at.cwb",
     "LeetCode",
