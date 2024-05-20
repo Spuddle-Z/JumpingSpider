@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "1597457b635e689d",
+        "id": "822fd8f30b738251",
         "type": "tabs",
         "children": [
           {
-            "id": "5e85c0dee3f1a336",
+            "id": "e7f70c409d54a1d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/博弈论.md",
+                "file": "_Drafts/Homework 3.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           }
@@ -44,9 +44,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "70a421f851087373",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Drafts/Homework 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -88,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.50499725341797
+    "width": 274.50499725341797,
+    "collapsed": true
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/博弈论.md"
+                "file": "_Drafts/Homework 3.md"
               }
             }
           },
@@ -114,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/博弈论.md",
+                "file": "_Drafts/Homework 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/博弈论.md",
+                "file": "_Drafts/Homework 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,14 +176,15 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "b662f8585fed30bd",
+  "active": "e7f70c409d54a1d9",
   "lastOpenFiles": [
+    "Tools/Obsidian/Obsidian.md",
+    "_Drafts/Homework 3.md",
+    "Courses/博弈论.md",
     "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240520_an.cwb",
-    "Courses/博弈论.md",
     "Courses/数据库技术.md",
     "Tools/Obsidian/LaTeX Suite.md",
-    "_Drafts/未命名.md",
     "assets/SogouWubi_20240519_adj.cwb",
     "LeetCode/LeetCode 150.md",
     "Temp/机器学习作业/Homework 3.md",
@@ -200,7 +214,6 @@
     "assets/Pasted image 20240516231832.png",
     "Tools/Clash.md",
     "assets/clashcn.com_Clash.for.Windows.Setup.0.20.39.exe",
-    "Tools/Obsidian/Obsidian.md",
     "Tools/Colour Style.md",
     "第11章_数据库恢复技术.pdf",
     "_Drafts/SQL.md",

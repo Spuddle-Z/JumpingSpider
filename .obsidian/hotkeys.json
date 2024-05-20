@@ -1,12 +1,4 @@
 {
-  "command-palette:open": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "`"
-    }
-  ],
   "markdown:toggle-preview": [
     {
       "modifiers": [
@@ -85,15 +77,6 @@
         "Alt"
       ],
       "key": "6"
-    }
-  ],
-  "app:open-settings": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "S"
     }
   ],
   "editor:toggle-bullet-list": [
@@ -271,6 +254,40 @@
         "Shift"
       ],
       "key": "T"
+    }
+  ],
+  "workspace:split-horizontal": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "D"
+    }
+  ],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "`"
+    }
+  ],
+  "app:open-settings": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
     }
   ]
 }
