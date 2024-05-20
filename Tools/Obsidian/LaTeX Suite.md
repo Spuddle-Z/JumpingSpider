@@ -166,6 +166,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;;mN    | \\mathbb{N}_+                                       | $\mathbb{N}_+$                        | mA      |
 | ;m1     | \\mathbb{1}                                         | $\mathbb{1}$                          | mA      |
 | ;lg     | \\log                                               | $\log$                                | mA      |
+| ;ln     | \\ln                                                | $\ln$                                 | mA      |
 | ;mx     | \\max                                               | $\max$                                | mA      |
 | ;mn     | \\min                                               | $\min$                                | mA      |
 | ;amx    | \\mathop{\\arg\\!\\max}\\limits_{${0:\\theta}}\\ $1 | $\mathop{\arg\!\max}\limits_{\theta}$ | mA      |
@@ -333,6 +334,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";;mN", replacement: "\\mathbb{N}_+", options: "mA"},
 	{trigger: ";m1", replacement: "\\mathbb{1}", options: "mA"},
 	{trigger: ";lg", replacement: "\\log", options: "mA"},
+	{trigger: ";ln", replacement: "\\ln", options: "mA"},
 	{trigger: ";mx", replacement: "\\max", options: "mA"},
 	{trigger: ";mn", replacement: "\\min", options: "mA"},
 	{trigger: ";amx", replacement: "\\mathop{\\arg\\!\\max}\\limits_{${0:\\theta}}\\ $1", options: "mA"},
