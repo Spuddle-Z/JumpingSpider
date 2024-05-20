@@ -1,9 +1,8 @@
 #### Problem 1
-所以有
+令$W_{t}=\sum_{i=1}^{n}W_t(i)$，则
 $$
 \begin{aligned}
-W_{t+1}&=\sum_{i=1}^{n}W_t(i)(1-\varepsilon)^{C_t(i)}\\
-&\leq\sum_{i=1}^{n}W_t(i)(1-\varepsilon C_t(i))\\
+W_{t+1}&=\sum_{i=1}^{n}W_t(i)(1-\varepsilon C_t(i))\\
 &=W_t-\varepsilon\sum_{i=1}^{n}W_t(i)C_t(i)\\
 &=W_t\left( 1-\varepsilon\sum_{i=1}^{n}P_t(i)C_t(i) \right)
 \end{aligned}
@@ -42,13 +41,38 @@ $$-\ln(1-\varepsilon)\leq\frac{\varepsilon}{1-\varepsilon}$$
 所以
 $$\sum_{t=1}^{T}\sum_{i=1}^{n}P_t(i)C_t(i)\leq\frac{\ln n}{\varepsilon}-\frac{1}{1-\varepsilon}\sum_{t=1}^{T}C_t(i^*)$$
 由于
-$$Regret\cdot T=\sum_{t=1}^{T}\sum_{i=1}^{n}P_t(i)C_t(i)-\sum_{t=1}^{T}C_t(i^*)$$
+$$Regret_T=\sum_{t=1}^{T}\sum_{i=1}^{n}P_t(i)C_t(i)-\sum_{t=1}^{T}C_t(i^*)$$
 所以有
 $$
 \begin{aligned}
-Regret&\leq\frac{1}{T}\left(\frac{\ln n}{\varepsilon}+\frac{\varepsilon}{1-\varepsilon}\sum_{t=1}^{T}C_t(i^*)\right)\\
-&\leq\frac{\ln n}{\varepsilon T}+\frac{\varepsilon}{1-\varepsilon}
+Regret_T&\leq\frac{\ln n}{\varepsilon}+\frac{\varepsilon}{1-\varepsilon}\sum_{t=1}^{T}C_t(i^*)\\
+&\leq\frac{\ln n}{\varepsilon}+\frac{\varepsilon T}{1-\varepsilon}
 \end{aligned}
 $$
 我们认为$\varepsilon$比较小，肯定有$\varepsilon<\frac{1}{2}$，所以有$\frac{\varepsilon}{1-\varepsilon}\leq2\varepsilon$；再设$\varepsilon=\sqrt{\frac{\ln n}{2T}}$，则最终得到
-$$Regret\leq2\sqrt{\frac{2\ln n}{T}}\implies\lim_{T\to\infty}Regret=0$$
+$$Regret_T\leq2\sqrt{2T\ln n}$$
+QED.
+#### Problem 2
+目标函数为
+$$\max_{\mu_i}E(U_i)$$
+先考虑玩家1，其中
+$$E(U_1)=(v_1-b_1)P(b_1>b_2)+\frac{v_1-b_1}{2}P(b_1=b_2)$$
+接下来分类讨论：
+1. $c>0$时，有
+	$$
+	\left\{\begin{aligned}
+	P(b_1>b_2)&=P(v_1>v_2)=1-v_1\\
+	P(b_1=b_2)&=0
+	\end{aligned}\right.
+	$$
+	则
+	$$U_1=(1-v_1)(v_1-cv_1-d)$$
+	因此
+	$$
+	\max U_1\implies
+	\left\{\begin{aligned}
+	c&\to0^{+}\\
+	d&\to-\infty
+	\end{aligned}\right.
+	$$
+	

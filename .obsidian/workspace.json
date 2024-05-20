@@ -18,6 +18,18 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "eb6663794b5bbc06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/博弈论.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ]
       },
@@ -178,9 +190,9 @@
   },
   "active": "e7f70c409d54a1d9",
   "lastOpenFiles": [
-    "Tools/Obsidian/Obsidian.md",
-    "_Drafts/Homework 3.md",
     "Courses/博弈论.md",
+    "_Drafts/Homework 3.md",
+    "Tools/Obsidian/Obsidian.md",
     "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240520_an.cwb",
     "Courses/数据库技术.md",
