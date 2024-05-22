@@ -149,10 +149,10 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;eq     | \\Longleftrightarrow                                | $\Longleftrightarrow$                 | mA      |
 | ;sim    | \sim                                                | $\sim$                                | mA      |
 | ;peq    | \approx                                             | $\approx$                             | mA      |
-| ;<=     | \\leq                                               | $\leq$                                | mA      |
-| ;>=     | \\geq                                               | $\geq$                                | mA      |
-| ;v<=    | \\preceq                                            | $\preceq$                             | mA      |
-| ;v>=    | \\succeq                                            | $\succeq$                             | mA      |
+| ;lq     | \\leq                                               | $\leq$                                | mA      |
+| ;gq     | \\geq                                               | $\geq$                                | mA      |
+| ;vlq    | \\preceq                                            | $\preceq$                             | mA      |
+| ;vgq    | \\succeq                                            | $\succeq$                             | mA      |
 | ;nin    | \\notin                                             | $\notin$                              | mA      |
 | ;inq    | \subseteq                                           | $\subseteq$                           | mA      |
 | ;innq   | \subsetneqq                                         | $\subsetneqq$                         | mA      |
@@ -317,10 +317,10 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";eq", replacement: "\\Longleftrightarrow", options: "mA"},
 	{trigger: ";sim", replacement: "\\sim", options: "mA"},
 	{trigger: ";peq", replacement: "\\approx", options: "mA"},
-	{trigger: ";<=", replacement: "\\leq", options: "mA"},
-	{trigger: ";>=", replacement: "\\geq", options: "mA"},
-	{trigger: ";v<=", replacement: "\\preceq", options: "mA"},
-	{trigger: ";v>=", replacement: "\\succeq", options: "mA"},
+	{trigger: ";lq", replacement: "\\leq", options: "mA"},
+	{trigger: ";gq", replacement: "\\geq", options: "mA"},
+	{trigger: ";vlq", replacement: "\\preceq", options: "mA"},
+	{trigger: ";vgq", replacement: "\\succeq", options: "mA"},
 	{trigger: ";nin", replacement: "\\notin", options: "mA"},
 	{trigger: ";inq", replacement: "\\subseteq", options: "mA"},
 	{trigger: ";innq", replacement: "\\subsetneqq", options: "mA"},
