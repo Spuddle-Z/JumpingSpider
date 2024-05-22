@@ -125,18 +125,17 @@
   "workspace:previous-tab": [
     {
       "modifiers": [
-        "Ctrl",
-        "Shift"
+        "Alt"
       ],
-      "key": "Tab"
+      "key": "J"
     }
   ],
   "workspace:next-tab": [
     {
       "modifiers": [
-        "Ctrl"
+        "Alt"
       ],
-      "key": "Tab"
+      "key": "L"
     }
   ],
   "workspace:undo-close-pane": [],
@@ -347,6 +346,23 @@
         "Alt"
       ],
       "key": "Z"
+    }
+  ],
+  "file-explorer:new-file": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
+  "workspace:new-tab": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
     }
   ]
 }

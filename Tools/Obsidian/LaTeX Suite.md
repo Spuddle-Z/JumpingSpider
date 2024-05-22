@@ -8,16 +8,17 @@ tags:
 ## 用得到的设置
 ### Conceal
 用来在文本上就直接将公式显示为数学符号，个人不喜欢，关了。
-![conceal demo](https://raw.githubusercontent.com/artisticat1/obsidian-latex-suite/main/gifs/conceal.png)
-![conceal demo 2](https://raw.githubusercontent.com/artisticat1/obsidian-latex-suite/main/gifs/conceal.gif)
+![[conceal.png|650]]
+
+![[conceal.gif|600]]
 ### Tabout
 打开后按`Tab`可以跳出括号之外，支持的括号类型有`)` `]` `}` `>` `|` `$` `$$`。
 ### Preview inline math
 预览行内数学公式，如图：
-<img width=650 src="https://raw.githubusercontent.com/artisticat1/obsidian-latex-suite/main/gifs/inline_math_preview_2.png">
+![[inline_math_preview_2.png|600]]
 ### Auto-enlarge brackets
 自适应括号大小，当括号内出现`\sum` `\int` `\frac`等大体积符号时，括号变大，如图：
-![auto-enlarge brackets](https://raw.githubusercontent.com/artisticat1/obsidian-latex-suite/main/gifs/auto-enlarge_brackets.gif)
+![[auto-enlarge_brackets.gif|600]]
 ## Snippets
 ### Options
 - `t` : Text mode，即只在数学模块外触发的snippets；
@@ -149,10 +150,10 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;eq     | \\Longleftrightarrow                                | $\Longleftrightarrow$                 | mA      |
 | ;sim    | \sim                                                | $\sim$                                | mA      |
 | ;peq    | \approx                                             | $\approx$                             | mA      |
-| ;lq     | \\leq                                               | $\leq$                                | mA      |
-| ;gq     | \\geq                                               | $\geq$                                | mA      |
-| ;vlq    | \\preceq                                            | $\preceq$                             | mA      |
-| ;vgq    | \\succeq                                            | $\succeq$                             | mA      |
+| ;<=     | \\leq                                               | $\leq$                                | mA      |
+| ;>=     | \\geq                                               | $\geq$                                | mA      |
+| ;v<=    | \\preceq                                            | $\preceq$                             | mA      |
+| ;v>=    | \\succeq                                            | $\succeq$                             | mA      |
 | ;nin    | \\notin                                             | $\notin$                              | mA      |
 | ;inq    | \subseteq                                           | $\subseteq$                           | mA      |
 | ;innq   | \subsetneqq                                         | $\subsetneqq$                         | mA      |
@@ -165,6 +166,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;mN     | \\mathbb{N}                                         | $\mathbb{N}$                          | mA      |
 | ;;mN    | \\mathbb{N}_+                                       | $\mathbb{N}_+$                        | mA      |
 | ;m1     | \\mathbb{1}                                         | $\mathbb{1}$                          | mA      |
+| ;tm     | \\times                                             | $\times$                              | mA      |
+| ;cd     | \\cdot                                              | $\cdot$                               | mA      |
 | ;lg     | \\log                                               | $\log$                                | mA      |
 | ;ln     | \\ln                                                | $\ln$                                 | mA      |
 | ;mx     | \\max                                               | $\max$                                | mA      |
@@ -333,6 +336,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";mN", replacement: "\\mathbb{N}", options: "mA"},
 	{trigger: ";;mN", replacement: "\\mathbb{N}_+", options: "mA"},
 	{trigger: ";m1", replacement: "\\mathbb{1}", options: "mA"},
+	{trigger: ";tm", replacement: "\\times", options: "mA"},
+	{trigger: ";cd", replacement: "\\cdot", options: "mA"},
 	{trigger: ";lg", replacement: "\\log", options: "mA"},
 	{trigger: ";ln", replacement: "\\ln", options: "mA"},
 	{trigger: ";mx", replacement: "\\max", options: "mA"},

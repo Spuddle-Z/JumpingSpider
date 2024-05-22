@@ -32,10 +32,14 @@ tags:
 | `Ctrl + Shift + ~`       | 打开命令行        |                           |
 | `Ctrl + F`               | 查找与替换        |                           |
 | `Ctrl + J`               | 切换编辑与预览模式    |                           |
+| `Ctrl + N`               | 打开新标签页       |                           |
 | `Alt + O`                | 前进           |                           |
 | `Alt + U`                | 返回           |                           |
 | `Ctrl + Shift + F`       | 在所有文件中搜索     |                           |
 | `Ctrl + Shift + J`       | 导出为PDF       |                           |
+| `Alt + J`                | 转到上一个标签页     |                           |
+| `Alt + L`                | 转到下一个标签页     |                           |
+| `Ctrl + Shift + N`       | 新建笔记         |                           |
 | `Ctrl + Shift + O`       | 打开其它仓库       |                           |
 | `Ctrl + D`               | 左右分屏         | 工作区布局                     |
 | `Ctrl + Shift + D`       | 上下分屏         | 工作区布局                     |
