@@ -339,5 +339,14 @@
       ],
       "key": "K"
     }
+  ],
+  "obsidian-focus-mode:toggle-super-focus-mode": [],
+  "obsidian-focus-mode:toggle-focus-mode": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Z"
+    }
   ]
 }

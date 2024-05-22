@@ -29,7 +29,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "254168e5c892d9a9",
+            "id": "0e27276421a553dd",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +39,7 @@
             }
           },
           {
-            "id": "073378b01389aa74",
+            "id": "16a1db7cf463e4ce",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -117,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -126,7 +125,7 @@
       "graph:查看关系图谱": true,
       "templates:插入模板": false,
       "command-palette:打开命令面板": true,
-      "workspaces:管理工作区布局": false
+      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
   "active": "4acb6061cb692922",

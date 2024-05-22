@@ -48,5 +48,10 @@
   "minimal-style@@code-keyword@@dark": "#C792EA",
   "minimal-style@@code-function@@dark": "#82AAFF",
   "minimal-style@@code-comment@@dark": "#3F80A1",
-  "minimal-style@@graph-node-tag@@dark": "#DCDCAA"
+  "minimal-style@@graph-node-tag@@dark": "#DCDCAA",
+  "minimal-style@@sidebar-lines-off": false,
+  "minimal-style@@metadata-heading-off": false,
+  "minimal-style@@metadata-add-property-off": false,
+  "minimal-mobile@@mobile-toolbar-off": false,
+  "minimal-style@@window-title-off": false
 }
