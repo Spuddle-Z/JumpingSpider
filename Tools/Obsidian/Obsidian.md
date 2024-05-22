@@ -26,34 +26,42 @@ tags:
 > [!caution] 
 ## 快捷键
 
-| 快捷键 ^dyo1vs        | 功能           | 所属插件或功能                   |
-| ------------------ | ------------ | ------------------------- |
-| `Ctrl + ~`         | 打开设置         |                           |
-| `Ctrl + Shift + ~` | 打开命令行        |                           |
-| `Ctrl + F`         | 查找与替换        |                           |
-| `Ctrl + J`         | 切换编辑与预览模式    |                           |
-| `Alt + O`          | 前进           |                           |
-| `Alt + U`          | 返回           |                           |
-| `Ctrl + Shift + F` | 在所有文件中搜索     |                           |
-| `Ctrl + Shift + J` | 导出为PDF       |                           |
-| `Ctrl + Shift + O` | 打开其它仓库       |                           |
-| `Ctrl + D`         | 左右分屏         | 工作区布局                     |
-| `Ctrl + Shift + D` | 上下分屏         | 工作区布局                     |
-| `Ctrl + Shift + E` | 打开文件列表       | 工作区布局                     |
-| `Ctrl + L`         | 插入内部链接       | 编辑文本                      |
-| `Ctrl + U`         | 选中文本添加/去掉删除线 | 编辑文本                      |
-| `Ctrl + ;`         | 增加文档属性       | 编辑文本                      |
-| `Alt + 1-6`        | 设此行为1-6级标题   | 编辑文本                      |
-| `Alt + I`          | 光标所在行与上一行交换  | 编辑文本                      |
-| `Alt + K`          | 光标所在行与下一行交换  | 编辑文本                      |
-| `Alt + Q`          | 设此行为无序列表     | 编辑文本                      |
-| `Alt + W`          | 设此行为有序列表     | 编辑文本                      |
-| `Ctrl + Shift + T` | 插入表格         | 编辑文本                      |
-| `Ctrl + Shift + C` | 复制光标所在块的链接   | Copy Block Link           |
-| `Ctrl + M`         | 打开思维导图       | Mind Map                  |
-| `Ctrl + P`         | 暂停/继续番茄钟     | Status bar Pomodoro Timer |
-| `Ctrl + Shift + P` | 重启番茄钟        | Status bar Pomodoro Timer |
-| `Ctrl + Q`         | 开启/关闭打字机模式   | Typewriter Scroll         |
+| 快捷键 ^dyo1vs              | 功能           | 所属插件或功能                   |
+| ------------------------ | ------------ | ------------------------- |
+| `Ctrl + ~`               | 打开设置         |                           |
+| `Ctrl + Shift + ~`       | 打开命令行        |                           |
+| `Ctrl + F`               | 查找与替换        |                           |
+| `Ctrl + J`               | 切换编辑与预览模式    |                           |
+| `Alt + O`                | 前进           |                           |
+| `Alt + U`                | 返回           |                           |
+| `Ctrl + Shift + F`       | 在所有文件中搜索     |                           |
+| `Ctrl + Shift + J`       | 导出为PDF       |                           |
+| `Ctrl + Shift + O`       | 打开其它仓库       |                           |
+| `Ctrl + D`               | 左右分屏         | 工作区布局                     |
+| `Ctrl + Shift + D`       | 上下分屏         | 工作区布局                     |
+| `Alt + E`                | 聚焦上方标签页组     | 工作区布局                     |
+| `Alt + D`                | 聚焦下方标签页组     | 工作区布局                     |
+| `Alt + S`                | 聚焦左方标签页组     | 工作区布局                     |
+| `Alt + F`                | 聚焦右方标签页组     | 工作区布局                     |
+| `Ctrl + Shift + E`       | 打开文件列表       | 工作区布局                     |
+| `Ctrl + L`               | 插入内部链接       | 编辑文本                      |
+| `Ctrl + U`               | 选中文本添加/去掉删除线 | 编辑文本                      |
+| `Ctrl + ;`               | 增加文档属性       | 编辑文本                      |
+| `Alt + 1-6`              | 设此行为1-6级标题   | 编辑文本                      |
+| `Alt + I`                | 光标所在行与上一行交换  | 编辑文本                      |
+| `Alt + K`                | 光标所在行与下一行交换  | 编辑文本                      |
+| `Ctrl + Alt + UpArrow`   | 在上一行加入光标     | 编辑文本                      |
+| `Ctrl + Alt + DownArrow` | 在下一行加入光标     | 编辑文本                      |
+| `Alt + Q`                | 设此行为无序列表     | 编辑文本                      |
+| `Alt + W`                | 设此行为有序列表     | 编辑文本                      |
+| `Ctrl + Shift + T`       | 插入表格         | 编辑文本                      |
+| `Ctrl + Shift + C`       | 复制光标所在块的链接   | Copy Block Link           |
+| `Ctrl + M`               | 打开思维导图       | Mind Map                  |
+| `Ctrl + P`               | 暂停/继续番茄钟     | Status bar Pomodoro Timer |
+| `Ctrl + Shift + P`       | 重启番茄钟        | Status bar Pomodoro Timer |
+| `Shift + Alt + I`        | 上移表格中的行      | Table                     |
+| `Shift + Alt + K`        | 下移表格中的行      | Table                     |
+| `Ctrl + Q`               | 开启/关闭打字机模式   | Typewriter Scroll         |
 ## 插件
 - [[LaTeX Suite]]
 ## CSS片段
