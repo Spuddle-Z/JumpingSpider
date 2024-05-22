@@ -4,53 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "66fd2a7fb7905bac",
+        "id": "0c7d4c3a12daa3ee",
         "type": "tabs",
         "children": [
           {
-            "id": "c55be679a240278d",
+            "id": "ffd8e3dc9c539fa6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Drafts/强化学习.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
-      },
-      {
-        "id": "9c6bebd5ff3cc206",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "bc01b285b81323a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/MachineLearning/机器学习.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "767cc7ca67158680",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Drafts/强化学习.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,9 +72,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_Drafts/强化学习.md"
-              }
+              "state": {}
             }
           },
           {
@@ -118,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Drafts/强化学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Drafts/强化学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,17 +128,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": true
     }
   },
-  "active": "767cc7ca67158680",
+  "active": "ffd8e3dc9c539fa6",
   "lastOpenFiles": [
+    "_Drafts/强化学习.md",
+    "Courses/MachineLearning/机器学习.md",
     "Tools/Obsidian/LaTeX Suite.md",
     "cp.md",
-    "_Drafts/强化学习.md",
     "_Drafts/未命名.md",
     "assets/conceal.gif",
     "assets/conceal.png",
     "assets/auto-enlarge_brackets.gif",
     "assets/inline_math_preview_2.png",
-    "Courses/MachineLearning/机器学习.md",
     "Tools/Obsidian/Obsidian.md",
     "assets/Pasted image 20240522184031.png",
     "Tools/搜狗五笔输入法.md",
