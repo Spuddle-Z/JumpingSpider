@@ -17,11 +17,19 @@ tags:
 1. 执行`git commit -m "<message>"`，将暂存区的修改同步到本地仓库。
 ### 本地仓库链接远程仓库
 1. 在本地仓库的文件夹下，执行`git remote add origin <url>`，其中
-	- `remote`是一个用于管理远程仓库设置的子命令
-	- `add origin <url>`表示将`<url>`地址下的远程仓库与本地仓库连接起来，并且将其标识为`origin`（理论上可以使用任何名称来标识远程仓库，但一般都用`origin`来标识，尤其是本地仓库只连接一个远程仓库的情况下）
+	- `remote`是一个用于管理远程仓库设置的子命令；
+	- `add origin <url>`表示将`<url>`地址下的远程仓库与本地仓库连接起来，并且将其标识为`origin`（理论上可以使用任何名称来标识远程仓库，但一般都用`origin`来标识，尤其是本地仓库只连接一个远程仓库的情况下）。
 1. 执行`git push -u origin main`，其中
-	- `push`命令推送本地`main`分支到远程仓库`origin`的`main`分支上
-	- `-u`则是`--set-upstream`的简写，此命令会将`origin`仓库的`master`分支设为默认的远程分支，即未来进行`git push`或`git pull`时，将默认对此远程仓库的此分支进行操作
+	- `push`命令推送本地`main`分支到远程仓库`origin`的`main`分支上；
+	- `-u`则是`--set-upstream`的简写，此命令会将`origin`仓库的`master`分支设为默认的远程分支，即未来进行`git push`或`git pull`时，将默认对此远程仓库的此分支进行操作。
+1. 执行`git remote -v`查看本地仓库连接了几个远程仓库。
+### 远程仓库到本地
+1. **克隆(Clone)**：输入`git clone <url>`，系统会在当前文件夹下生成一个文件，用来存储仓库。
+1. **抓取(Fetch)**：执行`git fetch <repo> <branch>`，即将远端仓库`<repo>`里的`<branch>`分支的更新都抓取到本地，*不会合并*；如果不指定`<repo>`和`<branch>`，则抓取所有分支。
+3. **拉取(Pull)**：执行`git pull <repo> <branch>`，即将远端仓库`<repo>`里的`<branch>`分支的更新拉取到本地，并*自动合并*（等同于`fetch`+`merge`），如果不指定`<repo>`和`<branch>`，则拉取所有分支。
+
+> [!caution] 
+> `fetch`和`pull`只会同步修改的文件，需要先将远程仓库克隆到本地，并在存储远程仓库文件的文件夹中新建仓库后，再正常使用抓取拉取指令，*对刚刚新建的空仓库没效果*。
 ## 命令列表
 ### 常用操作
 - `git clone <url>`：将远程仓库克隆到当前目录下的一个文件夹中；
