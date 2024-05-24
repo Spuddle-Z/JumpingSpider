@@ -30,6 +30,9 @@ tags:
 
 > [!caution] 
 > `fetch`和`pull`只会同步修改的文件，需要先将远程仓库克隆到本地，并在存储远程仓库文件的文件夹中新建仓库后，再正常使用抓取拉取指令，*对刚刚新建的空仓库没效果*。
+### 分支相关
+1. 使用`git branch <name>`新建名为`<name>`的分支，来存储自己的版本。
+2. 使用`git branch -D <branch>`来强制删除`<branch>`分支。
 ## 命令列表
 ### 常用操作
 - `git clone <url>`：将远程仓库克隆到当前目录下的一个文件夹中；
@@ -50,3 +53,5 @@ tags:
 > [!caution] 注*
 > - 执行`git push`后出现`The requested URL returned error: 403 Forbidden while accessing`则说明没有权限修改远端仓库，需要将`.git/config`中`[remote "origin"]`下的`url = https://github.com/<username>/<repository>.git`修改为`url = https://<username>:<password>@github.com/<username>/<repository>.git`
 > - 合并两分支的方法：若某处只有一个分支有修改，则保留修改；若某处两个分支都有修改，且不一致，则标记为冲突，需要手动修改。
+
+#Missing 前后记录得比较乱，整理内容
