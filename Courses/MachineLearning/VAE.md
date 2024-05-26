@@ -41,13 +41,29 @@ $$L(\phi,\theta,X)=KL(P_{data}(X)q_{\phi}(h|X)|p_{\theta}(h,X))$$
 > $$
 > 因此我们只需证明
 > $$-E_{q_{\phi}(h|X)}(\log p_{\theta}(X|h))=KL(P_{data}(X)|P_{\theta}(X))$$
-> 其实两项并不严格相等，但我们可以证明二者的梯度相等：
-> ![[Pasted image 20240510112843.png]] #Missing 
+> 其实两项并不严格相等，但我们可以证明二者的梯度相等：由[[信息论#^6us1wf|熵]]以及[[信息论#^ejkg5c|KL散度]]的定义可知
 > $$
 > \begin{aligned}
-> \frac{\partial }{\partial \theta}KL(P_{data}(X)|P_{\theta}(X))&=
+> &\frac{\partial }{\partial \theta}KL(P_{data}(X)|P_{\theta}(X))\\
+> =&-\frac{\partial }{\partial \theta}P_{data}(X)\log\sum_{h}P_{\theta}(h,X)-\frac{\partial }{\partial \theta}H(P_{data}(X))
 > \end{aligned}
 > $$
+> 易知
+> $$
+> \left\{\begin{aligned}
+> -P_{data}(X)\log\sum_{h}P_{\theta}(h,X)&=E_{P_{data}(X)}\left( -\log\sum_{h}P_{\theta}(h,X) \right)\\
+> \frac{\partial }{\partial \theta}H(P_{data}(X))&=0
+> \end{aligned}\right.
+> $$
+> 因此
+> $$
+> \begin{aligned}
+> &\frac{\partial }{\partial \theta}KL(P_{data}(X)|P_{\theta}(X))\\
+> =&\frac{\partial }{\partial \theta}E_{P_{data}(X)}\left( -\log\sum_{h}P_{\theta}(h,X) \right)\\
+> =&-E_{P_{data}(X)}\left(\sum_{h}\frac{\partial }{\partial \theta}\right)
+> \end{aligned}
+> $$
+> ![[Pasted image 20240510112843.png]] #Missing 
 >  ^a7rnh4
 
 则原损失函数可以表示为
