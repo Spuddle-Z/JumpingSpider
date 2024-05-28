@@ -1,1 +1,182 @@
-{}
+{
+  "workspaces": {
+    "LeetCode": {
+      "main": {
+        "id": "a5f387d7aefee0fc",
+        "type": "split",
+        "children": [
+          {
+            "id": "8b74ee7e134d4f84",
+            "type": "split",
+            "children": [
+              {
+                "id": "411bef66f5a08395",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "26059f1ad8159f3d",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "LeetCode/LeetCode 150.md",
+                        "mode": "preview",
+                        "source": false
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "512d01801423b511",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "a4bda89a825aab13",
+                    "type": "leaf",
+                    "state": {
+                      "type": "empty",
+                      "state": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "horizontal"
+          },
+          {
+            "id": "ef9e2cd89838fbdb",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a3541dda255f1f1c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "LeetCode/C++.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "39bab2774f695bc1",
+        "type": "split",
+        "children": [
+          {
+            "id": "d2a6c679d11bb097",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0e27276421a553dd",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "16a1db7cf463e4ce",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 237.50499725341797
+      },
+      "right": {
+        "id": "1e8f847d27347061",
+        "type": "split",
+        "children": [
+          {
+            "id": "91e97bff987f747c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1de5cc4a001ea747",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "f49484867123315e",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "6707ed54a72760f5",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "d7868255516b6b6c",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 299.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:打开快速切换": true,
+          "graph:查看关系图谱": true,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": true,
+          "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": true,
+          "workspaces:管理工作区布局": false
+        }
+      },
+      "active": "a4bda89a825aab13",
+      "mtime": "2024-05-28T09:21:59+08:00"
+    }
+  },
+  "active": "LeetCode"
+}
