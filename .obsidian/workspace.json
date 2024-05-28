@@ -4,58 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8b74ee7e134d4f84",
-        "type": "split",
-        "children": [
-          {
-            "id": "411bef66f5a08395",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "26059f1ad8159f3d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "LeetCode/LeetCode 150.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "512d01801423b511",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2eec3d551c2df6f8",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
-      },
-      {
-        "id": "ef9e2cd89838fbdb",
+        "id": "c46a6764ec5b207d",
         "type": "tabs",
         "children": [
           {
-            "id": "a3541dda255f1f1c",
+            "id": "100058a7da425c95",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LeetCode/C++.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -174,22 +131,24 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "2eec3d551c2df6f8",
+  "active": "100058a7da425c95",
   "lastOpenFiles": [
-    "_Drafts/104 二叉树的最大深度.md",
-    "LeetCode/LeetCode 150.md",
-    "LeetCode/C++.md",
-    "LeetCode/54 螺旋矩阵.md",
-    "LeetCode/289 生命游戏.md",
+    "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240528_sgw.cwb",
+    "Courses/MachineLearning/强化学习.md",
+    "assets/Pasted image 20240528103340.png",
     "Courses/MachineLearning/机器学习.md",
     "Courses/MachineLearning/岭回归.md",
+    "_Drafts/未命名.md",
+    "LeetCode/C++.md",
+    "LeetCode/LeetCode 150.md",
+    "LeetCode/104 二叉树的最大深度.md",
+    "LeetCode/54 螺旋矩阵.md",
+    "LeetCode/289 生命游戏.md",
     "Courses/MachineLearning/SVM.md",
-    "Tools/搜狗五笔输入法.md",
     "Courses/数据库技术.md",
     "assets/Pasted image 20240527143856.png",
-    "Courses/MachineLearning/强化学习.md",
     "assets/Pasted image 20240328163046.png",
-    "_Drafts/未命名.md",
     "Tools/Git.md",
     "Courses/博弈论.md",
     "Courses/MachineLearning/VAE.md",
@@ -214,13 +173,10 @@
     "assets/Pasted image 20240521150824.png",
     "assets/SogouWubi_20240520_an.cwb",
     "assets/SogouWubi_20240519_adj.cwb",
-    "Temp/机器学习作业/Homework 3.md",
-    "assets/output.png",
     "assets/SogouWubi_20240517_ap.cwb",
     "assets/clashcn.com_Clash.for.Windows.Setup.0.20.39.exe",
     "第11章_数据库恢复技术.pdf",
     "Template",
-    "assets/SogouWubi_20240513_at.cwb",
-    "LeetCode"
+    "assets/SogouWubi_20240513_at.cwb"
   ]
 }
