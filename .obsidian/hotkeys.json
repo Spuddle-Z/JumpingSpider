@@ -364,5 +364,14 @@
       ],
       "key": "N"
     }
+  ],
+  "workspaces:load": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
   ]
 }

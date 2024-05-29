@@ -117,7 +117,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "LeetCode/LeetCode 150.md"
+                  }
                 }
               },
               {
@@ -132,7 +134,8 @@
                     "showSearch": false,
                     "searchQuery": "",
                     "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
+                    "unlinkedCollapsed": true,
+                    "file": "LeetCode/LeetCode 150.md"
                   }
                 }
               },
@@ -143,7 +146,8 @@
                   "type": "outgoing-link",
                   "state": {
                     "linksCollapsed": false,
-                    "unlinkedCollapsed": true
+                    "unlinkedCollapsed": true,
+                    "file": "LeetCode/LeetCode 150.md"
                   }
                 }
               },
