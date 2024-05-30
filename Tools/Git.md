@@ -53,5 +53,15 @@ tags:
 > [!caution] 注*
 > - 执行`git push`后出现`The requested URL returned error: 403 Forbidden while accessing`则说明没有权限修改远端仓库，需要将`.git/config`中`[remote "origin"]`下的`url = https://github.com/<username>/<repository>.git`修改为`url = https://<username>:<password>@github.com/<username>/<repository>.git`
 > - 合并两分支的方法：若某处只有一个分支有修改，则保留修改；若某处两个分支都有修改，且不一致，则标记为冲突，需要手动修改。
+## VSCode中的Git操作
+### 标记状态
+- `U`：Untracked，未跟踪的，一般是新创建出来的，只在工作区中存在。
+- `A`：Added，新增的，新创建出的文件只加入了暂存区，还没提交过。
+- `M`：Modified，被修改的，其在本地仓库中已经存在，但在工作区已经被修改。
+- `D`：Deleted，被删除的，其在本地仓库中已经存在，但在工作区中已经被删除。
+
+[基于 VScode 的 git 详细使用指南【保姆级！建议收藏！】_vscode git-CSDN博客](https://blog.csdn.net/weixin_48024605/article/details/136037857)
+
+
 
 #Missing 前后记录得比较乱，整理内容

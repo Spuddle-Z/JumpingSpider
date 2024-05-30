@@ -249,8 +249,7 @@
   "editor:insert-table": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Mod"
       ],
       "key": "T"
     }
@@ -372,6 +371,15 @@
         "Shift"
       ],
       "key": "B"
+    }
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
     }
   ]
 }

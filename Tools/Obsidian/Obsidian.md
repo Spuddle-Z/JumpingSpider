@@ -41,6 +41,7 @@ tags:
 | `Alt + L`                | 转到下一个标签页     |                           |
 | `Ctrl + Shift + N`       | 新建笔记         |                           |
 | `Ctrl + Shift + O`       | 打开其它仓库       |                           |
+| `Ctrl + Shift + T`       | 加载模板         | 模板                        |
 | `Ctrl + D`               | 左右分屏         | 工作区布局                     |
 | `Ctrl + Shift + D`       | 上下分屏         | 工作区布局                     |
 | `Alt + E`                | 聚焦上方标签页组     | 工作区布局                     |
@@ -59,7 +60,7 @@ tags:
 | `Ctrl + Alt + DownArrow` | 在下一行加入光标     | 编辑文本                      |
 | `Alt + Q`                | 设此行为无序列表     | 编辑文本                      |
 | `Alt + W`                | 设此行为有序列表     | 编辑文本                      |
-| `Ctrl + Shift + T`       | 插入表格         | 编辑文本                      |
+| `Ctrl + T`               | 插入表格         | 编辑文本                      |
 | `Ctrl + Shift + C`       | 复制光标所在块的链接   | Copy Block Link           |
 | `Ctrl + M`               | 打开思维导图       | Mind Map                  |
 | `Ctrl + P`               | 暂停/继续番茄钟     | Status bar Pomodoro Timer |

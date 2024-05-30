@@ -4,58 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8b74ee7e134d4f84",
-        "type": "split",
-        "children": [
-          {
-            "id": "411bef66f5a08395",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "26059f1ad8159f3d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "LeetCode/LeetCode 150.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "512d01801423b511",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a4bda89a825aab13",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
-      },
-      {
-        "id": "ef9e2cd89838fbdb",
+        "id": "41a1432f79d51a09",
         "type": "tabs",
         "children": [
           {
-            "id": "a3541dda255f1f1c",
+            "id": "06f0a4b52778fbeb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LeetCode/C++.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -174,20 +131,22 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "a4bda89a825aab13",
+  "active": "06f0a4b52778fbeb",
   "lastOpenFiles": [
-    "Tools/Obsidian/Obsidian.md",
-    "LeetCode/LeetCode 150.md",
-    "Tools/Conda.md",
     "Tools/Git.md",
-    "Courses/MachineLearning/强化学习.md",
     "Tools/搜狗五笔输入法.md",
+    "LeetCode/C++.md",
+    "LeetCode/LeetCode 150.md",
+    "_Drafts/226 翻转二叉树.md",
+    "_Drafts/100 相同的树.md",
+    "Tools/Obsidian/Obsidian.md",
+    "Tools/Conda.md",
+    "Courses/MachineLearning/强化学习.md",
     "assets/SogouWubi_20240528_sgw.cwb",
     "assets/Pasted image 20240528103340.png",
     "Courses/MachineLearning/机器学习.md",
     "Courses/MachineLearning/岭回归.md",
     "_Drafts/未命名.md",
-    "LeetCode/C++.md",
     "LeetCode/104 二叉树的最大深度.md",
     "LeetCode/54 螺旋矩阵.md",
     "LeetCode/289 生命游戏.md",
@@ -212,8 +171,6 @@
     "assets/Pasted image 20240426104639.png",
     "Tools/快捷键.md",
     "Tools/Windows 11 录屏.md",
-    "Temp/博弈论作业/Homework 3.md",
-    "Courses/离散数学.md",
     "assets/Pasted image 20240521150824.png",
     "assets/SogouWubi_20240520_an.cwb",
     "assets/SogouWubi_20240519_adj.cwb",
