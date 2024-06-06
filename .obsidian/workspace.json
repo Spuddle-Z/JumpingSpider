@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "41a1432f79d51a09",
+        "id": "1f7af6624f3119cb",
         "type": "tabs",
         "children": [
           {
-            "id": "06f0a4b52778fbeb",
+            "id": "dbe0d727a656556e",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "batch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -131,11 +131,21 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "06f0a4b52778fbeb",
+  "active": "dbe0d727a656556e",
   "lastOpenFiles": [
     "Tools/搜狗五笔输入法.md",
-    "assets/SogouWubi_20240530_sh.cwb",
+    "assets/SogouWubi_20240606_svu.cwb",
+    "Courses/MachineLearning/GNN.md",
+    "Temp/数据科学基础作业/使用HAN模型进行学术论文推荐系统的研究的项目提案.md",
+    "使用HAN模型进行学术论文推荐系统的研究的项目提案.md",
+    "Tools/Windows 11 录屏.md",
+    "_Drafts/未命名.md",
+    "Courses/MachineLearning/CNN.md",
+    "Courses/MachineLearning/GAN.md",
+    "Courses/MachineLearning/VAE.md",
     "Tools/Git.md",
+    "_Drafts/未命名 1.md",
+    "assets/SogouWubi_20240530_sh.cwb",
     "LeetCode/C++.md",
     "LeetCode/LeetCode 150.md",
     "_Drafts/226 翻转二叉树.md",
@@ -147,7 +157,6 @@
     "assets/Pasted image 20240528103340.png",
     "Courses/MachineLearning/机器学习.md",
     "Courses/MachineLearning/岭回归.md",
-    "_Drafts/未命名.md",
     "LeetCode/104 二叉树的最大深度.md",
     "LeetCode/54 螺旋矩阵.md",
     "LeetCode/289 生命游戏.md",
@@ -155,28 +164,19 @@
     "Courses/数据库技术.md",
     "assets/Pasted image 20240527143856.png",
     "assets/Pasted image 20240328163046.png",
-    "Courses/博弈论.md",
-    "Courses/MachineLearning/VAE.md",
-    "Courses/信息论.md",
-    "Courses/MachineLearning/描述性模型.md",
     "assets/SogouWubi_20240526_sa.cwb",
     "assets/SogouWubi_20240525_se.cwb",
-    "Tools/Vimium C.md",
-    "Tools/Obsidian/LaTeX Suite.md",
-    "cp.md",
     "assets/conceal.gif",
     "assets/conceal.png",
     "assets/auto-enlarge_brackets.gif",
     "assets/inline_math_preview_2.png",
     "assets/Pasted image 20240522184031.png",
     "assets/Pasted image 20240426104639.png",
-    "Tools/快捷键.md",
     "assets/Pasted image 20240521150824.png",
     "assets/SogouWubi_20240520_an.cwb",
     "assets/SogouWubi_20240519_adj.cwb",
     "assets/SogouWubi_20240517_ap.cwb",
     "assets/clashcn.com_Clash.for.Windows.Setup.0.20.39.exe",
-    "第11章_数据库恢复技术.pdf",
-    "Template"
+    "第11章_数据库恢复技术.pdf"
   ]
 }
