@@ -150,10 +150,10 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;eq     | \\Longleftrightarrow                                | $\Longleftrightarrow$                 | mA      |
 | ;sim    | \sim                                                | $\sim$                                | mA      |
 | ;peq    | \approx                                             | $\approx$                             | mA      |
-| ;<=     | \\leq                                               | $\leq$                                | mA      |
-| ;>=     | \\geq                                               | $\geq$                                | mA      |
-| ;v<=    | \\preceq                                            | $\preceq$                             | mA      |
-| ;v>=    | \\succeq                                            | $\succeq$                             | mA      |
+| ;lq     | \\leq                                               | $\leq$                                | mA      |
+| ;gq     | \\geq                                               | $\geq$                                | mA      |
+| ;vlq    | \\preceq                                            | $\preceq$                             | mA      |
+| ;vgq    | \\succeq                                            | $\succeq$                             | mA      |
 | ;nin    | \\notin                                             | $\notin$                              | mA      |
 | ;inq    | \subseteq                                           | $\subseteq$                           | mA      |
 | ;innq   | \subsetneqq                                         | $\subsetneqq$                         | mA      |
