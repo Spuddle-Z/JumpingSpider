@@ -8,18 +8,51 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3116584cdc1973be",
+            "id": "679021d263372cdf",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "434b624cb971ef04",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Drafts/未命名.md",
-                "mode": "source",
+                "file": "Courses/MachineLearning/机器学习.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ecb075baedfe547",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/MachineLearning/岭回归.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "79421a86f9d53433",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/MachineLearning/SVM.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -61,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50499725341797,
-    "collapsed": true
+    "width": 237.50499725341797
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -73,41 +105,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1de5cc4a001ea747",
+            "id": "d383d8934bfacc20",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Drafts/未命名.md"
-              }
-            }
-          },
-          {
-            "id": "f49484867123315e",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "_Drafts/未命名.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "6707ed54a72760f5",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "_Drafts/未命名.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "Courses/MachineLearning/机器学习.md"
               }
             }
           },
@@ -121,13 +124,41 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "0d4ce346a2971ff3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Courses/MachineLearning/机器学习.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ffca4a9773361b07",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Courses/MachineLearning/机器学习.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -139,18 +170,28 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "3116584cdc1973be",
+  "active": "434b624cb971ef04",
   "lastOpenFiles": [
-    "Tools/搜狗五笔输入法.md",
-    "assets/SogouWubi_20240609_dwq.cwb",
-    "_Drafts/未命名.md",
-    "Tools/Obsidian/LaTeX Suite.md",
-    "_Drafts/Draft.md",
-    "Courses/MachineLearning/描述性模型.md",
-    "Courses/MachineLearning/机器学习.md",
     "Courses/MachineLearning/岭回归.md",
+    "Courses/MachineLearning/机器学习.md",
     "Courses/MachineLearning/SVM.md",
+    "_Drafts/数据科学基础论文中文.md",
+    "Courses/凸优化.md",
+    "Courses/MachineLearning/PCA.md",
     "Courses/MachineLearning/LDA.md",
+    "_Drafts/机器学习原理.md",
+    "Courses/MachineLearning/神经网络.md",
+    "_Drafts/博弈论大作业论文中文.md",
+    "_Drafts/Draft.md",
+    "Courses/信息论.md",
+    "Courses/概率论.md",
+    "Courses/线性代数.md",
+    "Temp/数据库技术作业/Homework 6.md",
+    "Tools/搜狗五笔输入法.md",
+    "assets/Pasted image 20240609192137.png",
+    "assets/SogouWubi_20240609_dwq.cwb",
+    "Tools/Obsidian/LaTeX Suite.md",
+    "Courses/MachineLearning/描述性模型.md",
     "assets/SogouWubi_20240606_svu.cwb",
     "Courses/MachineLearning/GNN.md",
     "Temp/数据科学基础作业/使用HAN模型进行学术论文推荐系统的研究的项目提案.md",
@@ -161,16 +202,8 @@
     "Courses/MachineLearning/VAE.md",
     "Tools/Git.md",
     "assets/SogouWubi_20240530_sh.cwb",
-    "LeetCode/C++.md",
-    "LeetCode/LeetCode 150.md",
-    "_Drafts/226 翻转二叉树.md",
-    "_Drafts/100 相同的树.md",
-    "Tools/Obsidian/Obsidian.md",
-    "Tools/Conda.md",
-    "Courses/MachineLearning/强化学习.md",
     "assets/SogouWubi_20240528_sgw.cwb",
     "assets/Pasted image 20240528103340.png",
-    "LeetCode/104 二叉树的最大深度.md",
     "assets/Pasted image 20240527143856.png",
     "assets/Pasted image 20240328163046.png",
     "assets/SogouWubi_20240526_sa.cwb",
@@ -181,7 +214,6 @@
     "assets/inline_math_preview_2.png",
     "assets/Pasted image 20240522184031.png",
     "assets/Pasted image 20240426104639.png",
-    "assets/Pasted image 20240521150824.png",
     "assets/SogouWubi_20240520_an.cwb",
     "assets/SogouWubi_20240519_adj.cwb",
     "assets/SogouWubi_20240517_ap.cwb",

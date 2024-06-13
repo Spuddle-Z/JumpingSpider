@@ -9,8 +9,8 @@ aliases:
 ![[Pasted image 20240319105559.png|400]]
 - **线性判别算法(Linear Discriminant Analysis, LDA)**：是一种监督学习中的降维技术。LDA通过将高维数据投影到低维空间中，*使投影后的类内方差最小，类间方差最大*。LDA的目标是找到最符合以上条件的投影平面。
 
-LDA的目标函数如下，其中$S=\frac{\sigma^2_{between}}{\sigma^2_{within}}$：$$\max_{\beta}S$$
-其中$\beta$即为其投影平面，因此我们只需要求得其方向，而其模长并不重要。
+LDA的目标函数如下：$$\max_{\beta}S$$
+其中$S=\frac{\sigma^2_{between}}{\sigma^2_{within}}$，$\beta$即为其投影平面，因此我们只需要求得其方向，而其模长并不重要。
 ## 推导过程
 对于一个二分类模型，其推导过程如下：
 
