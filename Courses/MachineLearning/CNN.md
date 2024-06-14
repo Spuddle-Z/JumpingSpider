@@ -90,6 +90,7 @@ GoogLeNet引入了inception块。
 > $$\hat{x}_{id}=\frac{x_{id}-\mu_d}{\sigma_d}$$
 > 添加额外的参数$\beta_d,\gamma_d$，得到最终的输出$y_{id}$：
 > $$y_{id}=\gamma_{d}\hat{x}_{id}+\beta_d$$
+> 模型训练过程中我们会不断地更新$\mu_{d}$与$\sigma_{d}^2$，但在测试阶段会固定这两个量。
 
 此方法允许使用更高的学习率，从而加速模型收敛，但不会改变模型精度。
 

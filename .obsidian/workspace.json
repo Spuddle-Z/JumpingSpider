@@ -4,55 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d648572f7ca0019e",
+        "id": "40dbee1f68837fe3",
         "type": "tabs",
         "children": [
           {
-            "id": "679021d263372cdf",
+            "id": "3e35f29d0674baf8",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "434b624cb971ef04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/MachineLearning/机器学习.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8ecb075baedfe547",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/MachineLearning/岭回归.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79421a86f9d53433",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/MachineLearning/SVM.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,9 +72,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Courses/MachineLearning/机器学习.md"
-              }
+              "state": {}
             }
           },
           {
@@ -131,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/MachineLearning/机器学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/MachineLearning/机器学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,37 +129,39 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "434b624cb971ef04",
+  "active": "3e35f29d0674baf8",
   "lastOpenFiles": [
-    "Courses/MachineLearning/岭回归.md",
+    "_Drafts/可解释性.md",
     "Courses/MachineLearning/机器学习.md",
+    "Courses/MachineLearning/神经网络.md",
+    "Courses/MachineLearning/强化学习.md",
     "Courses/MachineLearning/SVM.md",
+    "Courses/MachineLearning/描述性模型.md",
+    "assets/Pasted image 20240614100450.png",
+    "assets/Pasted image 20240614100302.png",
+    "Courses/MachineLearning/高维数据可视化方法.md",
+    "Courses/MachineLearning/PCA.md",
+    "Courses/MachineLearning/VAE.md",
+    "Courses/MachineLearning/GAN.md",
+    "Courses/MachineLearning/CNN.md",
+    "Courses/线性代数.md",
+    "Courses/MachineLearning/岭回归.md",
     "_Drafts/数据科学基础论文中文.md",
     "Courses/凸优化.md",
-    "Courses/MachineLearning/PCA.md",
     "Courses/MachineLearning/LDA.md",
     "_Drafts/机器学习原理.md",
-    "Courses/MachineLearning/神经网络.md",
     "_Drafts/博弈论大作业论文中文.md",
     "_Drafts/Draft.md",
     "Courses/信息论.md",
     "Courses/概率论.md",
-    "Courses/线性代数.md",
     "Temp/数据库技术作业/Homework 6.md",
     "Tools/搜狗五笔输入法.md",
     "assets/Pasted image 20240609192137.png",
     "assets/SogouWubi_20240609_dwq.cwb",
     "Tools/Obsidian/LaTeX Suite.md",
-    "Courses/MachineLearning/描述性模型.md",
     "assets/SogouWubi_20240606_svu.cwb",
     "Courses/MachineLearning/GNN.md",
     "Temp/数据科学基础作业/使用HAN模型进行学术论文推荐系统的研究的项目提案.md",
-    "使用HAN模型进行学术论文推荐系统的研究的项目提案.md",
-    "Tools/Windows 11 录屏.md",
-    "Courses/MachineLearning/CNN.md",
-    "Courses/MachineLearning/GAN.md",
-    "Courses/MachineLearning/VAE.md",
-    "Tools/Git.md",
     "assets/SogouWubi_20240530_sh.cwb",
     "assets/SogouWubi_20240528_sgw.cwb",
     "assets/Pasted image 20240528103340.png",
@@ -212,8 +173,6 @@
     "assets/conceal.png",
     "assets/auto-enlarge_brackets.gif",
     "assets/inline_math_preview_2.png",
-    "assets/Pasted image 20240522184031.png",
-    "assets/Pasted image 20240426104639.png",
     "assets/SogouWubi_20240520_an.cwb",
     "assets/SogouWubi_20240519_adj.cwb",
     "assets/SogouWubi_20240517_ap.cwb",
