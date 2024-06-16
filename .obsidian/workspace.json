@@ -26,21 +26,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c9e708529056b9ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/DatabaseSystemTechnology/关系规范化基础.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50499725341797
+    "width": 261.50499725341797,
+    "collapsed": true
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -98,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/DatabaseSystemTechnology/关系规范化基础.md"
+                "file": "Courses/DatabaseSystemTechnology/数据库技术.md"
               }
             }
           },
@@ -119,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/DatabaseSystemTechnology/关系规范化基础.md",
+                "file": "Courses/DatabaseSystemTechnology/数据库技术.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/DatabaseSystemTechnology/关系规范化基础.md",
+                "file": "Courses/DatabaseSystemTechnology/数据库技术.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,38 +148,38 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "c9e708529056b9ce",
+  "active": "85ca1fe62c29f3a3",
   "lastOpenFiles": [
+    "Courses/DatabaseSystemTechnology/关系规范化基础.md",
     "Courses/DatabaseSystemTechnology/数据库技术.md",
     "Courses/DatabaseSystemTechnology/关系模型和关系运算理论.md",
+    "assets/Pasted image 20240616132035.png",
+    "Tools/Obsidian/LaTeX Suite.md",
+    "Courses/MachineLearning/描述性模型.md",
+    "Courses/MachineLearning/机器学习.md",
+    "Courses/MachineLearning/高维数据可视化方法.md",
+    "Courses/MachineLearning/GAN.md",
+    "Courses/MachineLearning/神经网络.md",
     "Courses/DatabaseSystemTechnology/SQL.md",
     "_Drafts/核函数与正则学习.md",
     "_Drafts/提高机器学习性能.md",
     "Courses/MachineLearning/K-Means.md",
-    "Courses/MachineLearning/描述性模型.md",
     "LeetCode/100 相同的树.md",
     "Template/LeetCode.md",
     "Courses/DatabaseSystemTechnology/数据库恢复.md",
-    "Courses/DatabaseSystemTechnology/关系规范化基础.md",
     "Courses/DatabaseSystemTechnology/数据库设计.md",
     "Courses/DatabaseSystemTechnology",
-    "Courses/MachineLearning/机器学习.md",
     "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240615_def.cwb",
     "Courses/MachineLearning/可解释性.md",
-    "Courses/MachineLearning/神经网络.md",
     "Courses/MachineLearning/强化学习.md",
     "Courses/MachineLearning/SVM.md",
     "assets/Pasted image 20240614100450.png",
     "assets/Pasted image 20240614100302.png",
-    "Courses/MachineLearning/高维数据可视化方法.md",
     "Courses/MachineLearning/PCA.md",
     "Courses/MachineLearning/VAE.md",
-    "Courses/MachineLearning/GAN.md",
     "Courses/MachineLearning/CNN.md",
     "Courses/线性代数.md",
-    "Courses/MachineLearning/岭回归.md",
-    "_Drafts/数据科学基础论文中文.md",
     "assets/Pasted image 20240609192137.png",
     "assets/SogouWubi_20240609_dwq.cwb",
     "assets/SogouWubi_20240606_svu.cwb",
@@ -203,7 +193,6 @@
     "assets/conceal.gif",
     "assets/conceal.png",
     "assets/auto-enlarge_brackets.gif",
-    "assets/inline_math_preview_2.png",
     "assets/SogouWubi_20240520_an.cwb",
     "assets/SogouWubi_20240519_adj.cwb"
   ]
