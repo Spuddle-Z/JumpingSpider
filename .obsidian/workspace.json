@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "ca92bfa22941608e",
+        "id": "a7c67f4c4bbcc086",
         "type": "tabs",
         "children": [
           {
-            "id": "57effa94cbc3c238",
+            "id": "4247ea689bf3e893",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -129,8 +129,9 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "57effa94cbc3c238",
+  "active": "4247ea689bf3e893",
   "lastOpenFiles": [
+    "assets/output.png",
     "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240618_dye.cwb",
     "_Drafts/博弈论大作业论文中文.md",
