@@ -8,8 +8,19 @@ aliases:
 ---
 ## 数据定义
 ### 模式的定义与删除
-1. 定义数据库模式：`CREATE SCHEMA <模式名> AUTHORIZATION <用户名>`。在此命令中亦可接受定义该模式包含的数据库对象的子句，如`CREATE SCHEMA <模式名> AUTHORIZATION <用户名>[<表定义子句>|<视图定义子句>|<授权定义子句>]`。
-2. 删除数据库模式：`DROP SCHEMA <模式名> <CASCADE|RESTRICT>`，其中
+1. 定义数据库模式：
+	```sql
+	CREATE SCHEMA <模式名> AUTHORIZATION <用户名>
+	```
+	在此命令中亦可接受定义该模式包含的数据库对象的子句，如
+	```sql
+	CREATE SCHEMA <模式名> AUTHORIZATION <用户名>[<表定义子句>|<视图定义子句>|<授权定义子句>]
+	```
+1. 删除数据库模式：
+	```sql
+	DROP SCHEMA <模式名> <CASCADE|RESTRICT>
+	```
+	其中
 	- `CASCADE`是级联模式，会将该模式中包含的数据库对象也一并删除；
 	- `RESTRICT`是限制模式，只有在该模式中没有任何下属的对象时才能执行。
 ### 基本表的定义、删除与修改
@@ -41,13 +52,24 @@ aliases:
 		>  /* Cno是外码，被参照表是Course */
 		> );
 		> ```
-1. 修改基本表：`ALTER TABLE <表名> <子句>`，其中的子句可以有以下选择：
+1. 修改基本表：
+	```sql
+	ALTER TABLE <表名> <子句>
+	```
+	其中的子句可以有以下选择：
 	- `ADD [COLUMN] <新列名> <数据类型> [完整性约束]`：增加新列；
 	- `DROP CONSTRAINT <完整性约束> [CASCADE|RESTRICT]`：删除指定的完整性约束条件。
-1. 删除基本表：`DROP TABLE <表名> [RESTRICT|CASCADE]`
+3. 删除基本表：
+	```sql
+	DROP TABLE <表名> [RESTRICT|CASCADE]
+	```
 ### 索引的建立与删除
 - 意义：建立索引是加快查询速度的有效手段。
-- 建立索引：`CREATE [UNIQUE] [CLUSTER] INDEX <索引名> ON <表名>(<列名>[<次序>], <列名>[<次序>], ...)`，其中
+- 建立索引：
+	```sql
+	CREATE [UNIQUE] [CLUSTER] INDEX <索引名> ON <表名>(<列名>[<次序>], <列名>[<次序>], ...)
+	```
+	其中
 	- `UNIQUE`表示此索引的每个索引值只对就唯一的数据记录；
 	- `CLUSTER`指建立**聚簇索引**，此时基本表中的数据顺序也会按索引项顺序存储，一个基本表上只能建立一个聚簇索引，因此一般会在最经常查询的列上建立聚簇索引，以提高查询效率；
 	- `<次序>`指索引值的排列顺序，可以为*升序(ASC)*或*降序(DESC)*。
@@ -65,11 +87,13 @@ FROM <表名或视图名>, <表名或视图名>, ... | (<SELECT语句>) [AS] <�
 ### 选择指定列
 最基础的语法是`SELECT <列名>`，若欲选择全部列则可以使用`SELECT *`，消除取值重复的行可以使用`SELECT DISTINCT <列名>`。此外还可以查询经过计算的值，并重命名查询结果的列标题。
 > [!example] 
+> 查询全体学生的姓名、出生年份和所在系，并用小写字母表示所有系名。
 > ```sql
 SELECT Sname NAME, 'Year of Birth: ' BIRTH, 2014-Sage BIRTHDAY, ISLOWER(Sdept) DEPARTMENT
 FROM Student;
 > ```
-> 其输出结果则为![[Pasted image 20240323143804.png|450]]
+> 其输出结果则为
+> ![[Pasted image 20240323143804.png|450]] #Missing 
 ### 选择指定元组
 - 使用`WHERE`子句来限定具体的查询条件。此子句后常用的查询条件如下表：  
 
@@ -83,15 +107,27 @@ FROM Student;
 | 复合条件（逻辑运算） | AND, OR, NOT                    |
 > [!caution] 
 > - `SELECT`：选择表中指定的列，对应*投影操作*；
-> - `WHERE`：查询满足条件的元组，对应*选择操作*；
+> - `WHERE`：查询满足条件的元组，对应*选择操作*。
+
+> [!caution] 
+> SQL中没有自然连接的概念了，因此都需要用`WHERE`子句来写出条件。
 ### 排序查询结果
 使用`ORDER BY`子句对查询结果进行排序，`ASC`为升序，`DESC`为降序。
 > [!example] 
-> ![[Pasted image 20240323153225.png]]
-### 聚集函数
-- **聚集函数**：以值的集合为输入，以单个值为输出的函数。SQL提供了五类聚集函数，`COUNT`计数、`SUM`求和、`AVG`求平均数、`MAX` `MIN`求最大最小值。
+> ![[Pasted image 20240323153225.png]] #Missing 
+
+使用`LIMIT`子句来限制查询的行数，通常与`ORDER BY`子句一起使用。
 > [!example] 
-> ![[Pasted image 20240323154511.png]]
+> ![[Pasted image 20240616163620.png]] #Missing 
+### 聚集函数
+> [!definition] 聚集函数
+> 以值的集合为输入，以单个值为输出的函数。SQL提供了五类聚集函数，`COUNT`计数、`SUM`求和、`AVG`求平均数、`MAX` `MIN`求最大最小值。
+
+> [!caution] 
+> 除了`COUNT (*)`外，聚集函数都只处理非空值。
+
+> [!example] 
+> ![[Pasted image 20240323154511.png]] #Missing 
 
 > [!caution] 
 > `WHERE`子句中不能用聚集函数作为条件表达式，聚集函数只能用于`SELECT`子句和`HAVING`子句中。
@@ -104,18 +140,22 @@ FROM Student;
 > [!example] 
 > ![[Pasted image 20240323160007.png]]
 ### 连接查询
+#Missing 
 ### 嵌套查询
 #### 基本概念
-一个SELECT-FROM-WHERE语句称为一个查询块，将一个查询块嵌套在另一个查询块的WHERE子句或HAVING短语的条件中的查询称为**嵌套查询**。
+一个`SELECT-FROM-WHERE`语句称为一个查询块，将一个查询块嵌套在另一个查询块的`WHERE`子句或`HAVING`短语的条件中的查询称为**嵌套查询**。
 #### ANY与ALL
-- **ANY**：某个值
-- **ALL**：所有值
+- `ANY`：某个值
+- `ALL`：所有值
+
+> [!example] 
+> ![[Pasted image 20240616185838.png]] #Missing 
 #### EXISTS
-带有EXISTS谓词的子查询不返回任何数据，只返回`true`或`false`。
+带有`EXISTS`谓词的子查询不返回任何数据，只返回`true`或`false`。
 > [!example] 
 > ![[Pasted image 20240324104939.png]]
-1. 一些事EXISTS或NOT EXISTS的子查询不能被其他形式的子查询等价替换，但所有带IN、比较运算符、ANY或ALL的子查询都能用带EXISTS的子查询等价替换。
-2. SQL语言中没有全称量词$\forall$，可以用存在量词替代，$(\forall x)P\equiv\lnot(\exists x(\lnot P))$。
+1. 一些事EXISTS或NOT EXISTS的子查询不能被其他形式的子查询等价替换，但所有带`IN`、比较运算符、`ANY`或`ALL`的子查询都能用带`EXISTS`的子查询等价替换。
+2. SQL中没有全称量词$\forall$，可以用存在量词替代，$(\forall x)P\equiv\lnot(\exists x(\lnot P))$。
 3. 逻辑蕴含也可以使用存在谓词表达，$p\to q\equiv\lnot p\vee q$。
 ### 集合查询
 - **并操作**：`UNION`
@@ -222,8 +262,7 @@ AS <子查询>
 > [!example] 
 > 建立信息系选修了1号课程的学生视图。
 > ```sql
-> CREATE VIEW IS_S1(Sno, Sname, Grade)
-> 	AS
+> CREATE VIEW IS_S1(Sno, Sname, Grade) AS
 > 	SELECT Student.Sno, Sname, Grade
 > 	FROM Student, SC
 > 	WHERE Sdept = 'IS' AND
