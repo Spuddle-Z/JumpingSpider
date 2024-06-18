@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "5fe39a2fedacff44",
+        "id": "c3bd20e863cdabc7",
         "type": "tabs",
         "children": [
           {
-            "id": "1f7590d7dcbeb212",
+            "id": "cf75459827285366",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_Drafts/博弈论大作业论文中文.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -57,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50499725341797,
-    "collapsed": true
+    "width": 261.50499725341797
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -73,7 +76,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_Drafts/博弈论大作业论文中文.md"
+              }
             }
           },
           {
@@ -93,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_Drafts/博弈论大作业论文中文.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_Drafts/博弈论大作业论文中文.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,8 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -131,13 +137,13 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "1f7590d7dcbeb212",
+  "active": "cf75459827285366",
   "lastOpenFiles": [
+    "Temp/数据库技术作业/Homework 6.md",
     "Courses/DatabaseSystemTechnology/SQL.md",
     "Courses/DatabaseSystemTechnology/数据库技术.md",
     "Courses/DatabaseSystemTechnology/数据库恢复.md",
     "Temp/数据库技术作业/Homework 2.md",
-    "Temp/数据库技术作业/Homework 6.md",
     "assets/Pasted image 20240616220016.png",
     "assets/Pasted image 20240616215338.png",
     "assets/Pasted image 20240616213935.png",
