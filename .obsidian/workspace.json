@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a7c67f4c4bbcc086",
+        "id": "14cee343cc1c4025",
         "type": "tabs",
         "children": [
           {
-            "id": "4247ea689bf3e893",
+            "id": "7632d2682402b889",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "weight",
+                "query": "GNN",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -129,8 +129,11 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "4247ea689bf3e893",
+  "active": "7632d2682402b889",
   "lastOpenFiles": [
+    "Courses/图论.md",
+    "Courses/MachineLearning/GNN.md",
+    "Courses/DatabaseSystemTechnology/数据库设计.md",
     "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240619_di.cwb",
     "assets/output.png",
@@ -146,7 +149,6 @@
     "assets/Pasted image 20240616213935.png",
     "Temp/数据库技术作业/Homework 4.md",
     "Temp/数据库技术作业/Homework 5.md",
-    "Courses/DatabaseSystemTechnology/数据库设计.md",
     "assets/Pasted image 20240616185838.png",
     "assets/Pasted image 20240616185708.png",
     "assets/Pasted image 20240616163620.png",
@@ -168,7 +170,6 @@
     "Template/LeetCode.md",
     "Courses/DatabaseSystemTechnology",
     "assets/SogouWubi_20240615_def.cwb",
-    "Courses/MachineLearning/可解释性.md",
     "assets/Pasted image 20240614100450.png",
     "assets/SogouWubi_20240609_dwq.cwb",
     "assets/SogouWubi_20240606_svu.cwb",
