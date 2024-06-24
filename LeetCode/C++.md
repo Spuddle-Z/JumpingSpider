@@ -55,3 +55,18 @@ tags:
 - `hash.count(key)`：返回`key`所对应值的数量。
 - `hash.insert({key, value})`：插入键值对。
 - `hash.erase(key)`：删除`key`所对应的键值对，并返回删除键值对的数量。
+## 常用操作
+### 基本
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+	return 0;
+}
+```
+### 输入数据
+```cpp
+string s;
+cin >> s;
+```
