@@ -301,36 +301,36 @@ id  = **此处省略身份证号**
 	caps_9 = keyFunc_doNothing
 	caps_0 = keyFunc_doNothing
 	
-	caps_minus     = keyFunc_doNothing
-	caps_equal     = keyFunc_doNothing
+	caps_minus     = keyFunc_doNothing
+	caps_equal     = keyFunc_doNothing
 	caps_backspace = keyFunc_doNothing
 	
 	caps_tab = keyFunc_tabScript
 	
-	caps_leftSquareBracket  = keyFunc_doNothing
+	caps_leftSquareBracket  = keyFunc_doNothing
 	caps_rightSquareBracket = keyFunc_doNothing
-	caps_backslash          = keyFunc_doNothing
+	caps_backslash          = keyFunc_doNothing
 	
 	caps_semicolon = keyFunc_doNothing
-	caps_quote     = keyFunc_doNothing
-	caps_enter     = keyFunc_doNothing
+	caps_quote     = keyFunc_doNothing
+	caps_enter     = keyFunc_doNothing
 	
 	caps_comma = keyFunc_doNothing
-	caps_dot   = keyFunc_doNothing
+	caps_dot   = keyFunc_doNothing
 	caps_slash = keyFunc_doNothing
 	
-	caps_space     = keyFunc_doNothing
+	caps_space     = keyFunc_doNothing
 	caps_right_alt = keyFunc_doNothing
 	
-	caps_f1  = keyFunc_doNothing
-	caps_f2  = keyFunc_doNothing
-	caps_f3  = keyFunc_doNothing
-	caps_f4  = keyFunc_doNothing
-	caps_f5  = keyFunc_doNothing
-	caps_f6  = keyFunc_doNothing
-	caps_f7  = keyFunc_doNothing
-	caps_f8  = keyFunc_doNothing
-	caps_f9  = keyFunc_doNothing
+	caps_f1  = keyFunc_doNothing
+	caps_f2  = keyFunc_doNothing
+	caps_f3  = keyFunc_doNothing
+	caps_f4  = keyFunc_doNothing
+	caps_f5  = keyFunc_doNothing
+	caps_f6  = keyFunc_doNothing
+	caps_f7  = keyFunc_doNothing
+	caps_f8  = keyFunc_doNothing
+	caps_f9  = keyFunc_doNothing
 	caps_f10 = keyFunc_doNothing
 	caps_f11 = keyFunc_doNothing
 	caps_f12 = keyFunc_doNothing
@@ -373,22 +373,22 @@ id  = **此处省略身份证号**
 	caps_lalt_9 = keyFunc_doNothing
 	caps_lalt_0 = keyFunc_doNothing
 	
-	caps_lalt_minus     = keyFunc_doNothing
-	caps_lalt_equal     = keyFunc_doNothing
+	caps_lalt_minus     = keyFunc_doNothing
+	caps_lalt_equal     = keyFunc_doNothing
 	caps_lalt_backspace = keyFunc_doNothing
 	
 	caps_lalt_tab = keyFunc_doNothing
 	
-	caps_lalt_leftSquareBracket  = keyFunc_doNothing
+	caps_lalt_leftSquareBracket  = keyFunc_doNothing
 	caps_lalt_rightSquareBracket = keyFunc_doNothing
-	caps_lalt_backslash          = keyFunc_doNothing
+	caps_lalt_backslash          = keyFunc_doNothing
 	
 	caps_lalt_semicolon = keyFunc_doNothing
-	caps_lalt_quote     = keyFunc_doNothing
-	caps_lalt_enter     = keyFunc_doNothing
+	caps_lalt_quote     = keyFunc_doNothing
+	caps_lalt_enter     = keyFunc_doNothing
 	
 	caps_lalt_comma = keyFunc_doNothing
-	caps_lalt_dot   = keyFunc_doNothing
+	caps_lalt_dot   = keyFunc_doNothing
 	caps_lalt_slash = keyFunc_doNothing
 	
 	caps_lalt_space = keyFunc_doNothing
