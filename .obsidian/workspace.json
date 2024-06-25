@@ -14,8 +14,21 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "d342ebdbcf7918e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/搜狗五笔输入法.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "GNN",
+                "query": "层归一化",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +66,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -73,7 +87,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Tools/搜狗五笔输入法.md"
+              }
             }
           },
           {
@@ -93,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Tools/搜狗五笔输入法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Tools/搜狗五笔输入法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,8 +149,11 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "b7b1ffb88a3adffe",
+  "active": "d342ebdbcf7918e5",
   "lastOpenFiles": [
+    "Courses/MachineLearning/Transformer.md",
+    "Courses/MachineLearning/GPT.md",
+    "Tools/搜狗五笔输入法.md",
     "Tools/Spark.md",
     "assets/Pasted image 20240311210123.png",
     "assets/add&norm.png",
@@ -146,7 +167,6 @@
     "Tools/Conda.md",
     "Tools/Git.md",
     "Courses/DatabaseSystemTechnology/数据库技术.md",
-    "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240624_ds.cwb",
     "Courses/DatabaseSystemTechnology/数据库恢复.md",
     "Tools/Obsidian/Obsidian.md",
@@ -170,8 +190,6 @@
     "assets/Pasted image 20240616163620.png",
     "assets/Pasted image 20240616163509.png",
     "Tools/SQL Server.md",
-    "Courses/DatabaseSystemTechnology/关系规范化基础.md",
-    "Tools/Obsidian/LaTeX Suite.md",
     "Courses/DatabaseSystemTechnology",
     "assets/SogouWubi_20240615_def.cwb",
     "assets/SogouWubi_20240609_dwq.cwb",
