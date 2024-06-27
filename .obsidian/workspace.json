@@ -14,8 +14,21 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "6d6d21ab0dd9a78e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Temp/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Temp/README.md"
+              }
             }
           },
           {
@@ -92,6 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Temp/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Temp/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,8 +146,13 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "b7b1ffb88a3adffe",
+  "active": "6d6d21ab0dd9a78e",
   "lastOpenFiles": [
+    "LeetCode/LeetCode 150.md",
+    "_Drafts/365 生成字典序最大的有效序列.md",
+    "Tools/Conda.md",
+    "Temp/README.md",
+    "Temp",
     "_Drafts/操作系统.md",
     "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240625_ddi.cwb",
@@ -141,13 +163,11 @@
     "assets/Pasted image 20240311210123.png",
     "assets/add&norm.png",
     "Courses/DatabaseSystemTechnology/关系模型和关系运算理论.md",
-    "LeetCode/LeetCode 150.md",
     "LeetCode/C++.md",
     "LeetCode/239 字母组合.md",
     "LeetCode/289 生命游戏.md",
     "LeetCode/104 二叉树的最大深度.md",
     "_Drafts/算法.md",
-    "Tools/Conda.md",
     "Tools/Git.md",
     "Courses/DatabaseSystemTechnology/数据库技术.md",
     "assets/SogouWubi_20240624_ds.cwb",
@@ -162,7 +182,6 @@
     "_Drafts/博弈论大作业论文中文.md",
     "Temp/数据库技术作业/Homework 6.md",
     "Courses/DatabaseSystemTechnology/SQL.md",
-    "Temp/数据库技术作业/Homework 2.md",
     "assets/Pasted image 20240616220016.png",
     "assets/Pasted image 20240616215338.png",
     "assets/Pasted image 20240616213935.png",
@@ -174,7 +193,6 @@
     "assets/SogouWubi_20240615_def.cwb",
     "assets/SogouWubi_20240609_dwq.cwb",
     "assets/SogouWubi_20240606_svu.cwb",
-    "assets/SogouWubi_20240530_sh.cwb",
-    "assets/SogouWubi_20240528_sgw.cwb"
+    "assets/SogouWubi_20240530_sh.cwb"
   ]
 }
