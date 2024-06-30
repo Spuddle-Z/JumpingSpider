@@ -46,7 +46,7 @@ tags:
 - `v.push_back(a)`：在末尾加入`a`。
 - `v.pop_back()`：敲掉末尾的元素。
 - `v.erase(p)`：删除迭代器`p`所指向的元素（`p`是迭代器）。
-- `sort(p, q)` ：将向量[`p`, `q`)范围内的元素由小到大排序（`p` `q`为迭代器），无返回值；如果想由大到小排序，需要使用`v.rbegin()`与`v.rend()`。
+- `sort(v.begin(), v.end())` ：将向量[`v.begin()`, `v.end()`)范围内的元素由小到大排序，无返回值；如果想由大到小排序，需要使用`v.rbegin()`与`v.rend()`。
 #### 哈希表
 ```cpp
 #include <unordered_map>

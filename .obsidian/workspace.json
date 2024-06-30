@@ -26,9 +26,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5cd3beb3b3b01ed9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LeetCode/LeetCode 150.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41b5c612e2875850",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Drafts/算法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "78db5cb91619e3b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/图论.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -86,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Temp/README.md"
+                "file": "_Drafts/算法.md"
               }
             }
           },
@@ -107,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temp/README.md",
+                "file": "_Drafts/算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temp/README.md",
+                "file": "_Drafts/算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,12 +182,16 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "6d6d21ab0dd9a78e",
+  "active": "41b5c612e2875850",
   "lastOpenFiles": [
+    "Courses/图论.md",
+    "_Drafts/算法.md",
     "LeetCode/LeetCode 150.md",
-    "_Drafts/365 生成字典序最大的有效序列.md",
-    "Tools/Conda.md",
+    "LeetCode/365 生成字典序最大的有效序列.md",
+    "LeetCode/C++.md",
+    "LeetCode/209 长度最小的子数组.md",
     "Temp/README.md",
+    "Tools/Conda.md",
     "Temp",
     "_Drafts/操作系统.md",
     "Tools/搜狗五笔输入法.md",
@@ -163,17 +203,14 @@
     "assets/Pasted image 20240311210123.png",
     "assets/add&norm.png",
     "Courses/DatabaseSystemTechnology/关系模型和关系运算理论.md",
-    "LeetCode/C++.md",
     "LeetCode/239 字母组合.md",
     "LeetCode/289 生命游戏.md",
     "LeetCode/104 二叉树的最大深度.md",
-    "_Drafts/算法.md",
     "Tools/Git.md",
     "Courses/DatabaseSystemTechnology/数据库技术.md",
     "assets/SogouWubi_20240624_ds.cwb",
     "Courses/DatabaseSystemTechnology/数据库恢复.md",
     "Tools/Obsidian/Obsidian.md",
-    "Courses/图论.md",
     "Courses/MachineLearning/GNN.md",
     "Courses/DatabaseSystemTechnology/数据库设计.md",
     "assets/SogouWubi_20240619_di.cwb",
@@ -181,7 +218,6 @@
     "assets/SogouWubi_20240618_dye.cwb",
     "_Drafts/博弈论大作业论文中文.md",
     "Temp/数据库技术作业/Homework 6.md",
-    "Courses/DatabaseSystemTechnology/SQL.md",
     "assets/Pasted image 20240616220016.png",
     "assets/Pasted image 20240616215338.png",
     "assets/Pasted image 20240616213935.png",
