@@ -24,6 +24,7 @@ tags:
 #include <algorithm>
 ```
 - `min(a,b)` `max(a,b)`：求`a` `b`中的较小/较大值。
+
 ### 容器
 #### String
 ```cpp
@@ -48,6 +49,7 @@ tags:
 - `v.pop_back()`：敲掉末尾的元素。
 - `v.erase(p)`：删除迭代器`p`所指向的元素（`p`是迭代器）。
 - `sort(v.begin(), v.end())` ：将向量[`v.begin()`, `v.end()`)范围内的元素由小到大排序，无返回值；如果想由大到小排序，需要使用`v.rbegin()`与`v.rend()`。
+
 #### Queue
 ```cpp
 #include <queue>
