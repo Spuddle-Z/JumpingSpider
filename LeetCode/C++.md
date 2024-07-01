@@ -41,12 +41,21 @@ tags:
 ```cpp
 #include <vector>
 ```
+- `v.resize(n)`：将`v`的长度初始化为`n`。
 - `v.begin()` `v.end()`：返回指向向量开头/末尾的两个迭代器。
 - `v.size()`：返回向量长度。
 - `v.push_back(a)`：在末尾加入`a`。
 - `v.pop_back()`：敲掉末尾的元素。
 - `v.erase(p)`：删除迭代器`p`所指向的元素（`p`是迭代器）。
 - `sort(v.begin(), v.end())` ：将向量[`v.begin()`, `v.end()`)范围内的元素由小到大排序，无返回值；如果想由大到小排序，需要使用`v.rbegin()`与`v.rend()`。
+#### Queue
+```cpp
+#include <queue>
+```
+- `q.push(a)`：将`a`入队。
+- `q.pop()`：将队首的元素出队，*并不返回任何值*。
+- `q.front()`：返回队首的元素。
+- `q.empty()`：队列若为空则返回`true`。
 #### 哈希表
 ```cpp
 #include <unordered_map>

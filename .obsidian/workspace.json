@@ -16,55 +16,19 @@
             }
           },
           {
-            "id": "6d6d21ab0dd9a78e",
+            "id": "deeda032108d5d78",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Temp/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5cd3beb3b3b01ed9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LeetCode/LeetCode 150.md",
+                "file": "Tools/Conda.md",
                 "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "41b5c612e2875850",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Drafts/算法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "78db5cb91619e3b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/图论.md",
-                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Drafts/算法.md"
+                "file": "Tools/Conda.md"
               }
             }
           },
@@ -143,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Drafts/算法.md",
+                "file": "Tools/Conda.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Drafts/算法.md",
+                "file": "Tools/Conda.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,42 +146,42 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "41b5c612e2875850",
+  "active": "deeda032108d5d78",
   "lastOpenFiles": [
-    "Courses/图论.md",
-    "_Drafts/算法.md",
-    "LeetCode/LeetCode 150.md",
-    "LeetCode/365 生成字典序最大的有效序列.md",
-    "LeetCode/C++.md",
-    "LeetCode/209 长度最小的子数组.md",
-    "Temp/README.md",
+    "LeetCode/104 二叉树的最大深度.md",
+    "LeetCode/100 相同的树.md",
+    "LeetCode/80 删除有序数组中的重复项II.md",
+    "LeetCode/55 跳跃游戏.md",
+    "LeetCode/54 螺旋矩阵.md",
     "Tools/Conda.md",
+    "LeetCode/45 跳跃游戏II.md",
+    "LeetCode/15 三数之和.md",
+    "LeetCode/13 罗马数字转整数.md",
+    "LeetCode/6 Z字形变换.md",
+    "Tools/Git.md",
+    "Temp/README.md",
+    "LeetCode/3 无重复字符的最长子串.md",
+    "Template/LeetCode.md",
+    "_Drafts/算法.md",
+    "LeetCode/C++.md",
+    "LeetCode/LeetCode 150.md",
+    "Courses/图论.md",
+    "LeetCode/207 课程表.md",
+    "Tools/CapsLock+.md",
+    "LeetCode/365 生成字典序最大的有效序列.md",
+    "LeetCode/209 长度最小的子数组.md",
     "Temp",
     "_Drafts/操作系统.md",
     "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240625_ddi.cwb",
-    "Tools/CapsLock+.md",
     "Courses/MachineLearning/Transformer.md",
     "Courses/MachineLearning/GPT.md",
-    "Tools/Spark.md",
     "assets/Pasted image 20240311210123.png",
     "assets/add&norm.png",
-    "Courses/DatabaseSystemTechnology/关系模型和关系运算理论.md",
-    "LeetCode/239 字母组合.md",
-    "LeetCode/289 生命游戏.md",
-    "LeetCode/104 二叉树的最大深度.md",
-    "Tools/Git.md",
-    "Courses/DatabaseSystemTechnology/数据库技术.md",
     "assets/SogouWubi_20240624_ds.cwb",
-    "Courses/DatabaseSystemTechnology/数据库恢复.md",
-    "Tools/Obsidian/Obsidian.md",
-    "Courses/MachineLearning/GNN.md",
-    "Courses/DatabaseSystemTechnology/数据库设计.md",
     "assets/SogouWubi_20240619_di.cwb",
     "assets/output.png",
     "assets/SogouWubi_20240618_dye.cwb",
-    "_Drafts/博弈论大作业论文中文.md",
-    "Temp/数据库技术作业/Homework 6.md",
     "assets/Pasted image 20240616220016.png",
     "assets/Pasted image 20240616215338.png",
     "assets/Pasted image 20240616213935.png",
