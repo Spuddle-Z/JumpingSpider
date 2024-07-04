@@ -6,7 +6,7 @@ tags:
 
 | 快捷键               | 功能    | 所属扩展            |
 | ----------------- | ----- | --------------- |
-| `Shift + Alt + P` | 打开工作区 | Project Manager |
+| `Shift + Alt + p` | 打开工作区 | Project Manager |
 
 ^yal1q3
 

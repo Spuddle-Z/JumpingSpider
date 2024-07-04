@@ -381,5 +381,41 @@
       ],
       "key": "T"
     }
+  ],
+  "editor:table-row-before": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "editor:table-row-after": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "editor:table-col-after": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
+  "editor:table-col-before": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "S"
+    }
   ]
 }

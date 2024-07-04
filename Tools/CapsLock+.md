@@ -8,9 +8,9 @@ tags:
 
 | Hotkeys      | Functions     |
 | ------------ | ------------- |
-| `Caps + P`   | 将焦点所在页置顶      |
-| `Caps + Q`   | 唤出Qbar        |
-| `Caps + T`   | 将当前窗口设为透明     |
+| `Caps + p`   | 将焦点所在页置顶      |
+| `Caps + q`   | 唤出Qbar        |
+| `Caps + t`   | 将当前窗口设为透明     |
 | `Caps + Tab` | 使用TabScript功能 |
 ^zvbulv
 
@@ -18,24 +18,24 @@ tags:
 
 | Hotkeys          | Original Keys               |
 | ---------------- | --------------------------- |
-| `Caps + I`       | `UpArrow`                   |
-| `Caps + K`       | `DownArrow`                 |
-| `Caps + J`       | `LeftArrow`                 |
-| `Caps + L`       | `RightArrow`                |
-| `Caps + U`       | `Ctrl + LeftArrow`          |
-| `Caps + O`       | `Ctrl + RightArrow`         |
-| `Caps + E`       | `Backspace`                 |
-| `Caps + R`       | `Delete`                    |
-| `Caps + H`       | `Home`                      |
+| `Caps + i`       | `UpArrow`                   |
+| `Caps + k`       | `DownArrow`                 |
+| `Caps + j`       | `LeftArrow`                 |
+| `Caps + l`       | `RightArrow`                |
+| `Caps + u`       | `Ctrl + LeftArrow`          |
+| `Caps + o`       | `Ctrl + RightArrow`         |
+| `Caps + e`       | `Backspace`                 |
+| `Caps + r`       | `Delete`                    |
+| `Caps + h`       | `Home`                      |
 | `Caps + ;`       | `End`                       |
-| `Caps + Alt + I` | `Shift + UpArrow`           |
-| `Caps + Alt + K` | `Shift + DownArrow`         |
-| `Caps + Alt + J` | `Shift + LeftArrow`         |
-| `Caps + Alt + L` | `Shift + RightArrow`        |
-| `Caps + Alt + U` | `Ctrl + Shift + LeftArrow`  |
-| `Caps + Alt + O` | `Ctrl + Shift + RightArrow` |
-| `Caps + Alt + R` | `Shift + Delete`            |
-| `Caps + Alt + H` | `Shift + Home`              |
+| `Caps + Alt + i` | `Shift + UpArrow`           |
+| `Caps + Alt + k` | `Shift + DownArrow`         |
+| `Caps + Alt + j` | `Shift + LeftArrow`         |
+| `Caps + Alt + l` | `Shift + RightArrow`        |
+| `Caps + Alt + u` | `Ctrl + Shift + LeftArrow`  |
+| `Caps + Alt + o` | `Ctrl + Shift + RightArrow` |
+| `Caps + Alt + r` | `Shift + Delete`            |
+| `Caps + Alt + h` | `Shift + Home`              |
 | `Caps + Alt + ;` | `Shift + End`               |
 
 ^qi4ypa
@@ -46,12 +46,12 @@ tags:
 | -------------- | --------- |
 | `Caps + Space` | 鼠标左键      |
 | `Caps + .`     | 鼠标右键      |
-| `Caps + W`     | 鼠标上移      |
-| `Caps + S`     | 鼠标下移      |
-| `Caps + A`     | 鼠标左移      |
-| `Caps + D`     | 鼠标右移      |
+| `Caps + w`     | 鼠标上移      |
+| `Caps + s`     | 鼠标下移      |
+| `Caps + a`     | 鼠标左移      |
+| `Caps + d`     | 鼠标右移      |
 | `Caps + ,`     | 鼠标滚轮向下    |
-| `Caps + M`     | 鼠标滚轮向上    |
+| `Caps + m`     | 鼠标滚轮向上    |
 
 ^yip6rv
 

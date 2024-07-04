@@ -30,44 +30,48 @@ tags:
 | ------------------------ | ------------ | ------------------------- |
 | `Ctrl + ~`               | 打开设置         |                           |
 | `Ctrl + Shift + ~`       | 打开命令行        |                           |
-| `Ctrl + F`               | 查找与替换        |                           |
-| `Ctrl + J`               | 切换编辑与预览模式    |                           |
-| `Ctrl + N`               | 打开新标签页       |                           |
-| `Alt + O`                | 前进           |                           |
-| `Alt + U`                | 返回           |                           |
-| `Ctrl + Shift + F`       | 在所有文件中搜索     |                           |
-| `Ctrl + Shift + J`       | 导出为PDF       |                           |
-| `Alt + J`                | 转到上一个标签页     |                           |
-| `Alt + L`                | 转到下一个标签页     |                           |
-| `Ctrl + Shift + N`       | 新建笔记         |                           |
+| `Ctrl + f`               | 查找与替换        |                           |
+| `Ctrl + j`               | 切换编辑与预览模式    |                           |
+| `Ctrl + n`               | 打开新标签页       |                           |
+| `Alt + o`                | 前进           |                           |
+| `Alt + u`                | 返回           |                           |
+| `Ctrl + Shift + f`       | 在所有文件中搜索     |                           |
+| `Ctrl + Shift + j`       | 导出为PDF       |                           |
+| `Alt + j`                | 转到上一个标签页     |                           |
+| `Alt + l`                | 转到下一个标签页     |                           |
+| `Ctrl + Shift + n`       | 新建笔记         |                           |
 | `Ctrl + Shift + O`       | 打开其它仓库       |                           |
-| `Ctrl + Shift + T`       | 加载模板         | 模板                        |
-| `Ctrl + D`               | 左右分屏         | 工作区布局                     |
-| `Ctrl + Shift + D`       | 上下分屏         | 工作区布局                     |
-| `Alt + E`                | 聚焦上方标签页组     | 工作区布局                     |
-| `Alt + D`                | 聚焦下方标签页组     | 工作区布局                     |
-| `Alt + S`                | 聚焦左方标签页组     | 工作区布局                     |
-| `Alt + F`                | 聚焦右方标签页组     | 工作区布局                     |
-| `Ctrl + Shift + E`       | 打开文件列表       | 工作区布局                     |
-| `Ctrl + Shift + B`       | 加载工作区布局      | 工作区布局                     |
-| `Ctrl + L`               | 插入内部链接       | 编辑文本                      |
-| `Ctrl + U`               | 选中文本添加/去掉删除线 | 编辑文本                      |
+| `Ctrl + Shift + t`       | 加载模板         | 模板                        |
+| `Ctrl + d`               | 左右分屏         | 工作区布局                     |
+| `Ctrl + Shift + d`       | 上下分屏         | 工作区布局                     |
+| `Alt + e`                | 聚焦上方标签页组     | 工作区布局                     |
+| `Alt + d`                | 聚焦下方标签页组     | 工作区布局                     |
+| `Alt + s`                | 聚焦左方标签页组     | 工作区布局                     |
+| `Alt + f`                | 聚焦右方标签页组     | 工作区布局                     |
+| `Ctrl + Shift + e`       | 打开文件列表       | 工作区布局                     |
+| `Ctrl + Shift + b`       | 加载工作区布局      | 工作区布局                     |
+| `Ctrl + l`               | 插入内部链接       | 编辑文本                      |
+| `Ctrl + u`               | 选中文本添加/去掉删除线 | 编辑文本                      |
 | `Ctrl + ;`               | 增加文档属性       | 编辑文本                      |
 | `Alt + 1-6`              | 设此行为1-6级标题   | 编辑文本                      |
-| `Alt + I`                | 光标所在行与上一行交换  | 编辑文本                      |
-| `Alt + K`                | 光标所在行与下一行交换  | 编辑文本                      |
+| `Alt + i`                | 光标所在行与上一行交换  | 编辑文本                      |
+| `Alt + k`                | 光标所在行与下一行交换  | 编辑文本                      |
 | `Ctrl + Alt + UpArrow`   | 在上一行加入光标     | 编辑文本                      |
 | `Ctrl + Alt + DownArrow` | 在下一行加入光标     | 编辑文本                      |
-| `Alt + Q`                | 设此行为无序列表     | 编辑文本                      |
-| `Alt + W`                | 设此行为有序列表     | 编辑文本                      |
-| `Ctrl + T`               | 插入表格         | 编辑文本                      |
-| `Ctrl + Shift + C`       | 复制光标所在块的链接   | Copy Block Link           |
-| `Ctrl + M`               | 打开思维导图       | Mind Map                  |
-| `Ctrl + P`               | 暂停/继续番茄钟     | Status bar Pomodoro Timer |
-| `Ctrl + Shift + P`       | 重启番茄钟        | Status bar Pomodoro Timer |
-| `Shift + Alt + I`        | 上移表格中的行      | Table                     |
-| `Shift + Alt + K`        | 下移表格中的行      | Table                     |
-| `Ctrl + Q`               | 开启/关闭打字机模式   | Typewriter Scroll         |
+| `Alt + q`                | 设此行为无序列表     | 编辑文本                      |
+| `Alt + w`                | 设此行为有序列表     | 编辑文本                      |
+| `Ctrl + t`               | 插入表格         | 编辑文本                      |
+| `Ctrl + Shift + c`       | 复制光标所在块的链接   | Copy Block Link           |
+| `Ctrl + m`               | 打开思维导图       | Mind Map                  |
+| `Ctrl + p`               | 暂停/继续番茄钟     | Status bar Pomodoro Timer |
+| `Ctrl + Shift + p`       | 重启番茄钟        | Status bar Pomodoro Timer |
+| `Shift + Alt + i`        | 上移表格中的行      | Table                     |
+| `Shift + Alt + k`        | 下移表格中的行      | Table                     |
+| `Shift + Alt + e`        | 在上方插入行       | Table                     |
+| `Shift + Alt + d`        | 在下方插入行       | Table                     |
+| `Shift + Alt + s`        | 在左侧插入列       | Table                     |
+| `Shift + Alt + f`        | 在右侧插入列       | Table                     |
+| `Ctrl + q`               | 开启/关闭打字机模式   | Typewriter Scroll         |
 ## 插件
 - [[LaTeX Suite]]
 ## CSS片段
