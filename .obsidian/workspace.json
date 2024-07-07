@@ -16,36 +16,36 @@
             }
           },
           {
-            "id": "deeda032108d5d78",
+            "id": "df4561f973a66f66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Conda.md",
+                "file": "Courses/MachineLearning/DDPM.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "ce9390b59f8e003d",
+            "id": "deeda032108d5d78",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LeetCode/274 H指数.md",
-                "mode": "source",
+                "file": "_Drafts/扩散模型.md",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "6c65627aef7e389c",
+            "id": "04451852a6e06e15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Drafts/算法.md",
+                "file": "Courses/MachineLearning/机器学习.md",
                 "mode": "preview",
                 "source": false
               }
@@ -53,6 +53,24 @@
           }
         ],
         "currentTab": 3
+      },
+      {
+        "id": "efa4029eda084428",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "353c84c7138fddb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/MachineLearning/DDPM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Drafts/算法.md"
+                "file": "Courses/MachineLearning/机器学习.md"
               }
             }
           },
@@ -132,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Drafts/算法.md",
+                "file": "Courses/MachineLearning/机器学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Drafts/算法.md",
+                "file": "Courses/MachineLearning/机器学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,14 +190,28 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "6c65627aef7e389c",
+  "active": "04451852a6e06e15",
   "lastOpenFiles": [
+    "_Drafts/算法.md",
+    "Courses/MachineLearning/机器学习.md",
+    "LeetCode/274 H指数.md",
+    "_Drafts/扩散模型.md",
+    "Courses/MachineLearning/DDPM.md",
+    "Tools/Conda.md",
+    "Tools/Tmux.md",
+    "Courses/操作系统.md",
+    "assets/GPU.png",
+    "assets/volatile.png",
+    "assets/struct.png",
+    "assets/open_read.png",
+    "assets/file_search_3.png",
+    "assets/file_search_2.png",
+    "assets/file_search_1.png",
+    "assets/multi_inode.png",
+    "assets/Pasted image 20240706232959.png",
+    "assets/process_switch 2.png",
     "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240704_df.cwb",
-    "Tools/Conda.md",
-    "LeetCode/274 H指数.md",
-    "_Drafts/算法.md",
-    "_Drafts/Tmux.md",
     "Tools/快捷键.md",
     "Tools/VSCode.md",
     "Tools/CapsLock+.md",
@@ -197,24 +229,11 @@
     "LeetCode/207 课程表.md",
     "LeetCode/151 反转字符串中的单词.md",
     "LeetCode/134 加油站.md",
-    "LeetCode/104 二叉树的最大深度.md",
-    "Template/LeetCode.md",
-    "LeetCode/100 相同的树.md",
     "Temp",
     "assets/SogouWubi_20240625_ddi.cwb",
-    "assets/Pasted image 20240311210123.png",
-    "assets/add&norm.png",
     "assets/SogouWubi_20240624_ds.cwb",
     "assets/SogouWubi_20240619_di.cwb",
-    "assets/output.png",
     "assets/SogouWubi_20240618_dye.cwb",
-    "assets/Pasted image 20240616220016.png",
-    "assets/Pasted image 20240616215338.png",
-    "assets/Pasted image 20240616213935.png",
-    "assets/Pasted image 20240616185838.png",
-    "assets/Pasted image 20240616185708.png",
-    "assets/Pasted image 20240616163620.png",
-    "assets/Pasted image 20240616163509.png",
     "Courses/DatabaseSystemTechnology",
     "assets/SogouWubi_20240615_def.cwb",
     "assets/SogouWubi_20240609_dwq.cwb",
