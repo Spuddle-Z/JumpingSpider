@@ -93,7 +93,7 @@ SELECT Sname NAME, 'Year of Birth: ' BIRTH, 2014-Sage BIRTHDAY, ISLOWER(Sdept) D
 FROM Student;
 > ```
 > 其输出结果则为
-> ![[Pasted image 20240323143804.png|450]] #Missing 
+> ![[Pasted image 20240323143804.png|450]]
 ### 选择指定元组
 - 使用`WHERE`子句来限定具体的查询条件。此子句后常用的查询条件如下表：  
 
@@ -114,11 +114,23 @@ FROM Student;
 ### 排序查询结果
 使用`ORDER BY`子句对查询结果进行排序，`ASC`为升序，`DESC`为降序。
 > [!example] 
-> ![[Pasted image 20240323153225.png]] #Missing 
+> 查询全体学生情况，查询结果按所在系的系号升序排列，同一系中的学生按年龄降序排列。
+> ```sql
+> SELECT *
+> FROM Student
+> ORDER BY Sdept, Sage DESC;
+> ```
 
 使用`LIMIT`子句来限制查询的行数，通常与`ORDER BY`子句一起使用。
 > [!example] 
-> ![[Pasted image 20240616163620.png]] #Missing 
+> 查询平均成绩排名在3-7名的学生学号和平均成绩。
+> ```sql
+> SELECT Sno, AVG(Grade)
+> FROM SC
+> GROUP BY Sno
+> ORDER BY AVG(Grade) DESC
+> LIMIT 5 OFFSET 2;
+> ```
 ### 聚集函数
 > [!definition] 聚集函数
 > 以值的集合为输入，以单个值为输出的函数。SQL提供了五类聚集函数，`COUNT`计数、`SUM`求和、`AVG`求平均数、`MAX` `MIN`求最大最小值。
@@ -127,19 +139,55 @@ FROM Student;
 > 除了`COUNT (*)`外，聚集函数都只处理非空值。
 
 > [!example] 
-> ![[Pasted image 20240323154511.png]] #Missing 
+> 查询选修了课程的学生人数。
+> ```sql
+> SELECT COUNT(DISTINCT Sno)
+> FROM SC;
+> ```
 
 > [!caution] 
 > `WHERE`子句中不能用聚集函数作为条件表达式，聚集函数只能用于`SELECT`子句和`HAVING`子句中。
 ### 分组查询结果
 使用`GROUP BY`子句进行分组，某一列或多列的值分组，值相等的为一组，其目的是*细化聚集函数的作用对象*，若分组和聚集函数同时存在，将先对查询结果进行分组，而后聚集函数将分别作用于每一个组。
 > [!example] 
-> ![[Pasted image 20240323155446.png]]
+> 求各个课程号及相应的选课人数。
+> ```sql
+> SELECT Cno, COUNT(Sno)
+> FROM SC
+> GROUP BY Cno;
+> ```
+> 结果
+> ```
+> Cno  COUNT(Sno)
+>  1      22
+>  2      34
+>  3      44
+>  4      33
+>  5      48
+> ```
 
 使用`HAVING`子句从分好的组中选择出满足条件的组。
 > [!example] 
-> ![[Pasted image 20240323160007.png]]
+> 查询平均成绩大于等于90分的学生学号和平均成绩。
+> ```sql
+> SELECT Sno, AVG(Grade)
+> FROM SC
+> GROUP BY Sno
+> HAVING AVG(Grade) >= 90;
+> ```
 ### 连接查询
+#### 等值与非等值连接查询
+等值连接的连接运算符为`=`。
+> [!example] 
+> 查询每个学生及其选修课程的情况。
+> ```sql
+> SELECT Student
+> ```
+![[Pasted image 20240708015836.png]]
+![[Pasted image 20240708015930.png]]
+![[Pasted image 20240708020003.png]]
+![[Pasted image 20240708020027.png]]
+![[Pasted image 20240708020104.png]]
 #Missing 
 ### 嵌套查询
 #### 基本概念
@@ -149,11 +197,27 @@ FROM Student;
 - `ALL`：所有值
 
 > [!example] 
-> ![[Pasted image 20240616185838.png]] #Missing 
+> 查询其他系中比计算机系某一个（任意一个）学生年龄小的学生姓名和年龄
+> ```sql
+> SELECT Sname, Sage
+> FROM Student
+> WHERE Sage < ANY (SELECT Sage
+> 				  FROM Student
+> 				  WHERE Sdept = 'CS')
+> 	  AND Sdept <> 'CS';
+> ```
+
 #### EXISTS
 带有`EXISTS`谓词的子查询不返回任何数据，只返回`true`或`false`。
 > [!example] 
-> ![[Pasted image 20240324104939.png]]
+> 查询没有选修1号课程的学生姓名。
+> ```sql
+> SELECT Sname
+> FROM Student
+> WHERE NOT EXISTS (SELECT *
+> 				  FROM SC
+> 				  WHERE Sno = Student.Sno AND Cno = '1');
+> ```
 1. 一些事EXISTS或NOT EXISTS的子查询不能被其他形式的子查询等价替换，但所有带`IN`、比较运算符、`ANY`或`ALL`的子查询都能用带`EXISTS`的子查询等价替换。
 2. SQL中没有全称量词$\forall$，可以用存在量词替代，$(\forall x)P\equiv\lnot(\exists x(\lnot P))$。
 3. 逻辑蕴含也可以使用存在谓词表达，$p\to q\equiv\lnot p\vee q$。
@@ -338,17 +402,25 @@ WITH RECURSIVE RS AS
 > [!definition] Java Database Connection (JDBC)
 > 是面向Java语言的软件开发工具包中有关数据库的一个组成部分，其提供了一组访问数据库的应用程序的编程接口。
 #### 工作流程
-1. 加载数据库驱动程序 #Missing 
+1. 加载数据库驱动程序
 	> [!example] 加载Oracle的数据库驱动
 	> ```java
 	> Class.forName("oracle.jdbc.OracleDriver");
 	> ```
 1. 建立与数据库的连接
 	> [!example] 
-	> ![[Pasted image 20240513143047.png]]
-	> ![[Pasted image 20240513143107.png]]
+	> 定义与Kingbase、Oracle、SQL Server数据库连接的URL。
+	> ```sql
+	> strURL = "jdbc:kingbase://" + 服务器名 + ":" + 端口号 + "/" + 数据库名;
+	> strURL = "jdbc:oracle:thin:@" + 服务器名 + ":" + 端口号 + ":" + 数据库名;
+	> strURL = "jdbc:microsoft:sqlserver://" + 服务器名 + ":" + 端口号 + ":" + 数据库名;
+	> ```
+	> Kingbase、Oracle、SQL Server的默认端口号分别为54321、1521、1433
+
 1. 执行SQL语句
 2. 处理结果集，并基于该结果集处理用户逻辑
 3. 释放资源
 	> [!example] 
-	> ![[Pasted image 20240513143442.png]]
+	> 关闭结果集：`ResultSet.close()`
+	> 关闭语句执行类对象：`Statement.close()`
+	> 释放数据库连接对象：`Connection.close()`

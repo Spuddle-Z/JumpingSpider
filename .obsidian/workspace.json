@@ -16,7 +16,19 @@
             }
           },
           {
-            "id": "df4561f973a66f66",
+            "id": "33fccebc20421834",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/MachineLearning/描述性模型.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "946cef6382a1eacd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -40,7 +52,7 @@
             }
           },
           {
-            "id": "04451852a6e06e15",
+            "id": "6d83021956a54770",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,27 +62,33 @@
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "efa4029eda084428",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "353c84c7138fddb6",
+            "id": "93b7b116b7a9b7b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/MachineLearning/DDPM.md",
+                "file": "Tools/Tmux.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f209d40bb4caebc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/搜狗五笔输入法.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -129,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/MachineLearning/机器学习.md"
+                "file": "Tools/搜狗五笔输入法.md"
               }
             }
           },
@@ -150,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/MachineLearning/机器学习.md",
+                "file": "Tools/搜狗五笔输入法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/MachineLearning/机器学习.md",
+                "file": "Tools/搜狗五笔输入法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,45 +208,45 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "04451852a6e06e15",
+  "active": "0f209d40bb4caebc",
   "lastOpenFiles": [
-    "_Drafts/算法.md",
+    "assets/SogouWubi_20240708_dhi.cwb",
+    "Tools/Tmux.md",
+    "Tools/搜狗五笔输入法.md",
     "Courses/MachineLearning/机器学习.md",
-    "LeetCode/274 H指数.md",
     "_Drafts/扩散模型.md",
     "Courses/MachineLearning/DDPM.md",
-    "Tools/Conda.md",
-    "Tools/Tmux.md",
+    "Courses/MachineLearning/描述性模型.md",
+    "Courses/DatabaseSystemTechnology/数据库设计.md",
     "Courses/操作系统.md",
+    "Courses/MachineLearning/PCA.md",
+    "Courses/凸优化.md",
+    "Courses/MachineLearning/SVM.md",
+    "Memos/LSH.md",
+    "Temp/README.md",
+    "_Drafts/机器学习原理.md",
+    "Courses/图论.md",
+    "Tools/Windows 11 录屏.md",
+    "Courses/MachineLearning/可解释性.md",
+    "Courses/MachineLearning/CNN.md",
+    "Courses/DatabaseSystemTechnology/SQL.md",
+    "assets/Pasted image 20240708020104.png",
+    "assets/Pasted image 20240708020027.png",
+    "assets/Pasted image 20240708020003.png",
+    "assets/Pasted image 20240708015930.png",
+    "assets/Pasted image 20240708015836.png",
+    "Courses/MachineLearning/VAE.md",
+    "_Drafts/算法.md",
+    "LeetCode/274 H指数.md",
+    "Tools/Conda.md",
     "assets/GPU.png",
     "assets/volatile.png",
     "assets/struct.png",
     "assets/open_read.png",
     "assets/file_search_3.png",
-    "assets/file_search_2.png",
-    "assets/file_search_1.png",
-    "assets/multi_inode.png",
-    "assets/Pasted image 20240706232959.png",
-    "assets/process_switch 2.png",
-    "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240704_df.cwb",
     "Tools/快捷键.md",
     "Tools/VSCode.md",
-    "Tools/CapsLock+.md",
-    "Tools/Obsidian/Obsidian.md",
-    "LeetCode/239 字母组合.md",
-    "LeetCode/238 除自身以外数组的乘积.md",
-    "LeetCode/226 翻转二叉树.md",
-    "LeetCode/289 生命游戏.md",
-    "LeetCode/365 生成字典序最大的有效序列.md",
-    "LeetCode/380 O(1)时间插入、删除和获取随机元素.md",
-    "LeetCode/743 网络延迟时间.md",
-    "Temp/README.md",
-    "_Drafts/Draft.md",
-    "LeetCode/209 长度最小的子数组.md",
-    "LeetCode/207 课程表.md",
-    "LeetCode/151 反转字符串中的单词.md",
-    "LeetCode/134 加油站.md",
     "Temp",
     "assets/SogouWubi_20240625_ddi.cwb",
     "assets/SogouWubi_20240624_ds.cwb",

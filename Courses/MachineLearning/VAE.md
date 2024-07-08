@@ -60,10 +60,14 @@ $$L(\phi,\theta,X)=KL(P_{data}(X)q_{\phi}(h|X)|p_{\theta}(h,X))$$
 > \begin{aligned}
 > &\frac{\partial }{\partial \theta}KL(P_{data}(X)|P_{\theta}(X))\\
 > =&\frac{\partial }{\partial \theta}E_{P_{data}(X)}\left( -\log\sum_{h}P_{\theta}(h,X) \right)\\
-> =&-E_{P_{data}(X)}\left(\sum_{h}\frac{\partial }{\partial \theta}\right)
+> =&-E_{P_{data}(X)}\left[\sum_{h}\frac{P(h,X)}{\sum_{h'}P(h',X)}\cdot\frac{1}{P_{\theta}(h,X)}\cdot\frac{\partial }{\partial \theta}P_{\theta}(h,X)\right]\\
+> =&-E_{P_{data}(X)}\left[\sum_{h}P(h,X)\cdot\frac{\partial }{\partial \theta}P_{\theta}(h,X)\right]\\
+> =&-E_{P_{data}(X)}E_{q_{\phi}(h|X)}\left[ \frac{\partial }{\partial \theta}(\log P_{\theta}(X|h)+\log P(h)) \right]\\
+> =&-E_{P_{data}(X)}E_{q_{\phi}(h|X)}\left[ \frac{\partial }{\partial \theta}\log P_{\theta}(X|h) \right]\\
+> =&E_{P_{data}(X)}\frac{\partial }{\partial \theta}[-E_{q_{\phi}(h|X)}\log P_{\theta}(X|h)]
 > \end{aligned}
 > $$
-> ![[Pasted image 20240510112843.png]] #Missing 
+> QED.
 >  ^a7rnh4
 
 则原损失函数可以表示为
@@ -72,4 +76,5 @@ L(\phi,\theta,X)=KL(P_{data}(X)q_{\phi}(h|X)|P_{\theta}(h,X))
 $$
 可以看到$P_{data}(X)q_{\phi}(h|X)$是编码器部分，$P(h)P_{\theta}(X|h)=P_{\theta}(h,X)$是解码器部分，整个损失函数也还是表示原图$X$与生成图$\hat{X}$的误差。
 
-最后，VAE的训练与GAN一样，轮流固定编码器与解码器，同时训练未被固定的一方。
+## 训练过程
+VAE的训练与GAN一样，轮流固定编码器与解码器，同时训练未被固定的一方。
