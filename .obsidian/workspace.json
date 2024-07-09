@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "674bd5da6447a97c",
+        "id": "5f8914ea92eb8255",
         "type": "tabs",
         "children": [
           {
-            "id": "b7b1ffb88a3adffe",
+            "id": "537ae0ae609e418b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Drafts/自然语言处理.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -61,7 +57,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50499725341797
+    "width": 261.50499725341797,
+    "collapsed": true
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -76,9 +73,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_Drafts/自然语言处理.md"
-              }
+              "state": {}
             }
           },
           {
@@ -98,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Drafts/自然语言处理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Drafts/自然语言处理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -137,9 +131,12 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "b7b1ffb88a3adffe",
+  "active": "537ae0ae609e418b",
   "lastOpenFiles": [
+    "Courses/MachineLearning/Transformer.md",
     "_Drafts/自然语言处理.md",
+    "assets/Pasted image 20240504222610.png",
+    "assets/HMM.png",
     "Tools/搜狗五笔输入法.md",
     "Courses/MachineLearning/DDPM.md",
     "Courses/DatabaseSystemTechnology/关系模型和关系运算理论.md",
@@ -169,13 +166,9 @@
     "assets/Pasted image 20240708020003.png",
     "assets/Pasted image 20240708015930.png",
     "assets/Pasted image 20240708015836.png",
-    "Courses/MachineLearning/VAE.md",
-    "_Drafts/算法.md",
     "assets/GPU.png",
     "assets/volatile.png",
     "assets/struct.png",
-    "assets/open_read.png",
-    "assets/file_search_3.png",
     "assets/SogouWubi_20240704_df.cwb",
     "Temp",
     "assets/SogouWubi_20240625_ddi.cwb",
