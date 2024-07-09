@@ -11,84 +11,15 @@
             "id": "b7b1ffb88a3adffe",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "33fccebc20421834",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/MachineLearning/描述性模型.md",
+                "file": "_Drafts/自然语言处理.md",
                 "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "946cef6382a1eacd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/MachineLearning/DDPM.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "deeda032108d5d78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Drafts/扩散模型.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6d83021956a54770",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/MachineLearning/机器学习.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "93b7b116b7a9b7b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/Tmux.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0f209d40bb4caebc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/搜狗五笔输入法.md",
-                "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50499725341797,
-    "collapsed": true
+    "width": 261.50499725341797
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -147,7 +77,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/搜狗五笔输入法.md"
+                "file": "_Drafts/自然语言处理.md"
               }
             }
           },
@@ -168,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/搜狗五笔输入法.md",
+                "file": "_Drafts/自然语言处理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/搜狗五笔输入法.md",
+                "file": "_Drafts/自然语言处理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,8 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,16 +137,22 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "0f209d40bb4caebc",
+  "active": "b7b1ffb88a3adffe",
   "lastOpenFiles": [
-    "assets/SogouWubi_20240708_dhi.cwb",
-    "Tools/Tmux.md",
+    "_Drafts/自然语言处理.md",
     "Tools/搜狗五笔输入法.md",
-    "Courses/MachineLearning/机器学习.md",
-    "_Drafts/扩散模型.md",
     "Courses/MachineLearning/DDPM.md",
+    "Courses/DatabaseSystemTechnology/关系模型和关系运算理论.md",
+    "Courses/MachineLearning/K-Means.md",
+    "Courses/MachineLearning/强化学习.md",
     "Courses/MachineLearning/描述性模型.md",
+    "Courses/MachineLearning/可解释性.md",
+    "Courses/DatabaseSystemTechnology/关系规范化基础.md",
+    "Courses/MachineLearning/机器学习.md",
     "Courses/DatabaseSystemTechnology/数据库设计.md",
+    "Tools/Tmux.md",
+    "_Drafts/扩散模型.md",
+    "assets/SogouWubi_20240708_dhi.cwb",
     "Courses/操作系统.md",
     "Courses/MachineLearning/PCA.md",
     "Courses/凸优化.md",
@@ -227,7 +162,6 @@
     "_Drafts/机器学习原理.md",
     "Courses/图论.md",
     "Tools/Windows 11 录屏.md",
-    "Courses/MachineLearning/可解释性.md",
     "Courses/MachineLearning/CNN.md",
     "Courses/DatabaseSystemTechnology/SQL.md",
     "assets/Pasted image 20240708020104.png",
@@ -237,16 +171,12 @@
     "assets/Pasted image 20240708015836.png",
     "Courses/MachineLearning/VAE.md",
     "_Drafts/算法.md",
-    "LeetCode/274 H指数.md",
-    "Tools/Conda.md",
     "assets/GPU.png",
     "assets/volatile.png",
     "assets/struct.png",
     "assets/open_read.png",
     "assets/file_search_3.png",
     "assets/SogouWubi_20240704_df.cwb",
-    "Tools/快捷键.md",
-    "Tools/VSCode.md",
     "Temp",
     "assets/SogouWubi_20240625_ddi.cwb",
     "assets/SogouWubi_20240624_ds.cwb",
@@ -254,7 +184,6 @@
     "assets/SogouWubi_20240618_dye.cwb",
     "Courses/DatabaseSystemTechnology",
     "assets/SogouWubi_20240615_def.cwb",
-    "assets/SogouWubi_20240609_dwq.cwb",
-    "assets/SogouWubi_20240606_svu.cwb"
+    "assets/SogouWubi_20240609_dwq.cwb"
   ]
 }

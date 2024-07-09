@@ -38,6 +38,9 @@ $ tmux kill-session -t <sessionName>
 ### 窗格管理
 Tmux可以将一个窗口分成多个窗格，更加方便操作。使用`Ctrl+b %`将当前所在窗格划分为左右两个窗格；使用`Ctrl+b "`则可以将当前所在窗格划分为上下两个窗格。
 
+### 激活鼠标
+在Tmux中使用`Ctrl+b :`，再输入`set -g mouse on`即可。
+
 ## 快捷键
 
 | Hotkeys        | Functions     | Part |
