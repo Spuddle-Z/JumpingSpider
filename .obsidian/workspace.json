@@ -4,15 +4,70 @@
     "type": "split",
     "children": [
       {
-        "id": "5f8914ea92eb8255",
+        "id": "4a7e3e27e3c8cbf0",
         "type": "tabs",
         "children": [
           {
-            "id": "537ae0ae609e418b",
+            "id": "59868b1f92ae4f4f",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
+            }
+          },
+          {
+            "id": "376e8d982e2e4c8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/自然语言处理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa1ab022dbd620dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/程序语言与编译原理.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "696094c76833d66e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Drafts/神经网络.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "8767665ab6d69637",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f43f725483b84d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/程序语言与编译原理.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "层归一化",
+                "query": "F1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +128,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Courses/程序语言与编译原理.md"
+              }
             }
           },
           {
@@ -93,6 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Courses/程序语言与编译原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Courses/程序语言与编译原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,12 +190,31 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "537ae0ae609e418b",
+  "active": "0f43f725483b84d1",
   "lastOpenFiles": [
+    "Courses/自然语言处理.md",
+    "Courses/程序语言与编译原理.md",
+    "Tools/Obsidian/LaTeX Suite.md",
+    "assets/scan.png",
+    "assets/possibleState.png",
+    "assets/contextFree.png",
+    "assets/DFA.png",
+    "assets/NFA.png",
+    "assets/toNFA.png",
+    "Courses/MachineLearning/机器学习.md",
+    "_Drafts/神经网络.md",
+    "_Drafts/扩散模型.md",
+    "_Drafts/机器学习原理.md",
+    "_Drafts/核函数与正则学习.md",
+    "_Drafts/八股文.md",
+    "_Drafts/s.md",
+    "Temp/Heuristic Contraction Hierarchies with Approximation Guarantee.md",
+    "assets/dependency_grammar.png",
+    "assets/CKY.png",
+    "assets/constituency_grammar.png",
+    "assets/CRF_structure.png",
+    "Temp/README.md",
     "Courses/MachineLearning/Transformer.md",
-    "_Drafts/自然语言处理.md",
-    "assets/Pasted image 20240504222610.png",
-    "assets/HMM.png",
     "Tools/搜狗五笔输入法.md",
     "Courses/MachineLearning/DDPM.md",
     "Courses/DatabaseSystemTechnology/关系模型和关系运算理论.md",
@@ -145,30 +223,12 @@
     "Courses/MachineLearning/描述性模型.md",
     "Courses/MachineLearning/可解释性.md",
     "Courses/DatabaseSystemTechnology/关系规范化基础.md",
-    "Courses/MachineLearning/机器学习.md",
     "Courses/DatabaseSystemTechnology/数据库设计.md",
     "Tools/Tmux.md",
-    "_Drafts/扩散模型.md",
     "assets/SogouWubi_20240708_dhi.cwb",
     "Courses/操作系统.md",
     "Courses/MachineLearning/PCA.md",
     "Courses/凸优化.md",
-    "Courses/MachineLearning/SVM.md",
-    "Memos/LSH.md",
-    "Temp/README.md",
-    "_Drafts/机器学习原理.md",
-    "Courses/图论.md",
-    "Tools/Windows 11 录屏.md",
-    "Courses/MachineLearning/CNN.md",
-    "Courses/DatabaseSystemTechnology/SQL.md",
-    "assets/Pasted image 20240708020104.png",
-    "assets/Pasted image 20240708020027.png",
-    "assets/Pasted image 20240708020003.png",
-    "assets/Pasted image 20240708015930.png",
-    "assets/Pasted image 20240708015836.png",
-    "assets/GPU.png",
-    "assets/volatile.png",
-    "assets/struct.png",
     "assets/SogouWubi_20240704_df.cwb",
     "Temp",
     "assets/SogouWubi_20240625_ddi.cwb",
