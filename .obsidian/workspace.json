@@ -4,70 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4a7e3e27e3c8cbf0",
+        "id": "4a70da48353e255c",
         "type": "tabs",
         "children": [
           {
-            "id": "59868b1f92ae4f4f",
+            "id": "33f8ea42918f5040",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
-            }
-          },
-          {
-            "id": "376e8d982e2e4c8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/自然语言处理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aa1ab022dbd620dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/程序语言与编译原理.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "696094c76833d66e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Drafts/神经网络.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "8767665ab6d69637",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0f43f725483b84d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/程序语言与编译原理.md",
-                "mode": "source",
-                "source": false
-              }
             }
           }
         ]
@@ -128,9 +73,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Courses/程序语言与编译原理.md"
-              }
+              "state": {}
             }
           },
           {
@@ -150,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/程序语言与编译原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/程序语言与编译原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,10 +131,21 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "0f43f725483b84d1",
+  "active": "33f8ea42918f5040",
   "lastOpenFiles": [
-    "Courses/自然语言处理.md",
+    "_Drafts/计算机网络.md",
+    "Courses/信息论.md",
+    "Memos/LSH.md",
+    "assets/Pasted image 20240711222629.png",
+    "assets/Pasted image 20240711222606.png",
+    "assets/Pasted image 20240711222313.png",
+    "assets/url.png",
     "Courses/程序语言与编译原理.md",
+    "_Drafts/神经网络.md",
+    "Temp/Heuristic Contraction Hierarchies with Approximation Guarantee.md",
+    "Temp/ALT.md",
+    "Courses/图论.md",
+    "Courses/自然语言处理.md",
     "Tools/Obsidian/LaTeX Suite.md",
     "assets/scan.png",
     "assets/possibleState.png",
@@ -202,17 +154,11 @@
     "assets/NFA.png",
     "assets/toNFA.png",
     "Courses/MachineLearning/机器学习.md",
-    "_Drafts/神经网络.md",
     "_Drafts/扩散模型.md",
     "_Drafts/机器学习原理.md",
     "_Drafts/核函数与正则学习.md",
     "_Drafts/八股文.md",
     "_Drafts/s.md",
-    "Temp/Heuristic Contraction Hierarchies with Approximation Guarantee.md",
-    "assets/dependency_grammar.png",
-    "assets/CKY.png",
-    "assets/constituency_grammar.png",
-    "assets/CRF_structure.png",
     "Temp/README.md",
     "Courses/MachineLearning/Transformer.md",
     "Tools/搜狗五笔输入法.md",
@@ -223,12 +169,7 @@
     "Courses/MachineLearning/描述性模型.md",
     "Courses/MachineLearning/可解释性.md",
     "Courses/DatabaseSystemTechnology/关系规范化基础.md",
-    "Courses/DatabaseSystemTechnology/数据库设计.md",
-    "Tools/Tmux.md",
     "assets/SogouWubi_20240708_dhi.cwb",
-    "Courses/操作系统.md",
-    "Courses/MachineLearning/PCA.md",
-    "Courses/凸优化.md",
     "assets/SogouWubi_20240704_df.cwb",
     "Temp",
     "assets/SogouWubi_20240625_ddi.cwb",
