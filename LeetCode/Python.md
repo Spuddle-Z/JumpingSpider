@@ -27,15 +27,22 @@ if __name__ == "__main__":
 	# --- CODE ---
 ```
 此代码表示如果这段代码所在文件是被直接运行的，则运行下面的代码；如果所在文件是被调用运行的，则忽略下面的代码。
-## PySpark
+## Python常用包
+### Fire
+可以将命令行中输入的参数直接传递给暴露的特定函数。
+### wandb
+用于深度学习中的可视化。
+### dill
+是扩展的pickle库。
+### PySpark
 #### `toDF()`函数
 - 语法：
 	```python
 	df = rdd.toDF()
 	```
 - 描述：将一个RDD对象`rdd`转化成DataFrame对象`df`。
-## Scipy
-### `linprog()`函数
+### Scipy
+#### `linprog()`函数
 - 使用：对于一个标准的线性规划
 	$$
 	\begin{aligned}
