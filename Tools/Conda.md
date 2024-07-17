@@ -11,7 +11,7 @@ tags:
 - `conda activate <env>`：激活环境`<env>`；
 - `conda deactivate`：退出当前环境；
 - `conda list`：查看已安装的包；
-- `conda install <package>`：安装`<package>`；
+- `conda install <package>`：安装`<package>`（并列`<package>`，中间用空格隔开，可以同时安装多个包）；
 - `conda remove <package>`：卸载`<package>`；
 
 > [!caution] 
