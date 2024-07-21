@@ -4,71 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a54d974fdf4f1eba",
+        "id": "31f17b651fdc69a1",
         "type": "tabs",
         "children": [
           {
-            "id": "328ddc79b98e0081",
+            "id": "f8860e726d85df25",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Temp/Heuristic Contraction Hierarchies with Approximation Guarantee.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "33e4a965446c3e72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/搜狗五笔输入法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cbee9001a17965b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/Tmux.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3afba4e7b8330483",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/MachineLearning/GPT.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "55b8ff67f000e78f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/Conda.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,9 +73,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Tools/搜狗五笔输入法.md"
-              }
+              "state": {}
             }
           },
           {
@@ -148,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/搜狗五笔输入法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/搜狗五笔输入法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,17 +131,28 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "33e4a965446c3e72",
+  "active": "f8860e726d85df25",
   "lastOpenFiles": [
-    "assets/SogouWubi_20240717_fuq.cwb",
+    "Courses/MachineLearning/Transformer.md",
+    "Courses/自然语言处理.md",
+    "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240721_fd.cwb",
+    "Courses/MachineLearning/描述性模型.md",
+    "Tools/Obsidian/Obsidian.md",
+    "Tools/快捷键.md",
+    "Courses/初等数论.md",
+    "Tools/Obsidian/LaTeX Suite.md",
+    "_Drafts/云栖工作记录.md",
+    "Tools/Git.md",
+    "_Drafts/科研实践经历.md",
+    "Courses/博弈论.md",
+    "Courses/DatabaseSystemTechnology/关系模型和关系运算理论.md",
+    "Temp/Heuristic Contraction Hierarchies with Approximation Guarantee.md",
+    "Tools/Conda.md",
     "Tools/Tmux.md",
     "Courses/MachineLearning/GPT.md",
-    "Tools/Conda.md",
-    "Tools/搜狗五笔输入法.md",
-    "Tools/Git.md",
-    "Temp/Heuristic Contraction Hierarchies with Approximation Guarantee.md",
+    "assets/SogouWubi_20240717_fuq.cwb",
     "_Drafts/算法.md",
-    "Tools/Obsidian/LaTeX Suite.md",
     "LeetCode/Python.md",
     "Temp/ALT.md",
     "assets/SogouWubi_20240714_dl.cwb",
@@ -217,24 +171,13 @@
     "assets/summary.png",
     "assets/RTS-CTS.png",
     "Courses/MachineLearning/DDPM.md",
-    "Courses/自然语言处理.md",
     "Memos/LSH.md",
-    "_Drafts/神经网络.md",
-    "Courses/图论.md",
-    "Courses/MachineLearning/机器学习.md",
-    "_Drafts/扩散模型.md",
-    "_Drafts/机器学习原理.md",
-    "_Drafts/核函数与正则学习.md",
-    "_Drafts/八股文.md",
-    "_Drafts/s.md",
     "assets/SogouWubi_20240708_dhi.cwb",
     "assets/SogouWubi_20240704_df.cwb",
     "Temp",
     "assets/SogouWubi_20240625_ddi.cwb",
     "assets/SogouWubi_20240624_ds.cwb",
     "assets/SogouWubi_20240619_di.cwb",
-    "assets/SogouWubi_20240618_dye.cwb",
-    "Courses/DatabaseSystemTechnology",
-    "assets/SogouWubi_20240615_def.cwb"
+    "assets/SogouWubi_20240618_dye.cwb"
   ]
 }

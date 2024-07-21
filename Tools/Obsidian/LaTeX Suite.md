@@ -150,6 +150,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;iff    | \\iff                                               | $\iff$                                | mA      |
 | ;sim    | \sim                                                | $\sim$                                | mA      |
 | ;peq    | \approx                                             | $\approx$                             | mA      |
+| ;eqq    | \\equiv                                             | $\equiv$                              | mA      |
 | ;lq     | \\leq                                               | $\leq$                                | mA      |
 | ;gq     | \\geq                                               | $\geq$                                | mA      |
 | ;vlq    | \\preceq                                            | $\preceq$                             | mA      |
@@ -164,7 +165,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;mR     | \\mathbb{R}                                         | $\mathbb{R}$                          | mA      |
 | ;mZ     | \\mathbb{Z}                                         | $\mathbb{Z}$                          | mA      |
 | ;mN     | \\mathbb{N}                                         | $\mathbb{N}$                          | mA      |
-| ;;mN    | \\mathbb{N}_+                                       | $\mathbb{N}_+$                        | mA      |
+| ;;mN    | \i\mathbb{N}_+                                      | $\mathbb{N}_+$                        | mA      |
 | ;m1     | \\mathbb{1}                                         | $\mathbb{1}$                          | mA      |
 | ;tm     | \\times                                             | $\times$                              | mA      |
 | ;cd     | \\cdot                                              | $\cdot$                               | mA      |
@@ -174,6 +175,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;mn     | \\min                                               | $\min$                                | mA      |
 | ;amx    | \\mathop{\\arg\\!\\max}\\limits_{${0:\\theta}}\\ $1 | $\mathop{\arg\!\max}\limits_{\theta}$ | mA      |
 | ;amn    | \\mathop{\\arg\\!\\min}\\limits_{${0:\\theta}}\\ $1 | $\mathop{\arg\!\min}\limits_{\theta}$ | mA      |
+| ;md     | \\text{mod }                                        | $\text{mod}$                          | mA      |
 | ;st     | \\text{s.t.}\\quad                                  | $\text{s.t.}\quad$                    | mA      |
 ### Brackets
 
@@ -320,6 +322,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";iff", replacement: "\\iff", options: "mA"},
 	{trigger: ";sim", replacement: "\\sim", options: "mA"},
 	{trigger: ";peq", replacement: "\\approx", options: "mA"},
+	{trigger: ";eqq", replacement: "\\equiv", options: "mA"},
 	{trigger: ";lq", replacement: "\\leq", options: "mA"},
 	{trigger: ";gq", replacement: "\\geq", options: "mA"},
 	{trigger: ";vlq", replacement: "\\preceq", options: "mA"},
@@ -344,6 +347,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";mn", replacement: "\\min", options: "mA"},
 	{trigger: ";amx", replacement: "\\mathop{\\arg\\!\\max}\\limits_{${0:\\theta}}\\ $1", options: "mA"},
 	{trigger: ";amn", replacement: "\\mathop{\\arg\\!\\min}\\limits_{${0:\\theta}}\\ $1", options: "mA"},
+	{trigger: ";md", replacement: "\\text{mod }", options: "mA"},
 	{trigger: ";st", replacement: "\\text{s.t.}\\quad", options: "mA"},
 
 	// Brackets

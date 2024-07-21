@@ -125,17 +125,18 @@
   "workspace:previous-tab": [
     {
       "modifiers": [
-        "Alt"
+        "Mod",
+        "Shift"
       ],
-      "key": "J"
+      "key": "Tab"
     }
   ],
   "workspace:next-tab": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
-      "key": "L"
+      "key": "Tab"
     }
   ],
   "workspace:undo-close-pane": [],
@@ -288,38 +289,6 @@
       "key": "`"
     }
   ],
-  "editor:focus-top": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "E"
-    }
-  ],
-  "editor:focus-bottom": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "D"
-    }
-  ],
-  "editor:focus-right": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "F"
-    }
-  ],
-  "editor:focus-left": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "S"
-    }
-  ],
   "editor:table-row-up": [
     {
       "modifiers": [
@@ -416,6 +385,22 @@
         "Shift"
       ],
       "key": "S"
+    }
+  ],
+  "editor:focus-left": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "J"
+    }
+  ],
+  "editor:focus-right": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
     }
   ]
 }
