@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "31f17b651fdc69a1",
+        "id": "cb85b5273994a18f",
         "type": "tabs",
         "children": [
           {
-            "id": "f8860e726d85df25",
+            "id": "1200246bf89bc060",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -57,8 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50499725341797,
-    "collapsed": true
+    "width": 261.50499725341797
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -118,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -131,15 +129,15 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "f8860e726d85df25",
+  "active": "1200246bf89bc060",
   "lastOpenFiles": [
+    "Tools/快捷键.md",
     "Courses/MachineLearning/Transformer.md",
     "Courses/自然语言处理.md",
     "Tools/搜狗五笔输入法.md",
     "assets/SogouWubi_20240721_fd.cwb",
     "Courses/MachineLearning/描述性模型.md",
     "Tools/Obsidian/Obsidian.md",
-    "Tools/快捷键.md",
     "Courses/初等数论.md",
     "Tools/Obsidian/LaTeX Suite.md",
     "_Drafts/云栖工作记录.md",
