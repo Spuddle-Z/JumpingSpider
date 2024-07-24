@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "cb85b5273994a18f",
+        "id": "afb9c6f40c0dbc69",
         "type": "tabs",
         "children": [
           {
-            "id": "1200246bf89bc060",
+            "id": "2a7ef9ac19b69c5f",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -129,7 +129,7 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "1200246bf89bc060",
+  "active": "2a7ef9ac19b69c5f",
   "lastOpenFiles": [
     "Tools/快捷键.md",
     "Courses/MachineLearning/Transformer.md",
