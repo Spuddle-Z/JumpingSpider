@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "afb9c6f40c0dbc69",
+        "id": "b99277a9eb25bdbd",
         "type": "tabs",
         "children": [
           {
-            "id": "2a7ef9ac19b69c5f",
+            "id": "4b249cc835eb648e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "beam",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50499725341797
+    "width": 261.50499725341797,
+    "collapsed": true
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -117,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -129,12 +131,13 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "2a7ef9ac19b69c5f",
+  "active": "4b249cc835eb648e",
   "lastOpenFiles": [
-    "Tools/快捷键.md",
-    "Courses/MachineLearning/Transformer.md",
-    "Courses/自然语言处理.md",
     "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240725_fhg.cwb",
+    "Courses/MachineLearning/Transformer.md",
+    "Tools/快捷键.md",
+    "Courses/自然语言处理.md",
     "assets/SogouWubi_20240721_fd.cwb",
     "Courses/MachineLearning/描述性模型.md",
     "Tools/Obsidian/Obsidian.md",
@@ -169,13 +172,11 @@
     "assets/summary.png",
     "assets/RTS-CTS.png",
     "Courses/MachineLearning/DDPM.md",
-    "Memos/LSH.md",
     "assets/SogouWubi_20240708_dhi.cwb",
     "assets/SogouWubi_20240704_df.cwb",
     "Temp",
     "assets/SogouWubi_20240625_ddi.cwb",
     "assets/SogouWubi_20240624_ds.cwb",
-    "assets/SogouWubi_20240619_di.cwb",
-    "assets/SogouWubi_20240618_dye.cwb"
+    "assets/SogouWubi_20240619_di.cwb"
   ]
 }
