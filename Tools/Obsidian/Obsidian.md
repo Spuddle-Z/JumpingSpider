@@ -12,18 +12,7 @@ tags:
 > text
 > text
 ```
-常用callout：
-> [!example] 
 
-> [!note] Note
-
-> [!theorem] 
-
-> [!definition] 
-
-> [!proof] 
-
-> [!caution] 
 ## 快捷键
 
 | 快捷键 ^dyo1vs              | 功能           | 所属插件或功能                   |
@@ -57,7 +46,7 @@ tags:
 | `Alt + q`                | 设此行为无序列表     | 编辑文本                      |
 | `Alt + w`                | 设此行为有序列表     | 编辑文本                      |
 | `Ctrl + t`               | 插入表格         | 编辑文本                      |
-| `Ctrl + Shift + c`       | 复制光标所在块的链接   | Copy Block Link           |
+| `Alt + z`                | 进入禅模式        | Focus Mode                |
 | `Ctrl + m`               | 打开思维导图       | Mind Map                  |
 | `Ctrl + p`               | 暂停/继续番茄钟     | Status bar Pomodoro Timer |
 | `Ctrl + Shift + p`       | 重启番茄钟        | Status bar Pomodoro Timer |
@@ -69,7 +58,49 @@ tags:
 | `Shift + Alt + f`        | 在右侧插入列       | Table                     |
 | `Ctrl + q`               | 开启/关闭打字机模式   | Typewriter Scroll         |
 ## 插件
-- [[LaTeX Suite]]
+### Callout Manager
+自定义callout样式。以下为常用的callout：
+> [!example] 
+> 记录一些例题或者实际应用。
+
+> [!note] Note
+> 记录一些不是非常重要的tips，或是对上下文内容的一个总结。
+
+> [!theorem] 
+> 记录数学定理。
+
+> [!definition] 
+> 记录某个概念的定义，最常用的一个callout。
+
+> [!proof] 
+> 记录数学定理的证明过程。
+
+> [!caution] 
+> 记录一些要点或易错点。
+
+### Clear Unused Images
+清理掉没有被引用的图片或文件，呼出命令面板后，输入以下指令可实现相关功能：
+- 清理所有未被引用的图片：`Clear Unused Images: Clear Unused Images`
+- 清理所有未被引用的附件：`Clear Unused Images: Clear Unused Attachments`
+
+### Focus Mode
+禅模式：收起侧边栏，并高亮当前所在行。
+
+### LaTeX Suite
+虽然看似与LaTeX有关，但完全可以当作一个text snippet插件来使用。详见[[LaTeX Suite]]。
+
+### Mind Map
+给当前笔记绘制思维导图。
+
+### Mousewheel Image Zoom
+按住`Alt`并滚动鼠标滚轮来快捷调整图片大小。
+
+### Style Setting
+改变具体的外观。
+
+### Typewriter Scroll
+总保持光标所在行位于屏幕中间。
+
 ## CSS片段
 - [[Obsidian添加CSS片段|使图片居中显示]]
 ## 配色

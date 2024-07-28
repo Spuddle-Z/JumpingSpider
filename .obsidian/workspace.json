@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "b99277a9eb25bdbd",
+        "id": "6e6a4335cad3ce83",
         "type": "tabs",
         "children": [
           {
-            "id": "4b249cc835eb648e",
+            "id": "d7d652e07a6cd307",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -57,8 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50499725341797,
-    "collapsed": true
+    "width": 261.50499725341797
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -118,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -131,36 +129,41 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "4b249cc835eb648e",
+  "active": "d7d652e07a6cd307",
   "lastOpenFiles": [
+    "Courses/初等数论.md",
+    "Tools/Obsidian/LaTeX Suite.md",
+    "Courses/算法.md",
+    "Tools/Git.md",
+    "Courses/MachineLearning/可解释性.md",
+    "Courses/MachineLearning/强化学习.md",
+    "Courses/MachineLearning/K-Means.md",
+    "Courses/MachineLearning/描述性模型.md",
+    "Courses/DatabaseSystemTechnology/关系模型和关系运算理论.md",
+    "assets/Pasted image 20240728182020.png",
+    "assets/Pasted image 20240728180351.png",
+    "Tools/Obsidian/Obsidian.md",
+    "Tools/Obsidian/Obsidian添加CSS片段.md",
+    "assets/Pasted image 20240728161345.png",
     "Tools/搜狗五笔输入法.md",
-    "assets/SogouWubi_20240725_fhg.cwb",
+    "Courses/博弈论.md",
+    "Courses/DatabaseSystemTechnology/数据库技术.md",
+    "Courses/凸优化.md",
+    "Courses/离散数学.md",
+    "LeetCode/C++.md",
+    "LeetCode/LeetCode 150.md",
+    "Courses/DatabaseSystemTechnology/关系规范化基础.md",
+    "Courses/操作系统.md",
     "Courses/MachineLearning/Transformer.md",
+    "Courses/MachineLearning/机器学习.md",
+    "Courses/DatabaseSystemTechnology/SQL.md",
+    "Courses/计算机网络.md",
+    "assets/SogouWubi_20240725_fhg.cwb",
     "Tools/快捷键.md",
     "Courses/自然语言处理.md",
     "assets/SogouWubi_20240721_fd.cwb",
-    "Courses/MachineLearning/描述性模型.md",
-    "Tools/Obsidian/Obsidian.md",
-    "Courses/初等数论.md",
-    "Tools/Obsidian/LaTeX Suite.md",
-    "_Drafts/云栖工作记录.md",
-    "Tools/Git.md",
-    "_Drafts/科研实践经历.md",
-    "Courses/博弈论.md",
-    "Courses/DatabaseSystemTechnology/关系模型和关系运算理论.md",
-    "Temp/Heuristic Contraction Hierarchies with Approximation Guarantee.md",
-    "Tools/Conda.md",
-    "Tools/Tmux.md",
-    "Courses/MachineLearning/GPT.md",
     "assets/SogouWubi_20240717_fuq.cwb",
-    "_Drafts/算法.md",
-    "LeetCode/Python.md",
-    "Temp/ALT.md",
     "assets/SogouWubi_20240714_dl.cwb",
-    "Courses/操作系统.md",
-    "Courses/信息论.md",
-    "Courses/程序语言与编译原理.md",
-    "Courses/计算机网络.md",
     "assets/802.11.png",
     "assets/BER-SNR.png",
     "assets/VLAN3.png",
@@ -168,10 +171,6 @@
     "assets/VLAN1.png",
     "assets/MAC2.png",
     "assets/MAC1.png",
-    "assets/MAC3.png",
-    "assets/summary.png",
-    "assets/RTS-CTS.png",
-    "Courses/MachineLearning/DDPM.md",
     "assets/SogouWubi_20240708_dhi.cwb",
     "assets/SogouWubi_20240704_df.cwb",
     "Temp",

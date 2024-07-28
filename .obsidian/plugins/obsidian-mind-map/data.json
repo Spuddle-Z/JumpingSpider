@@ -1,5 +1,5 @@
 {
-  "splitDirection": "horizontal",
+  "splitDirection": "vertical",
   "nodeMinHeight": 16,
   "lineHeight": "1em",
   "spacingVertical": 5,

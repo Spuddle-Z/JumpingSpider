@@ -3,8 +3,6 @@ tags:
   - Tutorial
   - Code
 ---
-## 简介
-虽然看似与LaTeX有关，但完全可以当作一个text snippet插件来使用。
 ## 用得到的设置
 ### Conceal
 用来在文本上就直接将公式显示为数学符号，个人不喜欢，关了。
