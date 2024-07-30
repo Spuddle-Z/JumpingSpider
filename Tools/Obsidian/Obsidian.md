@@ -45,6 +45,7 @@ tags:
 | `Ctrl + Alt + DownArrow` | 在下一行加入光标     | 编辑文本                      |
 | `Alt + q`                | 设此行为无序列表     | 编辑文本                      |
 | `Alt + w`                | 设此行为有序列表     | 编辑文本                      |
+| `Alt + e`                | 设此行为待办事项     | 编辑文本                      |
 | `Ctrl + t`               | 插入表格         | 编辑文本                      |
 | `Alt + z`                | 进入禅模式        | Focus Mode                |
 | `Ctrl + m`               | 打开思维导图       | Mind Map                  |

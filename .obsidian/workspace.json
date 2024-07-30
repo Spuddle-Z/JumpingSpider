@@ -4,37 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "602dae495f019f2e",
+        "id": "72cd3b98d11ae159",
         "type": "tabs",
         "children": [
           {
-            "id": "13b628e1a847b41b",
+            "id": "7d3ed3bb28dd3c73",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/初等数论.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "4fdbd3b747c6f79c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a0f4087e962fd584",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/初等数论.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -79,8 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50499725341797,
-    "collapsed": true
+    "width": 261.50499725341797
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -95,9 +72,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Courses/初等数论.md"
-              }
+              "state": {}
             }
           },
           {
@@ -117,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/初等数论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/初等数论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,10 +129,19 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "a0f4087e962fd584",
+  "active": "7d3ed3bb28dd3c73",
   "lastOpenFiles": [
-    "Courses/初等数论.md",
+    "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240730_fk.cwb",
+    "ComputerSkills/C盘清理.md",
+    "Tools/Conda.md",
+    "ComputerSkills/Windows 11 录屏.md",
+    "ComputerSkills/硬盘分区.md",
+    "Tools/SSH.md",
+    "Tools/高级搜索.md",
     "_Drafts/云栖工作记录.md",
+    "Courses/初等数论.md",
+    "Tools/Obsidian/Obsidian.md",
     "Temp/ALT.md",
     "Temp/Heuristic Contraction Hierarchies with Approximation Guarantee.md",
     "Courses/博弈论.md",
@@ -175,19 +156,10 @@
     "Courses/DatabaseSystemTechnology/关系模型和关系运算理论.md",
     "assets/Pasted image 20240728182020.png",
     "assets/Pasted image 20240728180351.png",
-    "Tools/Obsidian/Obsidian.md",
     "Tools/Obsidian/Obsidian添加CSS片段.md",
     "assets/Pasted image 20240728161345.png",
-    "Tools/搜狗五笔输入法.md",
     "Courses/DatabaseSystemTechnology/数据库技术.md",
     "Courses/凸优化.md",
-    "Courses/离散数学.md",
-    "LeetCode/C++.md",
-    "LeetCode/LeetCode 150.md",
-    "Courses/DatabaseSystemTechnology/关系规范化基础.md",
-    "Courses/操作系统.md",
-    "Courses/MachineLearning/Transformer.md",
-    "Courses/MachineLearning/机器学习.md",
     "assets/SogouWubi_20240725_fhg.cwb",
     "assets/SogouWubi_20240721_fd.cwb",
     "assets/SogouWubi_20240717_fuq.cwb",
@@ -203,7 +175,6 @@
     "assets/SogouWubi_20240704_df.cwb",
     "Temp",
     "assets/SogouWubi_20240625_ddi.cwb",
-    "assets/SogouWubi_20240624_ds.cwb",
-    "assets/SogouWubi_20240619_di.cwb"
+    "assets/SogouWubi_20240624_ds.cwb"
   ]
 }

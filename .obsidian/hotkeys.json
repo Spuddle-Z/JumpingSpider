@@ -402,8 +402,7 @@
       "key": "L"
     }
   ],
-  "editor:toggle-checklist-status": [],
-  "editor:cycle-list-checklist": [
+  "editor:toggle-checklist-status": [
     {
       "modifiers": [
         "Alt"
