@@ -146,6 +146,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;<->    | \\leftrightarrow                                    | $\leftrightarrow$                     | mA      |
 | ;so     | \implies                                            | $\implies$                            | mA      |
 | ;iff    | \\iff                                               | $\iff$                                | mA      |
+| ;pm     | \\pm                                                | $\pm$                                 | mA      |
 | ;sim    | \sim                                                | $\sim$                                | mA      |
 | ;peq    | \approx                                             | $\approx$                             | mA      |
 | ;eqq    | \\equiv                                             | $\equiv$                              | mA      |
@@ -318,6 +319,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";<->", replacement: "\\leftrightarrow", options: "mA"},
 	{trigger: ";so", replacement: "\\implies", options: "mA"},
 	{trigger: ";iff", replacement: "\\iff", options: "mA"},
+	{trigger: ";pm", replacement: "\\pm", options: "mA"},
 	{trigger: ";sim", replacement: "\\sim", options: "mA"},
 	{trigger: ";peq", replacement: "\\approx", options: "mA"},
 	{trigger: ";eqq", replacement: "\\equiv", options: "mA"},
