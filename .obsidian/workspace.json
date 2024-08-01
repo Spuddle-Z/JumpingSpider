@@ -14,8 +14,21 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "28897598813822c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Drafts/云栖工作记录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -57,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50499725341797
+    "width": 261.50499725341797,
+    "collapsed": true
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -72,7 +86,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_Drafts/云栖工作记录.md"
+              }
             }
           },
           {
@@ -92,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_Drafts/云栖工作记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_Drafts/云栖工作记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -129,18 +148,21 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "7d3ed3bb28dd3c73",
+  "active": "28897598813822c3",
   "lastOpenFiles": [
+    "Courses/初等数论.md",
+    "_Drafts/云栖工作记录.md",
     "Tools/搜狗五笔输入法.md",
+    "assets/SogouWubi_20240731_fcl.cwb",
+    "Tools/SSH.md",
+    "assets/Pasted image 20240731102432.png",
+    "Tools/Tmux.md",
     "assets/SogouWubi_20240730_fk.cwb",
     "ComputerSkills/C盘清理.md",
     "Tools/Conda.md",
     "ComputerSkills/Windows 11 录屏.md",
     "ComputerSkills/硬盘分区.md",
-    "Tools/SSH.md",
     "Tools/高级搜索.md",
-    "_Drafts/云栖工作记录.md",
-    "Courses/初等数论.md",
     "Tools/Obsidian/Obsidian.md",
     "Temp/ALT.md",
     "Temp/Heuristic Contraction Hierarchies with Approximation Guarantee.md",
@@ -159,7 +181,6 @@
     "Tools/Obsidian/Obsidian添加CSS片段.md",
     "assets/Pasted image 20240728161345.png",
     "Courses/DatabaseSystemTechnology/数据库技术.md",
-    "Courses/凸优化.md",
     "assets/SogouWubi_20240725_fhg.cwb",
     "assets/SogouWubi_20240721_fd.cwb",
     "assets/SogouWubi_20240717_fuq.cwb",
@@ -170,11 +191,9 @@
     "assets/VLAN2.png",
     "assets/VLAN1.png",
     "assets/MAC2.png",
-    "assets/MAC1.png",
     "assets/SogouWubi_20240708_dhi.cwb",
     "assets/SogouWubi_20240704_df.cwb",
     "Temp",
-    "assets/SogouWubi_20240625_ddi.cwb",
-    "assets/SogouWubi_20240624_ds.cwb"
+    "assets/SogouWubi_20240625_ddi.cwb"
   ]
 }
