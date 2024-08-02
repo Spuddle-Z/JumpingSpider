@@ -4,9 +4,11 @@
   "obsidian-style-settings",
   "oz-clear-unused-images",
   "obsidian-statusbar-pomo",
-  "obsidian-mind-map",
   "cm-typewriter-scroll-obsidian",
   "obsidian-latex-suite",
   "callout-manager",
-  "obsidian-focus-mode"
+  "obsidian-focus-mode",
+  "cm-chs-patch",
+  "chinese-calendar",
+  "obsidian-icon-folder"
 ]

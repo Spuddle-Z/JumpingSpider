@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "72cd3b98d11ae159",
+        "id": "c0a56442c554c39d",
         "type": "tabs",
         "children": [
           {
-            "id": "7d3ed3bb28dd3c73",
+            "id": "cc27b8618e54a4e8",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -44,13 +44,21 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "beam",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "109e89df6e1f1080",
+            "type": "leaf",
+            "state": {
+              "type": "chinese-calendar-view",
+              "state": {}
             }
           }
         ]
@@ -113,7 +121,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -127,56 +136,56 @@
       "command-palette:打开命令面板": true,
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": true,
       "workspaces:管理工作区布局": false,
-      "spreadsheets:New Spreadsheet": false,
-      "callout-manager:Insert Callout": false
+      "callout-manager:Insert Callout": true
     }
   },
-  "active": "7d3ed3bb28dd3c73",
+  "active": "cc27b8618e54a4e8",
   "lastOpenFiles": [
-    "Courses/算法.md",
-    "assets/DP.png",
-    "assets/MF2.png",
-    "assets/MF1.png",
-    "assets/MF3.png",
-    "assets/LP1.png",
-    "assets/LP2.png",
-    "assets/NP1.png",
-    "_Drafts/云栖工作记录.md",
-    "Tools/Obsidian/LaTeX Suite.md",
-    "Untitled.sheet",
-    "Tools/搜狗五笔输入法.md",
-    "Courses/初等数论.md",
-    "assets/SogouWubi_20240731_fcl.cwb",
-    "Tools/SSH.md",
-    "assets/Pasted image 20240731102432.png",
-    "Tools/Tmux.md",
-    "assets/SogouWubi_20240730_fk.cwb",
-    "ComputerSkills/C盘清理.md",
+    "Courses/MachineLearning/神经网络.md",
+    "Courses/MachineLearning/机器学习.md",
+    "1Courses/MachineLearning/神经网络.md",
+    "1Courses/MachineLearning",
+    "1Courses",
+    "Temp/此电脑属性.md",
+    "Temp/神经网络.md",
+    "Courses/数据科学基础.md",
+    "Courses/MachineLearning/GNN.md",
+    "Temp/八股文.md",
+    "Tools/快捷键.md",
+    "Temp/PageRank.md",
+    "Memos/LSH.md",
+    "Memos/PageRank.md",
+    "Tools/Colour Style.md",
     "Tools/Conda.md",
-    "ComputerSkills/Windows 11 录屏.md",
-    "ComputerSkills/硬盘分区.md",
-    "Tools/高级搜索.md",
-    "Tools/Obsidian/Obsidian.md",
-    "Temp/ALT.md",
-    "Temp/Heuristic Contraction Hierarchies with Approximation Guarantee.md",
-    "Courses/博弈论.md",
-    "Courses/MachineLearning/可解释性.md",
-    "Courses/DatabaseSystemTechnology/SQL.md",
-    "Tools/Git.md",
-    "Courses/MachineLearning/强化学习.md",
-    "Courses/MachineLearning/K-Means.md",
-    "Courses/MachineLearning/描述性模型.md",
-    "Courses/DatabaseSystemTechnology/关系模型和关系运算理论.md",
-    "assets/Pasted image 20240728182020.png",
-    "assets/Pasted image 20240728180351.png",
-    "Tools/Obsidian/Obsidian添加CSS片段.md",
-    "Courses/DatabaseSystemTechnology/数据库技术.md",
-    "assets/SogouWubi_20240725_fhg.cwb",
-    "assets/SogouWubi_20240721_fd.cwb",
-    "assets/SogouWubi_20240717_fuq.cwb",
-    "assets/SogouWubi_20240714_dl.cwb",
-    "assets/SogouWubi_20240708_dhi.cwb",
-    "assets/SogouWubi_20240704_df.cwb",
-    "Temp"
+    "LeetCode/Python.md",
+    "LeetCode/C++.md",
+    "LeetCode/80 删除有序数组中的重复项II.md",
+    "LeetCode/LeetCode 150.md",
+    "LeetCode/55 跳跃游戏.md",
+    "LeetCode/6 Z字形变换.md",
+    "LeetCode/743 网络延迟时间.md",
+    "LeetCode/54 螺旋矩阵.md",
+    "LeetCode/392 判断子序列.md",
+    "LeetCode/380 O(1)时间插入、删除和获取随机元素.md",
+    "LeetCode/45 跳跃游戏II.md",
+    "LeetCode/365 生成字典序最大的有效序列.md",
+    "LeetCode",
+    "Tools/_Obsidian",
+    "Tools",
+    "Courses/MachineLearning",
+    "Courses/DatabaseSystemTechnology",
+    "Courses",
+    "Temp",
+    "assets/VLAN3.png",
+    "assets/VLAN1.png",
+    "assets/VLAN2.png",
+    "assets/transformer.png",
+    "assets/synprim_guideline.png",
+    "assets/toNFA.png",
+    "assets/TCP.png",
+    "assets/synprim_cmp.png",
+    "assets/summary.png",
+    "assets/struct.png",
+    "assets/SogouWubi_20240731_fcl.cwb"
   ]
 }

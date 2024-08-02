@@ -5,7 +5,12 @@
       "definition",
       "theorem",
       "note",
-      "Definition"
+      "Definition",
+      "caution",
+      "important",
+      "tldr",
+      "example",
+      "info"
     ],
     "settings": {
       "proof": [
