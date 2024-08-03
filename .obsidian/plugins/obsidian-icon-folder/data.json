@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiSave",
       "LiCircleDashed",
       "LiGraduationCap",
       "LiWrench",
-      "LiCode2",
-      "LiBookText"
+      "LiCode2"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -41,9 +41,13 @@
     "iconName": "LiCode2",
     "iconColor": "#73bbb2"
   },
-  "Temp": "LiCircleDashed",
+  "Temp": {
+    "iconName": "LiCircleDashed",
+    "iconColor": "#b6b8cf"
+  },
   "Tools": {
     "iconName": "LiWrench",
     "iconColor": "#9e86c8"
-  }
+  },
+  "Utils": "LiSave"
 }

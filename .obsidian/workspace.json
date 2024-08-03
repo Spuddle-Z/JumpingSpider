@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c0a56442c554c39d",
+        "id": "a5f1637b92c3dff6",
         "type": "tabs",
         "children": [
           {
-            "id": "cc27b8618e54a4e8",
+            "id": "d206b5d9ec7ee8aa",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Missing",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -52,20 +52,12 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "109e89df6e1f1080",
-            "type": "leaf",
-            "state": {
-              "type": "chinese-calendar-view",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 261.50499725341797
+    "width": 234.50499725341797
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -120,9 +112,17 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "109e89df6e1f1080",
+            "type": "leaf",
+            "state": {
+              "type": "chinese-calendar-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -139,8 +139,30 @@
       "callout-manager:Insert Callout": true
     }
   },
-  "active": "cc27b8618e54a4e8",
+  "active": "d206b5d9ec7ee8aa",
   "lastOpenFiles": [
+    "Utils/template/LeetCode.md",
+    "Tools/Vimium C.md",
+    "Tools/Tmux.md",
+    "Tools/SSH.md",
+    "Tools/Spark.md",
+    "Tools/Git.md",
+    "Tools/快捷键.md",
+    "Tools/搜狗五笔输入法.md",
+    "Tools/硬盘分区.md",
+    "Tools/C盘清理.md",
+    "Tools/CapsLock+.md",
+    "Tools/Clash.md",
+    "Tools/Colour Style.md",
+    "Tools/Conda.md",
+    "Tools/GitHub.md",
+    "Temp/Draft.md",
+    "Courses/操作系统.md",
+    "Utils/assets/test.png",
+    "test.png",
+    "Temp/闲白儿.md",
+    "Utils",
+    "Utils/assets/Pasted image 20240801233747.png",
     "Courses/MachineLearning/神经网络.md",
     "Courses/MachineLearning/机器学习.md",
     "1Courses/MachineLearning/神经网络.md",
@@ -151,41 +173,19 @@
     "Courses/数据科学基础.md",
     "Courses/MachineLearning/GNN.md",
     "Temp/八股文.md",
-    "Tools/快捷键.md",
-    "Temp/PageRank.md",
-    "Memos/LSH.md",
-    "Memos/PageRank.md",
-    "Tools/Colour Style.md",
-    "Tools/Conda.md",
-    "LeetCode/Python.md",
-    "LeetCode/C++.md",
-    "LeetCode/80 删除有序数组中的重复项II.md",
-    "LeetCode/LeetCode 150.md",
-    "LeetCode/55 跳跃游戏.md",
-    "LeetCode/6 Z字形变换.md",
-    "LeetCode/743 网络延迟时间.md",
-    "LeetCode/54 螺旋矩阵.md",
-    "LeetCode/392 判断子序列.md",
-    "LeetCode/380 O(1)时间插入、删除和获取随机元素.md",
-    "LeetCode/45 跳跃游戏II.md",
-    "LeetCode/365 生成字典序最大的有效序列.md",
     "LeetCode",
-    "Tools/_Obsidian",
+    "Tools/Obsidian",
     "Tools",
     "Courses/MachineLearning",
     "Courses/DatabaseSystemTechnology",
     "Courses",
     "Temp",
-    "assets/VLAN3.png",
-    "assets/VLAN1.png",
-    "assets/VLAN2.png",
-    "assets/transformer.png",
-    "assets/synprim_guideline.png",
-    "assets/toNFA.png",
-    "assets/TCP.png",
-    "assets/synprim_cmp.png",
-    "assets/summary.png",
-    "assets/struct.png",
-    "assets/SogouWubi_20240731_fcl.cwb"
+    "Utils/assets/VLAN3.png",
+    "Utils/assets/VLAN1.png",
+    "Utils/assets/VLAN2.png",
+    "Utils/assets/transformer.png",
+    "Utils/assets/synprim_guideline.png",
+    "Utils/assets/toNFA.png",
+    "Utils/assets/TCP.png"
   ]
 }
