@@ -140,5 +140,6 @@ tags:
 | `#73BBB2` | <font size=5 color=#73bbb2>■</font> | Theorem          | Callout |
 | `#97D8F8` | <font size=5 color=#97d8f8>■</font> | Note             | Callout |
 | `#9E86C8` | <font size=5 color=#9e86c8>■</font> | Proof            | Callout |
+| `#666E95` | <font size=5 color=#666e95>■</font> | Quote            | Callout |
 | `#D04255` | <font size=5 color=#D04255>■</font> | Caution          | Callout |
 ^i97pkp

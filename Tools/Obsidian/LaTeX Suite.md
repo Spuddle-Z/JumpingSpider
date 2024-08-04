@@ -205,6 +205,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;pf     | > [!proof] $0      | tA      |
 | ;th     | > [!theorem] $0    | tA      |
 | ;wn     | > [!caution] $0    | tA      |
+| ;qt     | > [!quote] $0      | tA      |
 ## Code
 ```javascript
 [
@@ -373,5 +374,6 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
     {trigger: ";pf", replacement: "> [!proof] $0", options: "tA"},
     {trigger: ";th", replacement: "> [!theorem] $0", options: "tA"},
     {trigger: ";wn", replacement: "> [!caution] $0", options: "tA"},
+    {trigger: ";qt", replacement: "> [!quote] $0", options: "tA"},
 ]
 ```

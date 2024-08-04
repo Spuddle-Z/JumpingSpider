@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a5f1637b92c3dff6",
+        "id": "398fac0d608ce21a",
         "type": "tabs",
         "children": [
           {
-            "id": "d206b5d9ec7ee8aa",
+            "id": "c1e44e101437478e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Temp/闲白儿.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -53,11 +57,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 234.50499725341797
+    "width": 234.50499725341797,
+    "collapsed": true
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -72,7 +78,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Temp/闲白儿.md"
+              }
             }
           },
           {
@@ -92,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Temp/闲白儿.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Temp/闲白儿.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,12 +131,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -139,8 +149,16 @@
       "callout-manager:Insert Callout": true
     }
   },
-  "active": "d206b5d9ec7ee8aa",
+  "active": "c1e44e101437478e",
   "lastOpenFiles": [
+    "Courses/MachineLearning/强化学习.md",
+    "Courses/MachineLearning/可解释性.md",
+    "Tools/Obsidian/Obsidian.md",
+    "Temp/闲白儿.md",
+    "Tools/Colour Style.md",
+    "Tools/Obsidian/LaTeX Suite.md",
+    "Temp/Draft.md",
+    "Temp/八股文.md",
     "Utils/template/LeetCode.md",
     "Tools/Vimium C.md",
     "Tools/Tmux.md",
@@ -153,14 +171,11 @@
     "Tools/C盘清理.md",
     "Tools/CapsLock+.md",
     "Tools/Clash.md",
-    "Tools/Colour Style.md",
     "Tools/Conda.md",
     "Tools/GitHub.md",
-    "Temp/Draft.md",
     "Courses/操作系统.md",
     "Utils/assets/test.png",
     "test.png",
-    "Temp/闲白儿.md",
     "Utils",
     "Utils/assets/Pasted image 20240801233747.png",
     "Courses/MachineLearning/神经网络.md",
@@ -168,11 +183,6 @@
     "1Courses/MachineLearning/神经网络.md",
     "1Courses/MachineLearning",
     "1Courses",
-    "Temp/此电脑属性.md",
-    "Temp/神经网络.md",
-    "Courses/数据科学基础.md",
-    "Courses/MachineLearning/GNN.md",
-    "Temp/八股文.md",
     "LeetCode",
     "Tools/Obsidian",
     "Tools",
