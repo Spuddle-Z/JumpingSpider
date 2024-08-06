@@ -1,7 +1,7 @@
 {
-  "deleteOption": ".trash",
+  "deleteOption": "system-trash",
   "logsModal": true,
-  "excludedFolders": "D:/Projects/Obsidian/Public/.obignore",
+  "excludedFolders": "",
   "ribbonIcon": false,
   "excludeSubfolders": true
 }
