@@ -164,7 +164,8 @@
       "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
       "callout-manager:Insert Callout": true,
-      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": true
+      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": true,
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
   "active": "fb8ae3ddbec28d7e",
@@ -187,7 +188,7 @@
     "Tools/Colour Style.md",
     "Tools/Obsidian/LaTeX Suite.md",
     "Temp/八股文.md",
-    "Utils/template/LeetCode.md",
+    "Utils/templates/LeetCode.md",
     "Tools/Vimium C.md",
     "Tools/Tmux.md",
     "Tools/SSH.md",
