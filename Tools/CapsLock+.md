@@ -16,27 +16,31 @@ tags:
 
 ### 文档操作
 
-| Hotkeys          | Original Keys               |
-| ---------------- | --------------------------- |
-| `Caps + i`       | `UpArrow`                   |
-| `Caps + k`       | `DownArrow`                 |
-| `Caps + j`       | `LeftArrow`                 |
-| `Caps + l`       | `RightArrow`                |
-| `Caps + u`       | `Ctrl + LeftArrow`          |
-| `Caps + o`       | `Ctrl + RightArrow`         |
-| `Caps + e`       | `Backspace`                 |
-| `Caps + r`       | `Delete`                    |
-| `Caps + h`       | `Home`                      |
-| `Caps + ;`       | `End`                       |
-| `Caps + Alt + i` | `Shift + UpArrow`           |
-| `Caps + Alt + k` | `Shift + DownArrow`         |
-| `Caps + Alt + j` | `Shift + LeftArrow`         |
-| `Caps + Alt + l` | `Shift + RightArrow`        |
-| `Caps + Alt + u` | `Ctrl + Shift + LeftArrow`  |
-| `Caps + Alt + o` | `Ctrl + Shift + RightArrow` |
-| `Caps + Alt + r` | `Shift + Delete`            |
-| `Caps + Alt + h` | `Shift + Home`              |
-| `Caps + Alt + ;` | `Shift + End`               |
+| Hotkeys          | Original Keys                 |
+| ---------------- | ----------------------------- |
+| `Caps + i`       | `UpArrow`                     |
+| `Caps + k`       | `DownArrow`                   |
+| `Caps + j`       | `LeftArrow`                   |
+| `Caps + l`       | `RightArrow`                  |
+| `Caps + u`       | `Ctrl + LeftArrow`            |
+| `Caps + o`       | `Ctrl + RightArrow`           |
+| `Caps + e`       | `Backspace`                   |
+| `Caps + r`       | `Delete`                      |
+| `Caps + y`       | `UpArrow`$\times10$           |
+| `Caps + n`       | `DownArrow`$\times10$         |
+| `Caps + h`       | `Home`                        |
+| `Caps + ;`       | `End`                         |
+| `Caps + Alt + i` | `Shift + UpArrow`             |
+| `Caps + Alt + k` | `Shift + DownArrow`           |
+| `Caps + Alt + j` | `Shift + LeftArrow`           |
+| `Caps + Alt + l` | `Shift + RightArrow`          |
+| `Caps + Alt + u` | `Ctrl + Shift + LeftArrow`    |
+| `Caps + Alt + o` | `Ctrl + Shift + RightArrow`   |
+| `Caps + Alt + r` | `Shift + Delete`              |
+| `Caps + Alt + y` | `Shift + UpArrow`$\times10$   |
+| `Caps + Alt + n` | `Shift + DownArrow`$\times10$ |
+| `Caps + Alt + h` | `Shift + Home`                |
+| `Caps + Alt + ;` | `Shift + End`                 |
 
 ^qi4ypa
 
@@ -45,13 +49,7 @@ tags:
 | Hotkeys        | Functions |
 | -------------- | --------- |
 | `Caps + Space` | 鼠标左键      |
-| `Caps + .`     | 鼠标右键      |
-| `Caps + w`     | 鼠标上移      |
-| `Caps + s`     | 鼠标下移      |
-| `Caps + a`     | 鼠标左移      |
-| `Caps + d`     | 鼠标右移      |
-| `Caps + ,`     | 鼠标滚轮向下    |
-| `Caps + m`     | 鼠标滚轮向上    |
+
 
 ^yip6rv
 
@@ -75,7 +73,7 @@ Qbar可以通过`Caps + Q`键唤出，通过输入关键词来实现相关功能
 | `M`       | 播放纯音乐      |
 | `G`       | 打开Google主页 |
 | `GH`      | 打开GitHub主页 |
-| `GLM`     | 打开智谱清言     |
+
 ## Code
 ```ini
 ;------------ Encoding: UTF-16 ------------
@@ -128,10 +126,10 @@ id  = **此处省略身份证号**
 	[Keys]
 	press_caps = keyFunc_esc
 	
-	caps_a = keyfunc_mouse_left
+	caps_a = keyFunc_doNothing
 	caps_b = keyFunc_doNothing
 	caps_c = keyFunc_doNothing
-	caps_d = keyfunc_mouse_right
+	caps_d = keyFunc_doNothing
 	caps_e = keyFunc_backspace
 	caps_f = keyFunc_doNothing
 	caps_g = keyFunc_doNothing
@@ -140,19 +138,19 @@ id  = **此处省略身份证号**
 	caps_j = keyFunc_moveLeft
 	caps_k = keyFunc_moveDown
 	caps_l = keyFunc_moveRight
-	caps_m = keyfunc_wheel_up
-	caps_n = keyFunc_doNothing
+	caps_m = keyFunc_doNothing
+	caps_n = keyFunc_moveDown(10)
 	caps_o = keyFunc_moveWordRight
 	caps_p = keyFunc_winPin
 	caps_q = keyFunc_qbar
 	caps_r = keyFunc_delete
-	caps_s = keyfunc_mouse_down
+	caps_s = keyFunc_doNothing
 	caps_t = keyFunc_winTransparent
 	caps_u = keyFunc_moveWordLeft
 	caps_v = keyFunc_doNothing
-	caps_w = keyfunc_mouse_up
+	caps_w = keyFunc_doNothing
 	caps_x = keyFunc_doNothing
-	caps_y = keyFunc_doNothing
+	caps_y = keyFunc_moveUp(10)
 	caps_z = keyFunc_doNothing
 	
 	caps_1 = keyFunc_doNothing
@@ -180,8 +178,8 @@ id  = **此处省略身份证号**
 	caps_quote     = keyFunc_doNothing
 	caps_enter     = keyFunc_doNothing
 	
-	caps_comma = keyfunc_wheel_down
-	caps_dot   = keyfunc_click_right
+	caps_comma = keyFunc_doNothing
+	caps_dot   = keyFunc_doNothing
 	caps_slash = keyFunc_doNothing
 	
 	caps_space     = keyfunc_click_left
@@ -213,7 +211,7 @@ id  = **此处省略身份证号**
 	caps_lalt_k = keyFunc_selectDown
 	caps_lalt_l = keyFunc_selectRight
 	caps_lalt_m = keyFunc_doNothing
-	caps_lalt_n = keyFunc_doNothing
+	caps_lalt_n = keyFunc_selectDown(10)
 	caps_lalt_o = keyFunc_selectWordRight
 	caps_lalt_p = keyFunc_doNothing
 	caps_lalt_q = keyFunc_doNothing
@@ -224,7 +222,7 @@ id  = **此处省略身份证号**
 	caps_lalt_v = keyFunc_doNothing
 	caps_lalt_w = keyFunc_doNothing
 	caps_lalt_x = keyFunc_doNothing
-	caps_lalt_y = keyFunc_doNothing
+	caps_lalt_y = keyFunc_selectUp(10)
 	caps_lalt_z = keyFunc_doNothing
 	
 	caps_lalt_1 = keyFunc_doNothing

@@ -1,6 +1,6 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "Util/assets",
+  "attachmentFolderPath": "Utils/assets",
   "newFileLocation": "folder",
   "trashOption": "system",
   "strictLineBreaks": true,

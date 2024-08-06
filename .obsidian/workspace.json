@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "398fac0d608ce21a",
+        "id": "1627bcf33a3fe71e",
         "type": "tabs",
         "children": [
           {
-            "id": "c1e44e101437478e",
+            "id": "31e3c403d6cec468",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -16,12 +16,24 @@
             }
           },
           {
-            "id": "9572717ebb255a26",
+            "id": "fb8ae3ddbec28d7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Temp/云栖工作记录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fb2a4c9639654397",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Temp/待办.md",
                 "mode": "source",
                 "source": false
               }
@@ -155,14 +167,19 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": true
     }
   },
-  "active": "9572717ebb255a26",
+  "active": "fb8ae3ddbec28d7e",
   "lastOpenFiles": [
     "Temp/待办.md",
     "Temp/云栖工作记录.md",
+    "Tools/CapsLock+.md",
+    "Temp/网站汇总.md",
     "Tools/C盘清理.md",
-    "Pasted image 20240805145540.png",
-    "Tools/搜狗五笔输入法.md",
+    "Tools/输入法.md",
     "Temp/Draft.md",
+    "Utils/assets/Pasted image 20240805224559.png",
+    "Pasted image 20240805224503.png",
+    "Pasted image 20240805145540.png",
+    "Courses/DatabaseSystemTechnology/SQL.md",
     "Courses/MachineLearning/强化学习.md",
     "Courses/MachineLearning/可解释性.md",
     "Tools/Obsidian/Obsidian.md",
@@ -178,11 +195,8 @@
     "Tools/Git.md",
     "Tools/快捷键.md",
     "Tools/硬盘分区.md",
-    "Tools/CapsLock+.md",
     "Tools/Clash.md",
     "Tools/Conda.md",
-    "Tools/GitHub.md",
-    "Courses/操作系统.md",
     "Utils/assets/test.png",
     "test.png",
     "Utils",
@@ -199,8 +213,6 @@
     "Utils/assets/VLAN3.png",
     "Utils/assets/VLAN1.png",
     "Utils/assets/VLAN2.png",
-    "Utils/assets/transformer.png",
-    "Utils/assets/synprim_guideline.png",
-    "Utils/assets/toNFA.png"
+    "Utils/assets/transformer.png"
   ]
 }
