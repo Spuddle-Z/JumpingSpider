@@ -40,7 +40,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Temp/云栖工作记录.md"
+                "file": "Temp/待办.md"
               }
             }
           },
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temp/云栖工作记录.md",
+                "file": "Temp/待办.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temp/云栖工作记录.md",
+                "file": "Temp/待办.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,14 +168,15 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "fb8ae3ddbec28d7e",
+  "active": "fb2a4c9639654397",
   "lastOpenFiles": [
-    "Temp/待办.md",
     "Temp/云栖工作记录.md",
+    "Temp/待办.md",
+    "Tools/输入法.md",
+    "Utils/assets/SogouWubi_20240806_fnj.cwb",
     "Tools/CapsLock+.md",
     "Temp/网站汇总.md",
     "Tools/C盘清理.md",
-    "Tools/输入法.md",
     "Temp/Draft.md",
     "Utils/assets/Pasted image 20240805224559.png",
     "Pasted image 20240805224503.png",
@@ -210,7 +211,6 @@
     "Courses/MachineLearning",
     "Courses/DatabaseSystemTechnology",
     "Courses",
-    "Temp",
     "Utils/assets/VLAN3.png",
     "Utils/assets/VLAN1.png",
     "Utils/assets/VLAN2.png",
