@@ -38,18 +38,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "850b8f63a0e97e46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/输入法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -182,12 +170,13 @@
   },
   "active": "fb8ae3ddbec28d7e",
   "lastOpenFiles": [
-    "Tools/输入法.md",
-    "Temp/云栖工作记录.md",
     "Temp/待办.md",
+    "Tools/输入法.md",
+    "Utils/assets/SogouWubi_20240808_giw.cwb",
+    "Temp/云栖工作记录.md",
+    "Temp/网站汇总.md",
     "Utils/assets/SogouWubi_20240806_fnj.cwb",
     "Tools/CapsLock+.md",
-    "Temp/网站汇总.md",
     "Tools/C盘清理.md",
     "Temp/Draft.md",
     "Utils/assets/Pasted image 20240805224559.png",
@@ -222,7 +211,6 @@
     "Tools",
     "Courses/MachineLearning",
     "Courses/DatabaseSystemTechnology",
-    "Courses",
     "Utils/assets/VLAN3.png",
     "Utils/assets/VLAN1.png",
     "Utils/assets/VLAN2.png",
