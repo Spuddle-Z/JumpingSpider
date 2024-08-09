@@ -181,14 +181,57 @@ FROM Student;
 > [!example] 
 > 查询每个学生及其选修课程的情况。
 > ```sql
-> SELECT Student
+> SELECT Student.*, SC.*
+> FROM Student, SC
+> WHERE Student.Sno = SC.Sno;
 > ```
-![[Pasted image 20240708015836.png]]
-![[Pasted image 20240708015930.png]]
-![[Pasted image 20240708020003.png]]
-![[Pasted image 20240708020027.png]]
-![[Pasted image 20240708020104.png]]
-#Missing 
+
+#### 自然连接
+> [!definition] 自然连接
+> 等值连接的一种特殊情况，把目标列中重复的属性列去掉。
+
+> [!example] 
+> 对上个例子用自然连接完成。
+> ```sql
+> SELECT Student.Sno, Sname, Ssex, Sage, Sdept, Cno, Grade
+> FROM Student, SC
+> WHERE Student.Sno = SC.Sno;
+> ```
+
+#### 自身连接
+> [!example] 
+> 查询每一门课的间接先修课（即先修课的先修课）
+> ```sql
+> SELECT FIRST.Cno, SECOND.Cpno
+> FROM Course FIRST, Course SECOND
+> WHERE FIRST.Cpno = SECOND.Cno;
+> ```
+
+#### 外连接
+> [!definition] 外连接 (Outer Join)
+> 与普通连接操作只输出满足连接条件的元组不同，外连接操作以指定表为连接主体，将主体表中不满足连接条件的悬浮元组一并输出。
+
+> [!example] 
+> 查询每个学生及其选修课程的情况，包括没有选修课程的学生——用外连接操作。
+> ```sql
+> SELECT Student.Sno, Sname, Ssex, Sage, Sdept, Cno, Grade
+> FROM Student LEFT OUTER JOIN SC ON (Student.Sno = SC.Sno);
+> ```
+
+#### 复合条件连接
+> [!definition] 复合条件连接
+> `WHERE`子句中含有多个连接条件时，称为复合条件连接。
+
+> [!example] 
+> 查询选修2号课程且成绩在90分以上的所有学生的学号和姓名。
+> ```sql
+> SELECT Student.Sno, Student.Sname
+> FROM Student, SC
+> WHERE Student.Sno = SC.Sno AND
+> 	  SC.Cno = '2' AND
+> 	  SC.Grade > 90;
+> ```
+
 ### 嵌套查询
 #### 基本概念
 一个`SELECT-FROM-WHERE`语句称为一个查询块，将一个查询块嵌套在另一个查询块的`WHERE`子句或`HAVING`短语的条件中的查询称为**嵌套查询**。

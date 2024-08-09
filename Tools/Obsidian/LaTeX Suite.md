@@ -162,6 +162,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;mP     | \\mathcal{P}                                        | $\mathcal{P}$                         | mA      |
 | ;mC     | \\mathbb{C}                                         | $\mathbb{C}$                          | mA      |
 | ;mR     | \\mathbb{R}                                         | $\mathbb{R}$                          | mA      |
+| .mQ     | \\mathbb{Q}                                         | $\mathbb{Q}$                          | mA      |
 | ;mZ     | \\mathbb{Z}                                         | $\mathbb{Z}$                          | mA      |
 | ;mN     | \\mathbb{N}                                         | $\mathbb{N}$                          | mA      |
 | ;;mN    | \i\mathbb{N}_+                                      | $\mathbb{N}_+$                        | mA      |
@@ -174,7 +175,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;mn     | \\min                                               | $\min$                                | mA      |
 | ;amx    | \\mathop{\\arg\\!\\max}\\limits_{${0:\\theta}}\\ $1 | $\mathop{\arg\!\max}\limits_{\theta}$ | mA      |
 | ;amn    | \\mathop{\\arg\\!\\min}\\limits_{${0:\\theta}}\\ $1 | $\mathop{\arg\!\min}\limits_{\theta}$ | mA      |
-| ;md     | \\text{mod }                                        | $\text{mod}$                          | mA      |
+| ;md     | \\text{ mod }                                       | $\text{mod}$                          | mA      |
 | ;st     | \\text{s.t.}\\quad                                  | $\text{s.t.}\quad$                    | mA      |
 ### Brackets
 
@@ -336,6 +337,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";mP", replacement: "\\mathcal{P}", options: "mA"},
 	{trigger: ";mC", replacement: "\\mathbb{C}", options: "mA"},
 	{trigger: ";mR", replacement: "\\mathbb{R}", options: "mA"},
+	{trigger: ";mQ", replacement: "\\mathbb{Q}", options: "mA"},
 	{trigger: ";mZ", replacement: "\\mathbb{Z}", options: "mA"},
 	{trigger: ";mN", replacement: "\\mathbb{N}", options: "mA"},
 	{trigger: ";;mN", replacement: "\\mathbb{N}_+", options: "mA"},
@@ -348,7 +350,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";mn", replacement: "\\min", options: "mA"},
 	{trigger: ";amx", replacement: "\\mathop{\\arg\\!\\max}\\limits_{${0:\\theta}}\\ $1", options: "mA"},
 	{trigger: ";amn", replacement: "\\mathop{\\arg\\!\\min}\\limits_{${0:\\theta}}\\ $1", options: "mA"},
-	{trigger: ";md", replacement: "\\text{mod }", options: "mA"},
+	{trigger: ";md", replacement: "\\text{ mod }", options: "mA"},
 	{trigger: ";st", replacement: "\\text{s.t.}\\quad", options: "mA"},
 
 	// Brackets

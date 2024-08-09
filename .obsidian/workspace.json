@@ -16,6 +16,18 @@
             }
           },
           {
+            "id": "ffda700d19ecc90e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/初等数论.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "fb8ae3ddbec28d7e",
             "type": "leaf",
             "state": {
@@ -41,6 +53,24 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "020cfb25c1c29177",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5e98a5f216d97f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/初等数论.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234.50499725341797
+    "width": 234.50499725341797,
+    "collapsed": true
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -98,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Temp/云栖工作记录.md"
+                "file": "Courses/初等数论.md"
               }
             }
           },
@@ -119,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temp/云栖工作记录.md",
+                "file": "Courses/初等数论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temp/云栖工作记录.md",
+                "file": "Courses/初等数论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +185,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,11 +200,14 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "fb8ae3ddbec28d7e",
+  "active": "a5e98a5f216d97f8",
   "lastOpenFiles": [
     "Temp/待办.md",
-    "Tools/输入法.md",
     "Temp/云栖工作记录.md",
+    "Courses/初等数论.md",
+    "Tools/Obsidian/LaTeX Suite.md",
+    "Courses/DatabaseSystemTechnology/SQL.md",
+    "Tools/输入法.md",
     "Temp/网站汇总.md",
     "Utils/assets/SogouWubi_20240808_giw.cwb",
     "Utils/assets/SogouWubi_20240806_fnj.cwb",
@@ -182,13 +217,11 @@
     "Utils/assets/Pasted image 20240805224559.png",
     "Pasted image 20240805224503.png",
     "Pasted image 20240805145540.png",
-    "Courses/DatabaseSystemTechnology/SQL.md",
     "Courses/MachineLearning/强化学习.md",
     "Courses/MachineLearning/可解释性.md",
     "Tools/Obsidian/Obsidian.md",
     "Temp/闲白儿.md",
     "Tools/Colour Style.md",
-    "Tools/Obsidian/LaTeX Suite.md",
     "Temp/八股文.md",
     "Utils/templates/LeetCode.md",
     "Tools/Vimium C.md",
