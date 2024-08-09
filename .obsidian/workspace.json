@@ -16,13 +16,13 @@
             }
           },
           {
-            "id": "ffda700d19ecc90e",
+            "id": "39a5bf8d2e7b51f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/初等数论.md",
-                "mode": "preview",
+                "file": "Courses/博弈论.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -53,24 +53,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "020cfb25c1c29177",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a5e98a5f216d97f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/初等数论.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -129,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/初等数论.md"
+                "file": "Courses/博弈论.md"
               }
             }
           },
@@ -150,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/初等数论.md",
+                "file": "Courses/博弈论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/初等数论.md",
+                "file": "Courses/博弈论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,12 +182,12 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "a5e98a5f216d97f8",
+  "active": "39a5bf8d2e7b51f2",
   "lastOpenFiles": [
-    "Temp/待办.md",
-    "Temp/云栖工作记录.md",
     "Courses/初等数论.md",
     "Tools/Obsidian/LaTeX Suite.md",
+    "Temp/待办.md",
+    "Temp/云栖工作记录.md",
     "Courses/DatabaseSystemTechnology/SQL.md",
     "Tools/输入法.md",
     "Temp/网站汇总.md",
