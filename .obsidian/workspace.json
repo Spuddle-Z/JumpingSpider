@@ -16,18 +16,6 @@
             }
           },
           {
-            "id": "39a5bf8d2e7b51f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/博弈论.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fb8ae3ddbec28d7e",
             "type": "leaf",
             "state": {
@@ -111,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/博弈论.md"
+                "file": "Temp/云栖工作记录.md"
               }
             }
           },
@@ -132,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/博弈论.md",
+                "file": "Temp/云栖工作记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/博弈论.md",
+                "file": "Temp/云栖工作记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,12 +170,13 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "39a5bf8d2e7b51f2",
+  "active": "fb8ae3ddbec28d7e",
   "lastOpenFiles": [
-    "Courses/初等数论.md",
-    "Tools/Obsidian/LaTeX Suite.md",
     "Temp/待办.md",
     "Temp/云栖工作记录.md",
+    "Courses/博弈论.md",
+    "Courses/初等数论.md",
+    "Tools/Obsidian/LaTeX Suite.md",
     "Courses/DatabaseSystemTechnology/SQL.md",
     "Tools/输入法.md",
     "Temp/网站汇总.md",
@@ -214,7 +203,6 @@
     "Tools/快捷键.md",
     "Tools/硬盘分区.md",
     "Tools/Clash.md",
-    "Tools/Conda.md",
     "Utils/assets/test.png",
     "test.png",
     "Utils",
