@@ -4,43 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1627bcf33a3fe71e",
+        "id": "9c9f065a14afe9b7",
         "type": "tabs",
         "children": [
           {
-            "id": "31e3c403d6cec468",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "fb8ae3ddbec28d7e",
+            "id": "7569b92b7626de25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Temp/云栖工作记录.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fb2a4c9639654397",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Temp/待办.md",
-                "mode": "source",
+                "file": "Temp/To Do.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234.50499725341797,
-    "collapsed": true
+    "width": 234.50499725341797
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -99,7 +77,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Temp/云栖工作记录.md"
+                "file": "Temp/To Do.md"
               }
             }
           },
@@ -120,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temp/云栖工作记录.md",
+                "file": "Temp/To Do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temp/云栖工作记录.md",
+                "file": "Temp/To Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,19 +144,30 @@
       "workspaces:管理工作区布局": false,
       "callout-manager:Insert Callout": true,
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": true,
-      "oz-clear-unused-images:Clear Unused Images": false
+      "oz-clear-unused-images:Clear Unused Images": true,
+      "vault-size-history:Vault size history": false,
+      "dashboard-navigator:Open dashboard navigator": false,
+      "tags-routes:Open tags routes": false
     }
   },
-  "active": "fb8ae3ddbec28d7e",
+  "active": "7569b92b7626de25",
   "lastOpenFiles": [
-    "Temp/待办.md",
-    "Temp/云栖工作记录.md",
+    "Courses/计算机网络.md",
+    "Tools/搜狗五笔输入法.md",
+    "Temp/To Do.md",
+    "Temp/核函数与正则学习.md",
     "Courses/博弈论.md",
+    "Temp/云栖工作记录.md",
+    "TagsRoutes/logs/logMessage.md",
+    "TagsRoutes/reports/TagReport_#Missing.md",
+    "TagsRoutes/reports",
+    "TagsRoutes/logs",
+    "TagsRoutes",
+    "VaultFiles.csv",
     "Courses/初等数论.md",
     "Tools/Obsidian/LaTeX Suite.md",
     "Courses/DatabaseSystemTechnology/SQL.md",
-    "Tools/输入法.md",
-    "Temp/网站汇总.md",
+    "Tools/网站汇总.md",
     "Utils/assets/SogouWubi_20240808_giw.cwb",
     "Utils/assets/SogouWubi_20240806_fnj.cwb",
     "Tools/CapsLock+.md",
@@ -199,10 +187,6 @@
     "Tools/Tmux.md",
     "Tools/SSH.md",
     "Tools/Spark.md",
-    "Tools/Git.md",
-    "Tools/快捷键.md",
-    "Tools/硬盘分区.md",
-    "Tools/Clash.md",
     "Utils/assets/test.png",
     "test.png",
     "Utils",
@@ -210,10 +194,6 @@
     "1Courses/MachineLearning",
     "1Courses",
     "LeetCode",
-    "Tools/Obsidian",
-    "Tools",
-    "Courses/MachineLearning",
-    "Courses/DatabaseSystemTechnology",
     "Utils/assets/VLAN3.png",
     "Utils/assets/VLAN1.png",
     "Utils/assets/VLAN2.png",
