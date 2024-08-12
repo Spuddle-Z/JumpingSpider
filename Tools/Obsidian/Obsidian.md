@@ -87,6 +87,12 @@ tags:
 ### Focus Mode
 禅模式：收起侧边栏，并高亮当前所在行。
 
+### GitHub Copilot
+在Obsidian中能用GitHub Copilot。
+
+### Iconize
+允许在文件夹前标记icon。
+
 ### LaTeX Suite
 虽然看似与LaTeX有关，但完全可以当作一个text snippet插件来使用。详见[[LaTeX Suite]]。
 
@@ -96,11 +102,20 @@ tags:
 ### Mousewheel Image Zoom
 按住`Alt`并滚动鼠标滚轮来快捷调整图片大小。
 
+### Status Bar Pomodoro Timer
+在状态栏中加入番茄钟。
+
 ### Style Setting
 改变具体的外观。
 
 ### Typewriter Scroll
 总保持光标所在行位于屏幕中间。
+
+### Vault Size History
+记录仓库中文件数量变化曲线。
+
+### Word Splitting for Simplified Chinese in Edit Mode and Vim Mode
+优化Obsidian的中文分词。
 
 ## CSS片段
 - [[Obsidian添加CSS片段|使图片居中显示]]
