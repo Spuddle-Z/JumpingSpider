@@ -26,8 +26,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b5e47649472b3d74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/搜狗五笔输入法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Tools/搜狗五笔输入法.md"
+              }
             }
           },
           {
@@ -105,6 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Tools/搜狗五笔输入法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Tools/搜狗五笔输入法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,15 +173,16 @@
       "tags-routes:Open tags routes": false
     }
   },
-  "active": "861fc292626dc673",
+  "active": "b5e47649472b3d74",
   "lastOpenFiles": [
+    "Utils/assets/SogouWubi_20240812_gif.cwb",
     "Temp/To Do.md",
+    "Courses/博弈论.md",
     "Tools/网站汇总.md",
     "Tools/Obsidian/Obsidian.md",
     "Courses/计算机网络.md",
     "Tools/搜狗五笔输入法.md",
     "Temp/核函数与正则学习.md",
-    "Courses/博弈论.md",
     "Temp/云栖工作记录.md",
     "TagsRoutes/logs/logMessage.md",
     "TagsRoutes/reports/TagReport_#Missing.md",
@@ -192,7 +210,6 @@
     "Tools/Vimium C.md",
     "Tools/Tmux.md",
     "Tools/SSH.md",
-    "Tools/Spark.md",
     "Utils/assets/test.png",
     "test.png",
     "Utils",
