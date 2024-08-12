@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "42b3a5df5f82ce8d",
+        "id": "e98faea9eb966673",
         "type": "tabs",
         "children": [
           {
-            "id": "9db263b2e3640aa2",
+            "id": "205e9f163d1e2025",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -16,12 +16,12 @@
             }
           },
           {
-            "id": "84c7854275975c5d",
+            "id": "6984d10eadf01c1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Temp/To Do.md",
+                "file": "Courses/MachineLearning/机器学习技巧.md",
                 "mode": "preview",
                 "source": false
               }
@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Missing",
+                "query": "梯度爆炸",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -152,9 +152,20 @@
       "canvas:新建白板": false
     }
   },
-  "active": "9db263b2e3640aa2",
+  "active": "205e9f163d1e2025",
   "lastOpenFiles": [
+    "Temp/八股文.md",
+    "Courses/MachineLearning/机器学习技巧.md",
+    "Courses/MachineLearning/机器学习.md",
+    "Courses/MachineLearning/CNN.md",
+    "Courses/MachineLearning/神经网络.md",
+    "Temp/提高机器学习性能.md",
+    "Utils/assets/GAP.jpg",
+    "Temp/神经网络.md",
+    "Temp/机器学习原理.md",
+    "Courses/自然语言处理.md",
     "Temp/To Do.md",
+    "Temp/核函数与正则学习.md",
     "Temp/科研实践经历.md",
     "Temp/此电脑属性.md",
     "Temp/未命名.md",
@@ -166,7 +177,6 @@
     "Tools/网站汇总.md",
     "Tools/Obsidian/Obsidian.md",
     "Courses/计算机网络.md",
-    "Temp/核函数与正则学习.md",
     "Temp/云栖工作记录.md",
     "TagsRoutes/logs/logMessage.md",
     "TagsRoutes/reports/TagReport_#Missing.md",
@@ -179,18 +189,9 @@
     "Courses/DatabaseSystemTechnology/SQL.md",
     "Utils/assets/SogouWubi_20240808_giw.cwb",
     "Utils/assets/SogouWubi_20240806_fnj.cwb",
-    "Tools/CapsLock+.md",
-    "Tools/C盘清理.md",
-    "Temp/Draft.md",
     "Utils/assets/Pasted image 20240805224559.png",
     "Pasted image 20240805224503.png",
     "Pasted image 20240805145540.png",
-    "Courses/MachineLearning/强化学习.md",
-    "Courses/MachineLearning/可解释性.md",
-    "Temp/闲白儿.md",
-    "Temp/八股文.md",
-    "Utils/templates/LeetCode.md",
-    "Tools/Vimium C.md",
     "Utils/assets/test.png",
     "test.png",
     "Utils",
@@ -198,7 +199,6 @@
     "1Courses/MachineLearning",
     "1Courses",
     "Utils/assets/VLAN3.png",
-    "Utils/assets/VLAN1.png",
-    "Utils/assets/VLAN2.png"
+    "Utils/assets/VLAN1.png"
   ]
 }
