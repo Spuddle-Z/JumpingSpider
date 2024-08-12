@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "861fc292626dc673",
+            "id": "9db263b2e3640aa2",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234.50499725341797,
-    "collapsed": true
+    "width": 234.50499725341797
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -138,8 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,15 +148,18 @@
       "workspaces:管理工作区布局": false,
       "callout-manager:Insert Callout": true,
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": true,
-      "oz-clear-unused-images:Clear Unused Images": true,
       "vault-size-history:Vault size history": false,
-      "dashboard-navigator:Open dashboard navigator": false,
-      "tags-routes:Open tags routes": false
+      "canvas:新建白板": false
     }
   },
-  "active": "861fc292626dc673",
+  "active": "9db263b2e3640aa2",
   "lastOpenFiles": [
     "Temp/To Do.md",
+    "Temp/科研实践经历.md",
+    "Temp/此电脑属性.md",
+    "Temp/未命名.md",
+    "Utils/assets/Pasted image 20240521150824.png",
+    "Tools/Colour Style.md",
     "Tools/搜狗五笔输入法.md",
     "Utils/assets/SogouWubi_20240812_gif.cwb",
     "Courses/博弈论.md",
@@ -187,12 +188,9 @@
     "Courses/MachineLearning/强化学习.md",
     "Courses/MachineLearning/可解释性.md",
     "Temp/闲白儿.md",
-    "Tools/Colour Style.md",
     "Temp/八股文.md",
     "Utils/templates/LeetCode.md",
     "Tools/Vimium C.md",
-    "Tools/Tmux.md",
-    "Tools/SSH.md",
     "Utils/assets/test.png",
     "test.png",
     "Utils",
@@ -201,7 +199,6 @@
     "1Courses",
     "Utils/assets/VLAN3.png",
     "Utils/assets/VLAN1.png",
-    "Utils/assets/VLAN2.png",
-    "Utils/assets/transformer.png"
+    "Utils/assets/VLAN2.png"
   ]
 }
