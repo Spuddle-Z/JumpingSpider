@@ -14,18 +14,6 @@
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "6984d10eadf01c1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/MachineLearning/机器学习技巧.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -154,8 +142,8 @@
   },
   "active": "205e9f163d1e2025",
   "lastOpenFiles": [
-    "Temp/八股文.md",
     "Courses/MachineLearning/机器学习技巧.md",
+    "Temp/八股文.md",
     "Courses/MachineLearning/机器学习.md",
     "Courses/MachineLearning/CNN.md",
     "Courses/MachineLearning/神经网络.md",
