@@ -4,49 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e98faea9eb966673",
+        "id": "46d087908d007fc9",
         "type": "tabs",
         "children": [
           {
-            "id": "321f9d27bf08b1a8",
+            "id": "ae1cf67287bb05dd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/算法.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac31134aa5f52e05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/凸优化.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "297e80da468ed4a3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ffd69a32b12c6c7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/算法.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -107,9 +73,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Courses/算法.md"
-              }
+              "state": {}
             }
           },
           {
@@ -129,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,11 +142,12 @@
       "canvas:新建白板": false
     }
   },
-  "active": "ffd69a32b12c6c7e",
+  "active": "ae1cf67287bb05dd",
   "lastOpenFiles": [
-    "Utils/assets/MF3.png",
-    "Courses/算法.md",
     "Courses/凸优化.md",
+    "Courses/算法.md",
+    "Utils/assets/Pasted image 20240814154118.png",
+    "Utils/assets/MF3.png",
     "Courses/线性代数.md",
     "Temp/扩散模型.md",
     "Utils/assets/Pasted image 20240814110023.png",
@@ -224,9 +187,7 @@
     "Utils/assets/test.png",
     "test.png",
     "Utils",
-    "Utils/assets/Pasted image 20240801233747.png",
     "1Courses/MachineLearning",
-    "1Courses",
-    "Utils/assets/VLAN3.png"
+    "1Courses"
   ]
 }
