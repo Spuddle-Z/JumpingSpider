@@ -102,6 +102,10 @@ df = pd.DataFrame(embeddings, columns = ['x', 'y'])
 df.plot.scatter(x = 'x', y = 'y', c = toy_colors)
 ```
 ![[Pasted image 20240513220428.png|363]]
+
+## Readout
+在一些涉及图数据的模型中，我们通常需要将整个图的信息整合到一个向量中，readout函数即是用来实现此功能的。
+
 ## GNN
 基于[[图论#^gk7iej|同配性]]，GNN的核心思想就是归拢其邻居的信息。
 ![[Pasted image 20240509214440.png|575]]
