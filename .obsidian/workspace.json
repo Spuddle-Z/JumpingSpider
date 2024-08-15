@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234.50499725341797,
-    "collapsed": true
+    "width": 234.50499725341797
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -138,8 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,6 +155,10 @@
   "active": "ae1cf67287bb05dd",
   "lastOpenFiles": [
     "Temp/To Do.md",
+    "Courses/MachineLearning/Transformer.md",
+    "Courses/MachineLearning/机器学习.md",
+    "Courses/MachineLearning/GPT.md",
+    "Courses/MachineLearning/BERT.md",
     "Tools/搜狗五笔输入法.md",
     "Utils/assets/SogouWubi_20240815_gf.cwb",
     "Courses/MachineLearning/GNN.md",
@@ -176,7 +178,6 @@
     "Courses/线性代数.md",
     "Temp/扩散模型.md",
     "Utils/assets/Pasted image 20240814110023.png",
-    "Courses/MachineLearning/机器学习.md",
     "Temp/Draft.md",
     "Temp/提高机器学习性能.md",
     "Courses/MachineLearning/可解释性.md",
@@ -190,8 +191,6 @@
     "Temp/机器学习原理.md",
     "Courses/自然语言处理.md",
     "Temp/核函数与正则学习.md",
-    "Temp/科研实践经历.md",
-    "Temp/此电脑属性.md",
     "Utils/assets/Pasted image 20240521150824.png",
     "Utils/assets/SogouWubi_20240812_gif.cwb",
     "TagsRoutes/reports",
