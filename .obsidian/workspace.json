@@ -57,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -136,7 +135,7 @@
       "canvas:新建白板": false
     }
   },
-  "active": "8b17c3ab4c4f3c17",
+  "active": "0e27276421a553dd",
   "lastOpenFiles": [
     "Courses/MachineLearning/机器学习.md",
     "Tools/搜狗五笔输入法.md",
