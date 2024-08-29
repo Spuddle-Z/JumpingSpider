@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "6cc929622a475d07",
+        "id": "18315161b8202471",
         "type": "tabs",
         "children": [
           {
-            "id": "8b17c3ab4c4f3c17",
+            "id": "9523cfd2a30ba62c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/搜狗五笔输入法.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -31,6 +27,7 @@
       {
         "id": "d2a6c679d11bb097",
         "type": "tabs",
+        "dimension": 62.87726358148893,
         "children": [
           {
             "id": "0e27276421a553dd",
@@ -58,18 +55,97 @@
             }
           }
         ]
+      },
+      {
+        "id": "1739e94f544c699d",
+        "type": "tabs",
+        "dimension": 37.12273641851107,
+        "children": [
+          {
+            "id": "48926012d4b8db94",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": true,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [
+                    {
+                      "query": "tag:#Tutorial  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 10389192
+                      }
+                    },
+                    {
+                      "query": "tag:#Knowledge  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 9951480
+                      }
+                    },
+                    {
+                      "query": "tag:#Code  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 7584690
+                      }
+                    }
+                  ],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": -1,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 3,
+                  "collapse-forces": false,
+                  "centerStrength": 0.8,
+                  "repelStrength": 12,
+                  "linkStrength": 0.8,
+                  "linkDistance": 125,
+                  "scale": 0.6,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 234.50499725341797
+    "width": 301.50499725341797
   },
   "right": {
     "id": "1e8f847d27347061",
     "type": "split",
     "children": [
       {
+        "id": "65b0204c69e08063",
+        "type": "tabs",
+        "dimension": 37.93436293436294,
+        "children": [
+          {
+            "id": "109e89df6e1f1080",
+            "type": "leaf",
+            "state": {
+              "type": "chinese-calendar-view",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
         "id": "91e97bff987f747c",
         "type": "tabs",
+        "dimension": 62.06563706563706,
         "children": [
           {
             "id": "9a20a81aea79567c",
@@ -85,7 +161,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/搜狗五笔输入法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,18 +177,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/搜狗五笔输入法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "109e89df6e1f1080",
-            "type": "leaf",
-            "state": {
-              "type": "chinese-calendar-view",
-              "state": {}
             }
           }
         ]
@@ -137,11 +203,15 @@
   },
   "active": "0e27276421a553dd",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "Temp/dataviewTest.md",
     "Courses/MachineLearning/机器学习.md",
+    "Tools/Colour Style.md",
+    "Temp/未命名.md",
+    "LeetCode/LeetCode 150.md",
     "Tools/搜狗五笔输入法.md",
     "Tools/Obsidian/Obsidian.md",
     "Courses/DatabaseSystemTechnology/数据库技术.md",
-    "Tools/Colour Style.md",
     "Temp/To Do.md",
     "Utils/assets/SogouWubi_20240828_jq.cwb",
     "Utils/assets/SogouWubi_20240827_hha.cwb",
@@ -175,10 +245,6 @@
     "Courses/算法.md",
     "Courses/线性代数.md",
     "Temp/扩散模型.md",
-    "Courses/MachineLearning/可解释性.md",
-    "Tools/Conda.md",
-    "Courses/MachineLearning/机器学习技巧.md",
-    "Temp/八股文.md",
     "Utils/assets/SogouWubi_20240812_gif.cwb",
     "TagsRoutes/reports",
     "TagsRoutes/logs",

@@ -1,0 +1,3 @@
+```dataview
+CALENDAR file.mtime
+```
