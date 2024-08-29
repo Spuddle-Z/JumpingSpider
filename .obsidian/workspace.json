@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8336965c1166cdeb",
+            "id": "8b17c3ab4c4f3c17",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Tools/搜狗五笔输入法.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "梯度爆炸",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,12 +57,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 234.50499725341797,
-    "collapsed": true
+    "width": 234.50499725341797
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -69,22 +73,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4538286537396e8f",
+            "id": "9a20a81aea79567c",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "quiet-outline",
               "state": {}
-            }
-          },
-          {
-            "id": "d7868255516b6b6c",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
             }
           },
           {
@@ -93,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Tools/搜狗五笔输入法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Tools/搜狗五笔输入法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -142,10 +136,14 @@
       "canvas:新建白板": false
     }
   },
-  "active": "8336965c1166cdeb",
+  "active": "8b17c3ab4c4f3c17",
   "lastOpenFiles": [
-    "Temp/To Do.md",
+    "Courses/MachineLearning/机器学习.md",
     "Tools/搜狗五笔输入法.md",
+    "Tools/Obsidian/Obsidian.md",
+    "Courses/DatabaseSystemTechnology/数据库技术.md",
+    "Tools/Colour Style.md",
+    "Temp/To Do.md",
     "Utils/assets/SogouWubi_20240828_jq.cwb",
     "Utils/assets/SogouWubi_20240827_hha.cwb",
     "Temp/云栖工作记录.md",
@@ -167,7 +165,6 @@
     "Temp/Draft.md",
     "Temp/提高机器学习性能.md",
     "Courses/MachineLearning/Transformer.md",
-    "Courses/MachineLearning/机器学习.md",
     "Courses/MachineLearning/GPT.md",
     "Courses/MachineLearning/BERT.md",
     "Utils/assets/SogouWubi_20240815_gf.cwb",
@@ -183,8 +180,6 @@
     "Tools/Conda.md",
     "Courses/MachineLearning/机器学习技巧.md",
     "Temp/八股文.md",
-    "Courses/MachineLearning/CNN.md",
-    "Courses/MachineLearning/神经网络.md",
     "Utils/assets/SogouWubi_20240812_gif.cwb",
     "TagsRoutes/reports",
     "TagsRoutes/logs",

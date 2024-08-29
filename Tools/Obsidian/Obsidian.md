@@ -81,8 +81,8 @@ tags:
 
 ### Clear Unused Images
 清理掉没有被引用的图片或文件，呼出命令面板后，输入以下指令可实现相关功能：
-- 清理所有未被引用的图片：`Clear Unused Images: Clear Unused Images`
-- 清理所有未被引用的附件：`Clear Unused Images: Clear Unused Attachments`
+- 清理未被引用的图片：`Clear Unused Images: Clear Unused Images`
+- 清理未被引用的附件：`Clear Unused Images: Clear Unused Attachments`
 
 ### Focus Mode
 禅模式：收起侧边栏，并高亮当前所在行。
@@ -101,6 +101,9 @@ tags:
 
 ### Mousewheel Image Zoom
 按住`Alt`并滚动鼠标滚轮来快捷调整图片大小。
+
+### Quiet Outline
+优化大纲栏，令其展开到当前标题。
 
 ### Status Bar Pomodoro Timer
 在状态栏中加入番茄钟。
