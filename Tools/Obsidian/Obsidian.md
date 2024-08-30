@@ -26,9 +26,7 @@ tags:
 | `Alt + u`                | 返回           |                           |
 | `Ctrl + Shift + f`       | 在所有文件中搜索     |                           |
 | `Ctrl + Shift + j`       | 导出为PDF       |                           |
-| `Ctrl + Shift + n`       | 新建笔记         |                           |
-| `Ctrl + Shift + O`       | 打开其它仓库       |                           |
-| `Ctrl + Shift + t`       | 加载模板         | 模板                        |
+| `Ctrl + Shift + o`       | 打开其它仓库       |                           |
 | `Ctrl + d`               | 左右分屏         | 工作区布局                     |
 | `Ctrl + Shift + d`       | 上下分屏         | 工作区布局                     |
 | `Alt + j`                | 聚焦左方标签页组     | 工作区布局                     |
@@ -57,6 +55,7 @@ tags:
 | `Shift + Alt + d`        | 在下方插入行       | Table                     |
 | `Shift + Alt + s`        | 在左侧插入列       | Table                     |
 | `Shift + Alt + f`        | 在右侧插入列       | Table                     |
+| `Ctrl + Shift + n`       | 从模板新建笔记      | Templater                 |
 | `Ctrl + q`               | 开启/关闭打字机模式   | Typewriter Scroll         |
 ## 插件
 ### Callout Manager

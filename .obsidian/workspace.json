@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "70dc512613d813fe",
+        "id": "0464f30656289b0a",
         "type": "tabs",
         "children": [
           {
@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Temp/To Do.md",
+                "file": "Utils/templates/taskAdd.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,7 @@
       {
         "id": "d2a6c679d11bb097",
         "type": "tabs",
-        "dimension": 62.87726358148893,
+        "dimension": 68.10865191146881,
         "children": [
           {
             "id": "0e27276421a553dd",
@@ -63,7 +63,7 @@
       {
         "id": "1739e94f544c699d",
         "type": "tabs",
-        "dimension": 37.12273641851107,
+        "dimension": 31.891348088531185,
         "children": [
           {
             "id": "48926012d4b8db94",
@@ -71,9 +71,9 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Temp/To Do.md",
+                "file": "Utils/templates/taskAdd.md",
                 "options": {
-                  "collapse-filter": false,
+                  "collapse-filter": true,
                   "search": "",
                   "localJumps": 1,
                   "localBacklinks": true,
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temp/To Do.md",
+                "file": "Utils/templates/taskAdd.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temp/To Do.md",
+                "file": "Utils/templates/taskAdd.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,32 +199,33 @@
     "hiddenItems": {
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": true,
-      "templates:插入模板": false,
       "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
       "callout-manager:Insert Callout": true,
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": true,
       "vault-size-history:Vault size history": false,
-      "canvas:新建白板": false
+      "canvas:新建白板": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "5c436ac4bffd9b54",
   "lastOpenFiles": [
-    "Tools/搜狗五笔输入法.md",
+    "Tools/快捷键.md",
+    "Utils/templates/taskAdd.md",
+    "Tools/Obsidian/Obsidian.md",
     "Temp/To Do.md",
+    "Temp/小汇报.md",
+    "Tools/搜狗五笔输入法.md",
     "Temp/Draft.md",
     "Temp/dataviewTest.md",
     "未命名.canvas",
     "Courses/MachineLearning/机器学习.md",
     "Tools/Colour Style.md",
-    "Temp/未命名.md",
     "LeetCode/LeetCode 150.md",
-    "Tools/Obsidian/Obsidian.md",
     "Courses/DatabaseSystemTechnology/数据库技术.md",
     "Utils/assets/SogouWubi_20240828_jq.cwb",
     "Utils/assets/SogouWubi_20240827_hha.cwb",
     "Temp/云栖工作记录.md",
-    "Temp/小汇报.md",
     "Utils/assets/Pasted image 20240822141108.png",
     "Utils/assets/signal_cycle 1.svg",
     "Utils/assets/signal-channels.png",

@@ -315,15 +315,7 @@
       "key": "Z"
     }
   ],
-  "file-explorer:new-file": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "N"
-    }
-  ],
+  "file-explorer:new-file": [],
   "workspace:new-tab": [
     {
       "modifiers": [
@@ -410,5 +402,26 @@
       "key": "E"
     }
   ],
-  "obsidian-icon-folder:iconize:set-icon-for-file": []
+  "obsidian-icon-folder:iconize:set-icon-for-file": [],
+  "templater-obsidian:create-new-note-from-template": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
+  "templater-obsidian:jump-to-next-cursor-location": [],
+  "templater-obsidian:insert-templater": [],
+  "templater-obsidian:replace-in-file-templater": [],
+  "templater-obsidian:Utils/templates/taskAdd.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ]
 }
