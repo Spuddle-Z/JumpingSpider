@@ -1,11 +1,7 @@
 ## 今天
-- [ ] 剪指甲
-- [ ] 收拾行李
-- [ ] 确认志愿者
-- [ ] 写总结，给黎老师签字
+- [ ] 发总结
 
 ## 紧迫
-- [ ] 问马菁毕业后去向
 - [ ] 了解自己论文
 	- [ ] 了解YOLO
 - [ ] 准备预推免
@@ -15,6 +11,8 @@
 
 ## 学习
 - [ ] 白板功能如何使用
+- [ ] Dice Roller插件使用
+- [ ] 如何注册谷歌账号
 - [ ] LaTeX Suite 优化seq的正则表达式
 - [ ] Github：GoodbyeDPI，[「Github一周热点34期」程序员公考实践教程、实时交互数字人等5个项目_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1By411i7QJ/?spm_id_from=333.1007.top_right_bar_window_dynamic.content.click&vd_source=cabaf414e176815e14e046e0f92c8e0a)
 
