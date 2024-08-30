@@ -18,6 +18,30 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cf27fc908cae9c02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/快捷键.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "125a1ddeffeb7783",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Temp/To Do.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -210,16 +234,16 @@
   },
   "active": "5c436ac4bffd9b54",
   "lastOpenFiles": [
+    "Temp/To Do.md",
     "Tools/快捷键.md",
     "Utils/templates/taskAdd.md",
+    "Courses/MachineLearning/机器学习.md",
     "Tools/Obsidian/Obsidian.md",
-    "Temp/To Do.md",
     "Temp/小汇报.md",
     "Tools/搜狗五笔输入法.md",
     "Temp/Draft.md",
     "Temp/dataviewTest.md",
     "未命名.canvas",
-    "Courses/MachineLearning/机器学习.md",
     "Tools/Colour Style.md",
     "LeetCode/LeetCode 150.md",
     "Courses/DatabaseSystemTechnology/数据库技术.md",
