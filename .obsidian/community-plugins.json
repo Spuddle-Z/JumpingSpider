@@ -1,9 +1,7 @@
 [
   "mousewheel-image-zoom",
   "obsidian-minimal-settings",
-  "obsidian-style-settings",
   "oz-clear-unused-images",
-  "obsidian-statusbar-pomo",
   "cm-typewriter-scroll-obsidian",
   "obsidian-latex-suite",
   "callout-manager",
@@ -14,5 +12,7 @@
   "vault-size-history",
   "obsidian-quiet-outline",
   "dataview",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-tasks-plugin",
+  "obsidian-style-settings"
 ]

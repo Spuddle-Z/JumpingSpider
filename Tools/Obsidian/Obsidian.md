@@ -1,6 +1,7 @@
 ---
 tags:
   - Tutorial
+  - Code
 ---
 ## 语法
 ### 链接
@@ -109,6 +110,41 @@ tags:
 
 ### Style Setting
 改变具体的外观。
+
+### Templater
+- 优化模板的生成；
+- 可以加入一些元数据，配合Dataview进行数据搜索；
+- 甚至可以将一个模板当成Javascript的脚本，调用模板来运行此脚本。
+
+以下是”相声评价“模板代码：
+```javascript
+---
+<%*
+// 输入元数据
+let name = await tp.system.prompt("请输入相声名");
+let performers = await tp.system.prompt("请输入演员名单，用空格分隔");
+let type = await tp.system.suggester(["传统相声", "新相声"], ["传统相声", "新相声"], true, "类型");
+let url = await tp.system.prompt("请输入视频或音频链接");
+
+// 命名笔记并移动
+const title = name + " - " + performers;
+const save_path = "Personal/相声/";
+await tp.file.rename(title);
+await tp.file.move(save_path + title)
+
+// 格式化表演者
+let p_list = performers.split(' ').map(p => `- ${p.trim()}`).join('\n');
+-%>
+tags:
+  - Sketch
+Date: <% tp.date.now("YYYY-MM-DD") %>
+相声名: <% name %>
+表演者: 
+<% p_list %>
+网页链接: <% url %>
+类型: <% type %>
+---
+```
 
 ### Typewriter Scroll
 总保持光标所在行位于屏幕中间。

@@ -25,3 +25,5 @@
 - [ ] 删减五笔输入法词库
 - [ ] 整理 #Missing 标签下的笔记
 - [ ] 整理SJTU下的Useful
+
+- [ ] test [priority:: low] [repeat:: every day] [due:: 2024-08-30]
