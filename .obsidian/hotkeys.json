@@ -424,5 +424,14 @@
       ],
       "key": "N"
     }
+  ],
+  "templater-obsidian:Utils/templates/addTask.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
   ]
 }

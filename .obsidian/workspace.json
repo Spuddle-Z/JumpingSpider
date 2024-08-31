@@ -4,16 +4,73 @@
     "type": "split",
     "children": [
       {
-        "id": "f3d8541250fe0688",
+        "id": "ba731c39991efafa",
         "type": "tabs",
+        "dimension": 48.44444444444444,
         "children": [
           {
-            "id": "9b55d12f0e62a39d",
+            "id": "fdf3bcfd2c1b376a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Temp/1-日历视图.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c5813e59dd58e2ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Tools/Obsidian/Obsidian.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "05ecd90bd3aa6c9d",
+        "type": "tabs",
+        "dimension": 51.55555555555556,
+        "children": [
+          {
+            "id": "df29f8a665c6ca27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Utils/templates/addTask.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "623bbc65a50743ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Temp/To Do.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7985cbf1b3f54741",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Utils/task-calendar/High.md",
                 "mode": "preview",
                 "source": false
               }
@@ -71,7 +128,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Tools/Obsidian/Obsidian.md",
+                "file": "Utils/templates/addTask.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -126,7 +183,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.50499725341797
+    "width": 301.50499725341797,
+    "collapsed": true
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -166,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Obsidian/Obsidian.md",
+                "file": "Utils/templates/addTask.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +241,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Obsidian/Obsidian.md",
+                "file": "Utils/templates/addTask.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +251,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,25 +264,29 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": true,
       "vault-size-history:Vault size history": false,
       "canvas:新建白板": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": true
     }
   },
-  "active": "9b55d12f0e62a39d",
+  "active": "df29f8a665c6ca27",
   "lastOpenFiles": [
-    "Utils/templates/taskAdd.md",
+    "Utils/task-calendar/High.md",
+    "Utils/task-calendar/Low.md",
+    "Utils/task-calendar/Normal.md",
+    "Temp/To Do.md",
+    "Utils/templates/addTask.md",
+    "Temp/未命名.md",
     "Tools/Obsidian/Obsidian.md",
+    "Temp/1-日历视图.md",
+    "Tools/Colour Style.md",
     "Temp/Untitled.md",
     "Temp/132.md",
     "Utils/templates/Common.md",
-    "Temp/1-日历视图.md",
-    "Utils/task-calendar/2-生活.md",
     "未命名.canvas",
     "Temp/科研实践经历.md",
     "Utils/task-calendar/view - 副本.js",
     "Temp/Draft.md",
     "Temp/2024-08-15.md",
     "Utils/task-calendar/view.js",
-    "Temp/To Do.md",
     "Utils/task-calendar/3view.js",
     "Utils/task-calendar/view.css",
     "Utils/task-calendar",
@@ -238,7 +301,6 @@
     "Temp/小汇报.md",
     "Tools/搜狗五笔输入法.md",
     "Temp/dataviewTest.md",
-    "Tools/Colour Style.md",
     "LeetCode/LeetCode 150.md",
     "Courses/DatabaseSystemTechnology/数据库技术.md",
     "Temp/云栖工作记录.md",
@@ -253,9 +315,6 @@
     "LeetCode/Python.md",
     "Utils/assets/Pasted image 20240819153104.png",
     "Utils/assets/Pasted image 20240818185901.png",
-    "Utils/assets/Pasted image 20240818173718.png",
-    "Temp/提高机器学习性能.md",
-    "Courses/MachineLearning/Transformer.md",
-    "Courses/MachineLearning/GPT.md"
+    "Utils/assets/Pasted image 20240818173718.png"
   ]
 }

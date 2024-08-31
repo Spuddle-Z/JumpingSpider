@@ -22,7 +22,7 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "Utils/templates/taskAdd.md"
+    "Utils/templates/addTask.md"
   ],
   "startup_templates": [
     ""
