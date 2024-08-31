@@ -403,15 +403,7 @@
     }
   ],
   "obsidian-icon-folder:iconize:set-icon-for-file": [],
-  "templater-obsidian:create-new-note-from-template": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "N"
-    }
-  ],
+  "templater-obsidian:create-new-note-from-template": [],
   "templater-obsidian:jump-to-next-cursor-location": [],
   "templater-obsidian:insert-templater": [],
   "templater-obsidian:replace-in-file-templater": [],
@@ -422,6 +414,15 @@
         "Shift"
       ],
       "key": "T"
+    }
+  ],
+  "quickadd:runQuickAdd": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
     }
   ]
 }

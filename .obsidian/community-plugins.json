@@ -12,7 +12,8 @@
   "vault-size-history",
   "obsidian-quiet-outline",
   "dataview",
-  "templater-obsidian",
   "obsidian-tasks-plugin",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "quickadd",
+  "templater-obsidian"
 ]
