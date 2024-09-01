@@ -1,0 +1,4 @@
+- [ ] [text:: aba] [due:: 2024-09-23] [repeat:: None] [priority:: Normal]
+- [x] [text:: 重要] [due:: 2024-09-25] [repeat:: Daily] [priority:: High]
+- [x] [text:: 完了的] [due:: 2024-09-25] [repeat:: Weekly] [priority:: Low]
+- [ ] [text:: 找人做课] [due:: 2024-09-02] [repeat:: None] [priority:: High]

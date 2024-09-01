@@ -1,5 +1,5 @@
 /* ----- Main program ----- */
-let {pages, view, firstDayOfWeek, globalTaskFilter, dailyNoteFolder, dailyNoteFormat, startPosition, css, options} = input;
+let {pages, view, firstDayOfWeek, dailyNoteFolder, dailyNoteFormat, startPosition, css, options} = input;
 
 errorCheck();
 
@@ -22,6 +22,7 @@ eval("get" + capitalize(view))(tasks, selectedDate);
 
 
 /* ----- Functions ----- */
+// 一系列错误检查
 function errorCheck() {
 	// Error Handling
 	if (!pages && pages!="") { dv.span('> [!ERROR] Missing pages parameter\n> \n> Please set the pages parameter like\n> \n> `pages: ""`'); return false };
@@ -41,6 +42,7 @@ function errorCheck() {
 };
 
 
+// 捕获目标地址下的所有任务
 function getPages() {
 	// Get, Set, Eval Pages
 	if (pages == "") {
@@ -72,6 +74,7 @@ function getDate() {
 };
 
 
+// 设置图标样式
 function setIcon() {
 	var arrowLeftIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>';
 	var arrowRightIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>';
@@ -99,69 +102,33 @@ function setIcon() {
 };
 
 
+// 利用正则表达式，将任务文本中的元数据提取并存储成属性
 function getMeta(tasks) {
+	// 遍历目标地址下捕获的所有任务
     for (i = 0; i < tasks.length; i++) {
         var taskText = tasks[i].text;
-        var taskFile = getFilename(tasks[i].path);
 
-        // 存储任务的文件路径
-        tasks[i].filePath = tasks[i].path;
-
-        var dailyNoteMatch = taskFile.match(eval(dailyNoteRegEx));
-        var dailyTaskMatch = taskText.match(/(\d{4}\-\d{2}\-\d{2})/);
-        if (dailyNoteMatch) {
-            if (!dailyTaskMatch) {
-                tasks[i].dailyNote = moment(dailyNoteMatch[1], dailyNoteFormat).format("YYYY-MM-DD");
-            }
-        }
-        var dueMatch = taskText.match(/\📅\W(\d{4}\-\d{2}\-\d{2})/);
-        if (dueMatch) {
-            tasks[i].due = dueMatch[1];
-            tasks[i].text = tasks[i].text.replace(dueMatch[0], "");
-        }
-        var startMatch = taskText.match(/\🛫\W(\d{4}\-\d{2}\-\d{2})/);
-        if (startMatch) {
-            tasks[i].start = startMatch[1];
-            tasks[i].text = tasks[i].text.replace(startMatch[0], "");
-        }
-        var scheduledMatch = taskText.match(/\⏳\W(\d{4}\-\d{2}\-\d{2})/);
-        if (scheduledMatch) {
-            tasks[i].scheduled = scheduledMatch[1];
-            tasks[i].text = tasks[i].text.replace(scheduledMatch[0], "");
-        }
-        var completionMatch = taskText.match(/\✅\W(\d{4}\-\d{2}\-\d{2})/);
-        if (completionMatch) {
-            tasks[i].completion = completionMatch[1];
-            tasks[i].text = tasks[i].text.replace(completionMatch[0], "");
-        }
-        var repeatMatch = taskText.includes("🔁");
+		// 通过正则表达式匹配任务文本中的元数据
+		var textMatch = taskText.match(/\[text:: (.*?)\]/);
+		if (textMatch) {
+			tasks[i].text = textMatch[1];
+			taskText = taskText.replace(textMatch[0], "");
+		}
+		var priorityMatch = taskText.match(/\[priority:: (Low|Normal|High)\]/);
+		if (priorityMatch) {
+			tasks[i].priority = priorityMatch[1];
+			taskText = taskText.replace(priorityMatch[0], "");
+		}
+		var dueMatch = taskText.match(/\[due:: (\d{4}-\d{2}-\d{2})\]/);
+		if (dueMatch) {
+			tasks[i].due = dueMatch[1];
+			taskText = taskText.replace(dueMatch[0], "");
+		}
+        var repeatMatch = taskText.match(/\[repeat:: (None|Daily|Weekly|Monthly)\]/);
         if (repeatMatch) {
-            tasks[i].recurrence = true;
-            tasks[i].text = tasks[i].text.substring(0, taskText.indexOf("🔁"));
+			tasks[i].repeat = repeatMatch[1];
+            taskText = taskText.replace(repeatMatch[0], "");
         }
-        var lowMatch = taskText.includes("🔽");
-        if (lowMatch) {
-            tasks[i].priority = "D";
-        }
-        var mediumMatch = taskText.includes("🔼");
-        if (mediumMatch) {
-            tasks[i].priority = "B";
-        }
-        var highMatch = taskText.includes("⏫");
-        if (highMatch) {
-            tasks[i].priority = "A";
-        }
-        if (!lowMatch && !mediumMatch && !highMatch) {
-            tasks[i].priority = "C";
-        }
-        if (globalTaskFilter) {
-            tasks[i].text = tasks[i].text.replaceAll(globalTaskFilter, "");
-        } else {
-            tasks[i].text = tasks[i].text.replaceAll("#task", "");
-        }
-        tasks[i].text = tasks[i].text.replaceAll("[[", "");
-        tasks[i].text = tasks[i].text.replaceAll("]]", "");
-        tasks[i].text = tasks[i].text.replace(/\[.*?\]/gm, "");
     }
 };
 
@@ -221,11 +188,13 @@ function momentToRegex(momentFormat) {
 };
 
 
+// 筛选指定日期应该显示的任务
 function getTasks(date) {
-	done = tasks.filter(t=>t.completed && t.checked && t.completion && moment(t.completion.toString()).isSame(date)).sort(t=>t.completion);
-	doneWithoutCompletionDate = tasks.filter(t=>t.completed && t.checked && !t.completion && t.due && moment(t.due.toString()).isSame(date)).sort(t=>t.due);
-	done = done.concat(doneWithoutCompletionDate);
-	due = tasks.filter(t=>!t.completed && !t.checked && !t.recurrence && t.due && moment(t.due.toString()).isSame(date)).sort(t=>t.due);
+	tasks_today = tasks.filter(t => t.due != "None" && moment(t.due.toString()).isSame(date));
+	done = tasks_today.filter(t => t.completed);
+	due = tasks_today.filter(t => !t.completed);
+	
+	// --- 以下的任务类型暂时用不上 ---
 	recurrence = tasks.filter(t=>!t.completed && !t.checked && t.recurrence && t.due && moment(t.due.toString()).isSame(date)).sort(t=>t.due);
 	overdue = tasks.filter(t=>!t.completed && !t.checked && t.due && moment(t.due.toString()).isBefore(date)).sort(t=>t.due);
 	start = tasks.filter(t=>!t.completed && !t.checked && t.start && moment(t.start.toString()).isSame(date)).sort(t=>t.start);
@@ -236,61 +205,66 @@ function getTasks(date) {
 };
 
 
+// 输入一个task对象，返回此task对应的HTML代码
 function setTask(obj, cls) {
+	// 调整任务颜色的明暗度
     var lighter = 25;
     var darker = -40;
-    var noteColor = getMetaFromNote(obj, "color");
-    var textColor = getMetaFromNote(obj, "textColor");
-    var noteIcon = getMetaFromNote(obj, "icon");
+
+	// 确定任务颜色与icon
+	if (obj.completion) { var textColor = "#B6B8CF"; }
+	else {
+		if (obj.priority == "Low") { var textColor = "#73BBB2"; }
+		else if (obj.priority == "Normal") { var textColor = "#97D8F8"; }
+		else if (obj.priority == "High") { var textColor = "#D04255"; }
+	}
+	var noteColor = transColor(textColor, darker);
+    // var noteColor = getMetaFromNote(obj, "color");
+    // var textColor = getMetaFromNote(obj, "textColor");
+    // var noteIcon = getMetaFromNote(obj, "icon");
+    var taskIcon = eval("task"+capitalize(cls)+"Icon");
+
+	// 替换单引号，避免在HTML中引起错误
     var taskText = obj.text.replace("'", "&apos;");
     var taskPath = obj.link.path.replace("'", "&apos;");
-    var taskIcon = eval("task"+capitalize(cls)+"Icon");
-    if (obj.due) { var relative = moment(obj.due).fromNow() } else { var relative = "" };
-    var noteFilename = getFilename(taskPath);
-    if (noteIcon) { noteFilename = noteIcon+"&nbsp;"+noteFilename } else { noteFilename = taskIcon+"&nbsp;"+noteFilename; cls += " noNoteIcon" };
-    var taskSubpath = obj.header.subpath;
-    var taskLine = taskSubpath ? taskPath+"#"+taskSubpath : taskPath;
-    if (noteColor && textColor) {
-        var style = "--task-background:"+noteColor+"33;--task-color:"+noteColor+";--dark-task-text-color:"+textColor+";--light-task-text-color:"+textColor;
-    } else if (noteColor && !textColor){
-        var style = "--task-background:"+noteColor+"33;--task-color:"+noteColor+";--dark-task-text-color:"+transColor(noteColor, darker)+";--light-task-text-color:"+transColor(noteColor, lighter);
-    } else if (!noteColor && textColor ){
-        var style = "--task-background:#7D7D7D33;--task-color:#7D7D7D;--dark-task-text-color:"+transColor(textColor, darker)+";--light-task-text-color:"+transColor(textColor, lighter);
-    } else {
-        var style = "--task-background:#7D7D7D33;--task-color:#7D7D7D;--dark-task-text-color:"+transColor("#7D7D7D", darker)+";--light-task-text-color:"+transColor("#7D7D7D", lighter);
-    };
-    var newTask = taskTemplate.replace("{{taskContent}}", taskText).replace("{{class}}", cls).replace("{{taskPath}}", taskLine).replace("{{due}}","done").replaceAll("{{style}}",style).replace("{{title}}", taskText).replace("{{note}}","").replace("{{icon}}",taskIcon).replace("{{relative}}",relative);
+
+	// 
+	var relative = moment(obj.due).fromNow();
+    // if (obj.due) { var relative = moment(obj.due).fromNow() } else { var relative = "" };
+    // var noteFilename = getFilename(taskPath);
+    // if (noteIcon) { noteFilename = noteIcon+"&nbsp;"+noteFilename } else { noteFilename = taskIcon+"&nbsp;"+noteFilename; cls += " noNoteIcon" };
+    // var taskSubpath = obj.header.subpath;
+    // var taskLine = taskSubpath ? taskPath+"#"+taskSubpath : taskPath;
+
+	// 设置任务卡片的样式
+	var style = "--task-background:" + noteColor + "33;--task-color:" + noteColor + ";--dark-task-text-color:" + textColor + ";--light-task-text-color:" + textColor;
+    // if (noteColor && textColor) {
+    //     var style = "--task-background:"+noteColor+"33;--task-color:"+noteColor+";--dark-task-text-color:"+textColor+";--light-task-text-color:"+textColor;
+    // } else if (noteColor && !textColor){
+    //     var style = "--task-background:"+noteColor+"33;--task-color:"+noteColor+";--dark-task-text-color:"+transColor(noteColor, darker)+";--light-task-text-color:"+transColor(noteColor, lighter);
+    // } else if (!noteColor && textColor ){
+    //     var style = "--task-background:#7D7D7D33;--task-color:#7D7D7D;--dark-task-text-color:"+transColor(textColor, darker)+";--light-task-text-color:"+transColor(textColor, lighter);
+    // } else {
+    //     var style = "--task-background:#7D7D7D33;--task-color:#7D7D7D;--dark-task-text-color:"+transColor("#7D7D7D", darker)+";--light-task-text-color:"+transColor("#7D7D7D", lighter);
+    // };
+    var newTask = taskTemplate.replace("{{taskContent}}", taskText).replace("{{class}}", cls).replace("{{taskPath}}", taskPath).replaceAll("{{style}}",style).replace("{{title}}", taskText).replace("{{note}}","").replace("{{icon}}",taskIcon).replace("{{relative}}",relative);
     return newTask;
 };
 
 
+// 生成日历单元格中的内容
 function setTaskContentContainer(currentDate) {
     var cellContent = "";
 
+	// 确定两个任务的先后顺序
     function compareFn(a, b) {
-        if (a.filePath.toUpperCase() < b.filePath.toUpperCase()) {
-            return -1;
-        }
-        if (a.filePath.toUpperCase() > b.filePath.toUpperCase()) {
-            return 1;
-        }
-        if (a.filePath == b.filePath) {
-            if (a.priority.toUpperCase() < b.priority.toUpperCase()) {
-                return -1;
-            }
-            if (a.priority.toUpperCase() > b.priority.toUpperCase()) {
-                return 1;
-            }
-            if (a.priority == b.priority) {
-                if (a.text.toUpperCase() < b.text.toUpperCase()) {
-                    return -1;
-                }
-                if (a.text.toUpperCase() > b.text.toUpperCase()) {
-                    return 1;
-                }
-                return 0;
-            }
-        }
+		if (a.priority.toUpperCase() < b.priority.toUpperCase()) { return -1; }
+		if (a.priority.toUpperCase() > b.priority.toUpperCase()) { return 1; }
+		if (a.priority == b.priority) {
+			if (a.text.toUpperCase() < b.text.toUpperCase()) { return -1; }
+			if (a.text.toUpperCase() > b.text.toUpperCase()) { return 1; }
+			return 0;
+		}
     }
 
     function showTasks(tasksToShow, type) {
@@ -312,15 +286,18 @@ function setTaskContentContainer(currentDate) {
     showTasks(done, "done");
     showTasks(cancelled, "cancelled");
     return cellContent;
-}
+};
 
+
+// 设置日历上方栏的按钮
 function setButtons() {
-	var buttons = "<button class='filter'>"+filterIcon+"</button><button class='listView' title='List'>"+listIcon+"</button><button class='monthView' title='Month'>"+monthIcon+"</button><button class='weekView' title='Week'>"+weekIcon+"</button><button class='current'></button><button class='previous'>"+arrowLeftIcon+"</button><button class='next'>"+arrowRightIcon+"</button><button class='statistic' percentage=''></button>";
+	var buttons = "<button class='filter'>" + filterIcon + "</button><button class='listView' title='List'>" + listIcon + "</button><button class='monthView' title='Month'>" + monthIcon + "</button><button class='weekView' title='Week'>" + weekIcon + "</button><button class='current'></button><button class='previous'>" + arrowLeftIcon + "</button><button class='next'>" + arrowRightIcon + "</button><button class='statistic' percentage=''></button>";
 	rootNode.querySelector("span").appendChild(dv.el("div", buttons, {cls: "buttons", attr: {}}));
 	setButtonEvents();
 };
 
 
+// 定义了按钮的行为
 function setButtonEvents() {
 	rootNode.querySelectorAll('button').forEach(btn => btn.addEventListener('click', (() => {
 		var activeView = rootNode.getAttribute("view");
@@ -419,6 +396,7 @@ function setWrapperEvents() {
 };
 
 
+// 设置了统计弹出框的行为
 function setStatisticPopUpEvents() {
 	rootNode.querySelectorAll('.statisticPopup li').forEach(li => li.addEventListener('click', (() => {
 		var group = li.getAttribute("data-group");
@@ -441,6 +419,7 @@ function setStatisticPopUpEvents() {
 };
 
 
+// 设置了统计弹出框
 function setStatisticPopUp() {
 	var statistic = "<li id='statisticDone' data-group='done'></li>";
 	statistic += "<li id='statisticDue' data-group='due'></li>";
@@ -473,16 +452,17 @@ function setWeekViewContextEvents() {
 };
 
 
+// 设置了周视图的样式
 function setWeekViewContext() {
 	var activeStyle = Array.from(rootNode.classList).filter(v=>v.startsWith("style"));
 	var liElements = "";
 	var styles = 11;
-	for (i=1;i<styles+1;i++) {
-		var liIcon = "<div class='liIcon iconStyle"+i+"'><div class='box'></div><div class='box'></div><div class='box'></div><div class='box'></div><div class='box'></div><div class='box'></div><div class='box'></div></div>";
-		liElements += "<li data-style='style"+i+"'>"+liIcon+"Style "+i+"</li>";
+	for (i=1; i < styles+1; i++) {
+		var liIcon = "<div class='liIcon iconStyle" + i + "'><div class='box'></div><div class='box'></div><div class='box'></div><div class='box'></div><div class='box'></div><div class='box'></div><div class='box'></div></div>";
+		liElements += "<li data-style='style" + i + "'>" + liIcon + "Style " + i + "</li>";
 	};
 	rootNode.querySelector("span").appendChild(dv.el("ul", liElements, {cls: "weekViewContext"}));
-	rootNode.querySelector(".weekViewContext li[data-style="+activeStyle+"]").classList.add("active");
+	rootNode.querySelector(".weekViewContext li[data-style=" + activeStyle + "]").classList.add("active");
 	setWeekViewContextEvents();
 };
 
@@ -513,6 +493,7 @@ function setStatisticValues(dueCounter, doneCounter, overdueCounter, startCounte
 };
 
 
+// 用于在生成视图前删除已有的视图
 function removeExistingView() {
 	if (rootNode.querySelector(`#tasksCalendar${tid} .grid`)) {
 		rootNode.querySelector(`#tasksCalendar${tid} .grid`).remove();
@@ -522,6 +503,7 @@ function removeExistingView() {
 };
 
 
+// 生成月视图
 function getMonth(tasks, month) {
     removeExistingView();
     var currentTitle = "<span>" + moment(month).format("MMMM") + "</span><span> " + moment(month).format("YYYY") + "</span>";
@@ -623,8 +605,10 @@ function getMonth(tasks, month) {
     setWrapperEvents();
     setStatisticValues(dueCounter, doneCounter, overdueCounter, startCounter, scheduledCounter, recurrenceCounter, dailyNoteCounter);
     rootNode.setAttribute("view", "month");
-}
+};
 
+
+// 生成周视图
 function getWeek(tasks, week) {
     removeExistingView();
     var currentTitle = "<span>" + moment(week).format("YYYY") + "</span><span> " + moment(week).format("[W]w") + "</span>";
@@ -690,8 +674,10 @@ function getWeek(tasks, week) {
     rootNode.querySelector("span").appendChild(dv.el("div", gridContent, { cls: "grid", attr: { 'data-week': weekNr } }));
     setStatisticValues(dueCounter, doneCounter, overdueCounter, startCounter, scheduledCounter, recurrenceCounter, dailyNoteCounter);
     rootNode.setAttribute("view", "week");
-}
+};
 
+
+// 生成列表视图
 function getList(tasks, month) {
     removeExistingView();
     var currentTitle = "<span>" + moment(month).format("MMMM") + "</span><span> " + moment(month).format("YYYY") + "</span>";
@@ -741,4 +727,4 @@ function getList(tasks, month) {
         var scrollPos = todayElement.offsetTop - todayElement.offsetHeight + 85;
         listElement.scrollTo(0, scrollPos);
     }
-}
+};
