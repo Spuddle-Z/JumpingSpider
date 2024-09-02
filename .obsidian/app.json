@@ -5,7 +5,7 @@
   "trashOption": "system",
   "strictLineBreaks": true,
   "livePreview": true,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "foldHeading": true,
   "showLineNumber": true,
   "rightToLeft": false,

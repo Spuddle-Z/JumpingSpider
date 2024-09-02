@@ -6,7 +6,7 @@
       {
         "id": "ba731c39991efafa",
         "type": "tabs",
-        "dimension": 47.74624373956594,
+        "dimension": 68.77777777777777,
         "children": [
           {
             "id": "2ba53249bab9a418",
@@ -15,18 +15,6 @@
               "type": "markdown",
               "state": {
                 "file": "Temp/To Do.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b192d189bf2313ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/Colour Style.md",
                 "mode": "preview",
                 "source": false
               }
@@ -35,36 +23,23 @@
         ]
       },
       {
-        "id": "05ecd90bd3aa6c9d",
+        "id": "31dcff6d2a126b8f",
         "type": "tabs",
-        "dimension": 52.25375626043406,
+        "dimension": 31.22222222222222,
         "children": [
           {
-            "id": "df29f8a665c6ca27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Utils/templates/addTask.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7985cbf1b3f54741",
+            "id": "47ff67f01fd2270c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Utils/task-calendar/TaskList.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +91,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Temp/To Do.md",
+                "file": "Utils/task-calendar/TaskList.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -212,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temp/To Do.md",
+                "file": "Utils/task-calendar/TaskList.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temp/To Do.md",
+                "file": "Utils/task-calendar/TaskList.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,41 +230,41 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "2ba53249bab9a418",
+  "active": "47ff67f01fd2270c",
   "lastOpenFiles": [
-    "Utils/task-calendar/TaskList.md",
     "Temp/To Do.md",
+    "Utils/task-calendar/TaskList.md",
     "Tools/Colour Style.md",
+    "Tools/Obsidian/Obsidian.md",
+    "Courses/MachineLearning/机器学习.md",
+    "Tools/搜狗五笔输入法.md",
     "Utils/templates/addTask.md",
+    "未命名.canvas",
+    "Utils/task-calendar/view.js",
+    "Utils/task-calendar/view.css",
+    "Utils/assets/SogouWubi_20240902_jtq.cwb",
     "Temp/To Do temp.md",
     "Utils/task-calendar/view copy.js",
     "Utils/task-calendar/Normal.md",
     "Utils/task-calendar/Low.md",
     "Utils/task-calendar/High.md",
-    "Tools/Obsidian/Obsidian.md",
     "Courses/程序语言与编译原理.md",
     "Temp/wuxi.md",
     "Temp/Untitled.md",
     "Temp/132.md",
     "Utils/templates/Common.md",
-    "未命名.canvas",
     "Temp/科研实践经历.md",
     "Utils/task-calendar/view - 副本.js",
     "Temp/Draft.md",
     "Temp/2024-08-15.md",
-    "Utils/task-calendar/view.js",
     "Utils/task-calendar/3view.js",
-    "Utils/task-calendar/view.css",
     "Utils/task-calendar",
     "task-calendar/view.js",
     "task-calendar/view.css",
     "task-calendar",
-    "ob日历视图所需文件+/quickadd/styles.css",
     "Tools/快捷键.md",
     "Utils/templates/LeetCode.md",
-    "Courses/MachineLearning/机器学习.md",
     "Temp/小汇报.md",
-    "Tools/搜狗五笔输入法.md",
     "Temp/dataviewTest.md",
     "LeetCode/LeetCode 150.md",
     "Courses/DatabaseSystemTechnology/数据库技术.md",

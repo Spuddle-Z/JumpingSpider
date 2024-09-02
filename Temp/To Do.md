@@ -1,4 +1,3 @@
-
 ```dataviewjs
 await dv.view("../Utils/task-calendar", {pages: '"Utils/task-calendar"', view: "month", firstDayOfWeek: "0", options: "style4 noLayer"})
 ```

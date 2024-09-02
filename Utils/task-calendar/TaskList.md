@@ -2,3 +2,5 @@
 - [x] [text:: 重要] [due:: 2024-09-25] [repeat:: Daily] [priority:: High]
 - [x] [text:: 完了的] [due:: 2024-09-25] [repeat:: Weekly] [priority:: Low]
 - [ ] [text:: 找人做课] [due:: 2024-09-02] [repeat:: None] [priority:: High]
+- [ ] [text:: 过期] [due:: 2024-09-01] [repeat:: None] [priority:: Normal]
+- [ ] [text:: 未完成] [due:: 2024-09-25] [repeat:: None] [priority:: Low]

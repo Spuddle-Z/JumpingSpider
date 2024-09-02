@@ -190,13 +190,13 @@ function momentToRegex(momentFormat) {
 
 // 筛选指定日期应该显示的任务
 function getTasks(date) {
+	overdue = tasks.filter(t=>!t.completed && moment(t.due.toString()).isBefore(date)).sort(t=>t.due);
 	tasks_today = tasks.filter(t => t.due != "None" && moment(t.due.toString()).isSame(date));
 	done = tasks_today.filter(t => t.completed);
 	due = tasks_today.filter(t => !t.completed);
 	
 	// --- 以下的任务类型暂时用不上 ---
 	recurrence = tasks.filter(t=>!t.completed && !t.checked && t.recurrence && t.due && moment(t.due.toString()).isSame(date)).sort(t=>t.due);
-	overdue = tasks.filter(t=>!t.completed && !t.checked && t.due && moment(t.due.toString()).isBefore(date)).sort(t=>t.due);
 	start = tasks.filter(t=>!t.completed && !t.checked && t.start && moment(t.start.toString()).isSame(date)).sort(t=>t.start);
 	scheduled = tasks.filter(t=>!t.completed && !t.checked && t.scheduled && moment(t.scheduled.toString()).isSame(date)).sort(t=>t.scheduled);
 	process = tasks.filter(t=>!t.completed && !t.checked && t.due && t.start && moment(t.due.toString()).isAfter(date) && moment(t.start.toString()).isBefore(date) );
@@ -212,11 +212,14 @@ function setTask(obj, cls) {
     var darker = -40;
 
 	// 确定任务颜色与icon
-	if (obj.completion) { var textColor = "#B6B8CF"; }
+	if (cls == "overdue") { var textColor = "#FFCB6B"; }
 	else {
-		if (obj.priority == "Low") { var textColor = "#73BBB2"; }
-		else if (obj.priority == "Normal") { var textColor = "#97D8F8"; }
-		else if (obj.priority == "High") { var textColor = "#D04255"; }
+		if (obj.completion) { var textColor = "#0000FF"; }
+		else {
+			if (obj.priority == "Low") { var textColor = "#73BBB2"; }
+			else if (obj.priority == "Normal") { var textColor = "#97D8F8"; }
+			else if (obj.priority == "High") { var textColor = "#D04255"; }
+		}
 	}
 	var noteColor = transColor(textColor, darker);
     // var noteColor = getMetaFromNote(obj, "color");
@@ -274,17 +277,11 @@ function setTaskContentContainer(currentDate) {
         }
     }
 
-    if (tToday == currentDate) {
+    if (tToday >= currentDate) {
         showTasks(overdue, "overdue");
     }
     showTasks(due, "due");
-    showTasks(recurrence, "recurrence");
-    showTasks(start, "start");
-    showTasks(scheduled, "scheduled");
-    showTasks(process, "process");
-    showTasks(dailyNote, "dailyNote");
     showTasks(done, "done");
-    showTasks(cancelled, "cancelled");
     return cellContent;
 };
 

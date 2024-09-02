@@ -340,8 +340,9 @@ body:not(.is-mobile) .tasksCalendar .task:hover {
 	vertical-align: middle;
 }
 .tasksCalendar .task.overdue .description:before {
-	color: white;
-	background: #ff443a;
+	font-weight: bold;
+	color: #2A2D3E;
+	background: #FFCB6B;
 }
 .tasksCalendar .task:not(.overdue) .description:before {
 	display: none;

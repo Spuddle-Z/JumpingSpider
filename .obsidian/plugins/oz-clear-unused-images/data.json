@@ -1,7 +1,7 @@
 {
   "deleteOption": "system-trash",
   "logsModal": true,
-  "excludedFolders": "",
+  "excludedFolders": "Utils/task-calendar",
   "ribbonIcon": false,
   "excludeSubfolders": true
 }
