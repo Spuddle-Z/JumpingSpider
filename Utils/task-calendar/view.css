@@ -355,19 +355,19 @@ body:not(.is-mobile) .tasksCalendar .task:hover {
 	display: none !important;
 }
 .tasksCalendar .task.cancelled .note,
-.tasksCalendar .task.done .note {
-	background: var(--nav-item-background-active) !important;
+/* .tasksCalendar .task.done .note {
+	background: #404D6F;
 	color: var(--text-faint) !important;
-}
+} */
 .tasksCalendar .task.cancelled .description,
 .tasksCalendar .task.done .description {
 	text-decoration: line-through !important;
-	color: var(--text-faint) !important;
+	/* color: var(--text-faint) !important; */
 }
 .tasksCalendar .task.cancelled,
-.tasksCalendar .task.done {
-	background: none !important;
-}
+/* .tasksCalendar .task.done {
+	background: #1B1F2B;
+} */
 .tasksCalendar .task.overdue .inner {
 	background: repeating-linear-gradient(45deg, var(--task-background), var(--task-background) 5px, transparent 5px, transparent 10px) !important;
 }

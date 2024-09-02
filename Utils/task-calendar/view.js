@@ -11,7 +11,7 @@ var done, doneWithoutCompletionDate, due, recurrence, overdue, start, scheduled,
 var [tToday, tMonth, tDay, tYear, tid, selectedMonth, selectedWeek, selectedDate] = getDate();
 
 // Set Icon
-var [arrowLeftIcon, arrowRightIcon, filterIcon, monthIcon, weekIcon, listIcon, calendarClockIcon, calendarCheckIcon, calendarHeartIcon, cellTemplate, taskTemplate, rootNode, taskDoneIcon, taskDueIcon, taskScheduledIcon, taskRecurrenceIcon, taskOverdueIcon, taskProcessIcon, taskCancelledIcon, taskStartIcon, taskDailyNoteIcon] = setIcon();
+var [arrowLeftIcon, arrowRightIcon, filterIcon, monthIcon, weekIcon, listIcon, calendarClockIcon, calendarCheckIcon, calendarHeartIcon, cellTemplate, taskTemplate, rootNode] = setIcon();
 
 getMeta(tasks);
 setButtons();
@@ -89,16 +89,7 @@ function setIcon() {
 	var taskTemplate = "<a class='internal-link' href='{{taskPath}}'><div class='task {{class}}' style='{{style}}' title='{{title}}'><div class='inner'><div class='note'>{{note}}</div><div class='icon'>{{icon}}</div><div class='description' data-relative='{{relative}}'>{{taskContent}}</div></div></div></a>";
 	const rootNode = dv.el("div", "", {cls: "tasksCalendar "+options, attr: {id: "tasksCalendar"+tid, view: view, style: 'position:relative;-webkit-user-select:none!important'}});
 	if (css) { var style = document.createElement("style"); style.innerHTML = css; rootNode.append(style) };
-	var taskDoneIcon = ":LiCheckSmall:";
-	var taskDueIcon = ":LiCalendar:";
-	var taskScheduledIcon = "⏳";
-	var taskRecurrenceIcon = "🔁";
-	var taskOverdueIcon = "⚠️";
-	var taskProcessIcon = "⏺️";
-	var taskCancelledIcon = "🚫";
-	var taskStartIcon = "🛫";
-	var taskDailyNoteIcon = "📄";
-	return array = [arrowLeftIcon, arrowRightIcon, filterIcon, monthIcon, weekIcon, listIcon, calendarClockIcon, calendarCheckIcon, calendarHeartIcon, cellTemplate, taskTemplate, rootNode, taskDoneIcon, taskDueIcon, taskScheduledIcon, taskRecurrenceIcon, taskOverdueIcon, taskProcessIcon, taskCancelledIcon, taskStartIcon, taskDailyNoteIcon];
+	return array = [arrowLeftIcon, arrowRightIcon, filterIcon, monthIcon, weekIcon, listIcon, calendarClockIcon, calendarCheckIcon, calendarHeartIcon, cellTemplate, taskTemplate, rootNode];
 };
 
 
@@ -194,14 +185,6 @@ function getTasks(date) {
 	tasks_today = tasks.filter(t => t.due != "None" && moment(t.due.toString()).isSame(date));
 	done = tasks_today.filter(t => t.completed);
 	due = tasks_today.filter(t => !t.completed);
-	
-	// --- 以下的任务类型暂时用不上 ---
-	recurrence = tasks.filter(t=>!t.completed && !t.checked && t.recurrence && t.due && moment(t.due.toString()).isSame(date)).sort(t=>t.due);
-	start = tasks.filter(t=>!t.completed && !t.checked && t.start && moment(t.start.toString()).isSame(date)).sort(t=>t.start);
-	scheduled = tasks.filter(t=>!t.completed && !t.checked && t.scheduled && moment(t.scheduled.toString()).isSame(date)).sort(t=>t.scheduled);
-	process = tasks.filter(t=>!t.completed && !t.checked && t.due && t.start && moment(t.due.toString()).isAfter(date) && moment(t.start.toString()).isBefore(date) );
-	cancelled = tasks.filter(t=>!t.completed && t.checked && t.due && moment(t.due.toString()).isSame(date)).sort(t=>t.due);
-	dailyNote = tasks.filter(t=>!t.completed && !t.checked && t.dailyNote && moment(t.dailyNote.toString()).isSame(date)).sort(t=>t.dailyNote);
 };
 
 
@@ -212,44 +195,38 @@ function setTask(obj, cls) {
     var darker = -40;
 
 	// 确定任务颜色与icon
-	if (cls == "overdue") { var textColor = "#FFCB6B"; }
-	else {
-		if (obj.completion) { var textColor = "#0000FF"; }
-		else {
-			if (obj.priority == "Low") { var textColor = "#73BBB2"; }
-			else if (obj.priority == "Normal") { var textColor = "#97D8F8"; }
-			else if (obj.priority == "High") { var textColor = "#D04255"; }
-		}
+	if (cls == "overdue") {
+		var textColor = "#FFCB6B";
+		var taskIcon = ":LiCalendarOff:";
+	}
+	else if (obj.priority == "Low") {
+		var textColor = "#73BBB2";
+		var taskIcon = ":LiCoffee:";
+	}
+	else if (obj.priority == "Normal") {
+		var textColor = "#97D8F8";
+		var taskIcon = ":LiCalendar:";
+	}
+	else if (obj.priority == "High") {
+		var textColor = "#D04255";
+		var taskIcon = ":LiAlertTriangle:";
 	}
 	var noteColor = transColor(textColor, darker);
-    // var noteColor = getMetaFromNote(obj, "color");
-    // var textColor = getMetaFromNote(obj, "textColor");
-    // var noteIcon = getMetaFromNote(obj, "icon");
-    var taskIcon = eval("task"+capitalize(cls)+"Icon");
+	if (obj.completed) {
+		var taskIcon = ":LiCheckCircle:";
+		var textColor = "#666E95";
+		var noteColor = "#2A2D3E";
+	}
 
 	// 替换单引号，避免在HTML中引起错误
     var taskText = obj.text.replace("'", "&apos;");
     var taskPath = obj.link.path.replace("'", "&apos;");
 
 	// 
-	var relative = moment(obj.due).fromNow();
-    // if (obj.due) { var relative = moment(obj.due).fromNow() } else { var relative = "" };
-    // var noteFilename = getFilename(taskPath);
-    // if (noteIcon) { noteFilename = noteIcon+"&nbsp;"+noteFilename } else { noteFilename = taskIcon+"&nbsp;"+noteFilename; cls += " noNoteIcon" };
-    // var taskSubpath = obj.header.subpath;
-    // var taskLine = taskSubpath ? taskPath+"#"+taskSubpath : taskPath;
+	var relative = moment(obj.due).endOf('day').fromNow();
 
 	// 设置任务卡片的样式
 	var style = "--task-background:" + noteColor + "33;--task-color:" + noteColor + ";--dark-task-text-color:" + textColor + ";--light-task-text-color:" + textColor;
-    // if (noteColor && textColor) {
-    //     var style = "--task-background:"+noteColor+"33;--task-color:"+noteColor+";--dark-task-text-color:"+textColor+";--light-task-text-color:"+textColor;
-    // } else if (noteColor && !textColor){
-    //     var style = "--task-background:"+noteColor+"33;--task-color:"+noteColor+";--dark-task-text-color:"+transColor(noteColor, darker)+";--light-task-text-color:"+transColor(noteColor, lighter);
-    // } else if (!noteColor && textColor ){
-    //     var style = "--task-background:#7D7D7D33;--task-color:#7D7D7D;--dark-task-text-color:"+transColor(textColor, darker)+";--light-task-text-color:"+transColor(textColor, lighter);
-    // } else {
-    //     var style = "--task-background:#7D7D7D33;--task-color:#7D7D7D;--dark-task-text-color:"+transColor("#7D7D7D", darker)+";--light-task-text-color:"+transColor("#7D7D7D", lighter);
-    // };
     var newTask = taskTemplate.replace("{{taskContent}}", taskText).replace("{{class}}", cls).replace("{{taskPath}}", taskPath).replaceAll("{{style}}",style).replace("{{title}}", taskText).replace("{{note}}","").replace("{{icon}}",taskIcon).replace("{{relative}}",relative);
     return newTask;
 };
@@ -421,12 +398,6 @@ function setStatisticPopUp() {
 	var statistic = "<li id='statisticDone' data-group='done'></li>";
 	statistic += "<li id='statisticDue' data-group='due'></li>";
 	statistic += "<li id='statisticOverdue' data-group='overdue'></li>";
-	statistic += "<li class='break'></li>";
-	statistic += "<li id='statisticStart' data-group='start'></li>";
-	statistic += "<li id='statisticScheduled' data-group='scheduled'></li>";
-	statistic += "<li id='statisticRecurrence' data-group='recurrence'></li>";
-	statistic += "<li class='break'></li>";
-	statistic += "<li id='statisticDailyNote' data-group='dailyNote'></li>";
 	rootNode.querySelector("span").appendChild(dv.el("ul", statistic, {cls: "statisticPopup"}));
 	setStatisticPopUpEvents();
 };
@@ -464,7 +435,7 @@ function setWeekViewContext() {
 };
 
 
-function setStatisticValues(dueCounter, doneCounter, overdueCounter, startCounter, scheduledCounter, recurrenceCounter, dailyNoteCounter) {
+function setStatisticValues(dueCounter, doneCounter, overdueCounter) {
 	var taskCounter = parseInt(dueCounter+doneCounter+overdueCounter);
 	var tasksRemaining = taskCounter - doneCounter;
 	var percentage = Math.round(100/(dueCounter+doneCounter+overdueCounter)*doneCounter);
@@ -480,13 +451,9 @@ function setStatisticValues(dueCounter, doneCounter, overdueCounter, startCounte
 	if (tasksRemaining > 99) {tasksRemaining = "⚠️"};
 	rootNode.querySelector("button.statistic").setAttribute("data-percentage", percentage);
 	rootNode.querySelector("button.statistic").setAttribute("data-remaining", tasksRemaining);
-	rootNode.querySelector("#statisticDone").innerText = "✅ Done: " + doneCounter + "/" + taskCounter;
-	rootNode.querySelector("#statisticDue").innerText = "📅 Due: " + dueCounter;
-	rootNode.querySelector("#statisticOverdue").innerText = "⚠️ Overdue: " + overdueCounter;
-	rootNode.querySelector("#statisticStart").innerText = "🛫 Start: " + startCounter;
-	rootNode.querySelector("#statisticScheduled").innerText = "⏳ Scheduled: " + scheduledCounter;
-	rootNode.querySelector("#statisticRecurrence").innerText = "🔁 Recurrence: " + recurrenceCounter;
-	rootNode.querySelector("#statisticDailyNote").innerText = "📄 Daily Notes: " + dailyNoteCounter;
+	rootNode.querySelector("#statisticDone").innerText = "☑ Done: " + doneCounter + "/" + taskCounter;
+	rootNode.querySelector("#statisticDue").innerText = "🕓 Due: " + dueCounter;
+	rootNode.querySelector("#statisticOverdue").innerText = "❗ Overdue: " + overdueCounter;
 };
 
 
@@ -512,10 +479,6 @@ function getMonth(tasks, month) {
     var dueCounter = 0;
     var doneCounter = 0;
     var overdueCounter = 0;
-    var startCounter = 0;
-    var scheduledCounter = 0;
-    var recurrenceCounter = 0;
-    var dailyNoteCounter = 0;
 
     if (firstDayOfMonth == 0) { firstDayOfMonth = 7 }
 
@@ -557,14 +520,7 @@ function getMonth(tasks, month) {
             // Count Events Only From Selected Month
             if (moment(month).format("MM") == moment(month).add(i, "days").format("MM")) {
                 dueCounter += due.length;
-                dueCounter += recurrence.length;
-                dueCounter += scheduled.length;
-                dueCounter += dailyNote.length;
                 doneCounter += done.length;
-                startCounter += start.length;
-                scheduledCounter += scheduled.length;
-                recurrenceCounter += recurrence.length;
-                dailyNoteCounter += dailyNote.length;
                 if (moment().format("YYYY-MM-DD") == moment(month).add(i, "days").format("YYYY-MM-DD")) {
                     overdueCounter = overdue.length;
                 }
@@ -600,7 +556,7 @@ function getMonth(tasks, month) {
     gridContent += "<div class='wrappers' data-month='" + monthName + "'>" + wrappers + "</div>";
     rootNode.querySelector("span").appendChild(dv.el("div", gridContent, { cls: "grid" }));
     setWrapperEvents();
-    setStatisticValues(dueCounter, doneCounter, overdueCounter, startCounter, scheduledCounter, recurrenceCounter, dailyNoteCounter);
+    setStatisticValues(dueCounter, doneCounter, overdueCounter);
     rootNode.setAttribute("view", "month");
 };
 
@@ -616,10 +572,6 @@ function getWeek(tasks, week) {
     var dueCounter = 0;
     var doneCounter = 0;
     var overdueCounter = 0;
-    var startCounter = 0;
-    var scheduledCounter = 0;
-    var recurrenceCounter = 0;
-    var dailyNoteCounter = 0;
 
     for (i = 0 - currentWeekday + parseInt(firstDayOfWeek); i < 7 - currentWeekday + parseInt(firstDayOfWeek); i++) {
         var currentDate = moment(week).add(i, "days").format("YYYY-MM-DD");
@@ -633,14 +585,7 @@ function getWeek(tasks, week) {
 
         // Count Events From Selected Week
         dueCounter += due.length;
-        dueCounter += recurrence.length;
-        dueCounter += scheduled.length;
-        dueCounter += dailyNote.length;
         doneCounter += done.length;
-        startCounter += start.length;
-        scheduledCounter += scheduled.length;
-        recurrenceCounter += recurrence.length;
-        dailyNoteCounter += dailyNote.length;
         if (moment().format("YYYY-MM-DD") == moment(week).add(i, "days").format("YYYY-MM-DD")) {
             overdueCounter = overdue.length;
         }
@@ -669,7 +614,7 @@ function getWeek(tasks, week) {
         gridContent += cell;
     }
     rootNode.querySelector("span").appendChild(dv.el("div", gridContent, { cls: "grid", attr: { 'data-week': weekNr } }));
-    setStatisticValues(dueCounter, doneCounter, overdueCounter, startCounter, scheduledCounter, recurrenceCounter, dailyNoteCounter);
+    setStatisticValues(dueCounter, doneCounter, overdueCounter);
     rootNode.setAttribute("view", "week");
 };
 
@@ -683,10 +628,6 @@ function getList(tasks, month) {
     var dueCounter = 0;
     var doneCounter = 0;
     var overdueCounter = 0;
-    var startCounter = 0;
-    var scheduledCounter = 0;
-    var recurrenceCounter = 0;
-    var dailyNoteCounter = 0;
 
     // Loop Days From Current Month
     for (i = 0; i < moment(month).endOf('month').format("D"); i++) {
@@ -698,14 +639,7 @@ function getList(tasks, month) {
 
         // Count Events
         dueCounter += due.length;
-        dueCounter += recurrence.length;
-        dueCounter += scheduled.length;
-        dueCounter += dailyNote.length;
         doneCounter += done.length;
-        startCounter += start.length;
-        scheduledCounter += scheduled.length;
-        recurrenceCounter += recurrence.length;
-        dailyNoteCounter += dailyNote.length;
         if (moment().format("YYYY-MM-DD") == currentDate) {
             overdueCounter = overdue.length;
             listContent += "<details open class='today'><summary><span>" + moment(currentDate).format("dddd, D") + "</span><span class='weekNr'> " + moment(currentDate).format("[W]w") + "</span></summary><div class='content'>" + setTaskContentContainer(currentDate) + "</div></details>"
@@ -714,7 +648,7 @@ function getList(tasks, month) {
         }
     }
     rootNode.querySelector("span").appendChild(dv.el("div", listContent, { cls: "list", attr: { "data-month": monthName } }));
-    setStatisticValues(dueCounter, doneCounter, overdueCounter, startCounter, scheduledCounter, recurrenceCounter, dailyNoteCounter);
+    setStatisticValues(dueCounter, doneCounter, overdueCounter);
     rootNode.setAttribute("view", "list");
 
     // Scroll To Today If Selected Month Is Current Month
