@@ -4,49 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "ba731c39991efafa",
+        "id": "31dcff6d2a126b8f",
         "type": "tabs",
-        "dimension": 68.77777777777777,
+        "dimension": 68.22429906542055,
         "children": [
           {
-            "id": "2ba53249bab9a418",
+            "id": "5c0bcf9a4b2a5238",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Temp/To Do Calendar.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "285706b401ac418d",
+        "type": "tabs",
+        "dimension": 31.775700934579437,
+        "children": [
           {
-            "id": "b73abf94511619a2",
+            "id": "862fee01232915a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Temp/To Do List.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "31dcff6d2a126b8f",
-        "type": "tabs",
-        "dimension": 31.22222222222222,
-        "children": [
-          {
-            "id": "47ff67f01fd2270c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Utils/task-calendar/TaskList.md",
                 "mode": "preview",
                 "source": false
               }
@@ -104,7 +91,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Temp/To Do List.md",
+                "file": "Temp/To Do Calendar.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -159,8 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.50499725341797,
-    "collapsed": true
+    "width": 301.50499725341797
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -200,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temp/To Do List.md",
+                "file": "Temp/To Do Calendar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temp/To Do List.md",
+                "file": "Temp/To Do Calendar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,45 +229,45 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "b73abf94511619a2",
+  "active": "5c0bcf9a4b2a5238",
   "lastOpenFiles": [
-    "Temp/To Do Calendar.md",
     "Temp/To Do List.md",
-    "Utils/templates/addTask.md",
     "Utils/task-calendar/TaskList.md",
+    "Temp/To Do temp.md",
+    "Temp/To Do Calendar.md",
+    "Temp/未命名.md",
+    "Utils/templates/addTask.md",
+    "Temp/Draft.md",
+    "Temp/Untitled.md",
+    "Tools/搜狗五笔输入法.md",
+    "Utils/assets/SogouWubi_20240902_jy.cwb",
     "Tools/Obsidian/Obsidian.md",
     "Tools/Colour Style.md",
     "Courses/MachineLearning/机器学习.md",
-    "Tools/搜狗五笔输入法.md",
     "未命名.canvas",
     "Utils/task-calendar/view.js",
     "Utils/task-calendar/view.css",
     "Utils/assets/SogouWubi_20240902_jtq.cwb",
-    "Temp/To Do temp.md",
     "Utils/task-calendar/view copy.js",
     "Utils/task-calendar/Normal.md",
     "Utils/task-calendar/Low.md",
     "Utils/task-calendar/High.md",
     "Courses/程序语言与编译原理.md",
     "Temp/wuxi.md",
-    "Temp/Untitled.md",
     "Temp/132.md",
     "Utils/templates/Common.md",
     "Temp/科研实践经历.md",
     "Utils/task-calendar/view - 副本.js",
-    "Temp/Draft.md",
     "Temp/2024-08-15.md",
     "Utils/task-calendar/3view.js",
     "Utils/task-calendar",
     "task-calendar/view.js",
     "task-calendar/view.css",
-    "task-calendar",
     "Tools/快捷键.md",
     "Utils/templates/LeetCode.md",
     "Temp/小汇报.md",
     "Temp/dataviewTest.md",
     "LeetCode/LeetCode 150.md",
-    "Courses/DatabaseSystemTechnology/数据库技术.md",
     "Utils/assets/Pasted image 20240822141108.png",
     "Utils/assets/signal_cycle 1.svg",
     "Utils/assets/signal-channels.png",

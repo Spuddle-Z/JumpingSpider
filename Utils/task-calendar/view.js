@@ -5,6 +5,7 @@ errorCheck();
 
 // Initialze
 tasks = getPages();
+setRepeatTasks();	// 生成周期性任务
 
 // Variables
 var done, doneWithoutCompletionDate, due, recurrence, overdue, start, scheduled, process, cancelled, dailyNote, dailyNoteRegEx;
@@ -13,7 +14,9 @@ var [tToday, tMonth, tDay, tYear, tid, selectedMonth, selectedWeek, selectedDate
 // Set Icon
 var [arrowLeftIcon, arrowRightIcon, filterIcon, monthIcon, weekIcon, listIcon, calendarClockIcon, calendarCheckIcon, calendarHeartIcon, cellTemplate, taskTemplate, rootNode] = setIcon();
 
-getMeta(tasks);
+getMeta(tasks);	// 将任务文本中的元数据提取并存储成属性
+
+// 生成视图
 setButtons();
 setStatisticPopUp();
 setWeekViewContext();
@@ -55,6 +58,63 @@ function getPages() {
 };
 
 
+// 生成随机的8位任务ID
+function genId() {
+	const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+	let result = '^';
+	const charactersLength = characters.length;
+	for (let i = 0; i < 8; i++) {
+		result += characters.charAt(Math.floor(Math.random() * charactersLength));
+	}
+	return result;
+}
+
+
+// 生成周期性任务
+async function setRepeatTasks() {
+	// 读取原文件内容
+	const file = app.vault.getAbstractFileByPath("Utils/task-calendar/TaskList.md");
+	var content = await app.vault.read(file);
+
+	// 生成新任务
+	recurrence = tasks.filter(t => t.repeat != "None" && (t.completed || moment(t.due).isBefore(tToday) || moment(t.due).isSame(tToday)));
+	var newTasks = "";
+	for (i = 0; i < recurrence.length; i++) {
+		var repeat = recurrence[i].repeat;
+		var due = recurrence[i].due;
+		// 生成新日期
+		switch (repeat) {
+			case "Daily":
+				var newDue = moment(due).add(1, "days").format("YYYY-MM-DD");
+				break;
+			case "Weekly":
+				var newDue = moment(due).add(1, "weeks").format("YYYY-MM-DD");
+				break;
+			case "Monthly":
+				var newDue = moment(due).add(1, "months").format("YYYY-MM-DD");
+				break;
+		}
+		newTasks += "- [ ] [id:: " + genId() + "] [text:: " + recurrence[i].text + "] [due:: " + newDue + "] [repeat:: " + repeat + "] [priority:: " + recurrence[i].priority + "]\n";
+
+
+
+		// 修改原任务周期性为None
+		const idEscaped = recurrence[i].id.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
+		const regex = new RegExp(`^.*?\\[id:: ${idEscaped}\\].*?\\n`, 'gm');
+		const match = content.match(regex);
+		if (match) {
+			dv.paragraph("Match:");
+		} else {
+			dv.paragraph("No Match");
+		}
+		const cpl = recurrence[i].completed ? "x" : " ";
+		content = content.replace(regex, "- [" + cpl + "] [id:: " + recurrence[i].id + "] [text:: " + recurrence[i].text + "] [due:: " + due + "] [repeat:: None] [priority:: " + recurrence[i].priority + "]\n");
+	}
+	// 修改原文件
+	app.vault.modify(file, content + newTasks);
+};
+
+
 function getDate() {
 	if (!dailyNoteFormat) { dailyNoteFormat = "YYYY-MM-DD" };
 	dailyNoteRegEx = momentToRegex(dailyNoteFormat)
@@ -85,9 +145,9 @@ function setIcon() {
 	var calendarClockIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5"></path><path d="M16 2v4"></path><path d="M8 2v4"></path><path d="M3 10h5"></path><path d="M17.5 17.5 16 16.25V14"></path><path d="M22 16a6 6 0 1 1-12 0 6 6 0 0 1 12 0Z"></path></svg>';
 	var calendarCheckIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line><path d="m9 16 2 2 4-4"></path></svg>';
 	var calendarHeartIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h7"></path><path d="M16 2v4"></path><path d="M8 2v4"></path><path d="M3 10h18"></path><path d="M21.29 14.7a2.43 2.43 0 0 0-2.65-.52c-.3.12-.57.3-.8.53l-.34.34-.35-.34a2.43 2.43 0 0 0-2.65-.53c-.3.12-.56.3-.79.53-.95.94-1 2.53.2 3.74L17.5 22l3.6-3.55c1.2-1.21 1.14-2.8.19-3.74Z"></path></svg>';
-	var cellTemplate = "<div class='cell {{class}}' data-weekday='{{weekday}}'><a class='internal-link cellName' href='{{dailyNote}}'>{{cellName}}</a><div class='cellContent'>{{cellContent}}</div></div>";
+	var cellTemplate = "<div class='cell {{class}}' data-weekday='{{weekday}}'><a class='internal-link cellName' href='javascript:void(0);'>{{cellName}}</a><div class='cellContent'>{{cellContent}}</div></div>";
 	var taskTemplate = "<a class='internal-link' href='{{taskPath}}'><div class='task {{class}}' style='{{style}}' title='{{title}}'><div class='inner'><div class='note'>{{note}}</div><div class='icon'>{{icon}}</div><div class='description' data-relative='{{relative}}'>{{taskContent}}</div></div></div></a>";
-	const rootNode = dv.el("div", "", {cls: "tasksCalendar "+options, attr: {id: "tasksCalendar"+tid, view: view, style: 'position:relative;-webkit-user-select:none!important'}});
+	const rootNode = dv.el("div", "", {cls: "tasksCalendar " + options, attr: {id: "tasksCalendar" + tid, view: view, style: 'position:relative;-webkit-user-select:none!important'}});
 	if (css) { var style = document.createElement("style"); style.innerHTML = css; rootNode.append(style) };
 	return array = [arrowLeftIcon, arrowRightIcon, filterIcon, monthIcon, weekIcon, listIcon, calendarClockIcon, calendarCheckIcon, calendarHeartIcon, cellTemplate, taskTemplate, rootNode];
 };
@@ -135,12 +195,6 @@ function capitalize(str) {
 };
 
 
-function getMetaFromNote(task, metaName) {
-	var meta = dv.pages('"'+task.link.path+'"')[metaName][0];
-	if (meta) { return meta } else { return "" };
-};
-
-
 function transColor(color, percent) {
 	var num = parseInt(color.replace("#",""),16), amt = Math.round(2.55 * percent), R = (num >> 16) + amt, B = (num >> 8 & 0x00FF) + amt, G = (num & 0x0000FF) + amt;
 	return "#" + (0x1000000 + (R<255?R<1?0:R:255)*0x10000 + (B<255?B<1?0:B:255)*0x100 + (G<255?G<1?0:G:255)).toString(16).slice(1);
@@ -181,7 +235,7 @@ function momentToRegex(momentFormat) {
 
 // 筛选指定日期应该显示的任务
 function getTasks(date) {
-	overdue = tasks.filter(t=>!t.completed && moment(t.due.toString()).isBefore(date)).sort(t=>t.due);
+	overdue = tasks.filter(t => !t.completed && moment(t.due.toString()).isBefore(date) && date == tToday).sort(t => t.due);
 	tasks_today = tasks.filter(t => t.due != "None" && moment(t.due.toString()).isSame(date));
 	done = tasks_today.filter(t => t.completed);
 	due = tasks_today.filter(t => !t.completed);
@@ -220,7 +274,7 @@ function setTask(obj, cls) {
 
 	// 替换单引号，避免在HTML中引起错误
     var taskText = obj.text.replace("'", "&apos;");
-    var taskPath = obj.link.path.replace("'", "&apos;");
+    var taskPath = obj.link.path.replace("'", "&apos;").replace(".md", "#") + obj.id;
 
 	// 
 	var relative = moment(obj.due).endOf('day').fromNow();
@@ -508,7 +562,6 @@ function getMonth(tasks, month) {
                 yearNr = moment(month).add(i, "days").format("YYYY");
             }
             var currentDate = moment(month).add(i, "days").format("YYYY-MM-DD");
-            if (!dailyNoteFolder) { var dailyNotePath = currentDate } else { var dailyNotePath = dailyNoteFolder + "/" + currentDate }
             var weekDay = moment(month).add(i, "days").format("d");
             var shortDayName = moment(month).add(i, "days").format("D");
             var longDayName = moment(month).add(i, "days").format("D. MMM");
@@ -531,10 +584,10 @@ function getMonth(tasks, month) {
 
             // Set Cell Name And Weekday
             if (moment(month).add(i, "days").format("D") == 1) {
-                var cell = cellTemplate.replace("{{date}}", currentDate).replace("{{cellName}}", longDayName).replace("{{cellContent}}", cellContent).replace("{{weekday}}", weekDay).replace("{{dailyNote}}", dailyNotePath);
+                var cell = cellTemplate.replace("{{date}}", currentDate).replace("{{cellName}}", longDayName).replace("{{cellContent}}", cellContent).replace("{{weekday}}", weekDay);
                 cell = cell.replace("{{class}}", "{{class}} newMonth");
             } else {
-                var cell = cellTemplate.replace("{{date}}", currentDate).replace("{{cellName}}", shortDayName).replace("{{cellContent}}", cellContent).replace("{{weekday}}", weekDay).replace("{{dailyNote}}", dailyNotePath);
+                var cell = cellTemplate.replace("{{date}}", currentDate).replace("{{cellName}}", shortDayName).replace("{{cellContent}}", cellContent).replace("{{weekday}}", weekDay);
             }
 
             // Set prevMonth, currentMonth, nextMonth

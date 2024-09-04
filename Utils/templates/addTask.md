@@ -1,5 +1,16 @@
 ---
 <%*
+// 生成一个Obsidian的块ID
+async function generateBlockRefId() {
+	const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+	let result = '^';
+	const charactersLength = characters.length;
+	for (let i = 0; i < 8; i++) {
+		result += characters.charAt(Math.floor(Math.random() * charactersLength));
+	}
+	return result;
+}
+
 // 获取输入的截止日期
 async function get_due() {
 	let due, isValid;
@@ -20,6 +31,7 @@ async function get_due() {
 }
 
 // 输入任务关键信息
+const id = await generateBlockRefId();
 const text = await tp.system.prompt("What's Up?");
 const priority = await tp.system.suggester(["闲白儿", "正事儿", "急茬儿"], ["Low", "Normal", "High"], true, "优先级");
 const due = await get_due();
@@ -28,7 +40,7 @@ const repeat = await tp.system.suggester(["不重复", "每天", "每周", "每�
 // 将任务插入至TaskList.md中
 const file = tp.file.find_tfile("Utils/task-calendar/TaskList.md");
 let content = await app.vault.read(file);
-const task = "- [ ] [text:: " + text + "] [due:: " + due + "] [repeat:: " + repeat + "] [priority:: " + priority + "]\n";
+const task = "- [ ] [id:: " + id + "] [text:: " + text + "] [due:: " + due + "] [repeat:: " + repeat + "] [priority:: " + priority + "]\n";
 content += task;
 await app.vault.modify(file, content);
 return null;
