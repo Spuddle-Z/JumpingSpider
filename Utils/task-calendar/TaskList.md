@@ -6,3 +6,7 @@
 - [ ] [id:: ^rzC94CCQ] [text:: ChatGPT-4] [due:: 2024-10-01] [repeat:: Monthly] [priority:: Normal]
 - [ ] [id:: ^dgU8JjoA] [text:: Energy Rain] [due:: 2024-09-06] [repeat:: Daily] [priority:: Low]
 - [ ] [id:: ^utbNMdm2] [text:: 修改日历闪烁BUG] [due:: None] [repeat:: None] [priority:: Low]
+- [ ] [id:: ^I9NCMBj2] [text:: 添加任务清理程序] [due:: None] [repeat:: None] [priority:: Low]
+- [ ] [id:: ^5hj1knbh] [text:: 添加todo list的任务排序] [due:: None] [repeat:: None] [priority:: Low]
+- [ ] [id:: ^9he9tRKd] [text:: 研究Templater的Startup template] [due:: None] [repeat:: None] [priority:: Low]
+- [ ] [id:: ^ckZ4mMim] [text:: 研究Templater的User script功能] [due:: None] [repeat:: None] [priority:: Low]

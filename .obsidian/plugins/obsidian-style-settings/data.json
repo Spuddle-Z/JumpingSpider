@@ -38,7 +38,6 @@
   "minimal-style@@graph-node@@dark": "#B6B8CF",
   "minimal-style@@graph-node-attachment@@dark": "#404D6F",
   "minimal-style@@graph-line@@dark": "#393F57",
-  "minimal-style@@ax1@@dark": "#88A9F6",
   "minimal-style@@h4-l": false,
   "minimal-style@@h6-l": false,
   "minimal-style@@h3-l": false,
@@ -53,5 +52,7 @@
   "minimal-style@@metadata-heading-off": false,
   "minimal-style@@metadata-add-property-off": false,
   "minimal-mobile@@mobile-toolbar-off": false,
-  "minimal-style@@window-title-off": false
+  "minimal-style@@window-title-off": false,
+  "minimal-style@@sp1@@dark": "#FF0000",
+  "minimal-style@@blockquote-background-color@@dark": "#FF0000"
 }
