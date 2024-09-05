@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3cdd326a5b55c797",
+        "id": "69371986c2dfea2c",
         "type": "tabs",
         "children": [
           {
-            "id": "3aea49463eda3752",
+            "id": "b67d599ad35daf74",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/概率论.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -71,7 +67,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/概率论.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -166,10 +161,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/概率论.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "byModifiedTime",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
@@ -183,7 +177,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/概率论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,10 +201,12 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "3aea49463eda3752",
+  "active": "b67d599ad35daf74",
   "lastOpenFiles": [
-    "Tools/Colour Style.md",
+    "Tools/搜狗五笔输入法.md",
+    "Utils/assets/SogouWubi_20240905_ju.cwb",
     "Courses/概率论.md",
+    "Tools/Colour Style.md",
     "Temp/Untitled.md",
     "Temp/To Do List.md",
     "Temp/To Do Calendar.md",
@@ -220,7 +215,6 @@
     "Temp/未命名.md",
     "Utils/templates/addTask.md",
     "Temp/Draft.md",
-    "Tools/搜狗五笔输入法.md",
     "Utils/assets/SogouWubi_20240902_jy.cwb",
     "Tools/Obsidian/Obsidian.md",
     "Courses/MachineLearning/机器学习.md",
@@ -242,11 +236,9 @@
     "Utils/task-calendar/3view.js",
     "Utils/task-calendar",
     "task-calendar/view.js",
-    "task-calendar/view.css",
     "Tools/快捷键.md",
     "Utils/templates/LeetCode.md",
     "Temp/小汇报.md",
-    "Temp/dataviewTest.md",
     "Utils/assets/Pasted image 20240822141108.png",
     "Utils/assets/signal_cycle 1.svg",
     "Utils/assets/signal-channels.png",
