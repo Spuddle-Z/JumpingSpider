@@ -4,15 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "69371986c2dfea2c",
+        "id": "3cdd326a5b55c797",
         "type": "tabs",
         "children": [
           {
-            "id": "b67d599ad35daf74",
+            "id": "3aea49463eda3752",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Courses/概率论.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "a284916f725ad3e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2abe189c675728d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/概率论.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -67,6 +89,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Courses/概率论.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -121,7 +144,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.50499725341797
+    "width": 301.50499725341797,
+    "collapsed": true
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -161,9 +185,10 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": true,
-                "extraContext": true,
-                "sortOrder": "byModifiedTime",
+                "file": "Courses/概率论.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
@@ -177,6 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Courses/概率论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +212,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,17 +228,19 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "b67d599ad35daf74",
+  "active": "3aea49463eda3752",
   "lastOpenFiles": [
+    "Utils/assets/Pasted image 20240906145826.png",
+    "Utils/assets/Pasted image 20240906145540.png",
+    "Temp/To Do Calendar.md",
+    "Temp/To Do List.md",
+    "Utils/task-calendar/TaskList.md",
+    "Temp/To Do temp.md",
     "Tools/搜狗五笔输入法.md",
     "Utils/assets/SogouWubi_20240905_ju.cwb",
     "Courses/概率论.md",
     "Tools/Colour Style.md",
     "Temp/Untitled.md",
-    "Temp/To Do List.md",
-    "Temp/To Do Calendar.md",
-    "Utils/task-calendar/TaskList.md",
-    "Temp/To Do temp.md",
     "Temp/未命名.md",
     "Utils/templates/addTask.md",
     "Temp/Draft.md",
@@ -247,7 +276,6 @@
     "Utils/assets/Pasted image 20240820102429.png",
     "Utils/assets/Pasted image 20240819171217.png",
     "Utils/assets/Pasted image 20240819153104.png",
-    "Utils/assets/Pasted image 20240818185901.png",
-    "Utils/assets/Pasted image 20240818173718.png"
+    "Utils/assets/Pasted image 20240818185901.png"
   ]
 }
