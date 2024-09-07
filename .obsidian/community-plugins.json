@@ -1,18 +1,14 @@
 [
-  "mousewheel-image-zoom",
   "obsidian-minimal-settings",
-  "oz-clear-unused-images",
   "cm-typewriter-scroll-obsidian",
-  "obsidian-latex-suite",
-  "callout-manager",
-  "obsidian-focus-mode",
   "cm-chs-patch",
   "chinese-calendar",
   "obsidian-icon-folder",
-  "vault-size-history",
   "obsidian-quiet-outline",
-  "dataview",
-  "obsidian-tasks-plugin",
   "obsidian-style-settings",
-  "templater-obsidian"
+  "templater-obsidian",
+  "lazy-plugins",
+  "callout-manager",
+  "dataview",
+  "obsidian-focus-mode"
 ]

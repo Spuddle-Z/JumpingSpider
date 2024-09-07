@@ -22,11 +22,11 @@
         ]
       },
       {
-        "id": "a284916f725ad3e7",
+        "id": "b8ed388d5672bd01",
         "type": "tabs",
         "children": [
           {
-            "id": "2abe189c675728d6",
+            "id": "26bf95105ae2028d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -221,24 +221,26 @@
       "graph:查看关系图谱": true,
       "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
+      "canvas:新建白板": false,
+      "templater-obsidian:Templater": true,
       "callout-manager:Insert Callout": true,
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": true,
-      "vault-size-history:Vault size history": false,
-      "canvas:新建白板": false,
-      "templater-obsidian:Templater": true
+      "vault-size-history:Vault size history": false
     }
   },
-  "active": "3aea49463eda3752",
+  "active": "26bf95105ae2028d",
   "lastOpenFiles": [
+    "Tools/Obsidian/LaTeX Suite.md",
+    "Courses/概率论.md",
+    "Tools/搜狗五笔输入法.md",
+    "Temp/To Do List.md",
+    "Utils/task-calendar/TaskList.md",
+    "Utils/assets/SogouWubi_20240906_js.cwb",
     "Utils/assets/Pasted image 20240906145826.png",
     "Utils/assets/Pasted image 20240906145540.png",
     "Temp/To Do Calendar.md",
-    "Temp/To Do List.md",
-    "Utils/task-calendar/TaskList.md",
     "Temp/To Do temp.md",
-    "Tools/搜狗五笔输入法.md",
     "Utils/assets/SogouWubi_20240905_ju.cwb",
-    "Courses/概率论.md",
     "Tools/Colour Style.md",
     "Temp/Untitled.md",
     "Temp/未命名.md",
@@ -264,7 +266,6 @@
     "Temp/2024-08-15.md",
     "Utils/task-calendar/3view.js",
     "Utils/task-calendar",
-    "task-calendar/view.js",
     "Tools/快捷键.md",
     "Utils/templates/LeetCode.md",
     "Temp/小汇报.md",
@@ -275,7 +276,6 @@
     "Utils/assets/flow_map.svg",
     "Utils/assets/Pasted image 20240820102429.png",
     "Utils/assets/Pasted image 20240819171217.png",
-    "Utils/assets/Pasted image 20240819153104.png",
-    "Utils/assets/Pasted image 20240818185901.png"
+    "Utils/assets/Pasted image 20240819153104.png"
   ]
 }

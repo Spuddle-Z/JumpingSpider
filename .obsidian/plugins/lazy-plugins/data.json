@@ -1,0 +1,76 @@
+{
+  "dualConfigs": false,
+  "showConsoleLog": false,
+  "desktop": {
+    "shortDelaySeconds": 5,
+    "longDelaySeconds": 15,
+    "delayBetweenPlugins": 40,
+    "defaultStartupType": null,
+    "showDescriptions": true,
+    "plugins": {
+      "callout-manager": {
+        "startupType": "instant"
+      },
+      "chinese-calendar": {
+        "startupType": "instant"
+      },
+      "oz-clear-unused-images": {
+        "startupType": "short"
+      },
+      "dataview": {
+        "startupType": "instant"
+      },
+      "obsidian-dice-roller": {
+        "startupType": "disabled"
+      },
+      "obsidian-focus-mode": {
+        "startupType": "instant"
+      },
+      "github-copilot": {
+        "startupType": "disabled"
+      },
+      "obsidian-icon-folder": {
+        "startupType": "instant"
+      },
+      "obsidian-latex-suite": {
+        "startupType": "short"
+      },
+      "obsidian-minimal-settings": {
+        "startupType": "instant"
+      },
+      "mousewheel-image-zoom": {
+        "startupType": "short"
+      },
+      "obsidian-quiet-outline": {
+        "startupType": "instant"
+      },
+      "obsidian-statusbar-pomo": {
+        "startupType": "disabled"
+      },
+      "obsidian-style-settings": {
+        "startupType": "instant"
+      },
+      "obsidian-tasks-plugin": {
+        "startupType": "short"
+      },
+      "templater-obsidian": {
+        "startupType": "instant"
+      },
+      "cm-typewriter-scroll-obsidian": {
+        "startupType": "instant"
+      },
+      "various-complements": {
+        "startupType": "disabled"
+      },
+      "vault-size-history": {
+        "startupType": "short"
+      },
+      "cm-chs-patch": {
+        "startupType": "instant"
+      },
+      "emera": {
+        "startupType": "disabled"
+      }
+    }
+  }
+}

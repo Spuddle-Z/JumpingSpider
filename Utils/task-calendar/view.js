@@ -96,8 +96,6 @@ async function setRepeatTasks() {
 		}
 		newTasks += "- [ ] [id:: " + genId() + "] [text:: " + recurrence[i].text + "] [due:: " + newDue + "] [repeat:: " + repeat + "] [priority:: " + recurrence[i].priority + "]\n";
 
-
-
 		// 修改原任务周期性为None
 		const idEscaped = recurrence[i].id.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
 		const regex = new RegExp(`^.*?\\[id:: ${idEscaped}\\].*?\\n`, 'gm');
