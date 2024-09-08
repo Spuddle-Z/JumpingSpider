@@ -622,7 +622,7 @@
       "active": "895934f43ed16637",
       "mtime": "2024-09-05T12:08:29+08:00"
     },
-    "概率论": {
+    "概统": {
       "main": {
         "id": "a5f387d7aefee0fc",
         "type": "split",
@@ -836,8 +836,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 299.5,
-        "collapsed": true
+        "width": 299.5
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -853,8 +852,8 @@
         }
       },
       "active": "26bf95105ae2028d",
-      "mtime": "2024-09-07T15:30:02+08:00"
+      "mtime": "2024-09-08T22:36:46+08:00"
     }
   },
-  "active": "概率论"
+  "active": "概统"
 }

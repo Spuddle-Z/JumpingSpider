@@ -212,8 +212,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,11 +229,14 @@
   },
   "active": "26bf95105ae2028d",
   "lastOpenFiles": [
-    "Tools/Obsidian/LaTeX Suite.md",
-    "Courses/概率论.md",
-    "Tools/搜狗五笔输入法.md",
     "Temp/To Do List.md",
+    "Courses/概率论.md",
+    "Utils/assets/Pasted image 20240908145234.png",
+    "Utils/assets/Pasted image 20240908144817.png",
+    "Utils/assets/Pasted image 20240908144633.png",
     "Utils/task-calendar/TaskList.md",
+    "Tools/搜狗五笔输入法.md",
+    "Tools/Obsidian/LaTeX Suite.md",
     "Utils/assets/SogouWubi_20240906_js.cwb",
     "Utils/assets/Pasted image 20240906145826.png",
     "Utils/assets/Pasted image 20240906145540.png",
@@ -268,14 +270,10 @@
     "Utils/task-calendar",
     "Tools/快捷键.md",
     "Utils/templates/LeetCode.md",
-    "Temp/小汇报.md",
     "Utils/assets/Pasted image 20240822141108.png",
     "Utils/assets/signal_cycle 1.svg",
     "Utils/assets/signal-channels.png",
     "Utils/assets/signal_cycle.svg",
-    "Utils/assets/flow_map.svg",
-    "Utils/assets/Pasted image 20240820102429.png",
-    "Utils/assets/Pasted image 20240819171217.png",
-    "Utils/assets/Pasted image 20240819153104.png"
+    "Utils/assets/flow_map.svg"
   ]
 }
