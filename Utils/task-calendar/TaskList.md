@@ -20,4 +20,5 @@
 - [x] [id:: ^vD11skbM] [text:: Energy Rain] [due:: 2024-09-07] [repeat:: None] [priority:: Low]
 - [x] [id:: ^o0lZi5FA] [text:: Energy Rain] [due:: 2024-09-08] [repeat:: None] [priority:: Low]
 - [ ] [id:: ^WmnMkuss] [text:: 探索Emera插件] [due:: None] [repeat:: None] [priority:: Low]
-- [ ] [id:: ^gnHVNfDg] [text:: Energy Rain] [due:: 2024-09-09] [repeat:: Daily] [priority:: Low]
+- [ ] [id:: ^gnHVNfDg] [text:: Energy Rain] [due:: 2024-09-09] [repeat:: None] [priority:: Low]
+- [ ] [id:: ^kZJroto9] [text:: Energy Rain] [due:: 2024-09-10] [repeat:: Daily] [priority:: Low]
