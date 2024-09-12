@@ -189,9 +189,9 @@ Date: <% tp.date.now("YYYY-MM-DD") %>
 | `#D0DFB8` | <font size=5 color=#D0DFB8>■</font> | 斜体文本             | 文本      |
 | `#FFCB6B` | <font size=5 color=#FFCB6B>■</font> | 粗体文本             | 文本      |
 | `#FFCB6B` | <font size=5 color=#FFCB6B>■</font> | Example          | Callout |
-| `#C3E88D` | <font size=5 color=#c3e88d>■</font> | Definition       | Callout |
+| `#C3E88D` | <font size=5 color=#c3e88d>■</font> | Note             | Callout |
 | `#73BBB2` | <font size=5 color=#73bbb2>■</font> | Theorem          | Callout |
-| `#97D8F8` | <font size=5 color=#97d8f8>■</font> | Note             | Callout |
+| `#97D8F8` | <font size=5 color=#97d8f8>■</font> | Definition       | Callout |
 | `#9E86C8` | <font size=5 color=#9e86c8>■</font> | Proof            | Callout |
 | `#666E95` | <font size=5 color=#666e95>■</font> | Quote            | Callout |
 | `#D04255` | <font size=5 color=#D04255>■</font> | Caution          | Callout |

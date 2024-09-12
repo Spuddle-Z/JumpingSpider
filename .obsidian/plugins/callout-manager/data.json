@@ -2,15 +2,14 @@
   "callouts": {
     "custom": [
       "proof",
-      "definition",
       "theorem",
       "note",
-      "Definition",
       "caution",
       "important",
       "tldr",
       "example",
-      "info"
+      "info",
+      "definition"
     ],
     "settings": {
       "proof": [
@@ -67,26 +66,10 @@
           "changes": {}
         }
       ],
-      "Definition": [
-        {
-          "changes": {
-            "icon": "lucide-book-marked",
-            "color": "151, 216, 248"
-          }
-        }
-      ],
       "example": [
         {
           "changes": {
             "color": "255, 203, 107"
-          }
-        }
-      ],
-      "definition": [
-        {
-          "changes": {
-            "icon": "lucide-book-marked",
-            "color": "195, 232, 141"
           }
         }
       ],
@@ -101,13 +84,21 @@
       "note": [
         {
           "changes": {
-            "color": "151, 216, 248"
+            "color": "195, 232, 141"
           }
         }
       ],
       "info": [
         {
           "changes": {}
+        }
+      ],
+      "definition": [
+        {
+          "changes": {
+            "icon": "lucide-book-marked",
+            "color": "151, 216, 248"
+          }
         }
       ]
     }
