@@ -1,3 +1,4 @@
+`dice: #Knowledge|-` `dice: 1d6`
 ## Daily
 ```dataview
 TASK
