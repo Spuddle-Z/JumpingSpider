@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "3cdd326a5b55c797",
+        "id": "f8b9958dd5b98198",
         "type": "tabs",
         "children": [
           {
-            "id": "3aea49463eda3752",
+            "id": "85373d6747735cad",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Temp/Draft.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5209562fc4d6614c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/搜狗五笔输入法.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +67,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Tools/搜狗五笔输入法.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -180,7 +162,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/搜狗五笔输入法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +178,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/搜狗五笔输入法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,9 +203,11 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "5209562fc4d6614c",
+  "active": "85373d6747735cad",
   "lastOpenFiles": [
     "Temp/Draft.md",
+    "Tools/搜狗五笔输入法.md",
+    "Utils/assets/SogouWubi_20240914_jcq.cwb",
     "LeetCode/Python.md",
     "Temp/To Do List.md",
     "Courses/自动控制原理.md",
@@ -240,7 +222,6 @@
     "Temp/To Do Calendar.md",
     "Utils/assets/Pasted image 20240912222058.png",
     "Utils/assets/Pasted image 20240912214205.png",
-    "Tools/搜狗五笔输入法.md",
     "Utils/assets/SogouWubi_20240909_jjq.cwb",
     "Utils/assets/Pasted image 20240908145234.png",
     "Utils/assets/Pasted image 20240908144817.png",
@@ -268,8 +249,6 @@
     "Utils/templates/Common.md",
     "Temp/科研实践经历.md",
     "Utils/task-calendar/view - 副本.js",
-    "Temp/2024-08-15.md",
-    "Utils/task-calendar/3view.js",
     "Utils/assets/Pasted image 20240822141108.png",
     "Utils/assets/signal_cycle 1.svg"
   ]
