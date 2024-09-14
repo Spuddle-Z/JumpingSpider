@@ -4,42 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "aee473e946b6eab0",
+        "id": "3cdd326a5b55c797",
         "type": "tabs",
-        "dimension": 72.22222222222221,
         "children": [
           {
-            "id": "5cea93b11674ca0d",
+            "id": "3aea49463eda3752",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Temp/To Do Calendar.md",
-                "mode": "preview",
+                "file": "Temp/Draft.md",
+                "mode": "source",
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "8a8fc28e391ba2ad",
-        "type": "tabs",
-        "dimension": 27.77777777777778,
-        "children": [
+          },
           {
-            "id": "895934f43ed16637",
+            "id": "5209562fc4d6614c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Temp/To Do List.md",
-                "mode": "preview",
+                "file": "Tools/搜狗五笔输入法.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,7 +84,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Temp/To Do List.md",
+                "file": "Tools/搜狗五笔输入法.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -187,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temp/To Do List.md",
+                "file": "Tools/搜狗五笔输入法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temp/To Do List.md",
+                "file": "Tools/搜狗五笔输入法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,11 +207,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": true,
       "command-palette:打开命令面板": true,
@@ -230,20 +223,24 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "895934f43ed16637",
+  "active": "5209562fc4d6614c",
   "lastOpenFiles": [
-    "Courses/概率论.md",
-    "Utils/assets/图片1.png",
+    "Temp/Draft.md",
+    "LeetCode/Python.md",
     "Temp/To Do List.md",
-    "Tools/Colour Style.md",
+    "Courses/自动控制原理.md",
+    "Courses/高等数学.md",
     "Tools/Obsidian/Obsidian.md",
+    "Courses/概率论.md",
+    "Tools/Obsidian/LaTeX Suite.md",
+    "Courses/线性代数.md",
+    "Utils/task-calendar/TaskList.md",
+    "Utils/assets/图片1.png",
+    "Tools/Colour Style.md",
     "Temp/To Do Calendar.md",
     "Utils/assets/Pasted image 20240912222058.png",
     "Utils/assets/Pasted image 20240912214205.png",
-    "Utils/task-calendar/TaskList.md",
     "Tools/搜狗五笔输入法.md",
-    "Courses/线性代数.md",
-    "Tools/Obsidian/LaTeX Suite.md",
     "Utils/assets/SogouWubi_20240909_jjq.cwb",
     "Utils/assets/Pasted image 20240908145234.png",
     "Utils/assets/Pasted image 20240908144817.png",
@@ -253,10 +250,8 @@
     "Utils/assets/Pasted image 20240906145540.png",
     "Temp/To Do temp.md",
     "Utils/assets/SogouWubi_20240905_ju.cwb",
-    "Temp/Untitled.md",
     "Temp/未命名.md",
     "Utils/templates/addTask.md",
-    "Temp/Draft.md",
     "Utils/assets/SogouWubi_20240902_jy.cwb",
     "Courses/MachineLearning/机器学习.md",
     "未命名.canvas",
@@ -275,7 +270,6 @@
     "Utils/task-calendar/view - 副本.js",
     "Temp/2024-08-15.md",
     "Utils/task-calendar/3view.js",
-    "Tools/快捷键.md",
     "Utils/assets/Pasted image 20240822141108.png",
     "Utils/assets/signal_cycle 1.svg"
   ]

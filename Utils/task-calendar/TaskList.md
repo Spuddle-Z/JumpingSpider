@@ -26,4 +26,6 @@
 - [x] [id:: ^NeptfU4t] [text:: Energy Rain] [due:: 2024-09-12] [repeat:: None] [priority:: Low]
 - [ ] [id:: ^r2RuLMSD] [text:: 预推免] [due:: 2024-09-16] [repeat:: None] [priority:: Normal]
 - [x] [id:: ^3Ki541Gv] [text:: Energy Rain] [due:: 2024-09-13] [repeat:: None] [priority:: Low]
-- [ ] [id:: ^pRvguWJV] [text:: Energy Rain] [due:: 2024-09-14] [repeat:: Daily] [priority:: Low]
+- [ ] [id:: ^pRvguWJV] [text:: Energy Rain] [due:: 2024-09-14] [repeat:: None] [priority:: Low]
+- [ ] [id:: ^vWaLM3Rw] [text:: Energy Rain] [due:: 2024-09-15] [repeat:: Daily] [priority:: Low]
+- [ ] [id:: ^LXtPs4O4] [text:: 探索Excalidraw] [due:: None] [repeat:: None] [priority:: Low]
