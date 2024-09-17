@@ -29,7 +29,7 @@
   "height": "",
   "dynamicStyling": "colorful",
   "isLeftHanded": false,
-  "iframeMatchExcalidrawTheme": true,
+  "iframeMatchExcalidrawTheme": false,
   "matchTheme": false,
   "matchThemeAlways": false,
   "matchThemeTrigger": false,

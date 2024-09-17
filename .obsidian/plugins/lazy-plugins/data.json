@@ -70,6 +70,12 @@
       },
       "emera": {
         "startupType": "disabled"
+      },
+      "obsidian-excalidraw-plugin": {
+        "startupType": "instant"
+      },
+      "obsidian-mind-map": {
+        "startupType": "instant"
       }
     }
   }

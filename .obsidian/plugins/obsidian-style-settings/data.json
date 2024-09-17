@@ -53,8 +53,8 @@
   "minimal-style@@metadata-add-property-off": false,
   "minimal-mobile@@mobile-toolbar-off": false,
   "minimal-style@@window-title-off": false,
-  "minimal-style@@ax1@@dark": "#88A9F6",
   "minimal-style@@sp1@@dark": "#2A2D3E",
   "minimal-style@@blockquote-color@@dark": "#B6B8CF",
-  "minimal-style@@blockquote-border-thickness": 3
+  "minimal-style@@blockquote-border-thickness": 3,
+  "minimal-style@@ax1@@dark": "#88A9F6"
 }

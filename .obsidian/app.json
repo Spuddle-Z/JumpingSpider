@@ -19,5 +19,6 @@
     "margin": "0",
     "downscalePercent": 80
   },
-  "newFileFolderPath": "Temp"
+  "newFileFolderPath": "Temp",
+  "showRibbon": true
 }
