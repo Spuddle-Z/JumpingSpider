@@ -32,4 +32,5 @@
 - [x] [id:: ^GCLpVx5V] [text:: Energy Rain] [due:: 2024-09-16] [repeat:: None] [priority:: Low]
 - [x] [id:: ^GRRKL6Sb] [text:: Energy Rain] [due:: 2024-09-17] [repeat:: None] [priority:: Low]
 - [x] [id:: ^AXJ7K6ZF] [text:: 综合测评] [due:: 2024-09-17] [repeat:: None] [priority:: Normal]
-- [ ] [id:: ^IPTBXM4V] [text:: Energy Rain] [due:: 2024-09-18] [repeat:: Daily] [priority:: Low]
+- [ ] [id:: ^IPTBXM4V] [text:: Energy Rain] [due:: 2024-09-18] [repeat:: None] [priority:: Low]
+- [ ] [id:: ^NS9oUKlx] [text:: Energy Rain] [due:: 2024-09-19] [repeat:: Daily] [priority:: Low]
