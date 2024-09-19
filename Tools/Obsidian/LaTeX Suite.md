@@ -174,6 +174,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;ln     | \\ln                                                | $\ln$                                 | mA      |
 | ;sn     | \\sin                                               | $\sin$                                | mA      |
 | ;cs     | \\cos                                               | $\cos$                                | mA      |
+| ;tn     | \\tan                                               | $\tan$                                | mA      |
+| ;atn    | \\arctan                                            | $\arctan$                             | mA      |
 | ;mx     | \\max                                               | $\max$                                | mA      |
 | ;mn     | \\min                                               | $\min$                                | mA      |
 | ;amx    | \\mathop{\\arg\\!\\max}\\limits_{${0:\\theta}}\\ $1 | $\mathop{\arg\!\max}\limits_{\theta}$ | mA      |
@@ -352,6 +354,8 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 	{trigger: ";ln", replacement: "\\ln", options: "mA"},
 	{trigger: ";sn", replacement: "\\sin", options: "mA"},
 	{trigger: ";cs", replacement: "\\cos", options: "mA"},
+	{trigger: ";tn", replacement: "\\tan", options: "mA"},
+	{trigger: ";atn", replacement: "\\arctan", options: "mA"},
 	{trigger: ";mx", replacement: "\\max", options: "mA"},
 	{trigger: ";mn", replacement: "\\min", options: "mA"},
 	{trigger: ";amx", replacement: "\\mathop{\\arg\\!\\max}\\limits_{${0:\\theta}}\\ $1", options: "mA"},
