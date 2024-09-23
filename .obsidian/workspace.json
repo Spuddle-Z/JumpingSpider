@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3cdd326a5b55c797",
+        "id": "b64f3ee3be049c7b",
         "type": "tabs",
         "children": [
           {
-            "id": "3aea49463eda3752",
+            "id": "80acff89f429677d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/自动控制原理.md",
+                "file": "Temp/云栖工作记录.md",
                 "mode": "preview",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "7e5c688178ecf4d2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "48356ee0431a9f89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/自动控制原理.md",
-                "mode": "source",
                 "source": false
               }
             }
@@ -89,7 +71,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/自动控制原理.md",
+                "file": "Temp/云栖工作记录.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -144,8 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.50499725341797,
-    "collapsed": true
+    "width": 301.50499725341797
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -185,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/自动控制原理.md",
+                "file": "Temp/云栖工作记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/自动控制原理.md",
+                "file": "Temp/云栖工作记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,21 +204,26 @@
       "workspaces:管理工作区布局": false,
       "callout-manager:Insert Callout": true,
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": true,
-      "vault-size-history:Vault size history": false,
-      "templater-obsidian:Templater": true
+      "templater-obsidian:Templater": true,
+      "vault-size-history:Vault size history": false
     }
   },
-  "active": "48356ee0431a9f89",
+  "active": "80acff89f429677d",
   "lastOpenFiles": [
+    "Temp/科研实践经历.md",
+    "Temp/Draft.md",
+    "Utils/task-calendar/TaskList.md",
+    "Temp/To Do Calendar.md",
+    "Utils/js/index.js",
+    "Temp/To Do List.md",
+    "Utils/js/test.js",
+    "Utils/js",
+    "Courses/自动控制原理.md",
     "Utils/assets/Pasted image 20240921231925.png",
     "Tools/Colour Style.md",
-    "Temp/To Do Calendar.md",
     "Temp/Drawing 2024-09-15 14.27.50.excalidraw.md",
-    "Temp/To Do List.md",
-    "Courses/自动控制原理.md",
     "Tools/搜狗五笔输入法.md",
     "Utils/assets/SogouWubi_20240921_jnr.cwb",
-    "Utils/task-calendar/TaskList.md",
     "Utils/assets/Pasted image 20240919211404.png",
     "Utils/assets/Pasted image 20240919211358.png",
     "Tools/Obsidian/LaTeX Suite.md",
@@ -249,10 +235,8 @@
     "Utils/assets/Pasted image 20240918130112.png",
     "Courses/高等数学.md",
     "Utils/assets/Pasted image 20240917222833.png",
-    "Utils/assets/Pasted image 20240917214405.png",
     "Tools/Obsidian/Obsidian.md",
     "Temp/Drawing 2024-09-15 14.28.37.excalidraw.md",
-    "Temp/Draft.md",
     "Utils/assets/SogouWubi_20240914_jcq.cwb",
     "LeetCode/Python.md",
     "Courses/概率论.md",
@@ -267,9 +251,6 @@
     "Courses/MachineLearning/机器学习.md",
     "未命名.canvas",
     "Utils/task-calendar/view.js",
-    "Utils/task-calendar/view.css",
-    "Utils/assets/SogouWubi_20240902_jtq.cwb",
-    "Utils/task-calendar/view copy.js",
     "Utils/task-calendar/Normal.md",
     "Utils/task-calendar/Low.md",
     "Utils/task-calendar/High.md",

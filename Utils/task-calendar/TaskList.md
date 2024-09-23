@@ -37,4 +37,5 @@
 - [x] [id:: ^NBE7kHiK] [text:: Energy Rain] [due:: 2024-09-20] [repeat:: None] [priority:: Low]
 - [ ] [id:: ^kWv5JNgd] [text:: 探索Columns插件] [due:: None] [repeat:: None] [priority:: Low]
 - [x] [id:: ^Ao3aAAHv] [text:: Energy Rain] [due:: 2024-09-21] [repeat:: None] [priority:: Low]
-- [ ] [id:: ^Vh2noIbx] [text:: Energy Rain] [due:: 2024-09-22] [repeat:: Daily] [priority:: Low]
+- [x] [id:: ^Vh2noIbx] [text:: Energy Rain] [due:: 2024-09-22] [repeat:: None] [priority:: Low]
+- [ ] [id:: ^AWSDLdJ4] [text:: Energy Rain] [due:: 2024-09-23] [repeat:: Daily] [priority:: Low]
