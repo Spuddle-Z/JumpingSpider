@@ -4,16 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "b64f3ee3be049c7b",
+        "id": "aee473e946b6eab0",
         "type": "tabs",
+        "dimension": 72.22222222222221,
         "children": [
           {
-            "id": "80acff89f429677d",
+            "id": "5cea93b11674ca0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Temp/云栖工作记录.md",
+                "file": "Temp/To Do Calendar.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "8a8fc28e391ba2ad",
+        "type": "tabs",
+        "dimension": 27.77777777777778,
+        "children": [
+          {
+            "id": "895934f43ed16637",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Temp/To Do List.md",
                 "mode": "preview",
                 "source": false
               }
@@ -71,7 +91,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Temp/云栖工作记录.md",
+                "file": "Temp/To Do List.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -126,7 +146,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.50499725341797
+    "width": 301.50499725341797,
+    "collapsed": true
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -166,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temp/云栖工作记录.md",
+                "file": "Temp/To Do List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temp/云栖工作记录.md",
+                "file": "Temp/To Do List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +214,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,12 +226,14 @@
       "workspaces:管理工作区布局": false,
       "callout-manager:Insert Callout": true,
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": true,
-      "templater-obsidian:Templater": true,
-      "vault-size-history:Vault size history": false
+      "vault-size-history:Vault size history": false,
+      "templater-obsidian:Templater": true
     }
   },
-  "active": "80acff89f429677d",
+  "active": "895934f43ed16637",
   "lastOpenFiles": [
+    "Courses/自动控制原理.md",
+    "Temp/云栖工作记录.md",
     "Temp/科研实践经历.md",
     "Temp/Draft.md",
     "Utils/task-calendar/TaskList.md",
@@ -218,7 +242,6 @@
     "Temp/To Do List.md",
     "Utils/js/test.js",
     "Utils/js",
-    "Courses/自动控制原理.md",
     "Utils/assets/Pasted image 20240921231925.png",
     "Tools/Colour Style.md",
     "Temp/Drawing 2024-09-15 14.27.50.excalidraw.md",
@@ -255,7 +278,6 @@
     "Utils/task-calendar/Low.md",
     "Utils/task-calendar/High.md",
     "Courses/程序语言与编译原理.md",
-    "Temp/wuxi.md",
-    "Temp/132.md"
+    "Temp/wuxi.md"
   ]
 }
