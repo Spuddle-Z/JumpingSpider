@@ -4,42 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "aee473e946b6eab0",
+        "id": "b48c53756c2e1cb4",
         "type": "tabs",
-        "dimension": 72.22222222222221,
         "children": [
           {
-            "id": "5cea93b11674ca0d",
+            "id": "168f984e3f6e18be",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "dbb9555d484136c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Temp/To Do Calendar.md",
+                "file": "Courses/操作系统.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
-      },
-      {
-        "id": "8a8fc28e391ba2ad",
-        "type": "tabs",
-        "dimension": 27.77777777777778,
-        "children": [
-          {
-            "id": "895934f43ed16637",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Temp/To Do List.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,7 +80,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Temp/To Do List.md",
+                "file": "Courses/操作系统.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -187,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temp/To Do List.md",
+                "file": "Courses/操作系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temp/To Do List.md",
+                "file": "Courses/操作系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,22 +219,24 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "895934f43ed16637",
+  "active": "dbb9555d484136c2",
   "lastOpenFiles": [
+    "Tools/搜狗五笔输入法.md",
+    "Tools/快捷键.md",
+    "Utils/js/index.js",
+    "Utils/assets/SogouWubi_20240925_kr.cwb",
+    "Temp/To Do List.md",
     "Courses/自动控制原理.md",
     "Temp/云栖工作记录.md",
     "Temp/科研实践经历.md",
     "Temp/Draft.md",
     "Utils/task-calendar/TaskList.md",
     "Temp/To Do Calendar.md",
-    "Utils/js/index.js",
-    "Temp/To Do List.md",
     "Utils/js/test.js",
     "Utils/js",
     "Utils/assets/Pasted image 20240921231925.png",
     "Tools/Colour Style.md",
     "Temp/Drawing 2024-09-15 14.27.50.excalidraw.md",
-    "Tools/搜狗五笔输入法.md",
     "Utils/assets/SogouWubi_20240921_jnr.cwb",
     "Utils/assets/Pasted image 20240919211404.png",
     "Utils/assets/Pasted image 20240919211358.png",
@@ -273,11 +264,9 @@
     "Utils/assets/SogouWubi_20240902_jy.cwb",
     "Courses/MachineLearning/机器学习.md",
     "未命名.canvas",
-    "Utils/task-calendar/view.js",
     "Utils/task-calendar/Normal.md",
     "Utils/task-calendar/Low.md",
     "Utils/task-calendar/High.md",
-    "Courses/程序语言与编译原理.md",
-    "Temp/wuxi.md"
+    "Courses/程序语言与编译原理.md"
   ]
 }
