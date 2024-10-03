@@ -40,7 +40,7 @@ const repeat = await tp.system.suggester(["不重复", "每天", "每周", "每�
 // 将任务插入至TaskList.md中
 const file = tp.file.find_tfile("Utils/task-calendar/TaskList.md");
 let content = await app.vault.read(file);
-const task = "- [ ] [id:: " + id + "] [text:: " + text + "] [due:: " + due + "] [repeat:: " + repeat + "] [priority:: " + priority + "]\n";
+const task = "- [ ] [id:: " + id + "] [content:: " + text + "] [due:: " + due + "] [repeat:: " + repeat + "] [priority:: " + priority + "]\n";
 content += task;
 await app.vault.modify(file, content);
 return null;

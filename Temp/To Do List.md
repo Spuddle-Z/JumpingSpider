@@ -6,7 +6,7 @@ function getMeta(tasks) {
 		var taskText = tasks[i].text;
 		
 		// 通过正则表达式匹配任务文本中的元数据
-		var textMatch = taskText.match(/\[text:: (.*?)\]/);
+		var textMatch = taskText.match(/\[content:: (.*?)\]/);
 		if (textMatch) {
 			tasks[i].text = textMatch[1];
 			taskText = taskText.replace(textMatch[0], "");
@@ -47,16 +47,13 @@ function genId() {
 
 
 // 生成周期性任务
-async function setRepeatTasks(tasks) {
+async function addRepeatTasks(recurrence) {
 	// 读取原文件内容
 	const file = app.vault.getAbstractFileByPath("Utils/task-calendar/TaskList.md");
 	var content = await app.vault.read(file);
 
 	// 生成新任务
-	const tToday = moment().format("YYYY-MM-DD");
-	var recurrence = tasks.filter(t => t.repeat != "None" && (t.completed || moment(t.due).isBefore(tToday) || moment(t.due).isSame(tToday)));
 	var newTasks = "";
-	dv.paragraph(`周期性任务数量：${recurrence.length}`);
 	for (i = 0; i < recurrence.length; i++) {
 		var repeat = recurrence[i].repeat;
 		var due = recurrence[i].due;
@@ -72,40 +69,67 @@ async function setRepeatTasks(tasks) {
 				var newDue = moment(due).add(1, "months").format("YYYY-MM-DD");
 				break;
 		}
-		newTasks += "- [ ] [id:: " + genId() + "] [text:: " + recurrence[i].text + "] [due:: " + newDue + "] [repeat:: " + repeat + "] [priority:: " + recurrence[i].priority + "]\n";
+		newTasks += "- [ ] [id:: " + genId() + "] [content:: " + recurrence[i].text + "] [due:: " + newDue + "] [repeat:: " + repeat + "] [priority:: " + recurrence[i].priority + "]\n";
 
 		// 修改原任务周期性为None
 		const idEscaped = recurrence[i].id.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
 		const regex = new RegExp(`^.*?\\[id:: ${idEscaped}\\].*?\\n`, 'gm');
-		const match = content.match(regex);
-		if (match) {
-			dv.paragraph("Match:");
-		} else {
-			dv.paragraph("No Match");
-		}
 		const cpl = recurrence[i].completed ? "x" : " ";
-		content = content.replace(regex, "- [" + cpl + "] [id:: " + recurrence[i].id + "] [text:: " + recurrence[i].text + "] [due:: " + due + "] [repeat:: None] [priority:: " + recurrence[i].priority + "]\n");
+		content = content.replace(regex, "- [" + cpl + "] [id:: " + recurrence[i].id + "] [content:: " + recurrence[i].text + "] [due:: " + due + "] [repeat:: None] [priority:: " + recurrence[i].priority + "]\n");
 	}
 	// 修改原文件
 	app.vault.modify(file, content + newTasks);
-    dv.paragraph(`最近一次刷新时间：${moment().format("YYYY-MM-DD HH:mm:ss")}`);
 }
 
 
-async function refresh() {
-	var tasks = dv.pages('"Utils/task-calendar"').file.tasks;
-	tasks = getMeta(tasks);
-	await setRepeatTasks(tasks);
+// 反复刷新任务列表至列表不再变化
+async function refreshTasks() {
+	const tToday = moment().format("YYYY-MM-DD");
+	while (true) {
+		var tasks = dv.pages('"Utils/task-calendar"').file.tasks;
+		tasks = getMeta(tasks);
+		var recurrence = tasks.filter(t => t.repeat != "None" && (t.completed || moment(t.due).isBefore(tToday) || moment(t.due).isSame(tToday)));
+		if (recurrence.length == 0) { return; }
+		await addRepeatTasks(recurrence);
+		await new Promise(r => setTimeout(r, 100));
+	}
 }
-
-setInterval(refresh, 60000); // 每一分钟刷新一次
+refreshTasks();
 ```
 
-## Daily
+## Today
 ```dataview
 TASK
 FROM "Utils/task-calendar"
 WHERE !completed AND due <= date(today)
+```
+```dataviewjs
+const tToday = moment().format("YYYY-MM-DD");
+var tasks = dv.pages('"Utils/task-calendar/TaskList"').file.tasks;
+tasks = tasks.where(t => !t.completed && (moment(t.due.valueOf()).isBefore(tToday) || moment(t.due.valueOf()).isSame(tToday)));
+
+// 定义可见部分
+for (let t of tasks) {
+	const tDue = moment(t.due.valueOf());
+	t.visual = "";
+	if (tDue.isBefore(tToday)) {
+		t.visual += tDue.format("YYYY-MM-DD") + ' ';
+		t.priority = 'Overdue';
+		t.visual += "<span style='color: #ffcb6b;'>" + t.content + "</span>";
+	} else if (t.priority == 'Low') {
+		t.visual += "<span style='color: #73bbb2;'>" + t.content + "</span>";
+	} else if (t.priority == 'Normal') {
+		t.visual += "<span style='color: #97d8f8;'>" + t.content + "</span>";
+	} else if (t.priority == 'High') {
+		t.visual += "<span style='color: #d04255;'>" + t.content + "</span>";
+	}
+}
+
+const order = ['Low', 'Normal', 'Overdue', 'High'];
+tasks = tasks.sort((a, b) => order.indexOf(b.priority) - order.indexOf(a.priority))
+
+dv.header(2, "Today")
+dv.taskList(tasks, false);
 ```
 
 ## No Deadline

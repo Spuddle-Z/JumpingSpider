@@ -1,0 +1,9 @@
+{
+  "snapToObjects": false,
+  "snapToGrid": true,
+  "defaultWheelBehavior": "pan",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Temp",
+  "cardLabelVisibility": "hover",
+  "zoomBreakpoint": 0.1
+}
