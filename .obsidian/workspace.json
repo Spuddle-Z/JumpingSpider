@@ -4,35 +4,54 @@
     "type": "split",
     "children": [
       {
-        "id": "39a89f997505ca13",
+        "id": "aee473e946b6eab0",
         "type": "tabs",
+        "dimension": 30.906058921623124,
         "children": [
           {
-            "id": "00d1d903eddb17af",
+            "id": "5cea93b11674ca0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/MachineLearning/Transformer.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "81fcf006e0cb3a70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/算法.md",
+                "file": "Temp/To Do Calendar.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "8a8fc28e391ba2ad",
+        "type": "tabs",
+        "dimension": 69.09394107837687,
+        "children": [
+          {
+            "id": "895934f43ed16637",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Temp/To Do List.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fad5c42e8f386dc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Utils/task-calendar/TaskList.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +103,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/算法.md",
+                "file": "Temp/To Do List.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -139,15 +158,32 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.50499725341797
+    "width": 301.50499725341797,
+    "collapsed": true
   },
   "right": {
     "id": "1e8f847d27347061",
     "type": "split",
     "children": [
       {
+        "id": "65b0204c69e08063",
+        "type": "tabs",
+        "dimension": 37.93436293436294,
+        "children": [
+          {
+            "id": "109e89df6e1f1080",
+            "type": "leaf",
+            "state": {
+              "type": "chinese-calendar-view",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
         "id": "91e97bff987f747c",
         "type": "tabs",
+        "dimension": 62.06563706563706,
         "children": [
           {
             "id": "9a20a81aea79567c",
@@ -163,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/算法.md",
+                "file": "Temp/To Do List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,29 +216,22 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/算法.md",
+                "file": "Temp/To Do List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "49a4a7ca066eddd8",
-            "type": "leaf",
-            "state": {
-              "type": "chinese-calendar-view",
-              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": true,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": true,
       "command-palette:打开命令面板": true,
@@ -213,52 +242,52 @@
       "vault-size-history:Vault size history": false
     }
   },
-  "active": "9a20a81aea79567c",
+  "active": "895934f43ed16637",
   "lastOpenFiles": [
-    "Tools/Obsidian/Obsidian.md",
-    "LeetCode/C++.md",
-    "Courses/MachineLearning/Transformer.md",
-    "Tools/快捷键.md",
-    "Tools/搜狗五笔输入法.md",
-    "Courses/MachineLearning/RNN.md",
-    "LeetCode/239 字母组合.md",
-    "Temp/抽象代数.md",
-    "Courses/初等数论.md",
-    "Temp/To Do List.md",
-    "Courses/操作系统.md",
-    "Utils/js/index.js",
-    "Utils/assets/SogouWubi_20240925_kr.cwb",
-    "Courses/自动控制原理.md",
-    "Temp/云栖工作记录.md",
-    "Temp/科研实践经历.md",
-    "Temp/Draft.md",
     "Utils/task-calendar/TaskList.md",
     "Temp/To Do Calendar.md",
+    "Temp/To Do List.md",
+    "Courses/操作系统.md",
+    "Temp/Draft.md",
+    "Temp/To Do temp.md",
+    "Temp/Drawing 2024-09-15 14.27.50.excalidraw.md",
+    "Tools/Git.md",
+    "Utils/templates/Common.md",
+    "Utils/templates/LeetCode.md",
+    "Utils/templates/addTask.md",
+    "Tools/Obsidian/LaTeX Suite.md",
+    "Courses/MachineLearning/CNN.md",
+    "Tools/高级搜索.md",
+    "Tools/快捷键.md",
+    "Tools/搜狗五笔输入法.md",
+    "Tools/硬盘分区.md",
+    "Tools/C盘清理.md",
+    "Tools/Conda.md",
+    "Tools/Colour Style.md",
+    "Tools/Clash.md",
+    "Courses/MachineLearning/机器学习技巧.md",
+    "Courses/MachineLearning/Transformer.md",
+    "Tools/CapsLock+.md",
+    "Courses/算法.md",
+    "Tools/Obsidian/Obsidian.md",
+    "Utils/js/index.js",
+    "Utils/assets/SogouWubi_20240925_kr.cwb",
     "Utils/js/test.js",
     "Utils/js",
     "Utils/assets/Pasted image 20240921231925.png",
-    "Tools/Colour Style.md",
-    "Temp/Drawing 2024-09-15 14.27.50.excalidraw.md",
     "Utils/assets/SogouWubi_20240921_jnr.cwb",
     "Utils/assets/Pasted image 20240919211404.png",
     "Utils/assets/Pasted image 20240919211358.png",
-    "Tools/Obsidian/LaTeX Suite.md",
     "Utils/assets/Pasted image 20240919144343.png",
     "Utils/assets/Pasted image 20240919102839.png",
     "Utils/assets/Pasted image 20240918231554.png",
     "Utils/assets/Pasted image 20240918231416.png",
     "Utils/assets/Pasted image 20240918132007.png",
     "Utils/assets/Pasted image 20240918130112.png",
-    "Courses/高等数学.md",
     "Utils/assets/Pasted image 20240917222833.png",
-    "Temp/Drawing 2024-09-15 14.28.37.excalidraw.md",
     "Utils/assets/SogouWubi_20240914_jcq.cwb",
-    "LeetCode/Python.md",
-    "Courses/概率论.md",
-    "Courses/线性代数.md",
     "Utils/assets/SogouWubi_20240909_jjq.cwb",
     "Utils/assets/SogouWubi_20240906_js.cwb",
-    "Temp/To Do temp.md",
     "Utils/assets/SogouWubi_20240905_ju.cwb",
     "Utils/assets/SogouWubi_20240902_jy.cwb",
     "未命名.canvas"

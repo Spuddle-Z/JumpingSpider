@@ -1,16 +1,57 @@
-export const HelloWorld = ({ name = 'World' }) => {
-    return (<div>Hello, {name}!</div>);
-};
+// 利用正则表达式，将任务文本中的元数据提取并存储成属性
+function getMeta(tasks) {
+	// 遍历目标地址下捕获的所有任务
+    for (i = 0; i < tasks.length; i++) {
+		var taskText = tasks[i].text;
+		
+		// 通过正则表达式匹配任务文本中的元数据
+		var textMatch = taskText.match(/\[text:: (.*?)\]/);
+		if (textMatch) {
+			tasks[i].text = textMatch[1];
+			taskText = taskText.replace(textMatch[0], "");
+		}
+		
+		var priorityMatch = taskText.match(/\[priority:: (Low|Normal|High)\]/);
+		if (priorityMatch) {
+			tasks[i].priority = priorityMatch[1];
+			taskText = taskText.replace(priorityMatch[0], "");
+		}
+		
+		var dueMatch = taskText.match(/\[due:: (\d{4}-\d{2}-\d{2})\]/);
+		if (dueMatch) {
+			tasks[i].due = dueMatch[1];
+			taskText = taskText.replace(dueMatch[0], "");
+		}
+		
+        var repeatMatch = taskText.match(/\[repeat:: (None|Daily|Weekly|Monthly)\]/);
+        if (repeatMatch) {
+			tasks[i].repeat = repeatMatch[1];
+            taskText = taskText.replace(repeatMatch[0], "");
+        }
+    }
+	return tasks;
+}
+
+
+// 生成随机的8位任务ID
+function genId() {
+	const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+	let result = '^';
+	const charactersLength = characters.length;
+	for (let i = 0; i < 8; i++) {
+		result += characters.charAt(Math.floor(Math.random() * charactersLength));
+	}
+	return result;
+}
 
 
 // 生成周期性任务
-async function setRepeatTasks() {
+async function addRepeatTasks(recurrence) {
 	// 读取原文件内容
 	const file = app.vault.getAbstractFileByPath("Utils/task-calendar/TaskList.md");
 	var content = await app.vault.read(file);
 
 	// 生成新任务
-	recurrence = tasks.filter(t => t.repeat != "None" && (t.completed || moment(t.due).isBefore(tToday) || moment(t.due).isSame(tToday)));
 	var newTasks = "";
 	for (i = 0; i < recurrence.length; i++) {
 		var repeat = recurrence[i].repeat;
@@ -43,4 +84,15 @@ async function setRepeatTasks() {
 	}
 	// 修改原文件
 	app.vault.modify(file, content + newTasks);
-};
+}
+
+
+// 反复刷新任务列表至列表不再变化
+const tToday = moment().format("YYYY-MM-DD");
+while (true) {
+	var tasks = dv.pages('"Utils/task-calendar"').file.tasks;
+	tasks = getMeta(tasks);
+	var recurrence = tasks.filter(t => t.repeat != "None" && (t.completed || moment(t.due).isBefore(tToday) || moment(t.due).isSame(tToday)));
+	if (recurrence.length == 0) { break; }
+	await addRepeatTasks(recurrence);
+}

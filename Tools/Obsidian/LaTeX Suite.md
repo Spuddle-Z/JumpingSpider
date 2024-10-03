@@ -129,6 +129,7 @@ Insert **tabstops** for the cursor to jump to by writing "$0", "$1", etc. in the
 | ;;\<space> | \\qquad          | mA      |
 | ;an        | &                | mA      |
 | ;;an       | &=               | mA      |
+
 ### Symbols
 | Trigger | Replacement                                         | Preview                               | Options |
 | ------- | --------------------------------------------------- | ------------------------------------- | ------- |

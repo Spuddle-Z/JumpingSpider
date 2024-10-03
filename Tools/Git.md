@@ -3,7 +3,7 @@ tags:
   - Tutorial
 ---
 ## 基本概念
-![[git_structure.jpg]]
+![[git_structure.jpg|775]]
 > [!definition] 工作区 (Workspace)
 > 在此处编辑项目，存储的都是实实在在的文件。
 
