@@ -1,4 +1,5 @@
 {
+  "position": "LEFT",
   "showFudgeIcon": false,
   "rollLinksForTags": false,
   "copyContentButton": true,
@@ -11,7 +12,7 @@
   "displayLookupRoll": true,
   "formulas": {},
   "defaultRoll": 1,
-  "defaultFace": 100,
+  "defaultFace": 6,
   "renderer": false,
   "renderAllDice": false,
   "addToView": false,
@@ -22,7 +23,6 @@
   "textColor": "#ffffff",
   "textFont": "Arial",
   "showLeafOnStartup": true,
-  "showDice": true,
   "displayAsEmbed": true,
   "round": "None",
   "initialDisplay": "Roll",
@@ -73,6 +73,7 @@
   "showRenderNotice": true,
   "diceModTemplateFolders": {},
   "replaceDiceModInLivePreview": true,
-  "version": "11.0.5",
-  "viewResults": []
+  "version": "11.2.1",
+  "viewResults": [],
+  "showDice": true
 }
