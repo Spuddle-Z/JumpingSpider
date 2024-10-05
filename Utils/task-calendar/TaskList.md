@@ -53,6 +53,6 @@
 - [ ] [id:: ^lfLcT0LR] [content:: 查校园卡、微信余额] [due:: 2024-11-01] [repeat:: Monthly] [priority:: Low]
 - [ ] [id:: ^2zgi0xLG] [content:: ChatGPT-4] [due:: 2024-11-01] [repeat:: Monthly] [priority:: Normal]
 - [x] [id:: ^fr99KfyY] [content:: test 重要] [due:: 2024-10-03] [repeat:: None] [priority:: High]
-- [ ] [id:: ^wiISBbfh] [content:: Energy Rain] [due:: 2024-10-05] [repeat:: None] [priority:: Low]
+- [x] [id:: ^wiISBbfh] [content:: Energy Rain] [due:: 2024-10-05] [repeat:: None] [priority:: Low]
 - [ ] [id:: ^hZJjNzBG] [content:: Energy Rain] [due:: 2024-10-06] [repeat:: Daily] [priority:: Low]
 - [ ] [id:: ^qYAzki95] [content:: 清理微信好友] [due:: None] [repeat:: None] [priority:: Normal]

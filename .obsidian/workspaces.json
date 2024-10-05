@@ -181,242 +181,6 @@
       "active": "a4bda89a825aab13",
       "mtime": "2024-05-28T09:21:59+08:00"
     },
-    "Task": {
-      "main": {
-        "id": "a5f387d7aefee0fc",
-        "type": "split",
-        "children": [
-          {
-            "id": "aee473e946b6eab0",
-            "type": "tabs",
-            "dimension": 72.22222222222221,
-            "children": [
-              {
-                "id": "5cea93b11674ca0d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Temp/To Do Calendar.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "8a8fc28e391ba2ad",
-            "type": "tabs",
-            "dimension": 27.77777777777778,
-            "children": [
-              {
-                "id": "895934f43ed16637",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Temp/To Do List.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "39bab2774f695bc1",
-        "type": "split",
-        "children": [
-          {
-            "id": "d2a6c679d11bb097",
-            "type": "tabs",
-            "dimension": 68.10865191146881,
-            "children": [
-              {
-                "id": "0e27276421a553dd",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "16a1db7cf463e4ce",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "1739e94f544c699d",
-            "type": "tabs",
-            "dimension": 31.891348088531185,
-            "children": [
-              {
-                "id": "48926012d4b8db94",
-                "type": "leaf",
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "Temp/To Do List.md",
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": true,
-                      "showTags": true,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": false,
-                      "colorGroups": [
-                        {
-                          "query": "tag:#Tutorial  ",
-                          "color": {
-                            "a": 1,
-                            "rgb": 10389192
-                          }
-                        },
-                        {
-                          "query": "tag:#Knowledge  ",
-                          "color": {
-                            "a": 1,
-                            "rgb": 9951480
-                          }
-                        },
-                        {
-                          "query": "tag:#Code  ",
-                          "color": {
-                            "a": 1,
-                            "rgb": 7584690
-                          }
-                        }
-                      ],
-                      "collapse-display": false,
-                      "showArrow": true,
-                      "textFadeMultiplier": -1,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 3,
-                      "collapse-forces": false,
-                      "centerStrength": 0.8,
-                      "repelStrength": 12,
-                      "linkStrength": 0.8,
-                      "linkDistance": 125,
-                      "scale": 0.6,
-                      "close": true
-                    }
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 301.50499725341797,
-        "collapsed": true
-      },
-      "right": {
-        "id": "1e8f847d27347061",
-        "type": "split",
-        "children": [
-          {
-            "id": "65b0204c69e08063",
-            "type": "tabs",
-            "dimension": 37.93436293436294,
-            "children": [
-              {
-                "id": "109e89df6e1f1080",
-                "type": "leaf",
-                "state": {
-                  "type": "chinese-calendar-view",
-                  "state": {}
-                }
-              }
-            ]
-          },
-          {
-            "id": "91e97bff987f747c",
-            "type": "tabs",
-            "dimension": 62.06563706563706,
-            "children": [
-              {
-                "id": "9a20a81aea79567c",
-                "type": "leaf",
-                "state": {
-                  "type": "quiet-outline",
-                  "state": {}
-                }
-              },
-              {
-                "id": "0d4ce346a2971ff3",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "Temp/To Do List.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "ffca4a9773361b07",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "Temp/To Do List.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 299.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "obsidian-excalidraw-plugin:新建绘图文件": true,
-          "switcher:打开快速切换": true,
-          "graph:查看关系图谱": true,
-          "command-palette:打开命令面板": true,
-          "workspaces:管理工作区布局": false,
-          "callout-manager:Insert Callout": true,
-          "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": true,
-          "vault-size-history:Vault size history": false,
-          "canvas:新建白板": false,
-          "templater-obsidian:Templater": true
-        }
-      },
-      "active": "895934f43ed16637",
-      "mtime": "2024-09-15T21:17:45+08:00"
-    },
     "Common": {
       "main": {
         "id": "a5f387d7aefee0fc",
@@ -632,7 +396,209 @@
       },
       "active": "d5c09ca55c2c6e36",
       "mtime": "2024-09-29T20:28:37+08:00"
+    },
+    "Task": {
+      "main": {
+        "id": "a5f387d7aefee0fc",
+        "type": "split",
+        "children": [
+          {
+            "id": "96571105b4fbce58",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d5c09ca55c2c6e36",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "Temp/To Do.canvas",
+                    "viewState": {
+                      "x": -691.2697973072155,
+                      "y": -744.1092694945523,
+                      "zoom": -0.01498139153841446
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "39bab2774f695bc1",
+        "type": "split",
+        "children": [
+          {
+            "id": "d2a6c679d11bb097",
+            "type": "tabs",
+            "dimension": 68.10865191146881,
+            "children": [
+              {
+                "id": "0e27276421a553dd",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "16a1db7cf463e4ce",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "1739e94f544c699d",
+            "type": "tabs",
+            "dimension": 31.891348088531185,
+            "children": [
+              {
+                "id": "48926012d4b8db94",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Temp/To Do.canvas",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": true,
+                      "showTags": true,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": false,
+                      "colorGroups": [
+                        {
+                          "query": "tag:#Tutorial  ",
+                          "color": {
+                            "a": 1,
+                            "rgb": 10389192
+                          }
+                        },
+                        {
+                          "query": "tag:#Knowledge  ",
+                          "color": {
+                            "a": 1,
+                            "rgb": 9951480
+                          }
+                        },
+                        {
+                          "query": "tag:#Code  ",
+                          "color": {
+                            "a": 1,
+                            "rgb": 7584690
+                          }
+                        }
+                      ],
+                      "collapse-display": false,
+                      "showArrow": true,
+                      "textFadeMultiplier": -1,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 3,
+                      "collapse-forces": false,
+                      "centerStrength": 0.8,
+                      "repelStrength": 12,
+                      "linkStrength": 0.8,
+                      "linkDistance": 125,
+                      "scale": 0.6,
+                      "close": true
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 301.50499725341797,
+        "collapsed": true
+      },
+      "right": {
+        "id": "1e8f847d27347061",
+        "type": "split",
+        "children": [
+          {
+            "id": "91e97bff987f747c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9a20a81aea79567c",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "0d4ce346a2971ff3",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Temp/To Do.canvas",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "ffca4a9773361b07",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Temp/To Do.canvas",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 299.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "canvas:新建白板": false,
+          "switcher:打开快速切换": true,
+          "graph:查看关系图谱": true,
+          "command-palette:打开命令面板": true,
+          "workspaces:管理工作区布局": false,
+          "callout-manager:Insert Callout": true,
+          "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": true,
+          "vault-size-history:Vault size history": false,
+          "templater-obsidian:Templater": true
+        }
+      },
+      "active": "d5c09ca55c2c6e36",
+      "mtime": "2024-10-05T23:37:19+08:00"
     }
   },
-  "active": "Common"
+  "active": "Task"
 }

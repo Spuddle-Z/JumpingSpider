@@ -4,38 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "96d6d15907319656",
+        "id": "96571105b4fbce58",
         "type": "tabs",
         "children": [
           {
-            "id": "d2ffba8babfa30bd",
+            "id": "d5c09ca55c2c6e36",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Temp/To Do.canvas",
                 "viewState": {
-                  "x": -620,
-                  "y": -860,
+                  "x": -691.2697973072155,
+                  "y": -744.1092694945523,
                   "zoom": -0.01498139153841446
                 }
               }
             }
-          },
-          {
-            "id": "f83a5e0e4b911d46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Utils/task-calendar/TaskList.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -87,7 +74,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Utils/task-calendar/TaskList.md",
+                "file": "Temp/To Do.canvas",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -167,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Utils/task-calendar/TaskList.md",
+                "file": "Temp/To Do.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,26 +171,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Utils/task-calendar/TaskList.md",
+                "file": "Temp/To Do.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "f7143c16fe696f1d",
-            "type": "leaf",
-            "state": {
-              "type": "DICE_ROLLER_VIEW",
-              "state": {}
-            }
-          },
-          {
-            "id": "1380100ef55225c5",
-            "type": "leaf",
-            "state": {
-              "type": "chinese-calendar-view",
-              "state": {}
             }
           }
         ]
@@ -222,13 +193,15 @@
       "workspaces:管理工作区布局": false,
       "callout-manager:Insert Callout": true,
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": true,
-      "templater-obsidian:Templater": true,
-      "vault-size-history:Vault size history": false
+      "vault-size-history:Vault size history": false,
+      "templater-obsidian:Templater": true
     }
   },
-  "active": "f83a5e0e4b911d46",
+  "active": "d5c09ca55c2c6e36",
   "lastOpenFiles": [
+    "Temp/科研实践经历.md",
     "Temp/To Do.canvas",
+    "Courses/初等数论.md",
     "Utils/task-calendar/TaskList.md",
     "Temp/To Do List.md",
     "Temp/today.md",
@@ -237,7 +210,6 @@
     "Temp/To Do Calendar.md",
     "Temp/未命名 1.canvas",
     "Temp/Drawing 2024-10-03 16.51.36.excalidraw.md",
-    "Courses/初等数论.md",
     "Tools/Colour Style.md",
     "Utils/templates/addTask.md",
     "Temp/Drawing 2024-09-15 14.27.50.excalidraw.md",
