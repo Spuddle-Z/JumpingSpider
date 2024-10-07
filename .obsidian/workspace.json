@@ -21,8 +21,33 @@
                 }
               }
             }
+          },
+          {
+            "id": "9b2628899b415083",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Temp/Draft.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c39ba0fb6091fec7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Colour Style.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,7 +99,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Temp/To Do.canvas",
+                "file": "Temp/Draft.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,8 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.50499725341797,
-    "collapsed": true
+    "width": 301.50499725341797
   },
   "right": {
     "id": "1e8f847d27347061",
@@ -154,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temp/To Do.canvas",
+                "file": "Temp/Draft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temp/To Do.canvas",
+                "file": "Temp/Draft.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,24 +217,23 @@
       "workspaces:管理工作区布局": false,
       "callout-manager:Insert Callout": true,
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": true,
-      "vault-size-history:Vault size history": false,
       "templater-obsidian:Templater": true
     }
   },
-  "active": "d5c09ca55c2c6e36",
+  "active": "9b2628899b415083",
   "lastOpenFiles": [
-    "Temp/科研实践经历.md",
+    "Temp/Drawing 2024-10-03 16.51.36.excalidraw.md",
+    "Tools/Colour Style.md",
     "Temp/To Do.canvas",
-    "Courses/初等数论.md",
     "Utils/task-calendar/TaskList.md",
+    "Temp/科研实践经历.md",
+    "Courses/初等数论.md",
     "Temp/To Do List.md",
     "Temp/today.md",
     "draft.js",
     "view.js",
     "Temp/To Do Calendar.md",
     "Temp/未命名 1.canvas",
-    "Temp/Drawing 2024-10-03 16.51.36.excalidraw.md",
-    "Tools/Colour Style.md",
     "Utils/templates/addTask.md",
     "Temp/Drawing 2024-09-15 14.27.50.excalidraw.md",
     "Courses/操作系统.md",
@@ -228,7 +251,6 @@
     "Tools/C盘清理.md",
     "Tools/Conda.md",
     "Tools/Clash.md",
-    "Courses/MachineLearning/机器学习技巧.md",
     "Utils/js/index.js",
     "Utils/assets/SogouWubi_20240925_kr.cwb",
     "Utils/js/test.js",
